@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');
+:root {
+  --font-base: "DM Sans", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+  --font-display: "Playfair Display", serif;
+  --body-color: #191a1f;
+  --header-green: #0a8769;
+  --button-green: #13c69b;
+  --text-hover: #1be392;
+  --button-green-hover: #16dd89;
+  --primary-color: #ffffff;
+  --card-bg-black: #131418;
+  --card-bg-white: #f7f9fb;
+  --black-color: #000000;
+
+  /* --secondary-color: #313bac;
+
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff; */
+}
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}

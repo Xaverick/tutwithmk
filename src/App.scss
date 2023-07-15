@@ -1,0 +1,28 @@
+.app {
+    background-color: var(--body-color);
+    color: var(--primary-color);
+    font-family: var(--font-secondary);
+}
+
+.app__container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.app__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    
+}

@@ -1,0 +1,188 @@
+.mid-apply-section{
+    .mid-apply-section_image{
+        .heading{
+
+            .ownthatstage-heading{
+              letter-spacing: normal;
+            }
+        }
+
+    }
+
+}
+
+.owntimeline-section__left{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    h1{
+        line-height: 1;
+        width: 100%;
+        font-family: var(--font-display);
+        font-size: 3.4rem;
+        font-weight: 600;
+        color: var(--primary-color);
+        margin-bottom: 2rem;
+    }
+
+    p{
+        margin-bottom: 1rem;
+        font-family: var(--font-secondary);
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        word-spacing: 0.3rem;
+    }
+
+    a{
+        padding: 1rem 2.5rem;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        background: linear-gradient(
+            0.25turn,            
+            var(--header-green),                                                                                                                    
+            var(--button-green)                                                               
+
+        );
+        &:hover{
+            background: var(--button-green-hover);
+        }
+
+    }
+    
+}
+
+.owntimeline-section__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin-left: 2rem;
+    img{
+        width: 90%;
+        height: 80%;
+        border-radius: 20px;
+        filter: grayscale(1);
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            scale: 1.1;
+            filter: grayscale(0);
+            rotate: 8deg;
+        }
+    }
+
+}
+
+.ownquoate{
+    width: 100%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    margin-top: 10rem;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        0.75turn,         
+        rgba(0,0,0,0.1),                                                                                                                                                                                                                                 
+        rgba(10, 135, 105,1)
+                                                              
+
+    );
+    box-shadow: 0 0 80px black;
+    .heading{      
+        text-align: center;
+        font-family: var(--font-display);  
+        width: 70%;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--primary-color);
+        padding-bottom: 1rem;
+    }
+    p{
+        font-size: 24px;
+    }
+
+}
+
+.homebanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+
+    background-color: var(--card-bg-black);
+    .content{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .homebanner__left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        padding: 2rem;
+        h1{
+            font-family: var(--font-display);
+            font-size: 3.4rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        p{
+            
+            font-family: var(--font-secondary);
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-hover);
+            padding-bottom: 1rem;
+            word-spacing: 0.3rem;
+        }
+        span{
+            margin-bottom: 2rem;
+        }
+
+        a{
+           width: fit-content;
+            padding: 1rem 2.5rem;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            background: linear-gradient(
+                0.25turn,            
+                var(--header-green),                                                                                                                    
+                var(--button-green)                                                               
+
+            );
+            &:hover{
+                background: var(--button-green-hover);
+            }
+
+        }
+    }
+
+    .homebanner-right{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: url('../../../assets/rounded_1.png');
+        background-size: contain;
+        background-position: right;
+        background-repeat: repeat;
+        img{
+           
+            height: 80%;
+
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.app__testimonials{
+    width: 75%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    h6{
+        margin: 1rem 0;
+        color: var(--text-hover);
+        font-size: 1.2rem;
+        font-weight: 600;
+        word-spacing: 0.5rem;
+        letter-spacing: 0.1rem;
+    }
+    h1{
+        font-family: var(--font-display);
+        font-size: 3.2rem;
+        font-weight: 600;
+        word-spacing: 0.5rem;
+        
+    }
+
+    .app__testimonials__container{
+        position: relative;
+        display: flex;
+        width: 100%;
+        margin-top: 2rem;
+        img{           
+            background-size: contain;
+            filter: brightness(0);
+            background-repeat: no-repeat;
+            background-position: left;
+            width: 65%;
+            height: 450px; 
+        }
+        
+        .map-pin-mark{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: start;
+            width: 60%;
+            height: 100%;
+            position: absolute;
+            .card{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background: var(--primary-color);
+    
+            }
+    
+            div:nth-child(1){
+                position: absolute;
+                top: 20%;
+                left: 15%;    
+            }
+
+            div:nth-child(2){
+                position: absolute;
+                top: 15%;
+                right: 35%;
+    
+            }
+
+            div:nth-child(3){
+                position: absolute;
+                top: 25%;
+                right: 10%;
+            }
+
+            div:nth-child(4){
+                position: absolute;
+                bottom: 30%;
+                right: 37%;
+            }
+
+        }
+
+    }
+          
+   
+}

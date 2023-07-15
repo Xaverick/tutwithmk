@@ -1,0 +1,76 @@
+.content-header{
+    margin-top: 93px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(
+        105deg,            
+        #1A7D5C 0%,                                                                                                                    
+        #1AA973 50%,                                                                                                                                                                                                                                  
+        var(--black-color) 50%,                                                               
+        var(--card-bg-black) 100%,                                                               
+
+    );
+
+    img{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        right: 15%;
+        bottom: -15%;
+    }
+    .content{
+        display: flex;
+        width: 80%;
+        .content-header-left{
+            margin: 0 1rem;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+
+            p{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.5rem;
+                padding-bottom: 2rem;
+                font-weight: 400;
+                color: var(--white-color);
+                margin: 0;
+            }
+            h1{
+                font-family: var(--font-display);
+                // letter-spacing: 10px;
+                font-size: 4rem;
+            }
+        }
+
+
+        .content-header-right{
+            width: 50%;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            gap: 2rem;
+            justify-content: flex-end;
+            svg{
+               font-size: 1.2rem;
+            }
+            p{
+                
+                font-weight: 400;
+                padding: 1rem 0;
+                font-size: 1rem;
+                word-spacing: 1rem;
+                span{
+                    word-spacing: normal;
+                }
+                svg{
+                    font-size: 1.5rem;
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
+}
