@@ -19,7 +19,7 @@ const Services = () => {
       <div id = 'quoate' className='course-feature'>
         <span className='heading'>
           <p>
-          “Get ready to undergo <br />INTENSE TRANSFORMATION!! <br /> <br /> You'll Never Be The Same Again!”
+          “Data has always been there. <br /> Capability to hold & deliver, is rare!”
           </p>
         </span>
         <p className='desc'>– MK, YOUR PERSONAL TRANSFORMATION COACH</p>
@@ -65,7 +65,7 @@ const Services = () => {
               </div>
               <div className='card-content'>
                 <p>{item.content}</p>
-                <a href="">Enroll Now.</a>
+                <a href={item.url}>Know More.</a>
               </div>
               
             </div>

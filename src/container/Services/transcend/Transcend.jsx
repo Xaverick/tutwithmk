@@ -33,10 +33,7 @@ const Transcend = () => {
             </div>
 
             <a href="#quoate">
-              <div className='apply-here'>
-                <AiOutlineHome />
-                <p>Know More.</p>
-              </div>
+                Know More.
             </a>
 
 

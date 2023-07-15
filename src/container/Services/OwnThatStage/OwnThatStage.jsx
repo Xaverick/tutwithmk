@@ -18,24 +18,27 @@ const OwnThatStage = () => {
 
     <div className='mid-apply-section'>
 
-    <div className='mid-apply-section__form'>
-        <div className='start-testimonial'>
-        <img src="" alt="" />
-        <p>Mike</p>
-        <div>
-            <p className='para'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, iure!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatem.</p>
+        <div className='mid-apply-section__form'>
+          <div className='start-testimonial'>
+            <h2>Start Your Testimonial</h2>
+            <div>
+              <p className='para'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, iure!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatem.</p>
+            </div>
+
+            <div className='testimonial-detail'>
+              <img src="" alt="" />
+              <div className='client-detail'>
+                <p>Mike</p>
+                <span>CEO at lorem</span>
+              </div>
+              
+            </div>
+
+            <a href="#quoate">
+                Know More.
+            </a>
+          </div>
         </div>
-        <a href="#quoate">Know More.</a>
-
-
-        </div>
-
-
-        <div className='apply-here'>
-        <AiOutlineHome />
-        <p>Apply here</p>
-        </div>
-    </div>
 
 
     <div className='mid-apply-section_image'>          
@@ -71,23 +74,23 @@ const OwnThatStage = () => {
     </div>
 
     <div className='timeline-section'>
-    <div className='owntimeline-section__left'>
-        <h1 className='own'>You've been Unique & So Is Your Message.</h1>
+      <div className='owntimeline-section__left'>
+          <h1 className='own'>You've been Unique & So Is Your Message.</h1>
 
-        <p>Get That Message Across To People! End of Story.</p>
+          <p>Get That Message Across To People! End of Story.</p>
 
-        <a href="#detail" className='button'>
-        Discover More -&gt;
-        </a>
-    </div>
+          <a href="#detail" className='button'>
+          Discover More -&gt;
+          </a>
+      </div>
 
-    <div className='owntimeline-section__right'>
-        
-        <img src={stategy} alt="" />
-    
-    
+      <div className='owntimeline-section__right'>
+          
+          <img src={stategy} alt="" />
+      
+      
 
-    </div>  
+      </div>  
 
     </div>
 

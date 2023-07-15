@@ -18,20 +18,24 @@ const LaunchPad = () => {
 
         <div className='mid-apply-section__form'>
           <div className='start-testimonial'>
-            <img src="" alt="" />
-            <p>Mike</p>
+            <h2>Start Your Testimonial</h2>
             <div>
               <p className='para'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, iure!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatem.</p>
             </div>
-            <a href="#quoate">Know More.</a>
 
+            <div className='testimonial-detail'>
+              <img src="" alt="" />
+              <div className='client-detail'>
+                <p>Mike</p>
+                <span>CEO at lorem</span>
 
-          </div>
+              </div>
+              
+            </div>
 
-
-          <div className='apply-here'>
-            <AiOutlineHome />
-            <p>Apply here</p>
+            <a href="#quoate">
+                Know More.
+            </a>
           </div>
         </div>
 

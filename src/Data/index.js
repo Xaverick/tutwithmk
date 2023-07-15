@@ -113,17 +113,26 @@ const ProgramDetail = [
     {
         icon: launchpadLogo,
         title: 'LaunchPad',
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores."
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        url: 'http://localhost:5173/services/launchpad'
     },
     {
         icon: emerge,
         title: 'Emerge',
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores."
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        url: 'http://localhost:5173/services/emerge'
     },
     {
         icon: transcend,
         title: 'Transcend',
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores."
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        url: 'http://localhost:5173/services/transcend'
+    },
+    {
+        icon: transcend,
+        title: 'Own That Stage',
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        url: 'http://localhost:5173/services/ownthatstage'
     }
 ]
 
