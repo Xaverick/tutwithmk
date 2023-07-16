@@ -80,7 +80,7 @@ const Transcend = () => {
         <div className='timeline-section__left'>
           <h1>Includes:</h1>
 
-          <p>Rare to find Materials, Never-Ever Heard & Done Training Sessions, Video Recordings, On the Ground application with Groups, Fine tuning Sessions with 100% Results – I Guarantee!</p>
+          <p className='paragraph'>Rare to find Materials, Never-Ever Heard & Done Training Sessions, Video Recordings, On the Ground application with Groups, Fine tuning Sessions with 100% Results – I Guarantee!</p>
 
           <a href="#detail" className='button'>
             Discover More -&gt;
@@ -160,7 +160,7 @@ const Transcend = () => {
 
       </div>
 
-      <div className='quoate'>
+      <div className='transcend-quoate'>
         <h1 className='heading'>I'll rather have you Transcend than being good at thing– <br />'coz only Mediocres are –good. <br /> Winners Perform "Excellence" – again & Again & AGAIN! <br /> They are in their Orbit – It's time you command Yours!</h1>
         <p>MK.</p>
 

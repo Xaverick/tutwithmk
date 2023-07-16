@@ -15,8 +15,11 @@
                                                                       
 
         );
-       
+        @media screen and (max-width: 768px){
+            padding: 1rem 0;               
+        }
     }
+
 }
 .question-and-faq{
     width: 80%;
@@ -26,6 +29,14 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        padding: 1rem;
+        margin-top: 2rem;                
+    }
 
 
     .mid-apply-section__form{      
@@ -34,6 +45,9 @@
         flex-direction: column;
         justify-content: start;
         align-items: center;
+        @media screen and (max-width: 768px){
+            width: 100%;           
+        }
 
         .apply-form{
             width: 100%;
@@ -55,6 +69,23 @@
                     font-size: 1.3rem;
                     font-family: var(--font-base);
                 }
+                @media screen and (max-width: 768px){
+                    font-size: 1.5rem;
+                    width: 100%;
+                    text-align: center;
+                    span{
+                        width: 100%;
+                        margin: 0 auto;
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            @media screen and (max-width: 768px){
+                padding: 1rem;   
+                justify-content: center;
+                align-items: center;    
+                gap: 1rem;
             }
         }
 
@@ -72,6 +103,9 @@
                 label{
                     color: var(--button-green);
                     font-size: 20px;
+                    @media screen and (max-width: 768px){
+                        font-size: 14px;
+                    }
                 }
 
 
@@ -114,6 +148,13 @@
                     gap: 1rem;
                     div{
                         flex:45%;
+                    }
+                    @media screen and (max-width: 768px){
+                        flex-direction: column;
+                        gap: 1rem;
+                        div{
+                            flex: 100%;
+                        }
                     }
 
 
@@ -171,12 +212,19 @@
                 color: var(--primary-color);
              
             }
+            @media screen and (max-width: 768px){
+                height: 150px;  
+                p{
+                    font-size: 1.5rem;
+                }     
+            }
 
         }
 
 
 
     }
+
     .faq-section{
         flex: 45%;
         display: flex;
@@ -184,11 +232,26 @@
         justify-content: start;
         align-items: start;
         gap: 1rem;
+
+        @media screen and (max-width: 768px){
+            width: 100%;
+            justify-content: center;
+            align-items: center;    
+            gap: 0.2rem;      
+        }
+
         .para-heading{
             color: var(--text-hover);
             font-size: 1.2rem;
             font-weight: 600;
             letter-spacing: 0.2rem;
+            @media screen and (max-width: 768px){
+                margin-top: 1rem;
+                width: 100%;
+                text-align: left;
+                font-size: 1rem;
+            }
+
         }
 
         h1{
@@ -197,6 +260,11 @@
             font-weight: 600;
             color: var(--primary-color);
             padding-bottom: 1rem;
+            @media screen and (max-width: 768px){
+                font-size: 2rem;
+                width: 100%;
+                
+            }
         }
 
         p{
@@ -205,6 +273,11 @@
             font-weight: 300;
             word-spacing: 0.2rem;
             padding-bottom: 1rem;
+            @media screen and (max-width: 768px){
+                width: 100%;
+                padding-bottom: 0.5rem;
+                font-size: 1rem;
+            }
         }
 
 
@@ -215,6 +288,14 @@
             gap: 1rem;
             justify-content: start;
             align-items: start;
+
+            @media screen and (max-width: 768px){
+                width: 100%;
+                justify-content: center;
+                align-items: center; 
+                margin-top: 1rem;         
+            }
+
             .single-faq{
                 width: 100%;
                 display: flex;
@@ -245,6 +326,14 @@
                         font-size: 1.2rem;
                         font-weight: 600;
                         color: var(--black-color);
+                    }
+
+                    @media screen and (max-width: 768px){
+                        height: 60px;
+                        padding: 1rem;                       
+                        h1{
+                            font-size: 1rem;
+                        }          
                     }
 
                     .arrow{                        
@@ -278,5 +367,6 @@
 
             }
         }
+        
     }
 }

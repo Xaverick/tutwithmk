@@ -4,6 +4,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 import {FaInstagram} from 'react-icons/fa'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import logo from '../../assets/logo.png'
+import styled from 'styled-components'
 const Footer = () => {
   return (
     <div className='app__footer'>
@@ -14,27 +15,28 @@ const Footer = () => {
           <p>Template kit for a business coach. Design with dark style. Easy to edit without any code. Just drag and drop.</p>
         </div>
 
-        <div className="section">
-          <h3>Pages</h3>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">X-Factor</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">FAQ</a></li>
-          </ul>
-          
-        </div>
+        <div style={{display: "flex", gap:"1rem"}}>
+          <div className="section">
+            <h3>Pages</h3>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">X-Factor</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/faq">FAQ</a></li>
+            </ul>
+            
+          </div>
 
-
-        <div className="section">
-          <h3>Get Trained</h3>
-          <ul>
-            <li><a href="">LaunchPad</a></li>
-            <li><a href="">Emerge</a></li>
-            <li><a href="">Transcend</a></li>
-            <li><a href="">Own That Stage</a></li> 
-            <li><a href="">Legacy</a></li> 
-          </ul>
+          <div className="section">
+            <h3>Get Trained</h3>
+            <ul>
+              <li><a href="/services/launchpad">LaunchPad</a></li>
+              <li><a href="/services/emerge">Emerge</a></li>
+              <li><a href="/services/transcend">Transcend</a></li>
+              <li><a href="/services/ownthatstage">Own That Stage</a></li> 
+              <li><a href="/services/legacy">Legacy</a></li> 
+            </ul>
+          </div>
         </div>
 
 

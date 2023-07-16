@@ -8,15 +8,31 @@ import {emergeProgramdetail} from '../../../Data'
 import './OwnThatStage.scss'
 import stategy from '../../../assets/strategy.jpg'
 import header from '../../../assets/header_1.png'
-
+import patttern_1 from '../../../assets/pattern_1.png'
 
 const OwnThatStage = () => {
 
   return (
-    <div className='app__container'>
-      <Banner name='Own That Stage' subtitle="Mastering the Arena of Public Speaking" />
+      <div className='app__container'>
+        <div className='own-content-header app__flex'>
+        <img src={patttern_1} alt="" />
+        <div className='content'>
+          
+          <div className='own-content-header-left'>
+            <h1>Own That Stage</h1>   
+            <p>Mastering the Arena of Public Speaking</p>
+        
+          </div>
 
-    <div className='mid-apply-section'>
+          <div className='own-content-header-right'>
+              <AiOutlineHome />
+              <p>Home  &gt; <span>own That Stage</span></p>
+          </div>
+        </div>
+        
+      </div>
+
+      <div className='mid-apply-section'>
 
         <div className='mid-apply-section__form'>
           <div className='start-testimonial'>
@@ -41,17 +57,17 @@ const OwnThatStage = () => {
         </div>
 
 
-    <div className='mid-apply-section_image'>          
-        <div className='heading'>
-            <h1 className='ownthatstage-heading'>Own That Stage</h1>
-            <p> Mastering the Arena of Public Speaking</p>
-                        
-        </div>
+        <div className='mid-apply-section_image'>          
+          <div className='heading'>
+              <h1 className='ownthatstage-heading'>Own That Stage</h1>
+              <p> Mastering the Arena of Public Speaking</p>
+                          
+          </div>
 
-        <div  className='image'>
-            <img src={coach} alt="" />
+          <div  className='image'>
+              <img src={coach} alt="" />
         </div>
-    </div>
+      </div>
 
 
 

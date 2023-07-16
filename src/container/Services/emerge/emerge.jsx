@@ -11,7 +11,7 @@ const Emerge = () => {
 
   return (
     <div className='app__container'>
-      <Banner name='Emerge' subtitle="Re-structure Yourself" />
+      <Banner name='E m e r g e' subtitle="Re-structure Yourself" />
 
       <div className='mid-apply-section'>
 

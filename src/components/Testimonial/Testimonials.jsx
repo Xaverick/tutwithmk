@@ -5,7 +5,11 @@ const Testimonials = ({name}) => {
   return (
     <div className='app__testimonials'>
     <h6>PEOPLE ATTAIN AND SO WILL YOU</h6>
-    <h1>Attain through {name}:</h1>
+    <div className='subheading'>
+      <p>Attain through</p>
+      <p> {name}:</p>
+    </div>
+
 
     <div className='app__testimonials__container'>
         <img src={map} />

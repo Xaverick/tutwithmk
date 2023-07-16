@@ -1,45 +1,51 @@
 
-.app__container{
 
+
+.transcend-quoate{
     width: 100%;
-    .course-feature{
-        width: 100%;
-        .heading{
-            width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 0;
+    margin: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        0.75turn,         
+        rgba(0,0,0,0.1),                                                                                                                                                                                                                                 
+        rgba(10, 135, 105,1)
+                                                              
+
+    );
+    box-shadow: 0 0 80px black;
+    .heading{      
+        text-align: center;
+        font-family: var(--font-display); 
+        width: 70%;
+        font-size: 4rem;
+        font-weight: 600;
+        color: var(--primary-color);
+        padding-bottom: 1rem;
+        @media screen and (max-width: 768px){
+            font-size: 1.8rem;
+            width: 100%;           
         }
+
+
     }
 
-}
 
+    p{
+        font-size: 24px;
+    }
 
-
-.timeline-section{
-    .timeline-section__left{
+    @media screen and (max-width: 768px){
+        padding: 2rem 1rem;
+        margin: 1rem 0;   
+        box-shadow: 0 0 0 black;
         p{
-            font-family: Times New Roman;
-            font-size: 1.5rem;
-        }
+            font-size: 16px;
+        }          
     }
-}
 
-.quoate{
-    .heading{
-        font-size: 2.5rem;
-    }
-}
 
-.timeline-section__right{
-    .timeline{
-        .timeline-item{
-           .timeline-content{
-            .timeline-innercontent{
-                p{
-                    width: 350px;
-                    font-size: 1.2rem;
-                }
-            }
-           } 
-        }
-
-    }
 }
