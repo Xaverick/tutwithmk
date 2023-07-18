@@ -102,7 +102,7 @@ const Home = () => {
       </div>
 
       <div className='button'>
-        <a href="/service/launchpad" className='launch-button'>Launch YourSelf </a>
+        <a href="/services/launchpad" className='launch-button'>Launch YourSelf </a>
       </div>    
 
 
