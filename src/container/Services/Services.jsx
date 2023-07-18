@@ -6,15 +6,33 @@ import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import {ProgramDetail} from '../../Data'
 import './Services.scss'
-
+import secondMedia from '../../assets/youTheYou.jpg'
 import endofyou from "../../assets/endOfYou.gif"
 import pressButton from "../../assets/pressButton.gif"
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import fenching from "../../assets/fenching.avif"
+
+const squareVariants = {
+  visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
+  hidden: { opacity: 0, scale: 0 }
+};
+
 
 const Services = () => {
 
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
   return (
     <div className='app__container'>
-      <Banner name='Get Trained' subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo"/>
+      <Banner name='Get Trained' />
 
       <div id = 'quoate' className='course-feature'>
         <span className='heading'>
@@ -33,7 +51,7 @@ const Services = () => {
       </div>
 
       <div className='first-media'>
-        {/* <img src={fenching} alt="" /> */}
+        <img src={fenching} alt="" />
 
       </div>
 
@@ -45,16 +63,14 @@ const Services = () => {
             <span>WHAT WE OFFER</span>
             <h1>Scope Our Programs:</h1>
           </div>
-          <div className='header-right'>  
-            <a>Transcend</a>  
-          </div>          
+   
         </div>
 
         <div className='separator'></div>
 
         <div className='detail-content'>
           {ProgramDetail.map((item, index) => (
-            <div key = {index} className='card'>
+            <div key = {index} id={item.title} className='card'>
 
               <div className='card-header'>
                 <div className='icon'>
@@ -77,24 +93,29 @@ const Services = () => {
       </div>
       
       <div className="second-media">
+        <img src={secondMedia} alt="" />
 
       </div>
 
       <div className='multiple-media'>
-        <div className='media'>
-          <img className="sub-media-1" src={endofyou} alt="" />
-          <img className="sub-media-1 dimension" src={pressButton} alt="" />
-        </div>        
-
+        <img className="sub-media-1" src={endofyou} alt="" />
+        <img className="sub-media-1 dimension" src={pressButton} alt="" />    
         <div className='quoates'>
           <h1 className='heading'>You ARE ALIVE BECAUSE YOU DARE!</h1>
         </div>  
 
       </div>
 
-      <div className="last-media">
 
-      </div>
+      <motion.div
+        ref={ref}
+        animate={controls}
+        initial="hidden"
+        variants={squareVariants}
+        className="last-media"
+      >
+
+      </motion.div>
 
 
 

@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import './Navbar.scss'
 import logo from '../../assets/logo.png'
-import { AiOutlineMenu ,AiOutlineDown} from 'react-icons/ai'
+import { AiOutlineMenu} from 'react-icons/ai'
 import { HiX } from 'react-icons/hi'
 import { motion } from 'framer-motion'
-
+import {BiChevronDown} from 'react-icons/bi'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
@@ -20,7 +20,7 @@ const Navbar = () => {
           <li><a href="/">Home</a></li>
           <li><a href="/about">X-Factor</a></li>
           <li>
-              <a href="/services" className='realtive-position'>Get Trained </a>
+              <a href="/services" className='relative-position'>Get Trained <BiChevronDown /></a>
               <ul className='hover-dropdown'>
                 <li><a href="/services/launchpad">Launchpad</a></li>
                 <li><a href="/services/emerge">Emerge</a></li>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <li><a href='/' onClick={() => setToggle(false)}> Home </a></li>
                 <li><a href='/about' onClick={() => setToggle(false)}> X-factor </a></li>
                 <li>
-                  <a href='/services' onClick={() => setToggle(false)}> Get Trained </a>
+                  <a href='/services' onClick={() => setToggle(false)}> Get Trained</a>
                   <ul className='hover-dropdown'>
                     <li><a href="/services/launchpad">Launchpad</a></li>
                     <li><a href="/services/emerge">Emerge</a></li>

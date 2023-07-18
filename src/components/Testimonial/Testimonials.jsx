@@ -12,14 +12,45 @@ const Testimonials = ({name}) => {
 
 
     <div className='app__testimonials__container'>
-        <img src={map} />
+        
         <div className='map-pin-mark'>
-            <div className='card'></div>
-            <div className='card'></div>
-            <div className='card'></div>
-            <div className='card'></div>
+            <img src={map} />
+            <div className='dots'>
+              <div className='dot'></div>
+              <div className='dot'></div>
+              <div className='dot'></div>
+              <div className='dot'></div>
+
+            </div>
+
 
         </div>
+        
+        <div className='right-side'>
+            <div className='card'>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste aliquam voluptatibus sed fugiat quia velit asperiores laboriosam eveniet id, maxime reprehenderit omnis.</p>
+              <div>
+                <div className='inner-card'></div>
+                <div style={{display:"flex", flexDirection:"column", gap:"0",}}>
+                  <h6>John Doe</h6>
+                  <p>CEO at xyz</p>
+                </div>
+     
+              </div>
+            </div>
+            <div className='card'>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste aliquam voluptatibus sed fugiat quia velit asperiores laboriosam eveniet id, maxime reprehenderit omnis.</p>
+              <div>
+                <div className='inner-card'></div>
+                <div style={{display:"flex", flexDirection:"column", gap:"0",}}>
+                  <h6>John Doe</h6>
+                  <p>CEO at xyz</p>
+                </div>
+     
+              </div>
+            </div>
+        </div>
+
     </div>
 
 

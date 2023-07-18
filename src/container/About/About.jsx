@@ -5,6 +5,7 @@ import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import './About.scss'
 import stategy from '../../assets/strategy.jpg'
 import xfactor2 from '../../assets/xfactor2.jpg'
+import wallpaper from "../../assets/xfactor.jpeg"
 
 const About = () => {
 
@@ -30,7 +31,7 @@ const About = () => {
 
       <div className='timeline-section'>
         <div className='owntimeline-section__left'>
-            <h1 className='own'>Hail Storm - Hurricane - Volcanic Lava</h1>
+            <h1 className='own'>Hail Storm <br /> Hurricane <br /> Volcanic Lava</h1>
 
             <p>If You're Ready <br /> I'll turn the world upside down 100%- <br /> Including you.</p>
 
@@ -58,7 +59,8 @@ const About = () => {
       
 
       <div className="about-first-media">
-
+        <img src={wallpaper} alt="" />
+        <a href="" className="download">Download Wallpaper</a>
       </div>
       
       <div className='description-container'>
@@ -70,8 +72,7 @@ const About = () => {
           </div>
 
           <div className='description__right'>
-            <span>Know More.</span>
-            <h1 className='heading'>Breif Summary</h1>
+            <span>About MK.</span>
             <div className='content'>
               <p> <b>I've already worked with: </b> Actors, Actress, Celebrity Coaches, Singers, 
   Business Owners & Their Families,<br />

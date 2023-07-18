@@ -1,5 +1,5 @@
 .app__testimonials{
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     padding: 2rem 0;
     margin-top: 4rem;
@@ -47,79 +47,171 @@
     }
 
 
-    .app__testimonials__container{
-        position: relative;
+    .app__testimonials__container{        
         display: flex;
         width: 100%;
         margin-top: 2rem;
-        img{           
-            background-size: contain;
-            filter: brightness(0);
-            background-repeat: no-repeat;
-            background-position: left;
-            width: 65%;
-            height: 450px; 
-            @media screen and (max-width: 768px){
-                width: 100%;
-                height: 220px;
-                background-position: center;
-                background-size: cover;       
-            }
-        }
         
         .map-pin-mark{
             display: flex;
             flex-wrap: wrap;
             align-items: start;
-            width: 60%;
+            width: 65%;
             height: 100%;
-            position: absolute;
-            .card{
-                width: 60px;
-                height: 60px;
-                border-radius: 50%;
-                background: var(--primary-color);
+            position: relative;
+            img{      
+                position: relative;     
+                background-size: contain;
+                filter: brightness(0);
+                background-repeat: no-repeat;
+                background-position: left;
+                width: 100%;
+                height: 450px; 
                 @media screen and (max-width: 768px){
-                    width: 25px;
-                    height: 25px;
+                    width: 100%;
+                    height: 220px;
+                    background-position: center;
+                    background-size: cover;       
+                }
+            }
+            .dots{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                .dot{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background: var(--primary-color);
+                    @media screen and (max-width: 768px){
+                        width: 25px;
+                        height: 25px;
+                    }
+        
+                }
+        
+                div:nth-child(1){
+                    position: absolute;
+                    top: 20%;
+                    left: 15%;    
                 }
     
-            }
+                div:nth-child(2){
+                    position: absolute;
+                    top: 25%;
+                    right: 35%;
+        
+                }
     
-            div:nth-child(1){
-                position: absolute;
-                top: 20%;
-                left: 15%;    
-            }
-
-            div:nth-child(2){
-                position: absolute;
-                top: 15%;
-                right: 35%;
+                div:nth-child(3){
+                    position: absolute;
+                    top: 25%;
+                    right: 10%;
+                }
     
+                div:nth-child(4){
+                    position: absolute;
+                    bottom: 30%;
+                    right: 37%;
+                }
             }
 
-            div:nth-child(3){
-                position: absolute;
-                top: 25%;
-                right: 10%;
-            }
+ 
 
-            div:nth-child(4){
-                position: absolute;
-                bottom: 30%;
-                right: 37%;
-            }
             @media screen and (max-width: 768px){
                 width: 95%;       
             }
+
+
+
 
         }
         @media screen and (max-width: 768px){
             flex-direction: column;           
         }
 
+        .right-side{
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: end;
+            gap: 1rem;
+            width: 40%;
+
+            .card{
+                color: var(--black-color);
+                width: 100%;
+                background-color: var(--primary-color);
+                border-radius: 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                gap: 1rem;
+                p{
+                    text-align: center;
+
+                }
+                div{
+                    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    .inner-card{
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        background: var(--black-color);
+        
+                    }
+                    h6{
+                        margin: 0;
+                        color: black;
+                        word-spacing: normal;
+                        letter-spacing: normal;
+
+
+                    }
+                    p{
+                        width: 100%;
+                        text-align: left;
+                        color: #191A1F;
+                        font-size: 0.9rem;
+                    }
+
+                }
+                div:nth-child(2){
+                    margin-right: 0;
+                }
+
+            }
+
+            div:nth-child(2){
+                margin-right: 6rem;
+            }
+
+
+                
+            @media screen and (max-width: 768px){
+                width: 100%;
+                margin-top: 2rem;
+                padding: 1rem;
+                div:nth-child(2){
+                    margin-right: 0;
+                }    
+            }
+
+
+        }
+
+
+
     }
+
+
 
     @media screen and (max-width: 768px){
         width: 100%;
