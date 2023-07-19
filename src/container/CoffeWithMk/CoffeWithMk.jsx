@@ -1,5 +1,5 @@
 import React , {useState,useEffect} from 'react'
-import './CoffeWithMk.scss'
+import './CoffeWithMK.scss'
 import {AiOutlineHome} from 'react-icons/ai'
 import coach from '../../assets/coach-talking.jpg'
 import Testimonials from '../../components/Testimonial/Testimonials'
