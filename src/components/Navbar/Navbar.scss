@@ -172,7 +172,7 @@
       color: var(--white-color);
     }
 
-    div {
+    .sidebar{
         position: fixed;
         top: 0;
         bottom: 0;
@@ -182,72 +182,78 @@
         width: 80%;
         height: 100vh;
         display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
+        justify-content: start;
+        align-items: start;
         flex-direction: column;
         background-color: var(--body-color);   
         /* top box shadow */
         box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
-        ul {
-            position: relative;
-            svg {
-                position: absolute;
-                right: 0;
-                width: 35px;
-                height: 35px;
-                color: var(--secondary-color);
-                margin: 0.5rem 1rem;
-            }
 
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            height: 100%;
+        ul{
             width: 100%;
-    
+            position: relative;
             display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
             flex-direction: column;
-    
-            li {
+            padding: 1rem;
+            svg{
+
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 0;
+                width: 30px;
+                height: 30px;
+                cursor: pointer;
+            }
+            li{
+                position: relative;
                 margin: 1rem;
-                a {
-                    color: var(--gray-color);
-                    text-decoration: none;
+                a{
                     font-size: 1rem;
                     text-transform: uppercase;
-                    font-weight: 500;
-                    
+                    font-weight: 500;        
                     transition: all 0.3s ease-in-out;
-        
-                    &:hover {
+                    color: var(--white-color);
+                    text-decoration: none;
+                    &:hover{
                         color: var(--text-hover);
                     }
-
                 }
-             
-                .hover-dropdown{
-                    margin-left: 15px;
-                    list-style-type: circle;
-                    
+
+                span{
+                    svg{
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-bottom: 10px;
+                        margin-right: 50px;
+                    }
+
+                    .answer{
+                        li{
+                            list-style: circle;
+                        }
+                    }
                 }
-                
-
-
             }
-          }
-    
-          @media screen and (min-width: 900px) {
-                  display: none;
-          }
-          
+
+
         }
+        
     
         @media screen and (min-width: 900px) {
-            display: none;
+                display: none;
         }
+          
+    }
+    
+
 }
+
+
+
+
 
 @keyframes dropdown {
     0% {
