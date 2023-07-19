@@ -136,11 +136,33 @@ const ProgramDetail = [
     }
 ]
 
+const legacyRoute = [
+    {
+        icon: launchpadLogo,
+        title: 'LaunchPad',
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        url: 'http://localhost:5173/services/launchpad'
+    },
+    {
+        icon: emerge,
+        title: 'Emerge',
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        url: 'http://localhost:5173/services/emerge'
+    },
+    {
+        icon: transcend,
+        title: 'Transcend',
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        url: 'http://localhost:5173/services/transcend'
+    },
+]
+
 
 export{
     emergeTimeline,
     emergeProgramdetail,
     transcendTimeline,
     LaunchPadtimeline,
-    ProgramDetail
+    ProgramDetail,
+    legacyRoute
 }
