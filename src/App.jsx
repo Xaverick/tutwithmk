@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.scss'
 import {Navbar, Footer} from './components'
 import {BrowserRouter, Routes , Route} from 'react-router-dom'
-import {Home, About, Contact, Services,Emerge,Transcend,LaunchPad,Legacy, OwnThatStage,Testimonials} from './container'
+import {Home, About, Contact, Services,Emerge,Transcend,LaunchPad,Legacy, OwnThatStage, CoffeWithMk} from './container'
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
             <Route path="/services/launchpad" element={<LaunchPad />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/testimonials" element={<Testimonials />} />
+            <Route path="/services/coffewithmk" element={<CoffeWithMk />} />
         </Routes>
       
       <Footer />

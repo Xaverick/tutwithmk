@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.scss'
 import warrior from '../../assets/warrior.jpg'
-import dp from '../../assets/dp.jpg'
+import dp from '../../assets/dp.gif'
 import ReactPlayer from "react-player";
 import Testimonials from '../../components/Testimonial/Testimonials'
 import Typewriter from "typewriter-effect";
@@ -29,7 +29,7 @@ const Home = () => {
       <div className="video">
         <iframe 
           class="bg-video"
-          src="https://www.youtube.com/embed/nWp5vwsuF4E?autoplay=1"
+          src="https://www.youtube.com/embed/nWp5vwsuF4E?autoplay=1&rel=0&mute=1"
           allowFullScreen
           allow="autoplay"
         />
@@ -108,8 +108,8 @@ const Home = () => {
 
       <div className='timeline-section'>
 
-      <div className='owntimeline-section__right'>            
-          <img src={dp} alt="" />       
+      <div className='owntimeline-section__right'> 
+          <img src={dp} alt="" />
       </div> 
 
       <div className='owntimeline-section__left'>

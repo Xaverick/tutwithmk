@@ -24,6 +24,7 @@ const Navbar = () => {
           <li>
               <a href="/services" className='relative-position'>Get Trained <BiChevronDown /></a>
               <ul className='hover-dropdown'>
+                <li><a href="/services/coffewithmk">Coffe With Mk</a></li>
                 <li><a href="/services/launchpad">Launchpad</a></li>
                 <li><a href="/services/emerge">Emerge</a></li>
                 <li><a href="/services/transcend">Transcend</a></li>
@@ -76,6 +77,7 @@ const Navbar = () => {
                         }}
                       >
 
+                          <li><a href="/services/coffewithmk">Coffe With Mk</a></li>
                           <li><a href="/services/launchpad">Launchpad</a></li>
                           <li><a href="/services/emerge">Emerge</a></li>
                           <li><a href="/services/transcend">Transcend</a></li>
