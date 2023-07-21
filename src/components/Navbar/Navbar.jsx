@@ -36,6 +36,7 @@ const Navbar = () => {
 
           </li>
           <li><a href="/contact">Contact</a></li>
+          <li><a href="/blogs">Blogs</a></li>
         </ul>
 
         <div className='app__navbar-button'>
@@ -43,7 +44,7 @@ const Navbar = () => {
         </div>
 
         <div className='app__navbar-menu'>
-          <AiOutlineMenu onClick={() => setToggle(true)} />
+          <AiOutlineMenu onClick={() => setToggle(true)} className='navbar-icon' />
           {toggle && (
             <motion.div 
               className='sidebar'
@@ -52,7 +53,7 @@ const Navbar = () => {
 
             >
             <ul>
-                <HiX onClick={() => setToggle(false)} />
+                <HiX className='navbar-icon' onClick={() => setToggle(false)} />
                 
                 <li><a href='/' onClick={() => setToggle(false)}> Home </a></li>
                 <li><a href='/about' onClick={() => setToggle(false)}> X-factor </a></li>

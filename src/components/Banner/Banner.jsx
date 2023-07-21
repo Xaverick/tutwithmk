@@ -10,8 +10,8 @@ const Banner = ({name,subtitle}) => {
       <div className='content'>
         
         <div className='content-header-left'>
-          <p> {subtitle}</p>
-          <h1>{name}</h1>           
+          <h1>{name}</h1>  
+          <p> {subtitle}</p>                 
         </div>
 
         <div className='content-header-right'>

@@ -8,6 +8,7 @@ import OwnThatStage from './Services/OwnThatStage/OwnThatStage';
 import CoffeWithMk from './CoffeWithMk/CoffeWithMk';
 import Legacy from './Services/legacy/Legacy';
 import LaunchPad from './Services/LaunchPad/LaunchPad';
+import Blogs from './Blogs/Blogs';
 
 export{
     About,
@@ -19,5 +20,8 @@ export{
     CoffeWithMk,
     OwnThatStage,
     Legacy,
-    LaunchPad
+    LaunchPad,
+    Blogs,
 }
+
+
