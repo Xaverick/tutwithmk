@@ -6,8 +6,8 @@ const Testimonials = ({name}) => {
     <div className='app__testimonials'>
     <h6>PEOPLE ATTAIN AND SO WILL YOU</h6>
     <div className='subheading'>
-      <p>Attain through</p>
-      <p> {name}:</p>
+      <p>Attain With</p>
+      <p> {name}</p>
     </div>
 
 

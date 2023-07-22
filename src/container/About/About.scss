@@ -145,11 +145,10 @@
                 width: 80%;
                 height: auto;
                 border-radius: 20px;
-                filter: grayscale(1);
+                filter: brightness(0.8);
                 transition: all 0.3s ease-in-out;
                 &:hover{
                     scale: 1.1;
-                    filter: grayscale(0);
                     rotate: 8deg;
                 }
             }

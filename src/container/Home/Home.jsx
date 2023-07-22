@@ -109,7 +109,7 @@ const Home = () => {
       <div className='timeline-section'>
 
       <div className='owntimeline-section__right'> 
-          <img src={dp} alt="" />
+          <img  style={{transition:"none", animation:"none"}} src={dp} alt="" />
       </div> 
 
       <div className='owntimeline-section__left'>
@@ -117,14 +117,14 @@ const Home = () => {
 
           <p>If You're Ready <br /> I'll turn the world upside down 100%- <br /> Including you.</p>
 
-          <a href="#detail" className='button'>
-          Discover More -&gt;
+          <a href="/about" className='button'>
+            Know More.
           </a>
       </div>
 
 
       </div>
-      <Testimonials name="E m e r g e" />
+      <Testimonials name="MK" />
 
 
     </>

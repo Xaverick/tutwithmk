@@ -1,6 +1,8 @@
 import launchpadLogo from '../../src/assets/launchpadLogo.png';
 import transcend from '../../src/assets/transcend.png';
 import emerge from '../../src/assets/emerge.png';
+import Blogdata from './Blogdata/Blogdata';
+
 const emergeTimeline = [
     {
       icon: '',
@@ -157,6 +159,8 @@ const legacyRoute = [
     },
 ]
 
+const BlogData = Blogdata;
+
 
 export{
     emergeTimeline,
@@ -164,5 +168,6 @@ export{
     transcendTimeline,
     LaunchPadtimeline,
     ProgramDetail,
-    legacyRoute
+    legacyRoute,
+    BlogData
 }

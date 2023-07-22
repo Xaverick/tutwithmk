@@ -3,9 +3,11 @@ import Testimonials from '../../components/Testimonial/Testimonials'
 import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import './About.scss'
-import stategy from '../../assets/strategy.jpg'
-import xfactor2 from '../../assets/xfactor2.jpg'
+import MK1 from "../../assets/MK1.jpg"
+import MK2 from "../../assets/MK2.jpg"
+import MK3 from "../../assets/MK3.jpg"
 import wallpaper from "../../assets/xfactor.jpeg"
+import dp from "../../assets/dp.jpg"
 
 const About = () => {
 
@@ -42,7 +44,7 @@ const About = () => {
 
         <div className='owntimeline-section__right'>
             
-            <img src={stategy} alt="" />
+            <img className="ownimage" src={dp} alt="" />
         
         
 
@@ -68,7 +70,7 @@ const About = () => {
 
         <div className='description'>
           <div className='description__left'>
-            <img src={xfactor2} alt="" />
+            <img src={MK1} alt="" />
           </div>
 
           <div className='description__right'>

@@ -102,7 +102,7 @@ const OwnThatStage = () => {
 
       <div className='owntimeline-section__right'>
           
-          <img src={stategy} alt="" />
+          <img className="ownimage" src={stategy} alt="" />
       
       
 

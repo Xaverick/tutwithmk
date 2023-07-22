@@ -3,7 +3,7 @@ import './Contact.scss'
 import  {motion,AnimatePresence} from "framer-motion"
 import {AiOutlineArrowDown} from 'react-icons/ai'
 import {AiOutlineHome} from 'react-icons/ai'
-
+import Banner from '../../components/Banner/Banner'
 
 const data = [
     {
@@ -62,6 +62,9 @@ const Contact = ({name}) => {
     }
 
   return (
+    <>
+
+    <Banner name='Contact Us' subtitle=""/>  
     <div className='faq-background'>
         <div className='image-overlay'>    
             <div className='contact-question-and-faq'>
@@ -178,6 +181,7 @@ const Contact = ({name}) => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

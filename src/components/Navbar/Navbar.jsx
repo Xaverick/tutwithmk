@@ -95,7 +95,7 @@ const Navbar = () => {
                 
                 </li>
                 <li><a href='/contact' onClick={() => setToggle(false)}> Contact </a></li>
-                <li><a href='/faq' onClick={() => setToggle(false)}> FAQs </a></li>
+                <li><a href='/blogs' onClick={() => setToggle(false)}> Blogs </a></li>
  
             </ul>
             </motion.div>
