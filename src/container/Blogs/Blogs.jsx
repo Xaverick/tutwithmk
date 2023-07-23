@@ -15,7 +15,20 @@ const Blogs = () => {
     const data = BlogData[currentIndex]
     const barData = BlogData[trendingIndex]
     const navigate = useNavigate()
+    const [search, setSearch] = useState('')
 
+    const handleChange = (e) => {
+        setSearch(e.target.value)
+    }
+
+    const handleSubmit = () => {
+        if(search === ''){
+            alert('Please enter something to search')
+        }
+        else{
+            navigate(`/blogs/search/${search}`)
+        }
+    }
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -90,8 +103,8 @@ const Blogs = () => {
 
                 <div className='content-right'>
                     <div className="search">
-                        <input type="text" placeholder='Search...' />
-                        <button className='search-click'>Search</button>
+                        <input type="text" placeholder='Search...' value={search} onChange={(e) => handleChange(e)}/>
+                        <button className='search-click' onClick={() => {handleSubmit()}}>Search</button>
                     </div>
 
                     <div className="popular-post">

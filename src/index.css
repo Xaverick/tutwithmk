@@ -1,10 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap');
+
+@font-face {
+  font-family: 'Trajan Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Trajan Pro Regular'), url('./assets/fonts/TrajanPro-Regular.woff') format('woff');
+}
+  
+
+@font-face {
+  font-family: 'Trajan Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Trajan Pro Bold'), url('./assets/fonts/TrajanPro-Bold.woff') format('woff');
+}
+
+
 :root {
   --font-base: "DM Sans", sans-serif;
   --font-secondary: "Poppins", sans-serif;
   --font-display: "Playfair Display", serif;
+  --font-cinzel: "Cinzel", serif;
+  --font-trajan: "Trajan Pro Regular", serif;
   --body-color: #191a1f;
   --header-green: #0a8769;
   --button-green: #13c69b;

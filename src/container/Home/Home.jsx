@@ -16,11 +16,12 @@ const Home = () => {
       <div id = 'quoate' className='home-course-feature'>
         <span className='home-heading'>
           <p>
-          I'm Different.Ever thought that? <br /> <br />Surrounded by people & knowing that -- Is An Awakening. 
+          <span> I'm Different.</span> <br />Ever thought that? <br /> <br />Surrounded by people & knowing that -- Is An Awakening. 
           It surrounds a person with Search about his/her Uniqueness & then Getting It Manifested! 
           </p>
         </span>
-        <p className='desc'>In this World: It's a Revolution – It's a War.
+
+        <p className='desc'><span>In this World: </span> <br />It's a Revolution – It's a War. <br />
           Welcome to Your Clan!
         </p>
 
@@ -37,15 +38,15 @@ const Home = () => {
       </div>
 
 
-      <div className="home-quoate">
+      <div className="quoate-2">
         <h1 className='home-heading'>Here you'll get the most sophisticated & powerful weapons (Skills & Abilities) to Establish Your True Self & that's the best humanitarian deed you can ever perform on this Planet.</h1>
         <h1 className='home-heading'>It's tough but not a suffering which you've already endured since your Awakening.</h1>
       </div>
 
 
-      <div id = 'quoate' className='course-feature'>
+      <div id = 'quoate' className='quoate-3'>
         <span className='heading'>
-            <p>T R A N S F O R M A T I O N Is the Game</p>
+            <p>T R A N S F O R M A T I O N <br /> IS THE GAME</p>
             <p style={{margin:"1rem 0"}}>I Welcome You To The Unique Version of – YOU!</p>
         </span>
         <div className='four-dots'>
@@ -94,7 +95,7 @@ const Home = () => {
       </div>
 
 
-      <div className="home-quoate">
+      <div className="quoate-3">
 
         <h1 className='home-heading'>Important: "Transformation" doesn't happen with your like or interest. Transformation is The Game of Winners! It requires "I Want It" & If you have that Fuel in you then:</h1>
         <h1 className='home-heading'> <br /> What To Train? How To Train? How Hard To Train? <br /> You leave that to me. It Is My DNA! It's Your Turn Now. <br /> <br /> "Balance" is Nature's Law – I'm Ready & If You Are too then click:</h1>
@@ -108,19 +109,19 @@ const Home = () => {
 
       <div className='timeline-section'>
 
-      <div className='owntimeline-section__right'> 
-          <img  style={{transition:"none", animation:"none"}} src={dp} alt="" />
-      </div> 
+        <div className='owntimeline-section__right'> 
+            <img  style={{transition:"none", animation:"none"}} src={dp} alt="" />
+        </div> 
 
-      <div className='owntimeline-section__left'>
-          <h1 className='own'>Hail Storm - Hurricane - Volcanic Lava</h1>
+        <div className='owntimeline-section__left'>
+            <h1 className='own'>Hail Storm - Hurricane - Volcanic Lava</h1>
 
-          <p>If You're Ready <br /> I'll turn the world upside down 100%- <br /> Including you.</p>
+            <p>If You're Ready <br /> I'll turn the world upside down 100%- <br /> Including you.</p>
 
-          <a href="/about" className='button'>
-            Know More.
-          </a>
-      </div>
+            <a href="/about" className='button'>
+              Know More.
+            </a>
+        </div>
 
 
       </div>

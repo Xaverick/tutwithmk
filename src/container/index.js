@@ -10,6 +10,7 @@ import Legacy from './Services/legacy/Legacy';
 import LaunchPad from './Services/LaunchPad/LaunchPad';
 import Blogs from './Blogs/Blogs';
 import Blog from './Blogs/Blog/Blog';
+import SearchBlog from './Blogs/SearchBlog/SearchBlog';
 
 export{
     About,
@@ -23,7 +24,8 @@ export{
     Legacy,
     LaunchPad,
     Blogs,
-    Blog
+    Blog,
+    SearchBlog
 }
 
 

@@ -3,32 +3,53 @@ import { useParams } from 'react-router-dom'
 import './Blog.scss'
 import {BlogData} from '../../../Data'
 import MkProfile from '../../../assets/MkProfile.jpg'
+import { useNavigate } from 'react-router-dom'
+
 
 const Blog = () => {
   const id = useParams()
   const [data, setData] = useState({})
-
+  const navigate = useNavigate()
+  const [search, setSearch] = useState('')
+  
   const myPromise = new Promise((resolve, reject) => {
-      const newData =  BlogData.filter((item) => item.id == id.id)
-      if(newData.length > 0){
-        resolve(newData);
-      }
-      else{
-        reject("error");
-      }
+    const newData =  BlogData.filter((item) => item.id == id.id)
+    if(newData.length > 0){
+      resolve(newData);
+    }
+    else{
+      reject("error");
+    }
     
   });
+
+  const handleChange = (e) => {
+    setSearch(e.target.value)
+  }
+
+  const handleSubmit = () => {
+      if(search === ''){
+          alert('Please enter something to search')
+      }
+      else{
+          navigate(`/blogs/search/${search}`)
+      }
+  }
+
 
   useEffect(() => {
     try{
       myPromise
         .then(newData => setData(newData[0]))
         .catch(err => setData({}))
+
+      window.scrollTo(0, 0)  
     }catch(err){
       console.log(err);
     }
 
-  },[])
+
+  },[id])
 
 
   return (
@@ -47,8 +68,8 @@ const Blog = () => {
 
           <div className='content-right'>
                     <div className="search">
-                        <input type="text" placeholder='Search...' />
-                        <button className='search-click'>Search</button>
+                        <input type="text" placeholder='Search...' value={search} onChange={(e) => handleChange(e)} />
+                        <button className='search-click' onClick={() => {handleSubmit()}}>Search</button>
                     </div>
                     <div className='author'>
                       <span className="image">

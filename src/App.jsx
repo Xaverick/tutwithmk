@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.scss'
 import {Navbar, Footer} from './components'
 import {BrowserRouter, Routes , Route} from 'react-router-dom'
-import {Home, About, Contact, Services,Emerge,Transcend,LaunchPad,Legacy, OwnThatStage,Blog, CoffeWithMk,Blogs} from './container'
+import {Home, About, Contact, Services,Emerge,Transcend,LaunchPad,Legacy, OwnThatStage,Blog, CoffeWithMk,Blogs, SearchBlog} from './container'
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
                 <Route path="/services/coffewithmk" element={<CoffeWithMk />} />
                 <Route path="/blogs" element={<Blogs />} />
                 <Route path="/blogs/:id" element={<Blog />} />
+                <Route path="/blogs/search/:title" element={<SearchBlog />} />
             </Routes>
           
           <Footer />
