@@ -9,7 +9,7 @@ import endofyou from "../../assets/endOfYou.gif"
 import pressButton from "../../assets/pressButton.gif"
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import fenching from "../../assets/fenching.avif"
+import fenching from "../../assets/fenching.gif"
 
 const squareVariants = {
   visible: { opacity: 1, scale: 1, transition: { duration: 1 } },

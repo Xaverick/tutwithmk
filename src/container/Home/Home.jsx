@@ -1,10 +1,11 @@
 import React from 'react'
 import './Home.scss'
-import warrior from '../../assets/warrior.jpg'
+import warrior from '../../assets/warrior.gif'
 import dp from '../../assets/dp.gif'
 import ReactPlayer from "react-player";
 import Testimonials from '../../components/Testimonial/Testimonials'
 import Typewriter from "typewriter-effect";
+
 
 const Home = () => {
   return (
@@ -44,7 +45,7 @@ const Home = () => {
       </div>
 
 
-      <div id = 'quoate' className='quoate-3'>
+      <div className='quoate-3'>
         <span className='heading'>
             <p>T R A N S F O R M A T I O N <br /> IS THE GAME</p>
             <p style={{margin:"1rem 0"}}>I Welcome You To The Unique Version of – YOU!</p>
@@ -95,7 +96,7 @@ const Home = () => {
       </div>
 
 
-      <div className="quoate-3">
+      <div className="quoate-4">
 
         <h1 className='home-heading'>Important: "Transformation" doesn't happen with your like or interest. Transformation is The Game of Winners! It requires "I Want It" & If you have that Fuel in you then:</h1>
         <h1 className='home-heading'> <br /> What To Train? How To Train? How Hard To Train? <br /> You leave that to me. It Is My DNA! It's Your Turn Now. <br /> <br /> "Balance" is Nature's Law – I'm Ready & If You Are too then click:</h1>
