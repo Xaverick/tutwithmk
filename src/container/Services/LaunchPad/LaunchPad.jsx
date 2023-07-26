@@ -6,13 +6,13 @@ import Testimonials from '../../../components/Testimonial/Testimonials'
 import Banner from '../../../components/Banner/Banner'
 import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {LaunchPadtimeline, emergeProgramdetail} from '../../../Data'
-
+import launchpadLogo from '../../../assets/launchpadLogo.png'
 
 const LaunchPad = () => {
 
     return (
     <div className='app__container'>
-      <Banner name='LaunchPad' subtitle="Derive Yourself" />
+      <Banner img={launchpadLogo} name='LaunchPad' subtitle="Derive Yourself" />
 
       <div className='mid-apply-section'>
 
@@ -157,11 +157,11 @@ const LaunchPad = () => {
 
       </div>
 
-      <div className='quoate'>
-        <h1 className='heading'>To be on the Top you must clearly know where you actually stand.</h1>
+      <div className='home-quoate'>
+        <h1 className='home-heading'>To be on the Top you must clearly know where you actually stand.</h1>
         <p>MK.</p>
 
-      </div>  
+      </div> 
       
       <Testimonials name="LaunchPad" />
       <Coursefaq name="LaunchPad"/>

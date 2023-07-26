@@ -15,11 +15,11 @@ const Navbar = () => {
     <nav className='app__flex start'>
       <div className='app__navbar app__flex'>
         <div className='app__navbarLogo'>
-          <img src={logo} alt="" />
+          <a href="/"><img src={logo} alt="" /> </a>
         </div>
         
         <ul className='app__navbar-links'>
-          <li><a href="/">Home</a></li>
+          
           <li><a href="/about">X-Factor</a></li>
           <li>
               <a href="/services" className='relative-position'>Get Trained <BiChevronDown /></a>

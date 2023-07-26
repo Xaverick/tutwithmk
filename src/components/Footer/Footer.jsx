@@ -1,8 +1,8 @@
 import React from 'react'
 import './Footer.scss'
 import {AiOutlineMail} from 'react-icons/ai'
-import {FaInstagram} from 'react-icons/fa'
-import {AiOutlineLinkedin} from 'react-icons/ai'
+import {FaInstagram, FaYoutube,FaFacebookF,FaLinkedinIn} from 'react-icons/fa'
+import {AiOutlineLinkedin,AiFillLinkedin} from 'react-icons/ai'
 import logo from '../../assets/logo.png'
 import styled from 'styled-components'
 const Footer = () => {
@@ -12,9 +12,8 @@ const Footer = () => {
 
         <div className="section">
           <img src={logo} alt="" />
-          <p>Template kit for a business coach. Design with dark style. Easy to edit without any code. Just drag and drop.</p>
+          <p className='quoate'>We  Move - The Stars Align.</p>
         </div>
-
         <div style={{display: "flex", gap:"1rem"}}>
           <div className="section">
             <h3>Pages</h3>
@@ -48,29 +47,22 @@ const Footer = () => {
                 <AiOutlineMail />
               </div>
               <div className='content'>
-                <h3>Email Us</h3>
-                <p>ksdnaks@gmail.com</p>
+                <h3>Email:</h3>
+                <p style={{fontSize:"0.9rem"}}>team_mk@transformwithmk.com</p>
               </div>
             </li>
 
-            <li className='list'>
-              <div className='icon'>
-                <FaInstagram />
+            <li >
+              <div style={{display:"flex", flexDirection:"row", gap:"1rem"}}>
+                <li className='list'><a href="https://youtube.com/@transformwithMK"><div className='icon'><FaYoutube /></div></a></li>
+                <li className='list'><a href="https://www.linkedin.com/in/coachmk"><div className='icon'><FaLinkedinIn /></div></a></li>
+                <li className='list'><a href="https://instagram.com/transformwithmk"><div className='icon'><FaInstagram /></div></a></li>
+                <li className='list'><a href="https://www.facebook.com/transformwithMK?mibextid=ZbWKwL"><div className='icon'><FaFacebookF /></div></a></li>
+
               </div>
-              <div className='content'>
-                <h3>Instagram</h3>
-           
-              </div>
+             
             </li>
 
-            <li className='list'>
-              <div className='icon'>
-                <AiOutlineLinkedin />
-              </div>
-              <div className='content'>
-                <h3>LinkendIn</h3>
-              </div>
-            </li>
           </ul>
         </div>
       </div>

@@ -13,7 +13,7 @@
 
     );
 
-    img{
+    .pattern{
         z-index: 10;
         width: 120px;
         height: 120px;
@@ -35,34 +35,58 @@
             margin: 0 1rem;
             width: 50%;
             display: flex;
-            flex-direction: column;
-            align-items: left;
-            justify-content: center;
+            gap: 1rem;
+            .icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-            p{
-                font-family: 'Times New Roman', Times, serif;
-                font-size: 1.5rem;
-                padding-bottom: 2rem;
-                font-weight: 400;
-                color: var(--white-color);
-                margin: 0;
+                width: 80px;
+                height: 100%;
+                // background-color: var(--text-hover);
+                img{
+                    width: 80px;
+                }
             }
-            h1{
-                font-family: var(--font-display);
-                // letter-spacing: 10px;
-                font-size: 4rem;
-            }
-
-            @media screen and (max-width: 768px){
-                width: 100%;
+            .details{
+                
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                justify-content: center;
 
                 p{
-                    font-size: 1.4rem;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 1.5rem;
+                    padding-bottom: 2rem;
+                    font-weight: 400;
+                    color: var(--white-color);
+                    margin: 0;
                 }
                 h1{
-                    width: fit-content;
-                    margin: 0 auto;
-                    font-size: 3rem;
+                    font-family: var(--font-display);
+                    // letter-spacing: 10px;
+                    font-size: 4rem;
+                }
+
+                @media screen and (max-width: 768px){
+                    width: 100%;
+
+                    p{
+                        font-size: 1.4rem;
+                    }
+                    h1{
+                        width: fit-content;
+                        margin: 0 auto;
+                        font-size: 3rem;
+                    }
+                }
+            }
+            @media screen and (max-width: 768px){
+                width: 100%;
+                justify-content: center;
+                .icon{
+                    display: none;
                 }
             }
 

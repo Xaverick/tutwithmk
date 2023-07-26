@@ -6,13 +6,13 @@ import Testimonials from '../../../components/Testimonial/Testimonials'
 import Banner from '../../../components/Banner/Banner'
 import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {emergeTimeline, emergeProgramdetail} from '../../../Data'
-
+import emergeLogo from '../../../assets/emerge.png'
 
 const Emerge = () => {
 
   return (
     <div className='app__container'>
-      <Banner name='E m e r g e' subtitle="Re-structure Yourself" />
+      <Banner img={emergeLogo} name='E m e r g e' subtitle="Re-structure Yourself" />
 
       <div className='mid-apply-section'>
 
@@ -157,8 +157,8 @@ const Emerge = () => {
 
       </div>
 
-      <div className='quoate'>
-        <h1 className='heading'>To be on the Top you must clearly know where you actually stand.</h1>
+      <div className='home-quoate'>
+        <h1 className='home-heading'>To be on the Top you must clearly know where you actually stand.</h1>
         <p>MK.</p>
 
       </div>  

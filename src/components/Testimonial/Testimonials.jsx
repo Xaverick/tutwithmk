@@ -1,6 +1,13 @@
 import React from 'react'
 import './Testimonials.scss'
 import map from '../../assets/world_map.png'
+import uk from '../../assets/homeTestimonial/uk.jpeg'
+import dubai from '../../assets/homeTestimonial/dubai.jpeg'
+import usa from '../../assets/homeTestimonial/usa.jpeg'
+import italy from '../../assets/homeTestimonial/italy.jpeg'
+import slovakia from '../../assets/homeTestimonial/slovakia.jpeg'
+
+
 const Testimonials = ({name}) => {
   return (
     <div className='app__testimonials'>
@@ -16,10 +23,11 @@ const Testimonials = ({name}) => {
         <div className='map-pin-mark'>
             <img src={map} />
             <div className='dots'>
-              <div className='dot'></div>
-              <div className='dot'></div>
-              <div className='dot'></div>
-              <div className='dot'></div>
+              <div className='dot'><img src={uk} alt="" /></div>
+              <div className='dot'><img src={dubai} alt="" /></div>
+              <div className='dot'><img src={usa} alt="" /></div>
+              <div className='dot'><img src={italy} alt="" /></div>
+              <div className='dot'><img src={slovakia} alt="" /></div>
 
             </div>
 

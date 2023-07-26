@@ -6,12 +6,13 @@ import Banner from '../../../components/Banner/Banner'
 import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {transcendTimeline, emergeProgramdetail} from '../../../Data'
 import './Transcend.scss'
+import transcend from '../../../assets/transcend.png'
 
 const Transcend = () => {
 
   return (
     <div className='app__container'>
-      <Banner name='Transcend' subtitle="To Your Orbit"/>
+      <Banner img={transcend} name='Transcend' subtitle="To Your Orbit"/>
 
       <div className='mid-apply-section'>
 
