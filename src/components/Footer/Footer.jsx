@@ -12,7 +12,7 @@ const Footer = () => {
 
         <div style={{flex:"1.5"}} className="section">
           <img src={logo} alt="" />
-          <p className='quoate'>We  Move - <br /> The Stars Align.</p>
+          <p className='quoate'>We  Move - The Stars Align.</p>
         </div>
 
         <div style={{display: "flex", gap:"1rem"}}>

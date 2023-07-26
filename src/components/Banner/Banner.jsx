@@ -11,7 +11,7 @@ const Banner = ({name,subtitle,img}) => {
         
         <div className='content-header-left'>
           {img && (
-            <div className='icon'>
+            <div className='icon' id={name}>
               <img className="logo" src={img} alt="" />
             </div>
           )}
