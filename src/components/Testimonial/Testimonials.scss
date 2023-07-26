@@ -16,6 +16,7 @@
         word-spacing: 0.5rem;
         letter-spacing: 0.1rem;
         @media screen and (max-width: 768px){
+            text-align: center;
             font-size: 0.9rem;
             word-spacing: normal;
 
@@ -56,7 +57,7 @@
             display: flex;
             flex-wrap: wrap;
             align-items: start;
-            width: 65%;
+            width: 100%;
             height: 100%;
             position: relative;
             img{      
@@ -79,8 +80,8 @@
                 height: 100%;
                 position: absolute;
                 .dot{
-                    width: 60px;
-                    height: 60px;
+                    width: 45px;
+                    height: 45px;
                     border-radius: 50%;
                     background: var(--primary-color);
                     // overflow: hidden;
@@ -93,7 +94,7 @@
 
                     }
                     .tooltip{
-                        z-index: 10;                        
+                        z-index: 100;                        
                         max-width: 300px !important;
                         background-color: white !important;
                         box-shadow: 0 0 25px rgba(0, 0, 0, 0.1) !important;
@@ -103,6 +104,12 @@
                         text-align: center !important;
                         line-height: 1.5 !important;
                         opacity: 1 !important;
+                        p{
+                            margin-top: 1rem;
+                            width: 100%;
+                            color: #191A1F;
+                            font-size: 0.9rem;
+                        }
                         @media screen and (min-width: 2000px) {
                             font-size: 1.75rem !important;
                             max-width: 500px !important;
@@ -119,34 +126,43 @@
         
                 div:nth-child(1){
                     position: absolute;
-                    top: 20%;
-                    left: 15%;    
+                    top: 24%;
+                    left: 45%;    
                 }
     
                 div:nth-child(2){    
                     position: absolute;
-                    top: 25%;
-                    right: 35%;
+                    top: 30%;
+                    left: 13%;
         
                 }
     
                 div:nth-child(3){
                     position: absolute;
-                    top: 25%;
-                    right: 10%;
+                    top: 35%;
+                    right: 30%;
                 }
     
                 div:nth-child(4){
                     position: absolute;
-                    bottom: 30%;
-                    right: 37%;
+                    top: 34%;
+                    right: 38%;
                 }
 
                 div:nth-child(5){
-                    z-index: 1;
                     position: absolute;
-                    bottom: 20%;
-                    left: 23%;
+                    top: 30%;
+                    right: 44%;
+                }
+
+                
+                div:nth-child(6){
+                    position: absolute;
+                    img{
+                        object-fit: cover;
+                    }
+                    top: 44%;
+                    right: 26%;
                 }
             }
 
@@ -165,7 +181,7 @@
         }
 
         .right-side{
-            // z-index: 0;
+            z-index: 2;
             display: flex;
             flex-direction: column;
             justify-content: start;
