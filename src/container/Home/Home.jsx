@@ -137,7 +137,7 @@ const Home = () => {
             allow="autoplay"
           />
 
-          <h3>Daniel Stangar, International Author & Writer</h3>
+          <h3>Daniel Stangar - SLOVAKIA</h3>
 
         </div>
 
