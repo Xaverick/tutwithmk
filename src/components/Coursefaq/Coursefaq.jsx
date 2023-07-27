@@ -3,7 +3,7 @@ import './Coursefaq.scss'
 import  {motion,AnimatePresence} from "framer-motion"
 import {AiOutlineArrowDown} from 'react-icons/ai'
 import {AiOutlineHome} from 'react-icons/ai'
-
+import emailjs from '@emailjs/browser';
 
 const data = [
     {
@@ -42,7 +42,43 @@ const data = [
 ];
 
 
-const Coursefaq = ({name}) => {
+const Coursefaq = ({label}) => {
+
+    const [formData, setFormData] = useState({name: '', email: '', number:'' ,message: ''})
+    const [isFrormSubmitted, setIsFrormSubmitted] = useState(false)
+    const [loading, setLoading] = useState(false)
+
+    const { name, email, message,number} = formData;
+
+    const handleChangeInput = (e) => {
+        const {name, value} = e.target;
+        setFormData({...formData, [name]: value})
+        console.log(formData)
+    }
+    
+    const handleSubmit = (e) => {    
+        if(!name || !email || !message) return alert('Please fill all the fields')
+        if(!email.includes('@') || !email.includes('.')) return alert('Please enter a valid email')
+        if(message.length < 20) return alert('Message should be atleast 20 characters long')
+        if(number.length < 10 && number.length > 10) return alert('Please enter a valid phone number')
+
+
+        e.preventDefault();
+        setLoading(true);
+        const templateParams = {to_name: 'Karik' ,email: formData.email, name: formData.name, message: formData.message}
+        emailjs.send('service_4k9ni0f', 'template_soiohgb', templateParams, "LNGi34JDf0aNCozp9")
+        .then(function(response) {
+            setIsFrormSubmitted(true);
+            console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+            console.log('FAILED...', error);
+        });
+
+    }
+
+
+
+
 
     const [liveData, setLiveData] = useState(data)
     const togglefaq = (index) => {
@@ -70,39 +106,39 @@ const Coursefaq = ({name}) => {
                     <p>Still Have Questions? <br /> <span>Ask Here.</span></p>
 
                     <form  className='main-form'>       
-                    <div className='fields'>
-                        <label htmlFor="">Name</label>
-                        <input type="text" placeholder="Name" name = 'name' className='p-text'  required/>
-                    </div>
+                        <div className='fields'>
+                            <label htmlFor="">Name</label>
+                            <input type="text" placeholder="Name" name='name' className='p-text' value = {name} required/>
+                        </div>
 
-                    <div className='fields middle'>
-                        <div style={{display:"flex", flexDirection:"column",gap:'1rem'}}>
-                        <label htmlFor="">Phone Number</label>
-                        <input type="email" placeholder="Phone Number" name = "email" className='p-text' required/>
-                        </div>
-                    
-                        <div style={{display:"flex", flexDirection:"column",gap:'1rem'}}>
-                        <label htmlFor="">Email</label>
-                        <input type="email" placeholder="Email" name = "email" className='p-text' required/>
-                        </div>
+                        <div className='fields middle'>
+                            <div style={{display:"flex", flexDirection:"column",gap:'1rem'}}>
+                            <label htmlFor="">Phone Number</label>
+                            <input type="number" placeholder="Phone Number" name = "email" className='p-text' required/>
+                            </div>
                         
-                    
-                    
-                    </div>
+                            <div style={{display:"flex", flexDirection:"column",gap:'1rem'}}>
+                            <label htmlFor="">Email</label>
+                            <input type="email" placeholder="Email" name = "email" className='p-text' required/>
+                            </div>
+                            
+                        
+                        
+                        </div>
 
-                    <div className='fields'>
-                        <label htmlFor="">Message</label>
-                        <textarea
-                        className='p-text'
-                        placeholder="Message"  
-                        // value= {message}
-                        // name = "message"
-                        // onChange={handleChangeInput} 
-                        required
-                        />
-                    </div> 
+                        <div className='fields'>
+                            <label htmlFor="">Message</label>
+                            <textarea
+                            className='p-text'
+                            placeholder="Message"  
+                            // value= {message}
+                            // name = "message"
+                            // onChange={handleChangeInput} 
+                            required
+                            />
+                        </div> 
 
-                    <button type='button'>Send</button>
+                        <button type='button'>Send</button>
                     </form>
 
                     <div className='apply-here'>
@@ -121,7 +157,7 @@ const Coursefaq = ({name}) => {
                 <p className='para-heading'>FAQ</p>
                 <h1>Frequently Ask <br /> Qustions</h1>
                 <p>Must go through the below Q & A’s</p>
-                <p>before applying for {name} </p>
+                <p>before applying for {label} </p>
                 <div className='faq'>
                 {liveData.map((item, index) => (
             

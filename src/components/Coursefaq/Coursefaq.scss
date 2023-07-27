@@ -41,6 +41,7 @@
 
     .mid-apply-section__form{      
         flex: 45%;
+        max-width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -100,6 +101,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
+                max-width: 100%;
                 label{
                     color: var(--button-green);
                     font-size: 20px;
@@ -111,7 +113,8 @@
 
                 input,
                 textarea {
-                    width: 100%;
+                    max-width: 100%;
+                    min-width: 100%;
                     padding: 0.95rem;
                     border: none;
                     border-radius: 7px;

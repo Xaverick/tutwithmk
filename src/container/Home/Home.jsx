@@ -128,6 +128,56 @@ const Home = () => {
       </div>
       <Testimonials name="MK" />
 
+      <div className="testimonial-video">
+        <div className='videos'>
+          <iframe 
+            class="bg-video"
+            src="https://www.youtube.com/embed/SMuUC5tS8dQ?rel=0"
+            allowFullScreen
+            allow="autoplay"
+          />
+
+          <h3>Daniel Stangar, International Author & Writer</h3>
+
+        </div>
+
+        <div className='videos'>
+          <iframe 
+            class="bg-video"
+            src="https://www.youtube.com/embed/oIJ20xVDAPo?rel=0"
+            allowFullScreen
+            allow="autoplay"
+          />
+
+          <h3>Alberto Fabbri - ITALY</h3>
+        </div>
+
+      </div>
+      
+      <div className='background'>
+        <div className="newsletter">
+          <div className="newsletter-left">
+            <h1>Join our newsletter</h1>
+            <p>Sign up for our newsletter to get updates about business coaching or free bussiness article</p>
+          </div>
+
+      
+          <div className="newsletter-right">
+            <div className="signup">
+              <input type="text" placeholder='Email'/>
+              <a href="" className='button'>Sign Up</a>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit*</p>
+
+
+          </div>
+          
+        </div>
+
+      </div>
+
+
 
     </>
   );

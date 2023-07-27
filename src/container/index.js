@@ -11,6 +11,7 @@ import LaunchPad from './Services/LaunchPad/LaunchPad';
 import Blogs from './Blogs/Blogs';
 import Blog from './Blogs/Blog/Blog';
 import SearchBlog from './Blogs/SearchBlog/SearchBlog';
+import PopUp from './PopUp/PopUp';
 
 export{
     About,
@@ -25,7 +26,8 @@ export{
     LaunchPad,
     Blogs,
     Blog,
-    SearchBlog
+    SearchBlog,
+    PopUp
 }
 
 

@@ -8,6 +8,7 @@ import styled from 'styled-components'
 const Footer = () => {
   return (
     <div className='app__footer'>
+      
       <div className="upper-footer">
 
         <div style={{flex:"1.5"}} className="section">
@@ -55,10 +56,10 @@ const Footer = () => {
 
             <li >
               <div style={{display:"flex", flexDirection:"row", gap:"1rem"}}>
-                <li className='list'><a href="https://youtube.com/@transformwithMK"><div className='icon'><FaYoutube /></div></a></li>
-                <li className='list'><a href="https://www.linkedin.com/in/coachmk"><div className='icon'><FaLinkedinIn /></div></a></li>
-                <li className='list'><a href="https://instagram.com/transformwithmk"><div className='icon'><FaInstagram /></div></a></li>
-                <li className='list'><a href="https://www.facebook.com/transformwithMK?mibextid=ZbWKwL"><div className='icon'><FaFacebookF /></div></a></li>
+                <li className='list'><a href="https://youtube.com/@transformwithMK" target="_blank" rel="noreferrer"><div className='icon'><FaYoutube /></div></a></li>
+                <li className='list'><a href="https://www.linkedin.com/in/coachmk" target="_blank" rel="noreferrer"><div className='icon'><FaLinkedinIn /></div></a></li>
+                <li className='list'><a href="https://instagram.com/transformwithmk" target="_blank" rel="noreferrer"><div className='icon'><FaInstagram /></div></a></li>
+                <li className='list'><a href="https://www.facebook.com/transformwithMK?mibextid=ZbWKwL" target="_blank" rel="noreferrer"><div className='icon'><FaFacebookF /></div></a></li>
 
               </div>
              

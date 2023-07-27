@@ -12,12 +12,12 @@ import { Tooltip } from 'react-tooltip'
 
 
 const testimonial = {
-  dubai: "\"You can see the results instantly not only in your business but in your personal life too.\" <br /> <p> A.K., Entrepreneur - DUBAI </p>",
-  usa: "\"I thank you Manish for coaching me.\" <br /> <p> H.S. - United States </p>",
+  dubai: "\"You can see the results instantly not only in your Business but in your Personal Life too.\" <br /> <p> A.K., Entrepreneur - DUBAI </p>",
+  usa: "\"I thank you Manish for coaching me.\" <br /> <p> H.S., Entrepreneur - United States </p>",
   uk: "\"Anyone who comes to get his help has come to the right place.\"  <br /> <p> J.M. - United Kingdom </p>",
   slovakia: "\"His helpfulness is simply AMAZING!\" <br /> <p> Daniel Stangar, International Author & Writer - SLOVAKIA </p>",
   italy: "\"He is the first one who applies his own knowledge on himself.\" <br/> <p> Alberto Fabbri - ITALY </p>",
-  mumbai: "\"Manish is an awesome coach.\" <br /> <p> U.S. - Celebrity Trainer </p>"
+  mumbai: "\"Manish is an Awesome coach.\" <br /> <p> U.S. - Celebrity Trainer </p>"
 }
 
 const Testimonials = ({name}) => {
