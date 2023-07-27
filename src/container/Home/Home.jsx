@@ -50,7 +50,7 @@ const Home = () => {
 
       <div className='quoate-3'>
         <span className='heading'>
-            <p>T R A N S F O R M A T I O N <br /> IS THE GAME</p>
+            <p><span>T R A N S F O R M A T I O N</span> <br /> IS THE GAME</p>
             <p style={{margin:"1rem 0"}}>I Welcome You To The Unique Version of – YOU!</p>
         </span>
         <div className='four-dots'>
