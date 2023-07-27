@@ -153,6 +153,24 @@ const Home = () => {
         </div>
 
       </div>
+
+
+      <div className='timeline-section'>
+        <div className='owntimeline-section__right'> 
+            <img  style={{transition:"none", animation:"none"}} src={dp} alt="" />
+        </div> 
+
+        <div className='owntimeline-section__left'>
+            <h1 className='own'>Hail Storm - Hurricane - Volcanic Lava</h1>
+
+            <p>If You're Ready <br /> I'll turn the world upside down 100%- <br /> Including you.</p>
+
+            <a href="/about" className='button'>
+              Know More.
+            </a>
+        </div>
+      </div>
+
       
       <div className='background'>
         <div className="newsletter">

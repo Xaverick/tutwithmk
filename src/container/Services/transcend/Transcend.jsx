@@ -18,16 +18,15 @@ const Transcend = () => {
 
         <div className='mid-apply-section__form'>
           <div className='start-testimonial'>
-            <h2>Start Your Testimonial</h2>
+            <h2>Even after 13 years I still benefit</h2>
             <div>
-              <p className='para'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, iure!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatem.</p>
+              <p className='para'>"Even after 13 years I still benefit from the training I received during this program. It becomes a part of our system in such a way that it starts coming naturally in our communication and becomes a part of our speech. <br /> I still admire the way you got me through this program."</p>
             </div>
 
             <div className='testimonial-detail'>
-              <img src="" alt="" />
               <div className='client-detail'>
-                <p>Mike</p>
-                <span>CEO at lorem</span>
+                <p>N.A <span>HC Advocate.</span></p>
+                
 
               </div>
               

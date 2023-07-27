@@ -20,16 +20,15 @@ const OwnThatStage = () => {
 
           <div className='mid-apply-section__form'>
             <div className='start-testimonial'>
-              <h2>Start Your Testimonial</h2>
+              <h2>The Knowledge that I got is Unshakeable! </h2>
               <div>
-                <p className='para'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, iure!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatem.</p>
+                <p className='para'>"The courses not only helped me in improving my relationship with my parents, children and wife but it also helped me in improving my income in my business. Though I did these courses some 7 years back the knowledge that I got is unshakeable and is an integral part of me which I keep on using to handle situations and win in life!"</p>
               </div>
 
               <div className='testimonial-detail'>
-                <img src="" alt="" />
                 <div className='client-detail'>
-                  <p>Mike</p>
-                  <span>CEO at lorem</span>
+                  <p>R.S <span>International Speaker.</span></p>
+                  
                 </div>
                 
               </div>

@@ -45,9 +45,9 @@ const Footer = () => {
           <h3>Contact</h3>
           <ul>
             <li className='list'>
-              <div className='icon'>
-                <AiOutlineMail />
-              </div>
+              {/* <div className='icon'>
+                
+              </div> */}
               <div className='content'>
                 <h3>Email:</h3>
                 <p style={{fontSize:"0.9rem"}}>team_mk@transformwithmk.com</p>
@@ -60,7 +60,7 @@ const Footer = () => {
                 <li className='list'><a href="https://www.linkedin.com/in/coachmk" target="_blank" rel="noreferrer"><div className='icon'><FaLinkedinIn /></div></a></li>
                 <li className='list'><a href="https://instagram.com/transformwithmk" target="_blank" rel="noreferrer"><div className='icon'><FaInstagram /></div></a></li>
                 <li className='list'><a href="https://www.facebook.com/transformwithMK?mibextid=ZbWKwL" target="_blank" rel="noreferrer"><div className='icon'><FaFacebookF /></div></a></li>
-
+                <li className='list'><a href="mailto:team_mk@transformwithmk.com" target="_top"><div className='icon'><AiOutlineMail /></div></a></li>
               </div>
              
             </li>

@@ -12,22 +12,21 @@ const CoffeWithMk = () => {
 
   return (
     <div className='app__container'>
-      <Banner name='C o f f e e  with  M K' subtitle= "Stress Buster" />
+      <Banner name='Koffee  with  MK' subtitle= "Stress Buster" />
 
       <div className='mid-apply-section'>
 
         <div className='mid-apply-section__form'>
           <div className='start-testimonial'>
-            <h2>Start Your Testimonial</h2>
+            <h2>It gave me an insight</h2>
             <div>
-              <p className='para'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, iure!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatem.</p>
+              <p className='para'>"It gave me an insight into myself...Now I am a better person."</p>
             </div>
 
             <div className='testimonial-detail'>
-              <img src="" alt="" />
               <div className='client-detail'>
-                <p>Mike</p>
-                <span>CEO at lorem</span>
+                <p>R.C - <span>HR Consultant</span></p>
+                
 
               </div>
               
@@ -43,7 +42,7 @@ const CoffeWithMk = () => {
         <div className='mid-apply-section_image'>          
             <div className='heading'>
               <p>Stress Buster</p>
-              <h1 style={{ letterSpacing:"normal"}}>C o f f e e with  MK</h1>           
+              <h1 style={{ letterSpacing:"normal"}}>K o f f e e with  MK</h1>           
             </div>
 
             <div  className='image'>

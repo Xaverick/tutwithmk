@@ -7,8 +7,8 @@
     background: linear-gradient(
         105deg,            
         #1A7D5C 0%,                                                                                                                    
-        #1AA973 50%,                                                                                                                                                                                                                                  
-        var(--black-color) 50%,                                                               
+        #1AA973 55%,                                                                                                                                                                                                                                  
+        var(--black-color) 55%,                                                               
         var(--card-bg-black) 100%,                                                               
 
     );
@@ -33,7 +33,7 @@
         width: 80%;
         .content-header-left{
             margin: 0 1rem;
-            width: 50%;
+            width: 55%;
             display: flex;
             gap: 2rem;
             #LaunchPad{

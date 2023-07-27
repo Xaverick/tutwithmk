@@ -18,17 +18,16 @@ const Emerge = () => {
 
         <div className='mid-apply-section__form'>
           <div className='start-testimonial'>
-            <h2>Start Your Testimonial</h2>
+            <h2>It has helped me immensely!</h2>
             <div>
-              <p className='para'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, iure!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatem.</p>
+              <p className='para'>"Realization after realization has led me to believe that a gentle handling is the solution of all the problems of my social life. It has helped me immensely."</p>
             </div>
 
             <div className='testimonial-detail'>
-              <img src="" alt="" />
+              {/* <img src="" alt="" /> */}
               <div className='client-detail'>
-                <p>Mike</p>
-                <span>CEO at lorem</span>
-
+                <p>Sh. M.V. - <span>JUDGE</span></p>               
+                
               </div>
               
             </div>

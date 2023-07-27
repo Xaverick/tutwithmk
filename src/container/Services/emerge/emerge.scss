@@ -19,16 +19,18 @@
             gap: 2rem;
             justify-content: center;
             align-items: start;
+            h2{
+                text-align: center;
+            }
             .testimonial-detail{
                 display: flex;
-                width: 80%;
+                width: 100%;
                 gap: 1.5rem;
-                justify-content:left;
+                justify-content:center;
                 align-items: center;
                 .client-detail{
                     display: flex;
-                    flex-direction: column;
-                    gap: 0.4rem;
+                    flex-direction: row;
                 }
        
             }
@@ -43,15 +45,19 @@
                 font-size: 1.2rem;
                 font-weight: 600;
                 font-family: var(--font-base);
-                text-transform: uppercase;
-                color: var(--text-hover);
+                text-align: center;
+                span{
+                    text-transform: uppercase;
+                    color: var(--text-hover);
+                }
+                
              
             }
 
             .para{
                 color: var(--primary-color);
                 text-transform: none;
-                text-align: left;
+                text-align: center;
             }
 
             h2{
