@@ -152,7 +152,8 @@
     justify-content: center;
     background-image: url("../../assets/conference.jpg");
     background-repeat: no-repeat;
-    background-position: top;
+    // background-position:;
+    background-size: cover;
     // background-image: linear-gradient(
     //     0.75turn,         
     //     rgba(0,0,0,0.1),                                                                                                                                                                                                                                 
@@ -165,6 +166,8 @@
     .home-heading{      
         padding: 0 2rem;
         text-align: left;
+        margin-left: 4rem;
+        text-align: center;
         font-family: var(--font-nanum);  
         width: 60%;
         font-size: 2rem;
