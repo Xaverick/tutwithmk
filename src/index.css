@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
 @font-face {
   font-family: 'Trajan Pro Regular';
@@ -25,6 +26,7 @@
   --font-display: "Playfair Display", serif;
   --font-cinzel: "Cinzel", serif;
   --font-trajan: "Trajan Pro Regular", serif;
+  --font-nanum: "Nanum Myeongjo", serif;
   --body-color: #191a1f;
   --header-green: #0a8769;
   --button-green: #13c69b;

@@ -25,7 +25,7 @@ const LaunchPad = () => {
 
             <div className='testimonial-detail'>
               <div className='client-detail'>
-                <p>R.R - <span>Director of Promotion & Marketing.</span></p>
+                <p>R.R. - <span>Director of Promotion & Marketing.</span></p>
                 
 
               </div>

@@ -17,13 +17,13 @@ const Home = () => {
       <div id = 'quoate' className='home-course-feature'>
         <span className='home-heading'>
           <p>
-          <span> I'm Different.</span> <br />Ever thought that? <br /> <br />Surrounded by people & knowing that -- Is An Awakening. 
+          <span> I'm Different</span> <br />Ever thought that? <br /> <br />Surrounded by people & knowing that -- Is An Awakening. 
           It surrounds a person with Search about his/her Uniqueness & then Getting It Manifested! 
           </p>
         </span>
 
         <p className='desc'><span>In this World: </span> <br />It's a Revolution – It's a War. <br />
-          Welcome to Your Clan!
+          <span style={{fontSize:"4rem"}}>Welcome to Your Clan!</span>
         </p>
 
       </div>
@@ -38,12 +38,15 @@ const Home = () => {
 
       </div>
 
-
+{/* 
+      <div className='quoate-2-background'>
+        <div className='image-overlay'>   */}
       <div className="quoate-2">
         <h1 className='home-heading'>Here you'll get the most sophisticated & powerful weapons (Skills & Abilities) to Establish Your True Self & that's the best humanitarian deed you can ever perform on this Planet.</h1>
         <h1 className='home-heading'>It's tough but not a suffering which you've already endured since your Awakening.</h1>
       </div>
-
+      {/* </div>
+      </div> */}
 
       <div className='quoate-3'>
         <span className='heading'>

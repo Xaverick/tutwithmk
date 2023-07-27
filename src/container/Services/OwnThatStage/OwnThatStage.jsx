@@ -27,7 +27,7 @@ const OwnThatStage = () => {
 
               <div className='testimonial-detail'>
                 <div className='client-detail'>
-                  <p>R.S <span>International Speaker.</span></p>
+                  <p>R.S. - <span>International Speaker</span></p>
                   
                 </div>
                 

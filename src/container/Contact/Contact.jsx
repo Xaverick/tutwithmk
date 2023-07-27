@@ -6,6 +6,7 @@ import {AiOutlineHome} from 'react-icons/ai'
 import Banner from '../../components/Banner/Banner'
 import emailjs from '@emailjs/browser';
 
+const letters = ['1','2','3','4','5','6','7','8','9','0','+']
 
 const data = [
     {
@@ -43,14 +44,6 @@ const data = [
     },
 ];
 
-function numbervalidate(number){    
-    var pattern = /^[0-9]+$/;
-    if(number.match(pattern)){
-        return true;
-    } else{
-        return false;
-    }
-}
 
 
 const Contact = ({label}) => {
@@ -71,7 +64,7 @@ const Contact = ({label}) => {
         if(!name || !email || !message) return alert('Please fill all the fields')
         if(!email.includes('@') || !email.includes('.')) return alert('Please enter a valid email')
         if(message.length < 20) return alert('Message should be atleast 20 characters long')
-        if(number.length < 10 || number.length > 10 || numbervalidate(number)) return alert('Please enter a valid phone number')
+        if(number.length < 10 || number.length > 10 || !Number(number)) return alert('Please enter a valid phone number')
 
         console.log(formData);
 

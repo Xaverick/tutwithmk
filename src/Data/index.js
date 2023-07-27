@@ -61,6 +61,27 @@ const emergeProgramdetail = [
     
 ]
 
+const coffeeProgramdetail = [
+
+    {
+        icon: '',
+        heading: 'Session.',
+        content:"1-on-1",
+    },
+    {
+        icon: '',
+        heading: 'Pricing.',
+        content:"$ 300",
+    },
+
+    {   
+        icon: '',
+        heading: 'Confidentiality.',
+        content:"These are Confidential Sessions",
+    },
+    
+]
+
 
 const transcendTimeline = [
     {
@@ -109,7 +130,6 @@ const LaunchPadtimeline = [
         icon: '',
         content:"Unlock the Future",
     },
-
 ]
 
 
@@ -171,5 +191,6 @@ export{
     LaunchPadtimeline,
     ProgramDetail,
     legacyRoute,
-    BlogData
+    BlogData,
+    coffeeProgramdetail
 }

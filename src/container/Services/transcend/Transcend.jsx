@@ -25,7 +25,7 @@ const Transcend = () => {
 
             <div className='testimonial-detail'>
               <div className='client-detail'>
-                <p>N.A <span>HC Advocate.</span></p>
+                <p>N.A. - <span>HC Advocate</span></p>
                 
 
               </div>
