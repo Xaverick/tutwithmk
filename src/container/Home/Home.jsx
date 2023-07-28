@@ -111,24 +111,7 @@ const Home = () => {
       </div>    
 
 
-      <div className='timeline-section'>
 
-        <div className='owntimeline-section__right'> 
-            <img  style={{transition:"none", animation:"none"}} src={dp} alt="" />
-        </div> 
-
-        <div className='owntimeline-section__left'>
-            <h1 className='own'>Hail Storm - Hurricane - Volcanic Lava</h1>
-
-            <p>If You're Ready <br /> I'll turn the world upside down 100%- <br /> Including you.</p>
-
-            <a href="/about" className='button'>
-              Know More.
-            </a>
-        </div>
-
-
-      </div>
       <Testimonials name="MK" />
 
       <div className="testimonial-video">
@@ -140,7 +123,7 @@ const Home = () => {
             allow="autoplay"
           />
 
-          <h3>Daniel Stangar - SLOVAKIA</h3>
+          <h3>Daniel Stangar - Slovakia</h3>
 
         </div>
 
@@ -152,7 +135,7 @@ const Home = () => {
             allow="autoplay"
           />
 
-          <h3>Alberto Fabbri - ITALY</h3>
+          <h3>Alberto Fabbri - Italy</h3>
         </div>
 
       </div>
@@ -166,7 +149,7 @@ const Home = () => {
         <div className='owntimeline-section__left'>
             <h1 className='own'>Hail Storm - Hurricane - Volcanic Lava</h1>
 
-            <p>If You're Ready <br /> I'll turn the world upside down 100%- <br /> Including you.</p>
+            <p>If You're Ready <br /> I'll turn the world upside down <br /> Including you.</p>
 
             <a href="/about" className='button'>
               Know More.

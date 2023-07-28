@@ -23,7 +23,8 @@
 :root {
   --font-base: "DM Sans", sans-serif;
   --font-secondary: "Poppins", sans-serif;
-  --font-display: "Playfair Display", serif;
+  --font-display: "Cinzel", serif;
+  /* --font-display: "Playfair Display", serif; */
   --font-cinzel: "Cinzel", serif;
   --font-trajan: "Trajan Pro Regular", serif;
   --font-nanum: "Nanum Myeongjo", serif;

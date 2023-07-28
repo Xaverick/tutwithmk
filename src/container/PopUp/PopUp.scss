@@ -1,15 +1,24 @@
+
+
 .layer1{
-    margin-top: 72px;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
+    height: 100vh;
+    
+    width: 100%;
     align-items: center;
+    background-color: rgba(0,0,0,0.9);
     @media screen and (max-width: 768px) {
-        height: auto;
-        margin-top: 60px;
+        height: fit-content;
     }
 }
 
 .layer2{
+    position: relative;
     margin: 0 auto; 
     width: 70%;
     display: flex;
@@ -25,6 +34,18 @@
         flex-direction: column;
         gap: 1rem;
         
+    }
+
+    .close{
+        position: absolute;
+        padding: 0.5rem 1rem;
+        background-color: var(--button-green);
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        right: 0;
+        top: 20px;
     }
     
     .media{
@@ -47,14 +68,14 @@
     }
 
     .content{
-        width: 45%;
+        width: 50%;
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
         h1{
-            font-size: 3rem;
+            font-size: 2.3rem;
             font-family: var(--font-display);
         }
         p{

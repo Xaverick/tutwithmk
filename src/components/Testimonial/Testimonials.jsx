@@ -23,7 +23,7 @@ const testimonial = {
 const Testimonials = ({name}) => {
   return (
     <div className='app__testimonials'>
-    <h6>GLOBALLY PEOPLE ATTAIN AND SO WILL YOU</h6>
+    <h6>Globally People Are Attaining. So Will You! </h6>
     <div className='subheading'>
       <p>Attain With</p>
       <p> {name}</p>
@@ -43,7 +43,7 @@ const Testimonials = ({name}) => {
                   src={uk} 
                   alt="" 
                 />
-                <Tooltip id="uk"  place='top' className='tooltip' />
+                <Tooltip id="uk"  place='top' noArrow  className='tooltip' />
                                   
               
               </div>
@@ -57,7 +57,7 @@ const Testimonials = ({name}) => {
                     data-tooltip-html={testimonial.usa} 
                     data-tooltip-id="usa"
                 />
-                <Tooltip id="usa" effect='solid' place='right' className='tooltip'/>
+                <Tooltip id="usa" effect='solid'  noArrow  place='left' className='tooltip'/>
               
               
               
@@ -70,7 +70,7 @@ const Testimonials = ({name}) => {
                   data-tooltip-html={testimonial.dubai} 
                   data-tooltip-id="dubai"
                 />
-                <Tooltip id="dubai" effect='solid' place='right' className='tooltip'/>
+                <Tooltip id="dubai" effect='solid' noArrow  place='bottom' className='tooltip'/>
               </div>
 
               <div className='dot'>
@@ -80,7 +80,7 @@ const Testimonials = ({name}) => {
                     data-tooltip-html={testimonial.italy} 
                     data-tooltip-id="italy"
                 />
-                <Tooltip id="italy" effect='solid' place='bottom' className='tooltip'/>
+                <Tooltip id="italy" effect='solid' noArrow  place='bottom' className='tooltip'/>
               
               </div>
               
@@ -91,7 +91,7 @@ const Testimonials = ({name}) => {
                     data-tooltip-html={testimonial.slovakia} 
                     data-tooltip-id="slovakia"
                 />
-                <Tooltip id="slovakia" effect='solid' place='top' className='tooltip'/>
+                <Tooltip id="slovakia" effect='solid' noArrow  place='top' className='tooltip'/>
               </div>
 
               <div className='dot'>
@@ -101,7 +101,7 @@ const Testimonials = ({name}) => {
                     data-tooltip-html={testimonial.mumbai} 
                     data-tooltip-id="mumbai"
                 />
-                <Tooltip id="mumbai" effect='solid' place='bottom' className='tooltip'/>
+                <Tooltip id="mumbai" effect='solid' noArrow  place='bottom' className='tooltip'/>
               </div>
 
             </div>

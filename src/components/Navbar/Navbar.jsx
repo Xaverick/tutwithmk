@@ -40,7 +40,7 @@ const Navbar = () => {
         </ul>
 
         <div className='app__navbar-button'>
-          <a href="/">Get Started</a>
+          <a href="/">Stress Buster</a>
         </div>
 
         <div className='app__navbar-menu'>

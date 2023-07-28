@@ -2,6 +2,16 @@
     background-color: var(--body-color);
     color: var(--primary-color);
     font-family: var(--font-secondary);
+    position: relative;
+    &.noscroll{
+        overflow: hidden;
+        height: 100vh;
+        @media screen and (max-width: 768px) {
+            overflow: scroll;
+            height: auto;
+            
+        }
+    }
 }
 
 .app__container {
