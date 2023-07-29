@@ -15,6 +15,7 @@ function App() {
 
  
   const popupShownBefore = localStorage.getItem('popupShownBefore');
+  
   if (!popupShownBefore) {
     timer
       .then((resolve)=>{

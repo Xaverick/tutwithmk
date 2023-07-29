@@ -5,6 +5,7 @@ import {AiOutlineArrowDown} from 'react-icons/ai'
 import {AiOutlineHome} from 'react-icons/ai'
 import Banner from '../../components/Banner/Banner'
 import emailjs from '@emailjs/browser';
+import styled from 'styled-components'
 
 const letters = ['1','2','3','4','5','6','7','8','9','0','+']
 
@@ -61,10 +62,10 @@ const Contact = ({label}) => {
     }
     
     const handleSubmit = (e) => {    
-        if(!name || !email || !message) return alert('Please fill all the fields')
-        if(!email.includes('@') || !email.includes('.')) return alert('Please enter a valid email')
+        if(!name || !email || !message || !number) return alert('Please fill all the fields')
+        if(!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) return alert('Please enter a valid email')
         if(message.length < 20) return alert('Message should be atleast 20 characters long')
-        if(number.length < 10 || number.length > 10 || !Number(number)) return alert('Please enter a valid phone number')
+        if(!/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/.test(number)) return alert('Please enter a valid phone number')
 
         console.log(formData);
 
@@ -118,12 +119,12 @@ const Contact = ({label}) => {
                         <div className='fields middle'>
                             <div style={{display:"flex", flexDirection:"column",gap:'1rem'}}>
                                 <label htmlFor="">Phone Number</label>
-                                <input type="text" placeholder="Phone Number" name = "number" value={number} onChange={handleChangeInput} className='p-text' required/>
+                                <input type="tel" placeholder="Phone Number" name = "number" value={number} onChange={handleChangeInput} className='p-text' required/>
                             </div>
                         
                             <div style={{display:"flex", flexDirection:"column",gap:'1rem'}}>
                                 <label htmlFor="">Email</label>
-                                <input type="email" placeholder="Email" name = "email" className='p-text' value={email} onChange={handleChangeInput} required/>
+                                <input type="email" placeholder="Email" name = "email" className='p-text' value={email} onChange={handleChangeInput} required />
                             </div>
                             
                         
