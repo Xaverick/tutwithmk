@@ -8,14 +8,14 @@ const PopUp = ({isopen, setIsopen}) => {
     <>
         {isopen && (
             <div className='layer1'>
-                <div className='layer2'>
-                    <button className='close' onClick={() => setIsopen(false)}>X</button>
+                <button className='close' onClick={() => setIsopen(false)}>X</button>
+                <div className='layer2'>                    
                     <div className="media">
                         <img src={coffee} alt="" />
                     </div>
                     <div className="content">
-                        <div style={{marginBottom:"4rem"}}>
-                            <p style={{fontSize:"1.8rem"}}>Stress Buster</p>
+                        <div className='heading'>
+                            <p className='sub-heading'>Stress Buster</p>
                             <h1>K o f f e e  with  M K</h1>
                         </div>
                     

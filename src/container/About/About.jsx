@@ -15,10 +15,10 @@ const About = () => {
     <div className='app__container'>
       <Banner name='About MK' subtitle=""/>
 
-      <div id = 'quoate' className='course-feature'>
+      <div id = 'quoate' className='about-course-feature'>
         <span className='heading'>
           <p>
-          “Being a coach my job is to get you exclusives <br /> rights and ownership of the power which is you”
+            "The biggest insult I had in my life was when someone <br /> introduced me to someone and said, “MK is good.” "
           </p>
         </span>
         <p className='desc'>– MK, YOUR PERSONAL TRANSFORMATION COACH</p>
@@ -35,7 +35,7 @@ const About = () => {
         <div className='owntimeline-section__left'>
             <h1 className='own'>Hail Storm <br /> Hurricane <br /> Volcanic Lava</h1>
 
-            <p>If You're Ready <br /> I'll turn the world upside down 100%- <br /> Including you.</p>
+            <p>If You're Ready <br /> I'll turn the world upside down <br /> Including you.</p>
 
             <a href="#detail" className='button'>
             Discover More -&gt;

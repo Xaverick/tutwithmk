@@ -153,7 +153,7 @@ const ProgramDetail = [
         url: 'http://localhost:5173/services/transcend'
     },
     {
-        icon: transcend,
+        icon: '' ,
         title: 'Own That Stage',
         content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
         url: 'http://localhost:5173/services/ownthatstage'
