@@ -97,13 +97,13 @@
         outline: 0;
         background-size: cover;
         background: no-repeat center;
-        user-select: none;
-        pointer-events: none;
+        // user-select: none;
+        // pointer-events: none;
         /*additional tweaks for positioning, read more in the link above*/
         // height: 100%;
         // width: 177.77777778vh; /* 100 * 16 / 9 */
-        min-width: 60%;
-        min-height: 34.25vw; /* 100 * 9 / 16 */
+        min-width: 70%;
+        min-height: 39.25vw; /* 100 * 9 / 16 */
     }
     @media screen and (max-width: 768px){
         margin: 2rem 0;
@@ -145,42 +145,58 @@
 .quoate-2{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    padding: 8rem 0;
+    // padding: 4rem 0;
     margin: 2rem 0;
     align-items: start;
     justify-content: center;
-    background-image: url("../../assets/conference.JPG");
-    background-repeat: no-repeat;
-    // background-position:;
-    background-size: cover;
+    // background-image: url("../../assets/conference.JPG");
+    // background-repeat: no-repeat;
+    // background-size: cover;
     // background-image: linear-gradient(
     //     0.75turn,         
     //     rgba(0,0,0,0.1),                                                                                                                                                                                                                                 
-    //     rgba(10, 135, 105,1)
-                                                              
-
+    //     rgba(10, 135, 105,1)                                                            
     // );
     // background-image: ;
-    box-shadow: 0 0 80px black;
-    .home-heading{      
-        padding: 0 2rem;
-        text-align: left;
-        margin-left: 4rem;
-        text-align: center;
-        font-family: var(--font-nanum);  
-        width: 70%;
-        font-size: 2rem;
-        font-weight: 600;
-        color: var(--primary-color);
-        padding-bottom: 1rem;
-        @media screen and (max-width: 768px){
-            padding: 0 1rem;
-            font-size: 1.5rem;
+    // box-shadow: 0 0 80px black;
+    .quoate-2-left{
+        width: 50%;
+        margin: auto 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .home-heading{      
             text-align: center;
-            width: 100%;           
+            font-family: var(--font-nanum);  
+            width: 100%;
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            padding-bottom: 1rem;
+            @media screen and (max-width: 768px){
+                padding: 1rem;
+                font-size: 1.5rem;
+                text-align: center;
+                width: 100%;           
+            }
         }
     }
+    .quoate-2-right{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 80%;
+            height: 80%;
+            
+        }
+        @media screen and (max-width: 768px){
+            width: 100%;
+        }
+    }
+
     @media screen and (max-width: 768px){
         padding: 2rem 1rem;
         margin: 1rem 0;   
@@ -203,6 +219,9 @@
     justify-content: start;
 
     .heading{   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         p{
             text-align: center;
             font-family: var(--font-nanum);  
@@ -218,18 +237,12 @@
         color: var(--primary-color);
         padding-bottom: 1rem;
         margin-bottom: 1rem;
+        img{
+            margin: 1rem 0;
+            width: 35%;
+        }
     }
 
-    .desc{
-        font-family: var(--font-secondary);
-        font-size: 16px;
-        font-weight: 600;
-        color: var(--text-hover);
-        padding-bottom: 1rem;
-        word-spacing: 0.3rem;
-
-        margin-bottom: 2rem;
-    }
 
     .four-dots{
         display: flex;
@@ -238,9 +251,16 @@
         align-items: center;
         width: 100%;
         margin-bottom: 2rem;
-        img{
-            width: 50%;
+        .dot{
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--primary-color);
         }
+        @media screen and (max-width: 768px){
+            margin-bottom: 1rem;
+        }
+
         @media screen and (max-width: 768px){
             margin-bottom: 1rem;
         }
@@ -253,12 +273,6 @@
            padding: 1rem;
             width: 100%;
             font-size: 1.8rem;
-            margin-bottom: 1rem;
-        }
-        .desc{
-            text-align: center;
-            width: 80%;
-            font-size: 14px;
             margin-bottom: 1rem;
         }
     }
@@ -324,9 +338,9 @@
     box-shadow: 0 0 80px black;
     .home-heading{      
         text-align: center;
-        font-family: var(--font-display);  
+        font-family: var(--font-nanum);  
         width: 80%;
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 600;
         color: var(--primary-color);
         padding-bottom: 1rem;
