@@ -138,25 +138,25 @@ const ProgramDetail = [
         icon: launchpadLogo,
         title: 'LaunchPad',
         content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
-        url: 'http://localhost:5173/services/launchpad'
+        url: 'https://tutorialwitmk.onrender.com/services/launchpad'
     },
     {
         icon: emerge,
         title: 'Emerge',
         content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
-        url: 'http://localhost:5173/services/emerge'
+        url: 'https://tutorialwitmk.onrender.com/services/emerge'
     },
     {
         icon: transcend,
         title: 'Transcend',
         content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
-        url: 'http://localhost:5173/services/transcend'
+        url: 'https://tutorialwitmk.onrender.com/services/transcend'
     },
     {
         icon: '' ,
         title: 'Own That Stage',
         content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
-        url: 'http://localhost:5173/services/ownthatstage'
+        url: 'https://tutorialwitmk.onrender.com/services/ownthatstage'
     }
 ]
 

@@ -1,6 +1,6 @@
 
 
-.layer1{
+.stress-layer1{
     position: absolute;
     z-index: 1000;
     top: 0;
@@ -13,10 +13,11 @@
     align-items: center;
     background-color: rgba(0,0,0,0.9);
     @media screen and (max-width: 768px) {
-        height: fit-content;
+        height: 100%;
     }
     .close{
         position: absolute;
+        cursor: pointer;
         padding: 0.5rem 1rem;
         background-color: var(--button-green);
         outline: none;
@@ -25,11 +26,10 @@
         color: white;
         right: 20px;
         top: 20px;
-        cursor: pointer;
     }
 }
 
-.layer2{
+.stress-layer2{
     
     margin: 0 auto; 
     width: 70%;
@@ -50,27 +50,10 @@
 
 
     
-    .media{
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        img{
-            width: 80%;
-      
-        }
-        @media  screen and (max-width: 768px){
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-            img{
-                width: 80%;
-            }
-        }
 
-    }
 
     .content{
-        width: 50%;
+        width: 100%;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -101,6 +84,12 @@
 
         p{
             font-family: var(--font-secondary);
+            font-size: 1.4rem;
+            @media screen and (max-width: 768px) {
+                font-size: 1.2rem;
+            }
+                
+            
         }
         a{
             background-color: var(--button-green);

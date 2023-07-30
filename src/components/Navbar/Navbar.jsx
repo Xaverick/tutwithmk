@@ -7,7 +7,7 @@ import {BiChevronDown,BiChevronUp} from 'react-icons/bi'
 import  {motion,AnimatePresence} from "framer-motion"
 import {AiOutlineArrowDown} from 'react-icons/ai'
 
-const Navbar = () => {
+const Navbar = ({setIsopen2}) => {
   const [toggle, setToggle] = useState(false)
   const [serviceToggle, setServiceToggle] = useState(false)
 
@@ -39,8 +39,8 @@ const Navbar = () => {
           <li><a href="/blogs">Blogs</a></li>
         </ul>
 
-        <div className='app__navbar-button'>
-          <a href="/">Stress Buster</a>
+        <div className='app__navbar-button' onClick={() => setIsopen2(true)}>
+          <a >Stress Buster</a>
         </div>
 
         <div className='app__navbar-menu'>

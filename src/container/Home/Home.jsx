@@ -74,7 +74,7 @@ const Home = () => {
         <span className='heading'>
             <p>Version-X: A Brand New, Superior, Revolutionary, Totally Revamped version of old you. </p>
             <img src={dots} alt="" />
-            <p> <br />From the past 22yrs that's exactly what I've been delivering in India & Abroad. Now, Betterment & Improvement is not what I deliver... it's good, but once again, I don't deliver anything that is "Good".</p>
+            <p> From the past 22yrs that's exactly what I've been delivering in India & Abroad. Now, Betterment & Improvement is not what I deliver... it's good, but once again, I don't deliver anything that is "Good".</p>
         </span>
       </div>
 

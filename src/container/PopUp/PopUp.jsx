@@ -21,7 +21,7 @@ const PopUp = ({isopen, setIsopen}) => {
                     
                         <p><br />In this specially designed Stress Buster session, You can talk about Anything but I encourage you to talk about Everything. Only You & Me. No pen or paper.</p>
                         <p><br /> Therapeutic Communication! <br /> <br /> <br /> </p>
-                        <a href="/services/launchpad" onClick={() => setIsopen(false)}>Let's Get Started</a>
+                        <a href="/services/coffewithmk" onClick={() => setIsopen(false)}>Let's Get Started</a>
                     </div>
                 </div>
             </div>

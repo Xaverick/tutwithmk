@@ -12,6 +12,7 @@ import Blogs from './Blogs/Blogs';
 import Blog from './Blogs/Blog/Blog';
 import SearchBlog from './Blogs/SearchBlog/SearchBlog';
 import PopUp from './PopUp/PopUp';
+import StressBuster from './StressBuster/StressBuster';
 
 export{
     About,
@@ -27,7 +28,8 @@ export{
     Blogs,
     Blog,
     SearchBlog,
-    PopUp
+    PopUp,
+    StressBuster
 }
 
 
