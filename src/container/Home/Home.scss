@@ -205,20 +205,19 @@
     .heading{   
         p{
             text-align: center;
-        }  
-        font-family: "Century Gothic";
-        
-        span{
-            font-family: var(--font-cinzel); 
-            font-size: 3.5rem;
-        } 
-        width: 80%;
-        font-size: 2.5rem;
-        font-weight: 600;
+            font-family: var(--font-nanum);  
+            font-weight: 400;
+            font-size: 2rem; 
+            span{
+                font-family: var(--font-cinzel); 
+                font-size: 3.5rem;
+                font-weight: 600;
+            } 
+        }               
+        width: 80%;               
         color: var(--primary-color);
         padding-bottom: 1rem;
-
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .desc{
@@ -239,16 +238,14 @@
         align-items: center;
         width: 100%;
         margin-bottom: 2rem;
-        .dot{
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background-color: var(--primary-color);
+        img{
+            width: 50%;
         }
         @media screen and (max-width: 768px){
             margin-bottom: 1rem;
         }
     }
+
     @media screen and (max-width: 768px){
         width: 100%;
         padding-top: 2rem;

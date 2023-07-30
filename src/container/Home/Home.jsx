@@ -5,7 +5,7 @@ import dp from '../../assets/dp.gif'
 import ReactPlayer from "react-player";
 import Testimonials from '../../components/Testimonial/Testimonials'
 import Typewriter from "typewriter-effect";
-
+import dots from '../../assets/dots.png'
 
 const Home = () => {
   return (
@@ -53,11 +53,9 @@ const Home = () => {
             <p><span>T R A N S F O R M A T I O N</span> <br /> IS THE GAME</p>
             <p style={{margin:"1rem 0"}}>I Welcome You To The Unique Version of – YOU!</p>
         </span>
+
         <div className='four-dots'>
-            <div className='dot'></div>
-            <div className='dot'></div>
-            <div className='dot'></div>
-            <div className='dot'></div>
+          <img src={dots} alt="" />
         </div>
 
         <span className='heading'>
