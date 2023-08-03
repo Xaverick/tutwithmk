@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.scss'
-import warrior from '../../assets/warrior.gif'
+import warrior from '../../assets/warrior1.gif'
 import dp from '../../assets/dp.gif'
 import ReactPlayer from "react-player";
 import Testimonials from '../../components/Testimonial/Testimonials'
@@ -11,9 +11,10 @@ import quoate2dp from '../../assets/quoate2dp.png'
 const Home = () => {
   return (
     <>  
+
       <div className="warrior-header">
         <img src={warrior} alt="" />
-      </div>
+      </div> 
 
       <div id = 'quoate' className='home-course-feature'>
         <span className='home-heading'>
@@ -36,7 +37,7 @@ const Home = () => {
         </div>
 
         <p className='desc'><span>This World: </span> <br />A Revolution – A War. <br />
-          <span style={{fontSize:"4rem"}}>Welcome to Your Clan!</span>
+          <span className='last-line'>Welcome to Your Clan!</span>
         </p>
 
       </div>
@@ -137,6 +138,17 @@ const Home = () => {
 
           <h3>Daniel Stangar - Slovakia</h3>
 
+        </div>
+
+        <div className='videos'>
+          <iframe 
+            class="bg-video"
+            src="https://www.youtube.com/embed/HlL1N2YBM94?rel=0"
+            allowFullScreen
+            allow="autoplay"
+          />
+
+          <h3> U.S - Celebrity Coach</h3>
         </div>
 
         <div className='videos'>
