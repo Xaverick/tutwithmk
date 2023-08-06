@@ -57,7 +57,7 @@
                 padding: 0 1rem;
                 cursor: pointer;
                 position: relative;
-         
+                
                 .hover-dropdown{
                     display: none;
                     animation: dropdown 0.7s ease-in-out;
@@ -117,6 +117,7 @@
                 text-decoration: none;
                 flex-direction: column;
                 font-weight: 300;
+                color: var(--header-green);
                 padding: 0.7rem 0;
                 font-size: 1.1rem;
                 transition: all 0.3s ease-in-out;

@@ -11,7 +11,7 @@ function App() {
   const timer = new Promise ((resolve,reject)=>{
     setTimeout(()=>{
       resolve(true)
-    },25000)
+    },5000)
   })
 
  

@@ -79,7 +79,7 @@ const Services = () => {
               </div>
               <div className='card-content'>
                 <p>{item.content}</p>
-                <a href={item.url}>Know More.</a>
+                <a href={item.url}>Know More</a>
               </div>
               
             </div>

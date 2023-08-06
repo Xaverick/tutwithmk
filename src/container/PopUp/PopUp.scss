@@ -5,18 +5,17 @@
     bottom: 0;
     display: flex;
     justify-content: center;
-    height: 100vh;
-    
+    height: 100vh;    
     width: 100%;
     align-items: center;
     background-color: rgba(0,0,0,0.9);
     @media screen and (max-width: 768px) {
-        height: fit-content;
+        height: 100vh;
     }
     .close{
         position: absolute;
         padding: 0.5rem 1rem;
-        background-color: var(--button-green);
+        background-color: var(--button-green-green);
         outline: none;
         border: none;
         border-radius: 5px;
@@ -31,9 +30,10 @@
     
     margin: 0 auto; 
     width: 70%;
+    height: 100vh;
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 2rem;
     // background-image: url("../../assets/rounded_1.png");
@@ -54,7 +54,7 @@
         display: flex;
         justify-content: center;
         img{
-            width: 80%;
+            width: 50%;
       
         }
         @media  screen and (max-width: 768px){
@@ -76,7 +76,7 @@
         align-items: center;
         gap: 1rem;
         img{
-            width: 50%;
+            width: 40%;
         }
         .heading{
             margin-bottom: 4rem;
@@ -104,15 +104,15 @@
         p{
             font-family: var(--font-secondary);
         }
-        a{
-            background-color: var(--button-green);
-            width: fit-content;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-            font-family: var(--font-secondary);
-            font-size: 1.2rem;
+        // a{
+        //     background-color: var(--button-green);
+        //     width: fit-content;
+        //     padding: 0.5rem 1rem;
+        //     border-radius: 5px;
+        //     font-family: var(--font-secondary);
+        //     font-size: 1.2rem;
          
-        }
+        // }
         @media  screen and (max-width: 768px){
             width: 100%;
             align-items: center;

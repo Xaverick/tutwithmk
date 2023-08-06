@@ -389,7 +389,7 @@
                         min-height: 70px;
                         min-width: 70px;
                         border-radius: 50%;
-                        background-color: var(--button-green);
+                        background-color: var(--button-green-green);
                         svg{
                             font-size: 2.4rem;      
                             color: var(--primary-color);
@@ -527,12 +527,12 @@
             font-size: 1rem;
             background: linear-gradient(
                 0.25turn,            
-                var(--header-green),                                                                                                                    
-                var(--button-green)                                                               
+                var(--header-green-green),                                                                                                                    
+                var(--button-green-green)                                                               
     
             );
             &:hover{
-                background: var(--button-green-hover);
+                background: var(--button-green-hover-green);
             }
     
         
@@ -587,6 +587,15 @@
                         img{                            
                             position: absolute;
                             bottom: -70%;
+                            left: 70%;
+                            transform: translate(-50%, -50%);
+                            
+                            
+                        }
+                        svg{                            
+                            position: absolute;
+                            bottom: -70%;
+                            font-size: 3rem;
                             left: 70%;
                             transform: translate(-50%, -50%);
                             

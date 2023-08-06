@@ -105,7 +105,7 @@
                 gap: 0.5rem;
                 max-width: 100%;
                 label{
-                    color: var(--button-green);
+                    color: var(--button-green-green);
                     font-size: 20px;
                     @media screen and (max-width: 768px){
                         font-size: 14px;
@@ -177,8 +177,8 @@
                 font-size: 1.2rem;
                 background: linear-gradient(
                     0.25turn,            
-                    var(--header-green),                                                                                                                    
-                    var(--button-green)                                                               
+                    var(--header-green-green),                                                                                                                    
+                    var(--button-green-green)                                                               
 
                 );
                 &:hover{
@@ -198,7 +198,7 @@
             align-items: center;
             background: linear-gradient(
                 0.25turn,            
-                var(--header-green),                                                                                                                                                                                                                                      
+                var(--header-green-green),                                                                                                                                                                                                                                      
                 var(--text-hover)                                                               
 
             );

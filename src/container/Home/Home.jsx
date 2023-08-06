@@ -176,7 +176,7 @@ const Home = () => {
             <p>If You're Ready <br /> I'll turn the world upside down - <br /> Including you.</p>
 
             <a href="/about" className='button'>
-              Know More.
+              Know More
             </a>
         </div>
       </div>

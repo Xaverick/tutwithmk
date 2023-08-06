@@ -1,7 +1,7 @@
 import React , {useState,useEffect} from 'react'
 import './PopUp.scss'
 import coffee from '../../assets/coffee-popup.gif'
-import clickhere from '../../assets/pressButton.gif'
+import StressBuster from '../../assets/stressBusterRed.png';
 
 const PopUp = ({isopen, setIsopen}) => {
   
@@ -15,7 +15,7 @@ const PopUp = ({isopen, setIsopen}) => {
                         <img src={coffee} alt="" />
                     </div>
                     <div className='content'>
-                        <img src={clickhere} alt="" onClick={() => setIsopen(false)}/>
+                        <a href="/services/coffewithmk"><img src={StressBuster} alt="" onClick={() => setIsopen(false)}/></a>
                     </div>
                     {/* <div className="content">                        
                         <div className='heading'>
