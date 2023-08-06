@@ -7,6 +7,7 @@ import Testimonials from '../../components/Testimonial/Testimonials'
 import Typewriter from "typewriter-effect";
 import dots from '../../assets/dots.png'
 import quoate2dp from '../../assets/quoate2dp.png'
+import welcomegif from '../../assets/welcomegif.gif'
 
 const Home = () => {
   return (
@@ -37,7 +38,8 @@ const Home = () => {
         </div>
 
         <p className='desc'><span>This World: </span> <br />A Revolution – A War. <br />
-          <span className='last-line'>Welcome to Your Clan!</span>
+          {/* <span className='last-line'>Welcome to Your Clan!</span> */}
+          <img src={welcomegif} alt="" />
         </p>
 
       </div>
