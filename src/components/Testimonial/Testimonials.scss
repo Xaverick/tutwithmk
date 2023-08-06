@@ -95,26 +95,25 @@
 
                     }
                     .tooltip{
-                        z-index: 100;                        
-                        max-width: 300px ;
-                        background-color: var(--primary-color) !important;                                           
-                        box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-                        border-radius: 5px;
-                        padding: 1rem;
+                        // z-index: 100;                        
+                        // max-width: 300px ;
+                        // background-color: var(--primary-color) !important;                                           
+                        // box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+                        // border-radius: 5px;
+                        // padding: 1rem;
+                        // color: black !important;
+                        // text-align: center;
+                        // line-height: 1.5;
+                        // opacity: 1;
+                        max-width: 300px !important;
+                        background-color: var(--primary-color) !important;
+                        box-shadow: 0 0 25px rgba(0, 0, 0, 0.1) !important;
+                        border-radius: 5px !important;
+                        padding: 1rem !important;
                         color: black !important;
-                        text-align: center;
-                        line-height: 1.5;
-                        opacity: 1;
-                        // &::after {
-                        //     position: absolute;
-                        //     bottom: -7px;
-                        //     top: 43%;
-                        //     content: '';
-                        //     width: 15px;
-                        //     height: 15px;
-                        //     background: #fff;
-                        //     transform: rotate(45deg);
-                        // }
+                        text-align: center !important;
+                        line-height: 1.5 !important;
+                        opacity: 1 !important;
                         p{
                             margin-top: 1rem;
                             width: 100%;

@@ -3,6 +3,8 @@ import transcend from '../../src/assets/transcend.png';
 import emerge from '../../src/assets/emerge.png';
 import Blogdata from './Blogdata/Blogdata';
 
+import confidential from '../../src/assets/icons/confidentiality.png';
+import confidential2 from '../../src/assets/icons/5.png';
 
 
 const emergeTimeline = [
@@ -34,27 +36,27 @@ const emergeTimeline = [
 
 const emergeProgramdetail = [
     {
-      icon: '',
+      icon: confidential,
       heading: 'Duartion.',
       content:"6 Sessions 60 mins each.",
     },
     {
-        icon: '',
+        icon: confidential,
         heading: 'Session.',
         content:"1-on-1",
     },
     {
-        icon: '',
+        icon: confidential,
         heading: 'Duartion.',
         content:"Scales of your Existence",
     },
     {   
-        icon: '',
+        icon: confidential2,
         heading: 'Duartion.',
         content:"Dissecting Your Countless Concerns",
     },
     {   
-        icon: '',
+        icon: confidential,
         heading: 'Confidentiality.',
         content:"These are Confidential Sessions",
     },

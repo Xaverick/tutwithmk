@@ -584,13 +584,13 @@
                         height: 50px;
                         border-radius: 50%;
                         background-color: var(--text-hover);
-                        svg{
+                        img{                            
                             position: absolute;
                             bottom: -70%;
                             left: 70%;
                             transform: translate(-50%, -50%);
-                            font-size: 3rem;
-                            color: var(--primary-color);
+                            
+                            
                         }
                     }
                     h1{

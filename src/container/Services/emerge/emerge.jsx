@@ -138,7 +138,7 @@ const Emerge = () => {
 
                 <div className='card-header'>
                   <div className='icon'>
-                    <AiOutlineHome />
+                    <img src={item.icon} alt="" />
                   </div>
               
                   <h1>{item.heading}</h1>

@@ -146,12 +146,12 @@
             cursor: pointer;
             background: linear-gradient(
                 0.25turn,            
-                var(--header-green),                                                                                                                    
-                var(--button-green)                                                               
+                var(--header-green-green),                                                                                                                    
+                var(--button-green-green)                                                               
 
             );
             &:hover{
-                background: var(--button-green-hover);
+                background: var(--button-green-hover-green);
             }
             @media screen and (max-width: 768px){
                 display: none;

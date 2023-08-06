@@ -19,7 +19,7 @@ const Home = () => {
       <div id = 'quoate' className='home-course-feature'>
         <span className='home-heading'>
           <p>
-          <span> I'm Different</span> <br />Ever thought that? <br /> <br />Surrounded by people & knowing that -- Is An Awakening. 
+          <span> I'm Different</span> <span className='secondline'><br />Ever thought that? <br /> </span> <br />Surrounded by people & knowing that -- Is An Awakening. 
           It surrounds a person with Search about his/her Uniqueness & then Getting It Manifested! 
           </p>
         </span>

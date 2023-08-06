@@ -35,13 +35,22 @@
             text-align: center;
             span{
                 letter-spacing: 0.44rem;
-                font-family: var(--font-cinzel);
+                font-family: var(--font-centauri);
                 font-size: 3.5rem;
+                font-weight: 400;
                 @media screen and (max-width: 768px){
                     font-size: 2.4rem;
                 }
+                
                     
                 
+            }
+            .secondline{
+                font-family: var(--font-centauri);
+                font-size: 1.6rem;
+                @media screen and (max-width: 768px){
+                    font-size: 1.5rem;
+                }
             }
         }  
         font-family: var(--font-nanum);  
@@ -578,11 +587,11 @@
                 margin: 0;
                 padding: 0.5rem 1rem;
                 border-radius: 10px;
-                background-color: var(--header-green);
+                background-color: var(--header-green-green);
                 width: fit-content;
                 font-size: 1rem;
                 &:hover{
-                    background-color: var(--button-green);
+                    background-color: var(--button-green-green);
                 }
 
             }
