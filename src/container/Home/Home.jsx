@@ -8,6 +8,7 @@ import Typewriter from "typewriter-effect";
 import dots from '../../assets/dots.png'
 import quoate2dp from '../../assets/quoate2dp.png'
 import welcomegif from '../../assets/welcomegif.gif'
+import welcomepng from '../../assets/welcomepng.png'
 
 const Home = () => {
   return (
@@ -39,7 +40,7 @@ const Home = () => {
 
         <p className='desc'><span>This World: </span> <br />A Revolution – A War. <br />
           {/* <span className='last-line'>Welcome to Your Clan!</span> */}
-          <img src={welcomegif} alt="" />
+          <img src={welcomepng} alt="" />
         </p>
 
       </div>
