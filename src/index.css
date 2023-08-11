@@ -24,11 +24,17 @@
   src: local('Centauri'), url('./assets/fonts/Centauri.woff') format('woff');
 }
 
+@font-face {
+  font-family: ponder;
+  src: url("./assets/fonts/ponder.otf") format("opentype");
+}
+
 :root {
   --font-base: "DM Sans", sans-serif;
   --font-secondary: "Poppins", sans-serif;
   --font-display: "Cinzel", serif;
   --font-centauri: "Centauri", serif;
+  --font-ponder: "ponder", serif;
   /* --font-display: "Playfair Display", serif; */
   --font-cinzel: "Cinzel", serif;
   --font-trajan: "Trajan Pro Regular", serif;

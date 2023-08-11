@@ -13,7 +13,8 @@ const About = () => {
 
   return (
     <div className='app__container'>
-      <Banner name='About MK' subtitle=""/>
+
+      <Banner name='About MK' subtitle="R I S E" gold={true} />
 
       <div id = 'quoate' className='about-course-feature'>
         <span className='heading'>

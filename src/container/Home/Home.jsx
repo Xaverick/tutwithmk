@@ -26,13 +26,19 @@ const Home = () => {
 
         
         <div className="video">
-          <iframe 
-            class="bg-video"
+          <iframe src="https://komododecks.com/embed/recordings/GrfXUuNOctEPQN5YppEA?onlyRecording=1&autoplay=1" 
+                className='bg-video' 
+                allowfullscreen 
+                allow="autoplay"
+          />
+
+          {/* <iframe 
+            className="bg-video"
             // src="https://www.youtube.com/embed/nWp5vwsuF4E?autoplay=1&rel=0&mute=1"
             src="https://komododecks.com/embed/recordings/CSGGjCOKEASWhNy2v9YN?autoplay=1&mute=1"
             allowFullScreen
             allow="autoplay"
-          />
+          /> */}
 
         </div>
 
@@ -48,14 +54,16 @@ const Home = () => {
       <div className='quoate-2-background'>
     <div className='image-overlay'>   */}
       <div className="quoate-2">
+        <h1 className='heading'>F R E Q U E N C Y - 11:11</h1>
         <div className='quoate-2-left'>
           <h1 className='home-heading'>Here you'll get the most sophisticated & powerful weapons (Skills & Abilities) to Establish Your True Self & that's the best humanitarian deed you can ever perform on this Planet.</h1>
           <h1 className='home-heading'>It's tough but not a suffering that you haven't already endured.</h1>
 
         </div>
-        <div className='quoate-2-right'>
+
+        {/* <div className='quoate-2-right'>
           <img src={quoate2dp} alt="" />
-        </div>
+        </div> */}
       </div>
       {/* </div>
       </div> */}
@@ -121,7 +129,7 @@ const Home = () => {
       </div>
 
       <div className='button'>
-        <a href="/services/launchpad" className='launch-button'>Launch YourSelf </a>
+        <a href="/services/coffewithmk" className='launch-button'>Launch YourSelf </a>
       </div>    
 
 
@@ -131,8 +139,8 @@ const Home = () => {
       <div className="testimonial-video">
         <div className='videos'>
           <iframe 
-            class="bg-video"
-            src="https://www.youtube.com/embed/SMuUC5tS8dQ?rel=0"
+            className="bg-video"
+            src="https://komododecks.com/embed/recordings/Kaw1FELtQ3EIlWAT2PKC?onlyRecording=1"
             allowFullScreen
             allow="autoplay"
           />
@@ -143,8 +151,8 @@ const Home = () => {
 
         <div className='videos'>
           <iframe 
-            class="bg-video"
-            src="https://www.youtube.com/embed/HlL1N2YBM94?rel=0"
+            className="bg-video"
+            src="https://komododecks.com/embed/recordings/RjM3HMJjOrOrGJFthA5a?onlyRecording=1"
             allowFullScreen
             allow="autoplay"
           />
@@ -154,8 +162,8 @@ const Home = () => {
 
         <div className='videos'>
           <iframe 
-            class="bg-video"
-            src="https://www.youtube.com/embed/oIJ20xVDAPo?rel=0"
+            className="bg-video"
+            src="https://komododecks.com/embed/recordings/dGKpcGTQnIaTPVECFxYb?onlyRecording=1"
             allowFullScreen
             allow="autoplay"
           />
@@ -172,7 +180,7 @@ const Home = () => {
         </div> 
 
         <div className='owntimeline-section__left'>
-            <h1 className='own'>Hail Storm - <br /> Hurricane - <br /> Volcanic Lava</h1>
+            <h1 className='own'>Hail Storm... <br /> Hurricane... <br /> Volcanic Lava! </h1>
 
             <p>If You're Ready <br /> I'll turn the world upside down - <br /> Including you.</p>
 
@@ -186,18 +194,18 @@ const Home = () => {
       <div className='background'>
         <div className="newsletter">
           <div className="newsletter-left">
-            <h1>Join our newsletter</h1>
-            <p>Sign up for our newsletter to get updates about business coaching or free bussiness article</p>
+            <h1>Join Your Clan</h1>
+            <p>To Play The Big Game Warriors Join Warriors! Period.</p>
           </div>
 
       
           <div className="newsletter-right">
             <div className="signup">
-              <input type="text" placeholder='Email'/>
-              <a href="" className='button'>Sign Up</a>
+              <input type="text" placeholder='Enter your Email'/>
+              <a href="" className='button'>I'm In</a>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit*</p>
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit*</p> */}
 
 
           </div>

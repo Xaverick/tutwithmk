@@ -3,7 +3,7 @@ import './Banner.scss'
 import patttern_1 from '../../assets/pattern_1.png'
 import {AiOutlineHome} from 'react-icons/ai'
 
-const Banner = ({name,subtitle,img}) => {
+const Banner = ({name,subtitle,img,gold}) => {
   return (
     <div className='content-header app__flex'>
       <img className='pattern' src={patttern_1} alt="" />
@@ -19,7 +19,7 @@ const Banner = ({name,subtitle,img}) => {
 
           <div className='details'>
             <h1>{name}</h1>  
-            <p> {subtitle}</p>   
+            <p style={gold ? {color:"var(--header-green)"} : {}}> {subtitle}</p>   
           </div>
              
         </div>
