@@ -139,6 +139,7 @@
     }
 }
 
+
 .owntimeline-section__left{
     width: 45%;
     display: flex;
@@ -148,10 +149,8 @@
     @media  screen and (max-width: 768px){
         width: 100%;
         padding: 2rem;
-    }
-        
+    }       
     
-
     h1{
         line-height: 1;
         width: 100%;
@@ -164,7 +163,7 @@
 
     p{
         margin-bottom: 1rem;
-        font-family: var(--font-secondary);
+        font-family: var(--font-display);
         font-size: 1.2rem;
         font-weight: 400;
         padding-bottom: 1rem;
@@ -192,6 +191,8 @@
     }
     
 }
+
+
 
 .owntimeline-section__right{
     display: flex;

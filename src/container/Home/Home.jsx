@@ -21,9 +21,7 @@ const Home = () => {
       <div id = 'quoate' className='home-course-feature'>
         <span className='home-heading'>
           <p>
-          <span> I'm Different</span> <span className='secondline'><br />Ever thought that? <br /> </span> <br />Surrounded by people & knowing that -- Is An Awakening. 
-          It surrounds a person with Search about his/her Uniqueness & then Getting It Manifested! 
-          </p>
+          <span> I'm Different</span> <span className='secondline'><br />Ever thought that? <br /> </span> <br />Surrounded by people & knowing that - Is An Awakening.</p>
         </span>
 
         
@@ -38,7 +36,7 @@ const Home = () => {
 
         </div>
 
-        <p className='desc'><span>This World: </span> <br />A Revolution – A War. <br />
+        <p className='desc'><span>This World </span> <br />A Revolution – A War. <br />
           {/* <span className='last-line'>Welcome to Your Clan!</span> */}
           <img src={welcomepng} alt="" />
         </p>
@@ -76,8 +74,8 @@ const Home = () => {
         </div>
 
         <span className='heading'>
-            <p>Version-X: A Brand New, Superior, Revolutionary, Totally Revamped version of old you. </p>
-            <img src={dots} alt="" />
+            <p>Version-X: A Brand New, Superior, Revolutionary, Totally Revamped Version Of Old You. </p>
+            {/* <img src={dots} alt="" /> */}
             <p> From the past 22yrs that's exactly what I've been delivering in India & Abroad. Now, Betterment & Improvement is not what I deliver... it's good, but once again, I don't deliver anything that is "Good".</p>
         </span>
       </div>
@@ -151,7 +149,7 @@ const Home = () => {
             allow="autoplay"
           />
 
-          <h3> U.S - Celebrity Coach</h3>
+          <h3> U.S - Celebrity Trainer</h3>
         </div>
 
         <div className='videos'>
@@ -174,7 +172,7 @@ const Home = () => {
         </div> 
 
         <div className='owntimeline-section__left'>
-            <h1 className='own'>Hail Storm - Hurricane - Volcanic Lava</h1>
+            <h1 className='own'>Hail Storm - <br /> Hurricane - <br /> Volcanic Lava</h1>
 
             <p>If You're Ready <br /> I'll turn the world upside down - <br /> Including you.</p>
 
