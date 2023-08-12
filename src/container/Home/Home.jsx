@@ -110,7 +110,7 @@ const Home = () => {
           <Typewriter  
             className="subheading"   
             options={{
-              strings: ["My Promise – Your \"Transformation.\" That's it! End of Story."],
+              strings: ["My Promise – \"Transformation.\" That's it! End of Story."],
               autoStart: true,
               loop: true,
               delay: 100,
@@ -125,7 +125,7 @@ const Home = () => {
 
       <div className="quoate-4">
 
-        <h1 className='home-heading'>Important: <br />  <br /> "Transformation" doesn't happen with your like or interest. Transformation is The Game of Winners! It requires "I Want It" & If you have that Fuel in you then:</h1>
+        <h1 className='home-heading'><span>Important: </span> <br />  <br /> "Transformation" doesn't happen with your like or interest. <br /> Transformation is The Game of Winners! <br /> It requires "I Want It" & If you have that Fuel in you then:</h1>
         <h1 className='home-heading'> <br /> What To Train? How To Train? How Hard To Train? <br /> You leave that to me. It Is My DNA! It's Your Turn Now. <br /> <br /> "Balance" is Nature's Law – I'm Ready & If You Are too then click:</h1>
       
       </div>
@@ -197,7 +197,7 @@ const Home = () => {
         <div className="newsletter">
           <div className="newsletter-left">
             <h1>Join Your Clan</h1>
-            <p>To Play The Big Game Warriors Join Warriors! Period.</p>
+            <p>To Play The Big Game - Warriors Join Warriors! Period</p>
           </div>
 
       

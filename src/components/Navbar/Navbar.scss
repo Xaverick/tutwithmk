@@ -9,7 +9,7 @@
     .app__navbar{
         padding: 0.7rem;
         overflow: visible;
-        width: 80%; 
+        width: 90%; 
         max-height: 72px;
         justify-content: space-between;
         @media screen and (max-width: 768px){
@@ -121,7 +121,7 @@
                 font-weight: 300;
                 color: var(--header-green);
                 padding: 0.7rem 0;
-                font-size: 1rem;
+                font-size: 1.1rem;
                 transition: all 0.3s ease-in-out;
         
                 &:hover {

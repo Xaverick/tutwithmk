@@ -7,7 +7,7 @@ import MK1 from "../../assets/MK1.jpg"
 import MK2 from "../../assets/MK2.jpg"
 import MK3 from "../../assets/MK3.jpg"
 import wallpaper from "../../assets/xfactor.jpeg"
-import dp from "../../assets/dp.jpg"
+import dp from "../../assets/dp.gif"
 
 const About = () => {
 
@@ -34,7 +34,7 @@ const About = () => {
 
       <div className='timeline-section'>
         <div className='owntimeline-section__left'>
-            <h1 className='own'>Hail Storm <br /> Hurricane <br /> Volcanic Lava</h1>
+            <h1 className='own'>Hail Storm... <br /> Hurricane... <br /> Volcanic Lava!</h1>
 
             <p>If You're Ready <br /> I'll turn the world upside down <br /> Including you.</p>
 
@@ -45,7 +45,7 @@ const About = () => {
 
         <div className='owntimeline-section__right'>
             
-            <img className="ownimage" src={dp} alt="" />
+          <img  style={{transition:"none", animation:"none"}} src={dp} alt="" />
         
         
 
