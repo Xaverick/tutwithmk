@@ -91,19 +91,21 @@
                         left: 0;
                         border-radius: 5px;
                         a{
-                            color: black;
+                            color: var(--header-green);
                             width: fit-content;
+                            font-weight: 400;
                             
                         }
                         li{
                             padding: 0.7rem;
                             border-radius: 5px;
+
                             // border-bottom: 1px solid grey;
                             width: 100%;
                             &:hover{
-                                background-color: var(--header-green);         
+                                // background-color: var(--header-green-green);         
                                 a{
-                                    color: white;
+                                    color: var(--header-green-green);
                                 }               
                             }
 
@@ -119,7 +121,7 @@
                 font-weight: 300;
                 color: var(--header-green);
                 padding: 0.7rem 0;
-                font-size: 1.1rem;
+                font-size: 1rem;
                 transition: all 0.3s ease-in-out;
         
                 &:hover {
@@ -127,6 +129,11 @@
                 }
             }
 
+            .nohover{
+                &:hover{
+                    color: var(--header-green);
+                }
+            }
 
  
 

@@ -20,11 +20,12 @@ const Navbar = ({setIsopen2}) => {
         
         <ul className='app__navbar-links'>
           
-          <li><a href="/about">X-Factor</a></li>
+          <li><a href="/about">About MK</a></li>
+          <li><a href="/services" className='relative-position'>X-Factor</a></li>
           <li>
-              <a href="/services" className='relative-position'>Get Trained <BiChevronDown /></a>
+              <a className='relative-position nohover'>Get Trained <BiChevronDown /></a>
               <ul className='hover-dropdown'>
-                <li><a href="/services/coffewithmk">Coffe With Mk</a></li>
+                <li><a href="/services/coffewithmk">Koffe With Mk</a></li>
                 <li><a href="/services/launchpad">Launchpad</a></li>
                 <li><a href="/services/emerge">Emerge</a></li>
                 <li><a href="/services/transcend">Transcend</a></li>
@@ -56,10 +57,11 @@ const Navbar = ({setIsopen2}) => {
                 <HiX className='navbar-icon' onClick={() => setToggle(false)} />
                 
                 <li><a href='/' onClick={() => setToggle(false)}> Home </a></li>
-                <li><a href='/about' onClick={() => setToggle(false)}> X-factor </a></li>
+                <li><a href='/about' onClick={() => setToggle(false)}> About MK </a></li> 
+                <li><a href='/services' onClick={() => setToggle(false)}> X-Factor </a></li> 
                 <li>
                   <span>
-                    <a href="/services">Get Trained</a>
+                    <a>Get Trained</a>
                     {serviceToggle ? <BiChevronUp onClick={() => setServiceToggle(false)} /> : <BiChevronDown onClick={() => setServiceToggle(true)} />}
                     <AnimatePresence>
                     {serviceToggle && (

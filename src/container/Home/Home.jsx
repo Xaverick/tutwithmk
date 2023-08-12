@@ -9,6 +9,7 @@ import dots from '../../assets/dots.png'
 import quoate2dp from '../../assets/quoate2dp.png'
 import welcomegif from '../../assets/welcomegif.gif'
 import welcomepng from '../../assets/welcomepng.png'
+import dotart from '../../assets/dotart.png'
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
       <div id = 'quoate' className='home-course-feature'>
         <span className='home-heading'>
           <p>
-          <span> I'm Different</span> <span className='secondline'><br />Ever thought that? <br /> </span>Surrounded by people & knowing that - Is An Awakening!</p>
+          <span> I'm Different</span> <span className='secondline'><br />Ever thought that? <br /> <br /> </span>Surrounded by people & knowing that - Is An Awakening!</p>
         </span>
 
         
@@ -74,17 +75,18 @@ const Home = () => {
             <p style={{margin:"1rem 0"}}>I welcome you to your Version X</p>
         </span>
 
-        <div className='four-dots'>
+        {/* <div className='four-dots'>
           <div className="dot"></div>
           <div className="dot"></div>
           <div className="dot"></div>
           <div className="dot"></div>
-        </div>
+        </div> */}
+        <img src={dotart} alt="" />
 
         <span className='heading'>
-            <p>Version-X: A Brand New, Superior, Revolutionary, Totally Revamped Version Of Old You. </p>
+            <p>Version X: A Brand New, Superior, Revolutionary, Totally Revamped Version Of Old You. </p>
             {/* <img src={dots} alt="" /> */}
-            <p> From the past 22yrs that's exactly what I've been delivering in India & Abroad. Now, Betterment & Improvement is not what I deliver... it's good, but once again, I don't deliver anything that is "Good".</p>
+            <p> <br /> From the past 22yrs that's exactly what I've been delivering in India & Abroad. Now, Betterment & Improvement is not what I deliver... it's good, but once again, I don't deliver anything that is "Good".</p>
         </span>
       </div>
 
