@@ -31,6 +31,7 @@
     .home-heading{   
         p{
             text-align: center;
+            line-height: 3rem;
             span{
                 letter-spacing: 0.44rem;
                 font-family: var(--font-centauri);
@@ -45,19 +46,18 @@
             }
             .secondline{
                 font-family: var(--font-centauri);
-                font-size: 1.6rem;
+                font-size: 1.4rem;
                 @media screen and (max-width: 768px){
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                 }
             }
         }  
         font-family: var(--font-nanum);  
         width: 80%;
         font-size: 2rem;
-        font-weight: 600;
+        font-weight: 100;
         color: var(--primary-color);
         padding-bottom: 1rem;
-
         margin-bottom: 2rem;
     }
 
@@ -169,8 +169,9 @@
     gap: 2rem;
     justify-content: center;
     .heading{
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-family: var(--font-ponder);
+        font-weight: 800;
     }
     // background-image: url("../../assets/conference.JPG");
     // background-repeat: no-repeat;

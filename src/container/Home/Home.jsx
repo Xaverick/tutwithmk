@@ -21,7 +21,7 @@ const Home = () => {
       <div id = 'quoate' className='home-course-feature'>
         <span className='home-heading'>
           <p>
-          <span> I'm Different</span> <span className='secondline'><br />Ever thought that? <br /> </span> <br />Surrounded by people & knowing that - Is An Awakening.</p>
+          <span> I'm Different</span> <span className='secondline'><br />Ever thought that? <br /> </span>Surrounded by people & knowing that - Is An Awakening!</p>
         </span>
 
         
@@ -42,7 +42,7 @@ const Home = () => {
 
         </div>
 
-        <p className='desc'><span>This World </span> <br />A Revolution – A War. <br />
+        <p className='desc'><span>This World </span> <br />A Revolution A War. <br /> <br />
           {/* <span className='last-line'>Welcome to Your Clan!</span> */}
           <img src={welcomepng} alt="" />
         </p>
