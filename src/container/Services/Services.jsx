@@ -30,9 +30,28 @@ const Services = () => {
 
   return (
     <div className='app__container'>
-      <Banner name='Get Trained' />
+      <Banner name='X-Factor' />
 
-      <div id = 'quoate' className='course-feature'>
+      <div style={{padding:"3rem 0"}} className="quoate-2">
+        <h1 className='heading'>F R E Q U E N C Y - 11:11</h1>
+        <div className='quoate-2-left'>
+          <h1 className='home-heading'>In This Technically Remerging Planet Facets Of Human Mind Needed Unlocking To Reach Future Goals. </h1>
+          <h1 className='home-heading'>Formulas Were Sought After.</h1>
+          <h1 className='home-heading'>An Equation - Balancing Science+Philosophy+Religion - Needed For  The Freedom Of You And Everyone Else. </h1>
+
+
+
+
+         
+
+        </div>
+
+        {/* <div className='quoate-2-right'>
+          <img src={quoate2dp} alt="" />
+        </div> */}
+      </div>
+
+      {/* <div id = 'quoate' className='course-feature'>
         <span className='heading'>
           <p>
           “Data has always been there. <br /> Capability to hold & deliver, is rare!”
@@ -46,7 +65,7 @@ const Services = () => {
           <div className='dot'></div>
         </div>
 
-      </div>
+      </div> */}
 
       <div className='first-media'>
         <img src={fenching} alt="" />
@@ -105,15 +124,15 @@ const Services = () => {
       </div>
 
 
-      <motion.div
-        ref={ref}
-        animate={controls}
-        initial="hidden"
-        variants={squareVariants}
+      <div
+        // ref={ref}
+        // animate={controls}
+        // initial="hidden"
+        // variants={squareVariants}
         className="last-media"
       >
 
-      </motion.div>
+      </div>
 
 
 

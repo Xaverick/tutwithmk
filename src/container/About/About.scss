@@ -122,10 +122,10 @@
         
     }
     .description{
-        width: 80%;
+        width: 75%;
         display: flex;
         margin: 0 auto;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
    
         @media screen and (max-width: 768px) {
@@ -161,14 +161,14 @@
         .description__right{
             span{
                 color: var(--text-hover);
-                font-size: 1.3rem;
+                font-size: 2rem;
             }
-            width: 65%;
+            width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: start;
             align-items: left;
-            gap: 2rem;
+            gap: 1.5rem;
             .heading{
                 font-family: var(--font-display);
                 font-size: 3.5rem;
@@ -180,7 +180,8 @@
                 grid-template-columns: repeat(2,1fr);
                 gap: 2.5rem;
                 p{
-                    font-size: 1.1rem;
+                    
+                    font-size: 1.3rem;
                     font-weight: 500;
                     color: var(--primary-color);
                     text-align: left;

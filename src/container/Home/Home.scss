@@ -262,8 +262,8 @@
         }               
         width: 80%;               
         color: var(--primary-color);
-        padding-bottom: 1rem;
-        margin-bottom: 1rem;
+        // padding-bottom: 1rem;
+        // margin-bottom: 1rem;
         img{
             margin: 2rem 0;
             width: 35%;
@@ -366,6 +366,7 @@
     span{
         font-family: var(--font-centauri);
         letter-spacing: 0.3rem;
+        font-size: 2.5rem;
     }
     .home-heading{      
         text-align: center;
@@ -391,7 +392,10 @@
         box-shadow: 0 0 0 black;
         p{
             font-size: 16px;
-        }          
+        } 
+        span{
+            font-size: 1.8rem;
+        }         
     }
 
 
@@ -608,6 +612,7 @@
             }
             .button{
                 margin: 0;
+                font-family: var(--font-display);
                 padding: 0.5rem 1rem;
                 border-radius: 10px;
                 background-color: var(--header-green-green);

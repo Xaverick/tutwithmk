@@ -16,21 +16,7 @@ const About = () => {
 
       <Banner name='About MK' subtitle="R I S E" gold={true} />
 
-      <div id = 'quoate' className='about-course-feature'>
-        <span className='heading'>
-          <p>
-            "The biggest insult I had in my life was when someone <br /> introduced me to someone and said, “MK is good.” "
-          </p>
-        </span>
-        <p className='desc'>– MK, YOUR PERSONAL TRANSFORMATION COACH</p>
-        <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-        </div>
 
-      </div>
 
       <div className='timeline-section'>
         <div className='owntimeline-section__left'>
@@ -61,35 +47,51 @@ const About = () => {
       </div> 
       
 
-      <div className="about-first-media">
+      {/* <div className="about-first-media">
         <img src={wallpaper} alt="" />
         <a href="" className="download">Download Wallpaper</a>
-      </div>
+      </div> */}
       
+      <div id = 'quoate' className='about-course-feature'>
+        <span className='heading'>
+          <p>
+          “Knowledge has always been there - the conduit through which it is transferred was lost.” 
+          </p>
+        </span>
+        <p className='desc'>MK.</p>
+        {/* <div className='four-dots'>
+          <div className='dot'></div>
+          <div className='dot'></div>
+          <div className='dot'></div>
+          <div className='dot'></div>
+        </div> */}
+
+      </div>
+
       <div className='description-container'>
 
 
         <div className='description'>
-          <div className='description__left'>
-            <img src={MK1} alt="" />
-          </div>
+          {/* <div className='description__left'> */}
+            {/* <img src={MK1} alt="" /> */}
+          {/* </div> */}
 
           <div className='description__right'>
             <span>About MK.</span>
             <div className='content'>
               <p> <b>I've already worked with: </b> Actors, Actress, Celebrity Coaches, Singers, 
-  Business Owners & Their Families,<br />
-  MINISTERS & THEIR FAMILIES, IAS & IPS officers, Fashion Brand Owners (Indian & UK)
-  Authors, MDs, CEOs <br /> <br />
-  <b>Under Persend Social Responsibility: </b> Various NGOs, Govt. Agencies, Students & Teachers, Old age Homes
+              Business Owners & Their Families,<br />
+              MINISTERS & THEIR FAMILIES, IAS & IPS officers, Fashion Brand Owners (Indian & UK)
+              Authors, MDs, CEOs <br /> <br />
+              <b>Under Persend Social Responsibility: </b> Various NGOs, Govt. Agencies, Students & Teachers, Old age Homes
 
-  & many
-  Indian Ambassadors & many International Clients from U.S., UK, TAIWAN, IRAN, GERMANY, ITALY etc.
-  </p>
-              <p> <b>You've NOT HEARD ABOUT ME BECAUSE: </b> 
+              & many
+              Indian Ambassadors & many International Clients from U.S., UK, TAIWAN, IRAN, GERMANY, ITALY etc.
+              </p>
+                          <p> <b>You've NOT HEARD ABOUT ME BECAUSE: </b> 
 
-  Almost all of my Clients National or International are through word of Mouth. <br /> <br /> Due to the Pandemic situation & on continuous insistence of my clients I'm coming out on the Web - so that people who are looking for this frequency are not left out.
-  </p>
+              Almost all of my Clients National or International are through word of Mouth. <br /> <br /> I'm here so that people who are looking for this frequency are not left out.
+              </p>
             </div>
 
           </div>
@@ -97,7 +99,41 @@ const About = () => {
         </div>
           
       </div>  
-    </div>
+
+      <div className='description-container' style={{padding:"0"}}>
+
+
+        <div className='description' >
+          {/* <div className='description__left'> */}
+            {/* <img src={MK1} alt="" /> */}
+          {/* </div> */}
+
+          <div className='description__right'>
+            <span>Accolades</span>
+            <div style={{display:"flex"}} className='content'>
+              <p> 
+              ➔ Professional Member: WISE® | IHELPTM | Applied Scholastics® U.K. <br />
+              ➔ Chairperson Hubbard College of Administration, New Delhi. <br />
+              ➔ Awarded Guest of Honour by Delhi Police. <br />
+              ➔ Judging Panel: Speak IndiaTM (YMCA). <br />
+              ➔ Associated with: TWTH®, AIACA® & Various NGOs. <br />
+              ➔ In Discourse: CM Delhi, Cabinet Minister, Senior Government & Police Officials <br />
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+          
+      </div>  
+
+
+
+
+  </div>
+
+
+
  
   )
 }

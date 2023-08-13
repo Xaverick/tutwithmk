@@ -9,13 +9,17 @@ import Testimonials from '../../components/Testimonial/Testimonials'
 import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import {emergeTimeline, coffeeProgramdetail} from '../../Data'
-
+import coffee from '../../assets/coffee-popup.gif'
 
 const CoffeWithMk = () => {
 
   return (
     <div className='app__container'>
-      <Banner name='Koffee  with  MK' subtitle= "Stress Buster" />
+      {/* <Banner name='Koffee  with  MK' subtitle= "Stress Buster" /> */}
+      <div className="koffee-banner">
+        <img src={coffee} alt="" />
+
+      </div>
 
       <div className='mid-apply-section'>
 

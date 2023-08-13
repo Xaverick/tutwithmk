@@ -72,7 +72,7 @@ const Home = () => {
       <div className='quoate-3'>
         <span className='heading'>
             <p><span>T R A N S F O R M A T I O N</span> <br /> IS THE GAME</p>
-            <p style={{margin:"1rem 0"}}>I welcome you to your Version X</p>
+            <p style={{margin:"1rem 0"}}>I Welcome You To Your Version X</p>
         </span>
 
         {/* <div className='four-dots'>
@@ -197,7 +197,7 @@ const Home = () => {
         <div className="newsletter">
           <div className="newsletter-left">
             <h1>Join Your Clan</h1>
-            <p>To Play The Big Game - Warriors Join Warriors! Period</p>
+            <p>To Play The Big Game - Warriors Join Warriors! Period.</p>
           </div>
 
       
