@@ -7,6 +7,8 @@ import Banner from '../../../components/Banner/Banner'
 import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {emergeTimeline, emergeProgramdetail} from '../../../Data'
 import emergeLogo from '../../../assets/emerge.png'
+import emergePhoto from '../../../assets/emergePhoto.png'
+
 
 const Emerge = () => {
 
@@ -46,7 +48,7 @@ const Emerge = () => {
             </div>
 
             <div  className='image'>
-                <img src={coach} alt="" />
+                <img src={emergePhoto} alt="" />
             </div>
         </div>
 
@@ -93,7 +95,7 @@ const Emerge = () => {
                   </div>
                   <div className='timeline-innercontent'>
                     <div className='icon'>
-                      <AiOutlineHome />
+                      <img src={item.icon} alt="" />
                     </div>
                     <p>
                       {item.content}

@@ -3,57 +3,79 @@ import transcend from '../../src/assets/transcend.png';
 import emerge from '../../src/assets/emerge.png';
 import Blogdata from './Blogdata/Blogdata';
 
+import dollar from '../../src/assets/icons/dollar.png';
+import location from '../../src/assets/icons/location.png';
 import confidential from '../../src/assets/icons/confidentiality.png';
+import session from '../../src/assets/icons/session.png';
+
+
+import emergeTimeline1 from '../../src/assets/icons/emergeTimeline1.png';
+import emergeTimeline2 from '../../src/assets/icons/emergeTimeline2.png';
+import emergeTimeline3 from '../../src/assets/icons/emergeTimeline3.png';
+import emergeTimeline4 from '../../src/assets/icons/emergeTimeline4.png';
+import emergeTimeline5 from '../../src/assets/icons/emergeTimeline5.png';
+import emergeTimeline6 from '../../src/assets/icons/emergeTimeline6.png';
+
+
+import launchpadTimeline1 from '../../src/assets/icons/launchpadTimeline1.png';
+import launchpadTimeline2 from '../../src/assets/icons/launchpadTimeline2.png';
+import launchpadTimeline3 from '../../src/assets/icons/launchpadTimeline3.png';
+import launchpadTimeline4 from '../../src/assets/icons/launchpadTimeline4.png';
+import launchpadTimeline5 from '../../src/assets/icons/launchpadTimeline5.png';
+
 import confidential2 from '../../src/assets/icons/5.png';
+
+
 
 
 const emergeTimeline = [
     {
-      icon: '',
+      icon: emergeTimeline1,
       content:"You – Your Mind – Your Body",
     },
     {
-        icon: '',
+        icon: emergeTimeline2,
         content:"Your Life + Life's Blueprint",
     },
     {
-        icon: '',
+        icon: emergeTimeline3,
         content:"Scales of your Existence",
     },
     {   
-        icon: '',
+        icon:  emergeTimeline4,
         content:"Dissecting Your Countless Concerns",
     },
     {
-        icon: '',
+        icon: emergeTimeline5,
         content:"Igniting Your 24 Carat Gold Power",
     },
     {
-        icon: '',
+        icon: emergeTimeline6,
         content:"Money – Work – Sex",
     },
 ]
 
 const emergeProgramdetail = [
     {
-      icon: confidential,
-      heading: 'Duartion.',
-      content:"6 Sessions 60 mins each.",
-    },
-    {
-        icon: confidential,
-        heading: 'Session.',
-        content:"1-on-1",
-    },
-    {
         icon: confidential,
         heading: 'Duartion.',
         content:"Scales of your Existence",
     },
+    {
+        icon: session,
+        heading: 'Session.',
+        content:"1-on-1",
+    },
+    {
+        icon: location,
+        heading: 'Location.',
+        content:"6 Sessions 60 mins each.",
+    },
+
     {   
-        icon: confidential2,
-        heading: 'Duartion.',
-        content:"Dissecting Your Countless Concerns",
+        icon: dollar,
+        heading: 'Pricing.',
+        content:"$ 300",
     },
     {   
         icon: confidential,
@@ -113,23 +135,23 @@ const transcendTimeline = [
 
 const LaunchPadtimeline = [
     {
-      icon: '',
+      icon: launchpadTimeline1,
       content:"Orient Yourself in \"The Present\" ",
     },
     {
-        icon: '',
+        icon:  launchpadTimeline2,
         content:"Your Life's Analyses",
     },
     {
-        icon: '',
+        icon: launchpadTimeline3,
         content:"Destination & Weaknesses",
     },
     {   
-        icon: '',
+        icon: launchpadTimeline4,
         content:"Past Failures & Other People",
     },
     {
-        icon: '',
+        icon: launchpadTimeline5,
         content:"Unlock the Future",
     },
 ]
@@ -139,25 +161,25 @@ const ProgramDetail = [
     {
         icon: launchpadLogo,
         title: 'LaunchPad',
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        content: "",
         url: 'https://tutorialwitmk.onrender.com/services/launchpad'
     },
     {
         icon: emerge,
         title: 'Emerge',
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        content: "",
         url: 'https://tutorialwitmk.onrender.com/services/emerge'
     },
     {
         icon: transcend,
         title: 'Transcend',
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        content: "",
         url: 'https://tutorialwitmk.onrender.com/services/transcend'
     },
     {
         icon: '' ,
         title: 'Own That Stage',
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        content: "",
         url: 'https://tutorialwitmk.onrender.com/services/ownthatstage'
     }
 ]

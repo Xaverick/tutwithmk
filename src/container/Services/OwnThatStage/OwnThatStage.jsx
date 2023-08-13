@@ -10,6 +10,8 @@ import stategy from '../../../assets/strategy.jpg'
 import header from '../../../assets/header_1.png'
 import patttern_1 from '../../../assets/pattern_1.png'
 
+import ownthatstagePhoto from '../../../assets/ownthatstagePhoto.png'
+
 const OwnThatStage = () => {
 
   return (
@@ -48,7 +50,7 @@ const OwnThatStage = () => {
             </div>
 
             <div  className='image'>
-                <img src={coach} alt="" />
+                <img src={ownthatstagePhoto} alt="" />
           </div>
         </div>
 

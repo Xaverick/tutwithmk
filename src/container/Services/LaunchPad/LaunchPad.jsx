@@ -7,6 +7,7 @@ import Banner from '../../../components/Banner/Banner'
 import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {LaunchPadtimeline, emergeProgramdetail} from '../../../Data'
 import launchpadLogo from '../../../assets/launchpadLogo.png'
+import launchpadPhoto from '../../../assets/launchpadPhoto.png'
 
 const LaunchPad = () => {
 
@@ -46,7 +47,7 @@ const LaunchPad = () => {
             </div>
 
             <div  className='image'>
-                <img src={coach} alt="" />
+                <img src={launchpadPhoto} alt="" />
             </div>
         </div>
 
@@ -93,7 +94,7 @@ const LaunchPad = () => {
                   </div>
                   <div className='timeline-innercontent'>
                     <div className='icon'>
-                      <AiOutlineHome />
+                      <img src={item.icon} alt="" />
                     </div>
                     <p>
                       {item.content}
@@ -138,7 +139,8 @@ const LaunchPad = () => {
 
                 <div className='card-header'>
                   <div className='icon'>
-                    <AiOutlineHome />
+                    <img src={item.icon} alt="" />
+       
                   </div>
               
                   <h1>{item.heading}</h1>

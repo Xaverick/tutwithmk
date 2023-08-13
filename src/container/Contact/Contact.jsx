@@ -7,7 +7,6 @@ import Banner from '../../components/Banner/Banner'
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components'
 
-const letters = ['1','2','3','4','5','6','7','8','9','0','+']
 
 const data = [
     {

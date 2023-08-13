@@ -10,6 +10,9 @@ import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import {emergeTimeline, coffeeProgramdetail} from '../../Data'
 import coffee from '../../assets/coffee-popup.gif'
+import dollar from '../../assets/icons/dollar.png'
+import session from '../../assets/icons/session.png'
+import confidential from '../../assets/icons/confidentiality.png';
 
 const CoffeWithMk = () => {
 
@@ -96,7 +99,7 @@ const CoffeWithMk = () => {
 
                 <div className='card-header'>
                   <div className='icon'>
-                    <SlPeople /> 
+                    <img src={session} alt="" />
                   </div>
               
                   <h1>Session</h1>
@@ -109,7 +112,7 @@ const CoffeWithMk = () => {
 
                 <div className='card-header'>
                   <div className='icon'>
-                    <BsCurrencyDollar />
+                    <img src={dollar} alt="" />
                   </div>
               
                   <h1>Pricing</h1>
@@ -122,7 +125,7 @@ const CoffeWithMk = () => {
 
                 <div className='card-header'>
                   <div className='icon'>
-                    <SiGnuprivacyguard /> 
+                    <img src={confidential} alt="" />
                   </div>
               
                   <h1>Confidentiality</h1>

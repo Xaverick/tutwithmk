@@ -8,6 +8,8 @@ import {transcendTimeline, emergeProgramdetail} from '../../../Data'
 import './Transcend.scss'
 import transcend from '../../../assets/transcend.png'
 
+import transcendPhoto from '../../../assets/transcendPhoto.png'
+
 const Transcend = () => {
 
   return (
@@ -52,7 +54,7 @@ const Transcend = () => {
             </div>
 
             <div  className='image'>
-                <img src={coach} alt="" />
+                <img src={transcendPhoto} alt="" />
             </div>
         </div>
 

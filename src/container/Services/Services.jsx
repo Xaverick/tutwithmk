@@ -38,6 +38,7 @@ const Services = () => {
           <h1 className='home-heading'>In This Technically Remerging Planet Facets Of Human Mind Needed Unlocking To Reach Future Goals. </h1>
           <h1 className='home-heading'>Formulas Were Sought After.</h1>
           <h1 className='home-heading'>An Equation - Balancing Science+Philosophy+Religion - Needed For  The Freedom Of You And Everyone Else. </h1>
+          <h1 className='home-heading'>I Got Trained By The Best In That Equation.</h1>
 
 
 
@@ -77,8 +78,8 @@ const Services = () => {
       <div id='detail' className='program-details'>        
         <div className='header'>
           <div className='header-left'>
-            <span>WHAT WE OFFER</span>
-            <h1>Scope Our Programs:</h1>
+            {/* <span>WHAT WE OFFER</span> */}
+            <h1>PROGRAMS:</h1>
           </div>
    
         </div>
@@ -90,10 +91,13 @@ const Services = () => {
             <div key = {index} id={item.title} className='card'>
 
               <div className='card-header'>
-                <div className='icon'>
-                  <img src={item.icon} alt="" />
-                </div>
-            
+
+                {/* {item.icon && ( */}
+                  <div className='icon'>
+                    <img src={item.icon} alt="" />
+                  </div>
+                {/* )} */}
+
                 <h1>{item.title}</h1>
               </div>
               <div className='card-content'>
@@ -115,8 +119,8 @@ const Services = () => {
       </div>
 
       <div className='multiple-media'>
-        <img className="sub-media-1" src={endofyou} alt="" />
-        <img className="sub-media-1 dimension" src={pressButton} alt="" />    
+        {/* <img className="sub-media-1" src={endofyou} alt="" />
+        <img className="sub-media-1 dimension" src={pressButton} alt="" />     */}
         <div className='quoates'>
           <h1 className='heading'>You ARE ALIVE BECAUSE YOU DARE!</h1>
         </div>  

@@ -6,6 +6,8 @@ import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import './Legacy.scss'
 import {legacyRoute} from '../../../Data'
 
+import legacyPhoto from '../../../assets/legacyPhoto.png'
+
 const Legacy= () => {
 
   return (
@@ -21,7 +23,7 @@ const Legacy= () => {
                 </div>
 
                 <div  className='image'>
-                    <img src={coach} alt="" />
+                    <img src={legacyPhoto} alt="" />
                 </div>
 
                 <div className='heading'>
