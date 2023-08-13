@@ -6,7 +6,7 @@ import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import './Legacy.scss'
 import {legacyRoute} from '../../../Data'
 
-import legacyPhoto from '../../../assets/legacyPhoto.png'
+import legacyPhoto from '../../../assets/legacyphoto.png'
 
 const Legacy= () => {
 
