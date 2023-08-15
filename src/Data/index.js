@@ -176,12 +176,12 @@ const ProgramDetail = [
         content: "",
         url: 'https://tutorialwitmk.onrender.com/services/transcend'
     },
-    {
-        icon: '' ,
-        title: 'Own That Stage',
-        content: "",
-        url: 'https://tutorialwitmk.onrender.com/services/ownthatstage'
-    }
+    // {
+    //     icon: '' ,
+    //     title: 'Own That Stage',
+    //     content: "",
+    //     url: 'https://tutorialwitmk.onrender.com/services/ownthatstage'
+    // }
 ]
 
 const legacyRoute = [

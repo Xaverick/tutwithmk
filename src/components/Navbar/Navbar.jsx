@@ -20,7 +20,7 @@ const Navbar = ({setIsopen2}) => {
         
         <ul className='app__navbar-links'>
           
-          <li><a href="/about">About MK</a></li>
+          <li><a href="/about">MK</a></li>
           <li><a href="/services" className='relative-position'>X-Factor</a></li>
           <li>
               <a className='relative-position nohover'>Get Trained <BiChevronDown /></a>
@@ -57,7 +57,7 @@ const Navbar = ({setIsopen2}) => {
                 <HiX className='navbar-icon' onClick={() => setToggle(false)} />
                 
                 <li><a href='/' onClick={() => setToggle(false)}> Home </a></li>
-                <li><a href='/about' onClick={() => setToggle(false)}> About MK </a></li> 
+                <li><a href='/about' onClick={() => setToggle(false)}> MK </a></li> 
                 <li><a href='/services' onClick={() => setToggle(false)}> X-Factor </a></li> 
                 <li>
                   <span>

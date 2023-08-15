@@ -30,11 +30,11 @@
         img{
             border-radius: 15px;
             width: 100%;
-            filter: grayscale(1);
+            // filter: grayscale(1);
 
-            &:hover{
-                filter: grayscale(0);
-            }
+            // &:hover{
+            //     filter: grayscale(0);
+            // }
         }
 
         @media screen and (max-width: 768px){

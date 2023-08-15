@@ -155,11 +155,11 @@
         img{
             border-radius: 15px;
             width: 100%;
-            filter: grayscale(1);
+            // filter: grayscale(1);
 
-            &:hover{
-                filter: grayscale(0);
-            }
+            // &:hover{
+            //     filter: grayscale(0);
+            // }
         }
 
         @media screen and (max-width: 768px){
@@ -265,6 +265,7 @@
     width: 85%;
     margin: 0 auto;
     margin-top: 4rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
