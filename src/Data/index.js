@@ -188,19 +188,19 @@ const legacyRoute = [
     {
         icon: launchpadLogo,
         title: 'LaunchPad',
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        content: ["Your Take off:", "Needs your own Launchpad." , "That's it!"],
         url: 'http://localhost:5173/services/launchpad'
     },
     {
         icon: emerge,
         title: 'Emerge',
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        content: ["You have been hiding.", "It's time You EMERGE!"],
         url: 'http://localhost:5173/services/emerge'
     },
     {
         icon: transcend,
         title: 'Transcend',
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi pariatur iste laudantium asperiores.",
+        content: ["Winners Perform Excellence." , "They are in their Orbit.", "It's time you command Yours!"],
         url: 'http://localhost:5173/services/transcend'
     },
 ]

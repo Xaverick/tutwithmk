@@ -75,7 +75,7 @@ const Services = () => {
 
 
 
-      <div id='detail' className='program-details'>        
+      <div id='detail' className='all-course-details'>        
         <div className='header'>
           <div className='header-left'>
             {/* <span>WHAT WE OFFER</span> */}

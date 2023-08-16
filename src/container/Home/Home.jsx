@@ -108,14 +108,26 @@ const Home = () => {
 
 
           <Typewriter  
-            className="subheading"   
+               
             options={{
-              strings: ["My Promise – \"Transformation.\" That's it! End of Story."],
+              strings: ["My Promise – \"Transformation.\" "],
               autoStart: true,
               loop: true,
               delay: 100,
             }}
           />
+
+          <div className='lastline'>
+          <Typewriter              
+            options={{
+              strings: ["That's it! End of Story. "],
+              autoStart: true,
+              loop: true,
+              delay: 100,
+            }}
+          />
+          </div>
+
 
 
         </div>

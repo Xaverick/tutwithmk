@@ -321,16 +321,23 @@
         text-align: center;
         font-family: var(--font-display);  
         width: 80%;
-        font-size: 1.9rem;
+        font-size: 2.5rem;
         font-weight: 600;
         color: var(--primary-color);
         padding-bottom: 1rem;
 
         margin-bottom: 2rem;
         @media screen and (max-width: 768px){
-            font-size: 2rem;   
+            font-size: 1.9rem;   
             width: 100%;
-            margin-bottom: 1rem;        
+            margin-bottom: 1rem;  
+            .last-line{
+                font-size: 1.5rem;
+            }      
+        }
+
+        .lastline{
+            font-size: 1.9rem;
         }
 
         .subheading{

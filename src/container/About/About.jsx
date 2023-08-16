@@ -104,7 +104,7 @@ const About = () => {
       <div id = 'quoate' className='about-course-feature'>
         <span className='heading'>
           <p>
-          “Knowledge has always been there - the conduit through which it is transferred was lost.” 
+          "The biggest insult I had in my life was when someone introduced me to someone and said, “MK is good.”"
           </p>
         </span>
         <p className='desc'>MK.</p>

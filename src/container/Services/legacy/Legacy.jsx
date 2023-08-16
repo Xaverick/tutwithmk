@@ -1,10 +1,10 @@
 import React , {useState,useEffect} from 'react'
-import coach from '../../../assets/coach-talking.jpg'
-import Testimonials from '../../../components/Testimonial/Testimonials'
 import Banner from '../../../components/Banner/Banner'
 import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import './Legacy.scss'
 import {legacyRoute} from '../../../Data'
+import greendotart from '../../../assets/greendotart.png'
+
 
 import legacyPhoto from '../../../assets/legacyphoto.png'
 
@@ -18,7 +18,7 @@ const Legacy= () => {
             <div className='mid-apply-section_image'>          
                 <div className='heading'>
                     <h1 className='ownthatstage-heading'>L e g a c y</h1>
-                    <p>Legends-create-Legacy</p>
+                    <p>It is our Most Advanced Program yet. The content of this Program is CONFIDENTIAL.</p>
                                 
                 </div>
 
@@ -26,36 +26,33 @@ const Legacy= () => {
                     <img src={legacyPhoto} alt="" />
                 </div>
 
-                <div className='heading'>
-                    <h1 className='ownthatstage-heading'>L e g a c y</h1>
-                    <p>L e g a c y  is our Most Advanced & most CONFIDENTIAL program yet.</p>                            
-                </div>
-
             </div>
         </div>
 
-        <div id = 'quoate' className='course-feature' style={{paddingTop:"2rem"}}>
-            <span className='heading'>
-                <p style={{color:"var(--text-hover)"}}>
-                “It is only available to those who complete the <br />ROUTE to L E G A C Y”
+        <div id = 'quoate' className='legacy_course-feature'>
+            <span className='hello-heading'>
+                <p>
+                “It is only available to those who have completed <br />LAUNCHPAD, EMERGE and TRANSCEND."
                 </p>
             </span>
-            <div className='four-dots'>
+
+            <img src={greendotart} alt="" />
+            {/* <div className='four-dots'>
                 <div className='dot'></div>
                 <div className='dot'></div>
                 <div className='dot'></div>
                 <div className='dot'></div>
-            </div>
+            </div> */}
 
         </div>        
 
 
-        <div id='detail' style={{margin: "2rem auto"}} className='program-details'>        
+        <div id='detail' style={{margin: "2rem auto"}} className='all-course-details'>        
             <div className='header'>
-            <div className='header-left'>
-                <h1>Route To Legacy</h1>
-            </div>
-    
+                <div className='header-left'>
+                    <h1>Route To Legacy</h1>
+                </div>
+        
             </div>
 
             <div className='separator'></div>
@@ -72,7 +69,10 @@ const Legacy= () => {
                     <h1>{item.title}</h1>
                 </div>
                 <div className='card-content'>
-                    <p>{item.content}</p>
+                    {item.content.map((item, index) => (
+                        <p key={index}>{item}</p>
+                    ))}
+                    
                     <a href={item.url}>Know More.</a>
                 </div>
                 

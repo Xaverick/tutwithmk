@@ -101,7 +101,10 @@ const Contact = ({label}) => {
   return (
     <>
 
-    <Banner name='Contact Us' subtitle=""/>  
+    <Banner name='Connect' subtitle=""/>  
+    <div className="home-course-feature">
+        <p className='desc'>"Just Interested" <br />Don't Bother <br /> <br /> Ready to do Whatever it Takes... <br />Get in Touch.</p>
+    </div>
     <div className='faq-background'>
         <div className='image-overlay'>    
             <div className='contact-question-and-faq'>
@@ -158,8 +161,8 @@ const Contact = ({label}) => {
 
 
             <div className='faq-section'>
-                <p className='para-heading'>FAQ</p>
-                <h1>Frequently Ask <br /> Qustions</h1>
+                {/* <p className='para-heading'>FAQ</p> */}
+                <h1>Frequently Asked <br /> Questions</h1>
                 <p>Must go through the below Q & A’s</p>
                 <p>before applying for {label} </p>
                 <div className='faq'>

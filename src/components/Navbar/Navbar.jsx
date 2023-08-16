@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './Navbar.scss'
 import logo from '../../assets/logo.png'
+import logo2 from '../../assets/logo2.png'
 import { AiOutlineMenu} from 'react-icons/ai'
 import { HiX } from 'react-icons/hi'
 import {BiChevronDown,BiChevronUp} from 'react-icons/bi'
@@ -15,7 +16,7 @@ const Navbar = ({setIsopen2}) => {
     <nav className='app__flex start'>
       <div className='app__navbar app__flex'>
         <div className='app__navbarLogo'>
-          <a href="/"><img src={logo} alt="" /> </a>
+          <a href="/"><img src={logo2} alt="" /> </a>
         </div>
         
         <ul className='app__navbar-links'>
@@ -36,7 +37,7 @@ const Navbar = ({setIsopen2}) => {
 
 
           </li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/contact">Connect</a></li>
           <li><a href="/blogs">Blogs</a></li>
         </ul>
 
@@ -96,7 +97,7 @@ const Navbar = ({setIsopen2}) => {
 
                 
                 </li>
-                <li><a href='/contact' onClick={() => setToggle(false)}> Contact </a></li>
+                <li><a href='/contact' onClick={() => setToggle(false)}>Connect</a></li>
                 <li><a href='/blogs' onClick={() => setToggle(false)}> Blogs </a></li>
  
             </ul>

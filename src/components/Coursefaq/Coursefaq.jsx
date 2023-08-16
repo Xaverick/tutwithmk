@@ -141,7 +141,7 @@ const Coursefaq = ({label}) => {
                     </form>
 
                     <div className='apply-here'>
-                    <AiOutlineHome />
+                    {/* <AiOutlineHome /> */}
                     <p>Apply here</p>
                     </div>
                 </div>
@@ -153,8 +153,8 @@ const Coursefaq = ({label}) => {
 
 
             <div className='faq-section'>
-                <p className='para-heading'>FAQ</p>
-                <h1>Frequently Ask <br /> Qustions</h1>
+                {/* <p className='para-heading'>FAQ</p> */}
+                <h1>Frequently Asked <br /> Questions</h1>
                 <p>Must go through the below Q & A’s</p>
                 <p>before applying for {label} </p>
                 <div className='faq'>
