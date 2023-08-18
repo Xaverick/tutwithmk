@@ -10,35 +10,40 @@ import styled from 'styled-components'
 
 const data = [
     {
-        title: "Lorem ipsum dolor sit amet,",
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-          ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-          In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-          Fusce sed commodo purus, at tempus turpis.`,
+        title: "Define Life?",
+        content: `Life: “An Everyday pathetic drag of mundane rituals with a fitful struggle to keep self - Positive.” MK.`,
         open: true,
         move:true
     },
     {
-        title: "Nunc maximus, magna at ultricies elementum",
-        content:
-            "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+        title: "Why do I always get Hurt?",
+        content: <div><p>Your Destiny Revealed: Since childhood you were hurt, you still get hurt and you’ll continue to get hurt."</p> <p>Accept it or “die”!</p> <p>Now if you can accept it… here is something for you:</p> <p>“My friend… you’ve always been too much & that too much has always hurt you so much!!!” MK."</p> </div>,
         open: false,
         move:false
     
     },
     {
-        title: "Curabitur laoreet, mauris vel blandit fringilla",
-        content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-        Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-        Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-        Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+        title: "What will change after Personal Transformation Sessions?",
+        content: <div>
+            <p>Well, ask anyone what doesn't change after these sessions. Everything Changes! Clients come to me saying they want to get rid of this or that or how they wish they could be like they were earlier, Happy, Enjoying & Successful.</p>
+            <p>I'll be Honest – It's Untrue! Actually what they want deep down is A Better Version of their earlier Self – which they had been, when they were at their Peak in Life! </p>
+            <p>Now, because they didn't know how to go to Level Next – they stumbled down & down & got themselves in all those Mental & Physical Difficulties!</p>
+            <p>Let me be point blank, My Clients Achieve Exactly This: A Completely Brand New – Superior – Totally Revamped(Changed) Version of their old self.</p>
+            <p>Meet Your Version X.</p>
+        </div>,
         open: false,
         move:false
       
     },
     {
-        title: "What is the package version",
-        content: <p>current version is 1.2.1</p>,
+        title: "Why Me?",
+        content: <div>
+            <p>Why not you? You’re arrogant, self-centric, 1000% self-absorbed, High-Rated Victim & the list goes on… but still you have Always wanted to Help others & never could Really hate anyone!</p>
+            <p>Can you prove me wrong? </p>
+            <p>Now, with yourself all that was wrong, ever was wrong or to be conclusive- Missing in your life, not from yesterday but since your childhood is: Training!!!</p>
+            <p>Your Fact Correction: You’re not a soldier. You are a Warrior & to Train A Warrior- Hmm… A very few people can do so! </p>
+            <p>Welcome To Your Clan - Your Training Begins.</p>
+        </div>,
         open: false,
         move:false
     },
@@ -192,7 +197,7 @@ const Contact = ({label}) => {
                         <AnimatePresence>
                         {item.open && (
                         
-                                <motion.div
+                            <motion.div
                                 className="answer"
                                 key="content"
                                 initial="collapsed"
