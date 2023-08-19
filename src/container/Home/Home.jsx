@@ -10,8 +10,8 @@ import quoate2dp from '../../assets/quoate2dp.png'
 import welcomegif from '../../assets/welcomegif.gif'
 import welcomepng from '../../assets/welcomepng.png'
 import dotart from '../../assets/dotart.png'
-import bookcover1 from "../../assets/bookcover1.JPEG"
-import bookcover2 from "../../assets/bookcover2.JPEG"
+import bookcover1 from "../../assets/bookcover1.png"
+import bookcover2 from "../../assets/bookcover2.png"
 
 
 const Home = () => {
