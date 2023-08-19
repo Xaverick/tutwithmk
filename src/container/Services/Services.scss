@@ -212,9 +212,9 @@
         margin: 2rem 0;
         #LaunchPad {
             .icon{                
-                width: 70px;
+                width: 80px;
                 img{
-                    width: 70px;
+                    width: 80px;
                 }
             }
         }
@@ -238,7 +238,7 @@
             border-radius: 15px;
             box-shadow: 0 0 10px rgba(0,0,0,0.2);
             transition: all 0.3s ease-in-out;
-            min-height: fit-content;
+            justify-content: space-around;
             &:hover{
                 transform: scale(1.02);
                 border: 1px solid var(--text-hover);

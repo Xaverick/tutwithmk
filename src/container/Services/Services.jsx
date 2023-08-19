@@ -2,7 +2,7 @@ import React , {useState,useEffect} from 'react'
 import Testimonials from '../../components/Testimonial/Testimonials'
 import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
-import {ProgramDetail} from '../../Data'
+import {legacyRoute} from '../../Data'
 import './Services.scss'
 import secondMedia from '../../assets/youTheYou.jpg'
 import endofyou from "../../assets/endOfYou.gif"
@@ -76,42 +76,42 @@ const Services = () => {
 
 
       <div id='detail' className='all-course-details'>        
-        <div className='header'>
-          <div className='header-left'>
-            {/* <span>WHAT WE OFFER</span> */}
-            <h1>PROGRAMS:</h1>
-          </div>
-   
-        </div>
-
-        <div className='separator'></div>
-
-        <div className='detail-content'>
-          {ProgramDetail.map((item, index) => (
-            <div key = {index} id={item.title} className='card'>
-
-              <div className='card-header'>
-
-                {/* {item.icon && ( */}
-                  <div className='icon'>
-                    <img src={item.icon} alt="" />
-                  </div>
-                {/* )} */}
-
-                <h1>{item.title}</h1>
-              </div>
-              <div className='card-content'>
-                <p>{item.content}</p>
-                <a href={item.url}>Know More</a>
-              </div>
-              
+            <div className='header'>
+                <div className='header-left'>
+                    <h1>THE ROUTE TO LEGACY</h1>
+                </div>
+        
             </div>
 
-          ))}          
+            <div className='separator'></div>
 
-        </div>       
+            <div className='detail-content'>
+            {legacyRoute.map((item, index) => (
+                <div key = {index} id={item.title} className='card'>
 
-      </div>
+                <div className='card-header'>
+                    <div className='icon'>
+                    <img src={item.icon} alt="" />
+                    </div>
+                
+                    <h1>{item.title}</h1>
+                </div>
+                <div className='card-content'>
+                    {item.content.map((item, index) => (
+                        <p key={index}>{item}</p>
+                    ))}
+                    
+                    <a href={item.url}>Know More.</a>
+                </div>
+                
+                </div>
+
+            ))}          
+
+            </div>       
+
+        </div>
+
       
       <div className="second-media">
         <img src={secondMedia} alt="" />
@@ -140,7 +140,7 @@ const Services = () => {
 
 
 
-      <Testimonials name="Our Programs"/>
+      {/* <Testimonials name="Our Programs"/> */}
       <Coursefaq name="Our Programs"/>
     
   

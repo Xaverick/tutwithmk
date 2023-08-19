@@ -3,8 +3,9 @@ import './Footer.scss'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FaInstagram, FaYoutube,FaFacebookF,FaLinkedinIn} from 'react-icons/fa'
 import {AiOutlineLinkedin,AiFillLinkedin} from 'react-icons/ai'
-import logo from '../../assets/logo.png'
+import footerLogo from '../../assets/footerLogo.png'
 import styled from 'styled-components'
+
 const Footer = () => {
   return (
     <div className='app__footer'>
@@ -12,8 +13,8 @@ const Footer = () => {
       <div className="upper-footer">
 
         <div style={{flex:"1.5"}} className="section">
-          <img src={logo} alt="" />
-          <p className='quoate'>We  Move - The Stars Align.</p>
+          <img src={footerLogo} alt="" />
+          {/* <p className='quoate'>We  Move - The Stars Align.</p> */}
         </div>
 
         <div style={{display: "flex", gap:"1rem"}}>
@@ -21,16 +22,19 @@ const Footer = () => {
             <h3>Pages</h3>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/about">X-Factor</a></li>
-              <li><a href="/contact">Contact</a></li>
-              <li><a href="/faq">FAQ</a></li>
+              <li><a href="/about">MK</a></li>
+              <li><a href="/services">X-Factor</a></li>
+              <li><a href="/contact">Connect</a></li>
+              <li><a href="/contact">FAQ</a></li>
+              <li><a href="/blogs">Blogs</a></li>
             </ul>
             
           </div>
 
           <div className="section">
-            <h3>Get Trained</h3>
+            <h3>Programs</h3>
             <ul>
+              <li><a href="/services/coffewithmk">Koffee with MK </a></li>
               <li><a href="/services/launchpad">LaunchPad</a></li>
               <li><a href="/services/emerge">Emerge</a></li>
               <li><a href="/services/transcend">Transcend</a></li>
@@ -42,7 +46,7 @@ const Footer = () => {
 
 
         <div className="section"> 
-          <h3>Contact</h3>
+          {/* <h3>Contact</h3> */}
           <ul className='space'>
             <li className='list'>
               <div className='icon'>

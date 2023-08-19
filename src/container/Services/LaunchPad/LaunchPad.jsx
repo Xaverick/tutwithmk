@@ -164,7 +164,7 @@ const LaunchPad = () => {
 
       </div> 
       
-      <Testimonials name="LaunchPad" />
+      {/* <Testimonials name="LaunchPad" /> */}
       <Coursefaq name="LaunchPad"/>
     
   

@@ -168,7 +168,7 @@ const Transcend = () => {
 
       </div>  
       
-      <Testimonials name="T r a n s c e n d"/>
+      {/* <Testimonials name="T r a n s c e n d"/> */}
       <Coursefaq name="Transcend"/>
     
   

@@ -3,18 +3,20 @@ import Testimonials from '../../components/Testimonial/Testimonials'
 import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import './About.scss'
-import MK1 from "../../assets/MK1.jpg"
-import MK2 from "../../assets/MK2.jpg"
-import MK3 from "../../assets/MK3.jpg"
-import wallpaper from "../../assets/xfactor.jpeg"
+import aboutbanner from "../../assets/aboutbanner.jpg"
+import legacyPhoto from '../../assets/legacyphoto.png'
 import dp from "../../assets/dp.gif"
+
 
 const About = () => {
 
   return (
     <div className='app__container'>
 
-      <Banner name='About MK' subtitle="R I S E" gold={true} />
+      <div className='aboutbanner'>
+        <img src={aboutbanner} alt="" />
+      </div>
+      {/* <Banner name='About MK' subtitle="R I S E" gold={true} /> */}
 
 
       <div className='description-container'>
@@ -30,12 +32,12 @@ const About = () => {
             <div className='content'>
               <p> <b> Since 2002 I have been working with: </b> Actors, Actress, Celebrity Coaches, Singers, 
               Business Owners & Their Families,<br />
-              MINISTERS & THEIR FAMILIES, IAS & IPS officers, Fashion Brand Owners (Indian & UK)
+              Ministers & Their Families, IAS & IPS officers, Fashion Brand Owners (Indian & UK)
               Authors, MDs, CEOs, etc. <br /> <br />
               <b>Under Persend Social Responsibility: </b> Various NGOs, Govt. Agencies, Students & Teachers, Old age Homes
 
               & many
-              Indian Ambassadors & many International Clients from U.S., UK, TAIWAN, IRAN, GERMANY, ITALY, etc.
+              Indian Ambassadors & many International Clients from U.S., UK, Taiwan, Iran, Germany, Italy, etc.
               </p>
                           <p> <b>Around the Globe people have known me through Word-of-Mouth. </b> 
 
@@ -97,7 +99,11 @@ const About = () => {
         <a href="" className="download">Download Wallpaper</a>
       </div> */}
       
-
+      <div className='legacygraphic'>
+        <div  className='image'>
+            <img src={legacyPhoto} alt="" />
+        </div>
+      </div>
 
 
 

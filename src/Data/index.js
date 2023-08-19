@@ -194,7 +194,7 @@ const legacyRoute = [
     {
         icon: emerge,
         title: 'Emerge',
-        content: ["You have been hiding.", "It's time You EMERGE!"],
+        content: ["You have been hiding.", "It's time You EMERGE!","","","","",""],
         url: 'http://localhost:5173/services/emerge'
     },
     {

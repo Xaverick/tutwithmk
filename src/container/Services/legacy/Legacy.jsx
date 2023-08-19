@@ -50,7 +50,7 @@ const Legacy= () => {
         <div id='detail' style={{margin: "2rem auto"}} className='all-course-details'>        
             <div className='header'>
                 <div className='header-left'>
-                    <h1>Route To Legacy</h1>
+                    <h1>THE ROUTE TO LEGACY</h1>
                 </div>
         
             </div>

@@ -163,7 +163,7 @@ const OwnThatStage = () => {
 
   
         
-        <Testimonials name="Own That Stage"/>
+        {/* <Testimonials name="Own That Stage"/> */}
         <Coursefaq name="Own That Stage"/>
       
     

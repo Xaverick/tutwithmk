@@ -454,7 +454,7 @@
 
 .program-details{
     width: 75%;
-    margin: 0 auto;
+    margin: 2rem auto;
     margin-top: 8rem;
     display: flex;
     flex-direction: column;
@@ -588,7 +588,8 @@
                         height: 50px;
                         border-radius: 50%;
                         background-color: var(--text-hover);
-                        img{                            
+                        img{          
+                            width: 100%;                  
                             position: absolute;
                             bottom: -80%;
                             left: 70%;
