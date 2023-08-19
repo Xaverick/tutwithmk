@@ -3,7 +3,7 @@ import Testimonials from '../../components/Testimonial/Testimonials'
 import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import './About.scss'
-import aboutbanner from "../../assets/aboutbanner.jpg"
+import aboutbanner from "../../assets/aboutbanner.png"
 import legacyPhoto from '../../assets/legacyphoto.png'
 import dp from "../../assets/dp.gif"
 
