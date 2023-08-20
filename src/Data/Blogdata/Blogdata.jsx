@@ -17,7 +17,13 @@ const BlogData = [
         img: companyOfYou,
         name:'John Doe',
         date:'12/12/2020',
-        content:["Fact: This is an Action oriented Planet.", `I want to add one word to it – "Continuous".`, "That's It! You have it now. The purpose of this article is done with "]
+        content:
+            <div>
+                <p>Fact: This is an Action oriented Planet.</p>
+                <p>I want to add one word to it – "Continuous".</p>
+                <p>That's It! You have it now. The purpose of this article is done with.</p>
+
+            </div>
     },
     {
         id:2,
