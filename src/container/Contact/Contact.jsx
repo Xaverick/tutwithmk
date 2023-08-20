@@ -10,14 +10,14 @@ import styled from 'styled-components'
 
 const data = [
     {
-        title: "Define Life?",
-        content: `Life: “An Everyday pathetic drag of mundane rituals with a fitful struggle to keep self - Positive.” MK.`,
+        title: `Define "Life"?`,
+        content: `"Life": “An Everyday pathetic drag of mundane rituals with a fitful struggle to keep self - Positive.” MK.`,
         open: true,
         move:true
     },
     {
         title: "Why do I always get Hurt?",
-        content: <div><p>Your Destiny Revealed: Since childhood you were hurt, you still get hurt and you’ll continue to get hurt."</p> <p>Accept it or “die”!</p> <p>Now if you can accept it… here is something for you:</p> <p>“My friend… you’ve always been too much & that too much has always hurt you so much!!!” MK."</p> </div>,
+        content: <div><p>Your Destiny Revealed: Since childhood you were hurt; you still get hurt and you’ll continue to get hurt.</p> <p>Accept it or “die”!</p> <p>Now if you can accept it… here is something for you:</p> <p>“My friend… you’ve always been too much & that too much has always hurt you so much!!!” MK.</p> </div>,
         open: false,
         move:false
     
@@ -25,7 +25,7 @@ const data = [
     {
         title: "What will change after Personal Transformation Sessions?",
         content: <div>
-            <p>Well, ask anyone what doesn't change after these sessions. Everything Changes! Clients come to me saying they want to get rid of this or that or how they wish they could be like they were earlier, Happy, Enjoying & Successful.</p>
+            <p>Well, ask anyone what doesn't change after these sessions. Everything Changes! <br />Clients come to me saying they want to get rid of this or that or how they wish they could be like they were earlier, Happy, Enjoying & Successful.</p>
             <p>I'll be Honest – It's Untrue! Actually what they want deep down is A Better Version of their earlier Self – which they had been, when they were at their Peak in Life! </p>
             <p>Now, because they didn't know how to go to Level Next – they stumbled down & down & got themselves in all those Mental & Physical Difficulties!</p>
             <p>Let me be point blank, My Clients Achieve Exactly This: A Completely Brand New – Superior – Totally Revamped(Changed) Version of their old self.</p>
@@ -43,10 +43,25 @@ const data = [
             <p>Now, with yourself all that was wrong, ever was wrong or to be conclusive- Missing in your life, not from yesterday but since your childhood is: Training!!!</p>
             <p>Your Fact Correction: You’re not a soldier. You are a Warrior & to Train A Warrior- Hmm… A very few people can do so! </p>
             <p>Welcome To Your Clan - Your Training Begins.</p>
+            <a href="/services/launchpad">Click Here</a>
         </div>,
         open: false,
         move:false
     },
+    {
+        title: "What! Why Personal Transformation? Why Not?",
+        content: <div>
+            <p>Any & all of your answers (& examine that) are there 'coz you were deprived of the true essence of the word – Transformation!</p>
+            <p>Notice, we're not talking here about "Improvement". It's very slow, time consuming & a boring thing! Atleast I feel that way & all the people coming to me feel the same.</p>
+            <p>Transformation is a different, all together, Frequency! It's Intense, Powerful, Thrilling with 280+ on highway or like watching 12-D movie!!!</p>
+            <p>If you're reading these words: You've lived Transformation! (I won't believe you for a single sec. if you say "No".)</p>
+            <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "Coffee with MK".</p>
+            <a href="/services/launchpad">Click Here</a>
+        </div>,
+        open: false,
+        move:false
+    },
+
 ];
 
 
@@ -107,7 +122,7 @@ const Contact = ({label}) => {
     <>
 
     <Banner name='Connect' subtitle=""/>  
-    <div className="home-course-feature">
+    <div className="contact-heading">
         <p className='desc'>"Just Interested" <br />Don't Bother <br /> <br /> Ready to do Whatever it Takes... <br />Get in Touch.</p>
     </div>
     <div className='faq-background'>
@@ -168,8 +183,8 @@ const Contact = ({label}) => {
             <div className='faq-section'>
                 {/* <p className='para-heading'>FAQ</p> */}
                 <h1>Frequently Asked <br /> Questions</h1>
-                <p>Must go through the below Q & A’s</p>
-                <p>before applying for {label} </p>
+                <p>You Asked I Replied - </p>
+                <p> Instant Power Shots <br /> (Take it whenever you feel low) </p>
                 <div className='faq'>
                 {liveData.map((item, index) => (
             

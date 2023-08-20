@@ -12,9 +12,9 @@ const Footer = () => {
       
       <div className="upper-footer">
 
-        <div style={{flex:"1.5"}} className="section">
+        <div style={{flex:"1.5"}} className="section ">
           <img src={footerLogo} alt="" />
-          {/* <p className='quoate'>We  Move - The Stars Align.</p> */}
+
         </div>
 
         <div style={{display: "flex", gap:"1rem"}}>
@@ -46,7 +46,7 @@ const Footer = () => {
 
 
         <div className="section"> 
-          {/* <h3>Contact</h3> */}
+          
           <ul className='space'>
             <li className='list'>
               <div className='icon'>
@@ -59,8 +59,8 @@ const Footer = () => {
             </li>
 
             <li >
-              <div style={{display:"flex", flexDirection:"row", gap:"1rem"}}>
-                <li className='list'><a href="https://youtube.com/@transformwithMK" target="_blank" rel="noreferrer"><div className='icon'><FaYoutube /></div></a></li>
+              <div style={{display:"flex", flexDirection:"row", gap:"1rem", alignItems:"end"}}>
+                <li className='list' ><a href="https://youtube.com/@transformwithMK" target="_blank" rel="noreferrer"><div className='icon'><FaYoutube /></div></a></li>
                 <li className='list'><a href="https://www.linkedin.com/in/coachmk" target="_blank" rel="noreferrer"><div className='icon'><FaLinkedinIn /></div></a></li>
                 <li className='list'><a href="https://instagram.com/transformwithmk" target="_blank" rel="noreferrer"><div className='icon'><FaInstagram /></div></a></li>
                 <li className='list'><a href="https://www.facebook.com/transformwithMK?mibextid=ZbWKwL" target="_blank" rel="noreferrer"><div className='icon'><FaFacebookF /></div></a></li>

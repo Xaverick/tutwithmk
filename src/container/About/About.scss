@@ -139,8 +139,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
     img{
-        width: 98.9vw;
+        width: 100%;
     }
     @media screen and (max-width: 768px) {
         img{
