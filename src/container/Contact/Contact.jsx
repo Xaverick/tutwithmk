@@ -25,12 +25,12 @@ const data = [
     {
         title: "What will change after Personal Transformation Sessions?",
         content: <div>
-            <p>Well, ask anyone what doesn't change after these sessions. Everything Changes! <br />Clients come to me saying they want to get rid of this or that or how they wish they could be like they were earlier, Happy, Enjoying & Successful.</p>
-            <p>I'll be Honest – It's Untrue! Actually what they want deep down is A Better Version of their earlier Self – which they had been, when they were at their Peak in Life! </p>
-            <p>Now, because they didn't know how to go to Level Next – they stumbled down & down & got themselves in all those Mental & Physical Difficulties!</p>
-            <p>Let me be point blank, My Clients Achieve Exactly This: A Completely Brand New – Superior – Totally Revamped(Changed) Version of their old self.</p>
-            <p>Meet Your Version X.</p>
-        </div>,
+                <p>Well, ask anyone what doesn't change after these sessions. Everything Changes! <br />Clients come to me saying they want to get rid of this or that or how they wish they could be like they were earlier, Happy, Enjoying & Successful.</p>
+                <p>I'll be Honest – It's Untrue! Actually what they want deep down is A Better Version of their earlier Self – which they had been, when they were at their Peak in Life! </p>
+                <p>Now, because they didn't know how to go to Level Next – they stumbled down & down & got themselves in all those Mental & Physical Difficulties!</p>
+                <p>Let me be point blank, My Clients Achieve Exactly This: A Completely Brand New – Superior – Totally Revamped(Changed) Version of their old self.</p>
+                <p>Meet Your Version X.</p>
+            </div>,
         open: false,
         move:false
       
@@ -38,26 +38,26 @@ const data = [
     {
         title: "Why Me?",
         content: <div>
-            <p>Why not you? You’re arrogant, self-centric, 1000% self-absorbed, High-Rated Victim & the list goes on… but still you have Always wanted to Help others & never could Really hate anyone!</p>
-            <p>Can you prove me wrong? </p>
-            <p>Now, with yourself all that was wrong, ever was wrong or to be conclusive- Missing in your life, not from yesterday but since your childhood is: Training!!!</p>
-            <p>Your Fact Correction: You’re not a soldier. You are a Warrior & to Train A Warrior- Hmm… A very few people can do so! </p>
-            <p>Welcome To Your Clan - Your Training Begins.</p>
-            <a href="/services/launchpad">Click Here</a>
-        </div>,
+                <p>Why not you? You’re arrogant, self-centric, 1000% self-absorbed, High-Rated Victim & the list goes on… but still you have Always wanted to Help others & never could Really hate anyone!</p>
+                <p>Can you prove me wrong? </p>
+                <p>Now, with yourself all that was wrong, ever was wrong or to be conclusive- Missing in your life, not from yesterday but since your childhood is: Training!!!</p>
+                <p>Your Fact Correction: You’re not a soldier. You are a Warrior & to Train A Warrior- Hmm… A very few people can do so! </p>
+                <p>Welcome To Your Clan - Your Training Begins.</p>
+                <a href="/services/launchpad">Click Here</a>
+            </div>,
         open: false,
         move:false
     },
     {
         title: "What! Why Personal Transformation? Why Not?",
         content: <div>
-            <p>Any & all of your answers (& examine that) are there 'coz you were deprived of the true essence of the word – Transformation!</p>
-            <p>Notice, we're not talking here about "Improvement". It's very slow, time consuming & a boring thing! Atleast I feel that way & all the people coming to me feel the same.</p>
-            <p>Transformation is a different, all together, Frequency! It's Intense, Powerful, Thrilling with 280+ on highway or like watching 12-D movie!!!</p>
-            <p>If you're reading these words: You've lived Transformation! (I won't believe you for a single sec. if you say "No".)</p>
-            <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "Coffee with MK".</p>
-            <a href="/services/launchpad">Click Here</a>
-        </div>,
+                <p>Any & all of your answers (& examine that) are there 'coz you were deprived of the true essence of the word – Transformation!</p>
+                <p>Notice, we're not talking here about "Improvement". It's very slow, time consuming & a boring thing! Atleast I feel that way & all the people coming to me feel the same.</p>
+                <p>Transformation is a different, all together, Frequency! It's Intense, Powerful, Thrilling with 280+ on highway or like watching 12-D movie!!!</p>
+                <p>If you're reading these words: You've lived Transformation! (I won't believe you for a single sec. if you say "No".)</p>
+                <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "Coffee with MK".</p>
+                <a href="/services/launchpad">Click Here</a>
+            </div>,
         open: false,
         move:false
     },

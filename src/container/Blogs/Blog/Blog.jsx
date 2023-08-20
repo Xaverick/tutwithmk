@@ -63,7 +63,11 @@ const Blog = () => {
         <div className='blog__content'>
           <div className='content-left'>
             <img src={data.img} alt="" />
-            <p>{data.content}</p>
+            {data.content}   
+      
+            {data.link && (
+              <a href={data.link}>Click Here</a>
+            )}
           </div>
 
           <div className='content-right'>
