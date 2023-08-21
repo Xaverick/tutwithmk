@@ -2,7 +2,9 @@ import { dividerClasses } from '@mui/material';
 import blogsimage from '../../assets/blogsimgae.jpg'
 import companyOfYou from '../../assets/companyOfYou.jpg'
 import strategy from  '../../assets/strategy.jpg'
-
+import blog6 from '../../assets/blogPhoto/blog6.png'
+import blog8 from '../../assets/blogPhoto/blog8.png'
+import blog9 from '../../assets/blogPhoto/blog9.png'
 
 
 
@@ -18,7 +20,7 @@ const BlogData = [
         name:'John Doe',
         date:'12/12/2020',
         content:
-            <div>
+            <div className='information'>
                 <p>Fact: This is an Action oriented Planet.</p>
                 <p>I want to add one word to it – "Continuous".</p>
                 <p>That's It! You have it now. The purpose of this article is done with.</p>
@@ -138,7 +140,206 @@ const BlogData = [
             
             </div>
            
-    }
+    },
+    {
+        id:6,  
+        title:'Your Depression Relief — Temporary or Permanent?',
+        img: blog6,
+        name:'John Doe',
+        date:'12/12/2020',
+        content: 
+            <div className='information'>
+                <p>Tough, Uncertain, Changing Times -needs- Practical, Certain, Stable Grounds! <br /></p>
+                <h2>Your Transformation only via. Your Performance 2.0</h2>
+                <p>Why? If you think lockdown Affected people — because they were badly affected economically, only — then you’ve no idea what Bad is!</p>
+                <p>It has sucked the Positive Living Energy of people down into the ground & many got buried in that ground.</p>
+                <p>Known Consequences: Sucide, Depression, A decline in all kind of words that are prefixed with “Self-” like Self-confidence, Self-Trust etc. Fear, Anger, Anxiety, Arguments, Physical Abuses, Helplessness, Being an effect, Introversion, Thinking-Thinking, laziness, slowness of mind have been seen commonly around.</p>
+                <p>Temporary Relief: Rescue is to keep yourself busy, do other works & remain distracted and away from “negativity”. Seems fair to me! Now, let’s see the real picture — for some people it worked for a week and for some a month & then the ship started sinking again.</p>
+                <p>Now, has distraction been a real solution(which never is by the way) then at least people who were doing that would have been rescued for good. Isn’t it? But after sometime some people realized that basically this is not an individualistic situation — this is not their fault if they feel the earlier mentioned symptoms even after keeping themselves busy for a week or a month!</p>
+                <p> <b>Mass Impact: </b>Understand that it’s happening at the mass level. That’s why for a week/month a person can distract himself but the collective impact gets him — the moment he stops the activity he has kept himself busy with! You must have seen it too.</p>
+                <p> <b>Fact: </b> We’re not a machine who can be switched On and kept busy 24/7. As the overwhelm is in the environment & not in your head to begin with, it’s waiting for us to Stop being busy so it can get us and bring us under its shadow. On some the impact is more & on some it’s less but, but quietly it’s growing, growing continuously & making people psychologically weak.</p>
+                <p><b>Solution:</b> Truth!</p>
+                <p>Have you heard this: “Truth sets a person free.”</p>
+                <p>Now is the needful time, you Find it… Else, the game might be Over for you because the people who know the Truth, only they will emerge Ruling & Winning!</p>
+                <p>Where to find Truth? Ages old question & I give you the ages old answer: If all the Peace you’ll ever find lies in You… then that can not be far from — All the Truths you’ll ever find lies in You Too!</p>
+                <p>So, What Transforms You?</p>
+                <p> <b>Answer: </b>Your Truth! Not mine or some wise man’s truth — Your Truth!</p>
+                <p><b>How?:</b> There is an Organized System a Technology to get the person find his own Truths & I’ve been doing that from past 18yrs uninterrupted. </p>
+                <p>The old world of Quantity is fading out rapidly & Quality is emerging!</p>
+                <p>Therefore You & Your Performance 2.0 is the prerequisite(mandatory) to be Back as a Player. Else, without your knowing & without giving you any recovery time you’ll slide out of the playing field. Some of you may think it’s imaginary or philosophical… My intention is not to make you feel less about your capabilities in anyways, But time has changed & will change further and if you keep doing the same things you will not get changed results, or will you? Version 1.0 of “You” needs upgrading Now!</p>
+                <p><b>Success:</b> Even I had to Transform myself so that I don’t fall into the whirlpool. After emerging out with 100% Success, I’ve started to lift others out. I’m glad I can do that without imposing my own knowledge or someone else’s experience… And at the same time, Train the person find his/her own Truth because that’s the only way & the only Truth that will set him/her free.</p>
+                <p><b>Transformation is A Tough Game but Results are:</b></p>
+                <p>That’s Exactly What I Deliver 🙏🏻</p>
+                <p><b>Contact:</b> You can contact my team at the following email with your details and any queries.</p>
+                <p>All The Best!</p>
+
+            
+            
+            </div>
+           
+    },
+    {
+        id:7,  
+        title:'What is the Single Greatest Source of UnHappiness & Failures in Life ?',
+        img: blogsimage,
+        name:'John Doe',
+        date:'12/12/2020',
+        content: 
+            <div className='information'>
+                <h2>The Virus – "Others". </h2>
+                <p>A Truth behind your Stagnation, Decline & Everlasting Unhappiness... </p>
+                <p>It was all good & great maybe till you were 2, 5 or 7yrs old. And, then from nowhere a virus enters your Mind called — " Othersss...". </p>
+                <p>In this technically Re-Emerging Planet; When your phone or system hangs...                                      It stops working, isn't it? </p>
+                <p>Now, In the same way when your Mind hangs it stops giving you the right answers!             </p>
+                <p>Result: You feel confused & frustrated. You cry, get angry, feel scared... </p>
+                <p>In total as a being you feel helpless & hopeless! </p>
+                <p>Now the Infinite question is – Who do you expect to change that in you! <br /> That's the infinite question! Who do, you expect to change that in You. </p>
+                <p>Who?</p>
+                <p> Living with emotional & mental pain & trauma, Blame & Hate for others or for self…</p>
+                <p> In other words — These Comforts...... It Viciously Decorates your mind & forces it to give you a completely Non-Survival Answer that you've been living with for long i.e : "OTHERSss..". </p>
+                <p> Why? Because if "Others" was the True Answer – </p>
+                <p> It would have solved, remedied & Healed – all of yours not long but very long variety of problems & emotional & mental sufferings you have – till today! </p>
+                <p> "Others" is a Virus which has Full Power over Your Mind & You! It dictates your thoughts & actions. Basically this virus Controls your life & makes sure your Life remains miserable & Suffocated! </p>
+                <p>You've experienced it way more than that: Time goes by, Life around you goes by, Friends, Neighbours, Families move on, whole world moves ahead... but the Virus "Others" keeps you Hangeddd... — like that phone we talked about earlier – Hangedd </p>
+                <p>So, if your Life, Is Not Moving & Growing – you know now – Why! </p>
+                <p>The Virus 'Others'. </p>
+                <p>So, I ask you this once again: Who do you expect to bring that change in your life? </p>
+                <p>The Only True - Powerful - Rewarding - A Complete 360 degree Transforming Answer is: You – You – You. </p>
+                <p>I'll Train You – HOW!!! </p>
+                <p>TRANSFORM YOURSELF.</p>
+            
+            
+            </div>
+           
+    },
+    {
+        id:8,  
+        title:'Your Victory ',
+        img: blog8,
+        name:'John Doe',
+        date:'12/12/2020',
+        content: 
+            <div className='information'>
+                <p>Children of GOD, if we are, then what may be a better day than today to literally defeat & win over — not much — but 1 of the Devils inside us which is defeating us simply by killing our Happiness & making us feel like him. </p>
+                <p>Dear Friend choose only 1 person, just 1, about whom you feel: Hatred or Vengeance or Anger or Jealousy or feeling of ill will. </p>
+                <p>Talk to that person and tell him you called up to wish him “Happy Dusshera.” </p>
+                <p>And by “Diwali” bring back home a relationship — even if it is as minimum as “Hi-and-Hello” alone… because at the end You both Win & are Free. </p>
+                <p>Wishing you all a Very Happy Dussehra! </p>
+                <p>✨Dussehra: Victory of Good over Evil✨</p>
+            
+            
+            </div>
+           
+    },
+    {
+        id:9,  
+        title:'Relationships',
+        img: blog9,
+        name:'John Doe',
+        date:'12/12/2020',
+        content: 
+            <div className='information'>
+            
+            </div>
+           
+    },
+    {
+        id:10,  
+        title:'On Anger:',
+        img: blogsimage,
+        name:'John Doe',
+        date:'12/12/2020',
+        content: 
+            <div className='information'>
+                <p>Despite you hearing a lecture on "Expectations" even from small kids</p>
+                <p>Every time do you still end up "Expecting" from people?</p>
+                <p>Despite understanding the philosophy of "Simple & Happy living"</p>
+                <p>Everytime you find yourself having Big Revolutionary Plans?</p>
+                <p>Now check this one out:</p>
+                <p>Despite doing every morning 1/2hr. turning beads(mala) of "Never give anyone free advices."</p>
+                <p>Everytime, as soon as you find the 1st person – You're at the podium lecturing the whole Bhawgad Geetaaaa....???</p>
+                <p>One more in continuation please</p>
+                <p>Now Despite having not good but Great wisdom as compared to others</p>
+                <p>Every time it's the blessed you, who ends up in the limelight: Shouting, Upset, Abusive, Angry & at the end Sorryfull! That's quite a show by you, by the way. </p>
+                <p>When is the next episode scheduled?</p>
+                <p>Let's talk more. Join with me on "Koffee with MK".</p>
+                <a href="http://localhost:5173/services/coffewithmk">Join</a>
+
+            </div>
+           
+    },
+    {
+        id:11,  
+        title:'What! Why Personal Transformation?',
+        img: blogsimage,
+        name:'John Doe',
+        date:'12/12/2020',
+        content: 
+            <div className='information'>
+                <p>Why Not?</p>
+                <p>(Yes, try answering this 1st.)</p>
+                <p>Any & all of your answers (& examine that) are there 'coz you were deprived of the true essence of the word – Transformation!</p>
+                <p>Notice, we're not talking here about "Improvement". It's very slow, time consuming & a boring thing! Atleast I feel that way & all the people coming to me feel the same.</p>
+                <p>Transformation is a different, all together, Frequency! It's Intense, Powerful, Thrilling with 280+ on highway or like watching 12-D movie!!!</p>
+                <p>If you're reading these words: You've lived Transformation! (I won't believe you for a single sec. if you say "No".)</p>
+                <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "Coffee with MK".</p>
+                <a href="http://localhost:5173/services/coffewithmk">Click Here</a>
+                
+            </div>
+           
+    },
+    {
+        id:12,  
+        title:'Responsibility',
+        img: blogsimage,
+        name:'John Doe',
+        date:'12/12/2020',
+        content: 
+            <div className='information'>
+                <p>A word that's done no good to you!</p>
+                <p>"Responsibility"</p>
+                <p>A sweet knife straight in your back</p>
+                <p>A reason behind, you carrying Inside you – low or no self-respect, unworthiness, mostly anxious, short tempered etc. etc. etc. – can easily be traced back to the whip called "Responsibility".</p>
+                <p>People at different times have used this word – To "tame" others. And you've fell in that trap too with the scars that are still unhealed! It breaks my heart but, You very well might still be in that trap & unknowingly using it & trapping others as well. If you've kids or people working for you... you might want to re-evaluate your dealings with them. It may sadden your heart despite any reasons your mind presents & if it does you & me are on the same page, if not earlier but for sure Now!</p>
+                <p>Actually, subjects like these are addressed in sessions, It's a Practical thing.</p>
+                <p>So, before we meet here is your assignment: Analyze on this blog from different angles & see how it unfolds for you. </p>
+                <p>Do well.</p>
+            </div>
+           
+    },
+    {
+        id:13,  
+        title:'Suffering Responsibility: ',
+        img: blogsimage,
+        name:'John Doe',
+        date:'12/12/2020',
+        content: 
+            <div className='information'>
+                <p>it is Hereditary. </p>
+                <p>XYZ is Responsible for you. A statement made with untruth in it's core. Why? It has Never & Will Never Free anyone. Misery, continues subconscious depression that people are going through including our Parents & Grand Parents is tagged & tagged responsibility! Let's Die "Tagged" - Talking about Moksha & Spiritual Freedom - Liberationnnn. </p>
+                <p>Knowing, No one is Responsible for you.</p>
+                <p>That's True Freedom!</p>
+                <p>Now Handle That! You TOUGH Gal/Guy! Can You?? Oh... You said you can. </p>
+                <p>Anyone who truly can, has become blissful/peaceful with himself and most importantly, to one's Life's Biggest Relief - With OTHERS! His relation with known & unknown has become cheerful & peaceful. </p>
+                <p>Tackling "Work" as an example:</p>
+                <p>Who all are here to work?</p>
+                <p>With Work comes Responsibility & comes Rules & Penalties which oversees you like a Master</p>
+                <p>In olden days there was a word that was carried by unfortunates, dragged along in blood, till their death... & the word was, "A Slave".</p>
+                <p>DNA carried forward:</p>
+                <p>Work = Slavery.</p>
+                <p>Doesn't matter 10,000 or 1 crore salary. A subliminal speech running behind head - "You're a slave..."</p>
+                <p>Now, what do slaves always wanted? </p>
+                <p>It's what they wanted billions of years ago, it's what they wanted some decades ago, today & till eternity...</p>
+                <p>F  R  E  E  D  O  M</p>
+                <p>With me so far?</p>
+                <p>---------</p>
+                <p>Face it, as it is in Your Face: We have already lived like a dog – Docile, Tail Wagger, occasional bark etc. And since your childhood you've already thought of dying more than 100 times till now. And If you're reading this then listen with your ears wide open – Nobody gives a shit what you've gone through & neither do I...!</p>
+                <p>Time to meet your True Self & Freedom. </p>
+                <p>"Fuck them all - Perform!" </p>
+            </div>
+           
+    },
+
 
 ]
 
