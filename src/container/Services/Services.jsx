@@ -4,7 +4,7 @@ import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import {legacyRoute} from '../../Data'
 import './Services.scss'
-import secondMedia from '../../assets/youTheYou.jpg'
+import secondMedia from '../../assets/youTheYou.gif'
 import endofyou from "../../assets/endOfYou.gif"
 import pressButton from "../../assets/pressButton.gif"
 import { useAnimation, motion } from "framer-motion";
@@ -101,7 +101,7 @@ const Services = () => {
                         <p key={index}>{item}</p>
                     ))}
                     
-                    <a href={item.url}>Know More.</a>
+                    <a href={item.url}>Know More</a>
                 </div>
                 
                 </div>
@@ -126,7 +126,7 @@ const Services = () => {
         </div>  
 
       </div>
-
+{/* 
 
       <div
         // ref={ref}
@@ -136,12 +136,12 @@ const Services = () => {
         className="last-media"
       >
 
-      </div>
+      </div> */}
 
 
 
       {/* <Testimonials name="Our Programs"/> */}
-      <Coursefaq name="Our Programs"/>
+      {/* <Coursefaq name="Our Programs"/> */}
     
   
     

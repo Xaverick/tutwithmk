@@ -159,6 +159,7 @@
         font-weight: 400;
         color: var(--primary-color);
         margin-bottom: 2rem;
+
     }
 
     p{
@@ -188,7 +189,12 @@
     }
     .own{
         font-size: 2.5rem;
+        
+        span{
+            font-size: 1.6rem;
+        }
     }
+
     
 }
 

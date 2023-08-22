@@ -127,8 +127,66 @@ const Contact = ({label}) => {
     </div>
     <div className='faq-background'>
         <div className='image-overlay'>    
-            <div className='contact-question-and-faq'>
-            <div className='mid-apply-section__form'>
+            <div className='contact-question-and-faq'>         
+
+                <div id="faq" className='faq-section'>
+                    {/* <p className='para-heading'>FAQ</p> */}
+                    <h1>Frequently Asked <br /> Questions</h1>
+                    <p>You Asked I Replied - </p>
+                    <p> Instant Power Shots <br /> (Take it whenever you feel low) </p>
+                    <div className='faq'>
+                    {liveData.map((item, index) => (
+                
+                        <div key={index} className='single-faq'>
+                            <div className='question'>
+                            <h1>{item.title}</h1>                                        
+                            <motion.div 
+                                className='arrow'
+                                onClick={() => togglefaq(index)}
+                                initial="down"
+                                animate={{rotate: item.move ? 180 : 0}}                         
+                                transition={{duration: 0.1, ease: "linear"}} 
+                                variants={{
+                                down: { rotate: 0 }
+                                }}
+                            >
+                                <AiOutlineArrowDown />
+                            </motion.div> 
+                
+                            
+                        
+                            
+                            
+                            </div>
+                            <AnimatePresence>
+                            {item.open && (
+                            
+                                <motion.div
+                                    className="answer"
+                                    key="content"
+                                    initial="collapsed"
+                                    animate="open"                           
+                                    exit={{ opacity: 0, height: 0 ,padding:0}}
+                                    transition={{duration: 0.3, ease: "linear"}} 
+                                    variants={{
+                                    open: { opacity: 1, height: 'auto' },
+                                    collapsed: { opacity: 0, height: 0 ,padding:0},
+                                    
+                                    }}
+                                >
+                                    {item.content}
+                                </motion.div>
+                                
+                            )}
+                            </AnimatePresence> 
+
+                        </div>
+
+                    ))}
+                    </div>
+                </div>
+
+                <div className='mid-apply-section__form'>
                 <div className='apply-form'>
                     <p>Still Have Questions? <br /> <span>Ask Here.</span></p>
 
@@ -176,65 +234,6 @@ const Contact = ({label}) => {
 
 
 
-            </div>
-
-
-
-            <div className='faq-section'>
-                {/* <p className='para-heading'>FAQ</p> */}
-                <h1>Frequently Asked <br /> Questions</h1>
-                <p>You Asked I Replied - </p>
-                <p> Instant Power Shots <br /> (Take it whenever you feel low) </p>
-                <div className='faq'>
-                {liveData.map((item, index) => (
-            
-                    <div key={index} className='single-faq'>
-                        <div className='question'>
-                        <h1>{item.title}</h1>                                        
-                        <motion.div 
-                            className='arrow'
-                            onClick={() => togglefaq(index)}
-                            initial="down"
-                            animate={{rotate: item.move ? 180 : 0}}                         
-                            transition={{duration: 0.1, ease: "linear"}} 
-                            variants={{
-                            down: { rotate: 0 }
-                            }}
-                        >
-                            <AiOutlineArrowDown />
-                        </motion.div> 
-            
-                        
-                    
-                        
-                        
-                        </div>
-                        <AnimatePresence>
-                        {item.open && (
-                        
-                            <motion.div
-                                className="answer"
-                                key="content"
-                                initial="collapsed"
-                                animate="open"                           
-                                exit={{ opacity: 0, height: 0 ,padding:0}}
-                                transition={{duration: 0.3, ease: "linear"}} 
-                                variants={{
-                                open: { opacity: 1, height: 'auto' },
-                                collapsed: { opacity: 0, height: 0 ,padding:0},
-                                
-                                }}
-                            >
-                                {item.content}
-                            </motion.div>
-                            
-                        )}
-                        </AnimatePresence> 
-
-                    </div>
-
-                ))}
-                </div>
             </div>
 
 

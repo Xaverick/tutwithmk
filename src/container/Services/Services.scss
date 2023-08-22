@@ -213,8 +213,10 @@
         #LaunchPad {
             .icon{                
                 width: 80px;
+                height: 50px;
                 img{
-                    width: 80px;
+                    width: 100%;
+                    height: 60%;
                 }
             }
         }

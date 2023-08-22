@@ -165,7 +165,7 @@ const Emerge = () => {
       </div>  
       
       {/* <Testimonials name="E m e r g e" /> */}
-      <Coursefaq name="E m e r g e"/>
+      {/* <Coursefaq name="E m e r g e"/> */}
     
   
     

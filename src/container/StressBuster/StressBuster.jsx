@@ -1,6 +1,8 @@
 import React , {useState,useEffect} from 'react'
 import './StressBuster.scss'
 import coffee from '../../assets/coffee-popup.gif'
+import popupgif from '../../assets/popupgif.gif' 
+
 
 const StressBuster = ({isopen2, setIsopen2}) => {
   
@@ -19,9 +21,10 @@ const StressBuster = ({isopen2, setIsopen2}) => {
                             <h1>Stress Buster</h1>
                         </div>
                     
-                        <p><br />In these specially designed Stress Buster sessions, You can talk about Anything but I encourage you to talk about Everything. Only You & Me, no pen, paper etc.</p>
-                        <p><br /> Therapeutic Communication. Let's Talk. <br /> <br /> <br /> </p>
+                        <p>In these specially designed Stress Buster sessions, You can talk about Anything but I encourage you to talk about Everything. Only You & Me, no pen, paper etc.</p>
+                        <p>Therapeutic Communication. Let's Talk. </p>
 
+                        <img src={popupgif} alt="" />
                         <span>*These are Confidential sessions.</span>
                         {/* <a href="/services/coffewithmk" onClick={() => setIsopen2(false)}>Let's Get Started</a> */}
                     </div>

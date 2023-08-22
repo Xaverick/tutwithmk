@@ -174,7 +174,7 @@ const Home = () => {
             allow="autoplay"
           />
 
-          <h3> U.S - Celebrity Trainer</h3>
+          <h3> U.S. - Celebrity Trainer</h3>
         </div>
 
         <div className='videos'>
@@ -193,17 +193,17 @@ const Home = () => {
 
       <div className='timeline-section'>
         <div className='owntimeline-section__right'> 
-            <img  style={{transition:"none", animation:"none"}} src={bookcover2} alt="" />
+            <img  style={{transition:"none", animation:"none"}} src={bookcover1} alt="" />
         </div> 
 
         <div className='owntimeline-section__left'>
-            <h1 className='own'>Hail Storm... <br /> Hurricane... <br /> Volcanic Lava! </h1>
-
-            <p>If You're Ready <br /> I'll turn the world upside down - <br /> Including you.</p>
-
+            <h1 style={{textAlign:"center"}} className='own'><span>TRANFORMATION </span> <br /> You to The YOU</h1>
+            <p style={{textAlign:"center", width:"100%"}}>MK</p>
+            <p className='bottom'>Book Launching Soon..</p>
+{/* 
             <a href="/about" className='button'>
               Know More
-            </a>
+            </a> */}
         </div>
       </div>
 
