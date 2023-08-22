@@ -21,6 +21,8 @@
             align-items: center;
             h2{
                 text-align: center;
+                font-family: var(--font-nanum);
+                font-weight: 400;
             }
             .testimonial-detail{
                 display: flex;
@@ -145,11 +147,12 @@
                 padding-bottom: 1rem;
             }
             h1{
-                font-family: var(--font-display);
+                font-family: var(--font-opensans);
                 font-size: 4rem;
                 color: var(--text-hover);
                 letter-spacing: 0.8rem;
                 padding-bottom: 1rem;
+                text-align: center;
             }
         }
         img{
