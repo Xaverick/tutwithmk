@@ -12,7 +12,7 @@ import {BlogData} from '../../Data'
 const Blogs = () => {
     const [trendingIndex, setTrendingIndex] = useState(0)
     const [currentIndex, setCurrentIndex] = useState(0)
-    const limitedData = BlogData.slice(0, 5)
+    const limitedData = BlogData.slice(3, 7)
     const data = BlogData[currentIndex]
     const barData = BlogData[trendingIndex]
     const navigate = useNavigate()
@@ -110,7 +110,7 @@ const Blogs = () => {
 
                     <div className="popular-post">
                         <h2 className='heading'>Popular Post</h2>
-                        {BlogData.map((item, index) => (
+                        {limitedData.map((item, index) => (
                             <div className='blog__card' key={index}>
                                 <img src={item.img} alt="" />
                                 <div className='blog__card__content'>

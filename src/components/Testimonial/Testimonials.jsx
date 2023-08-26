@@ -9,7 +9,7 @@ import italy from '../../assets/homeTestimonial/italy.jpeg'
 import slovakia from '../../assets/homeTestimonial/slovakia.jpeg'
 import mumbai from '../../assets/homeTestimonial/mumbai.jpeg'
 import { Tooltip } from 'react-tooltip'
-
+import * as Tooltips from '@radix-ui/react-tooltip';
 
 const testimonial = {
   dubai: "\"You can see the results instantly not only in your Business but in your Personal Life too.\" <br /> <p> A.K., Entrepreneur - DUBAI </p>",
@@ -57,7 +57,7 @@ const Testimonials = ({name}) => {
                     data-tooltip-html={testimonial.usa} 
                     data-tooltip-id="usa"
                 />
-                <Tooltip id="usa" effect='solid'  noArrow  place='left' className='tooltip'/>
+                <Tooltip id="usa" effect='solid'  noArrow  place='top' className='tooltip'/>
               
               
               
@@ -101,8 +101,12 @@ const Testimonials = ({name}) => {
                     data-tooltip-html={testimonial.mumbai} 
                     data-tooltip-id="mumbai"
                 />
+
                 <Tooltip id="mumbai" effect='solid' noArrow  place='bottom' className='tooltip'/>
               </div>
+
+
+
 
             </div>
 
