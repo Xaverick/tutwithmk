@@ -1,3 +1,115 @@
+.newsletter{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    background-image: linear-gradient(
+        0.25turn,                                                                                                                                                                                                                                         
+        rgba(10, 135, 105,1),
+        var(--text-hover),                                                              
+
+    );
+    display: flex;
+    gap: 1rem;
+    @media  screen and (max-width: 768px){
+        width: 100%;
+        padding: 1rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .newsletter-left{
+        width: 58%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        h1{
+            font-size: 2.5rem;
+            font-family: var(--font-display);
+            font-weight: 400;
+        }
+        p{
+            width: 95%;
+            font-size: 1.2rem;
+            font-family: var(--font-display);
+            font-weight: 400;
+        }
+        @media screen and (max-width: 768px){
+            width: 100%;
+            h1{
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+            
+    }
+
+    .newsletter-right{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        @media  screen and (max-width: 768px){
+            width: 100%;
+        }
+
+        .signup{
+            width: 100%;
+            display: flex;
+            gap: 1rem;
+            input{
+                width: 60%;
+                padding: 0.5rem;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                font-size: 1rem;
+                font-family: var(--font-display);
+                font-weight: 400;
+                @media  screen and (max-width: 768px){
+                    font-size: 0.8rem;
+                }
+            }
+            .button{
+                margin: 0;
+                font-family: var(--font-display);
+                padding: 0.5rem 1rem;
+                border-radius: 10px;
+                background-color: var(--header-green-green);
+                width: fit-content;
+                font-size: 1rem;
+                &:hover{
+                    background-color: var(--button-green-green);
+                }
+
+            }
+            @media screen and (max-width: 768px){
+                width: 100%;
+                flex-direction: column;
+                input{
+                    width: 100%;
+                }
+                .button{
+                    width: 100%;
+                }
+                            
+            }
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+
+}
+
+
+
+
 .app__footer{    
     background-color: rgba(0, 0,0 , 0.5);
     color: #fff;
@@ -55,10 +167,6 @@
 
             img{
                 width: 80%;
-                transition: all 0.3s ease-in-out;
-                &:hover{
-                    transform: scale(1.1);
-                }
                 @media screen and (max-width: 1268px){
                     width: 100%;
                     margin-bottom: 50px;

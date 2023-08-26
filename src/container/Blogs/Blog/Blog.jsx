@@ -81,8 +81,8 @@ const Blog = () => {
                       </span>
                         
                       <div className='description'>
-                          <h2>Author</h2>
-                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium voluptas iure rem neque vel quod minima saepe ipsa</p>
+                          <h2>MK</h2>
+                          <p>Precision, Perfection, Power, Harmony, You. If that is not you, then what have you become!?</p>
                       </div>
 
                     </div>

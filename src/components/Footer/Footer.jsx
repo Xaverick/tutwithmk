@@ -6,10 +6,37 @@ import {AiOutlineLinkedin,AiFillLinkedin} from 'react-icons/ai'
 import footerLogo from '../../assets/footerLogo.png'
 import styled from 'styled-components'
 
-const Footer = () => {
+const Footer = ({newsteller}) => {
   return (
-    <div className='app__footer'>
+
+      <>
+      {newsteller && (<div className='background'>
+        <div className="newsletter">
+          <div className="newsletter-left">
+            <h1>Join Your Clan</h1>
+            <p>To Play The Big Game - Warriors Join Warriors!</p>
+          </div>
+
       
+          <div className="newsletter-right">
+            <div className="signup">
+              <input type="text" placeholder='Enter your Email'/>
+              <a href="" className='button'>I'm In</a>
+            </div>
+
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit*</p> */}
+
+
+          </div>
+          
+        </div>
+
+      </div>)
+    }
+    <div className='app__footer'>
+
+
+
       <div className="upper-footer">
 
         <div style={{flex:"1.5"}} className="section ">
@@ -77,6 +104,7 @@ const Footer = () => {
       </div>
 
     </div>
+    </>
   )
 }
 

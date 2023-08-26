@@ -141,7 +141,8 @@
     align-items: center;
     background-color: black;
     img{
-        width: 100%;
+        margin: 2rem 0;
+        width: 70%;
     }
     @media screen and (max-width: 768px) {
         img{

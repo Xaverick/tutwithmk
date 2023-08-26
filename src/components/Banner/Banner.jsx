@@ -2,11 +2,12 @@ import React from 'react'
 import './Banner.scss'
 import patttern_1 from '../../assets/pattern_1.png'
 import {AiOutlineHome} from 'react-icons/ai'
+import header from '../../assets/header_1.png'
 
-const Banner = ({name,subtitle,img,gold}) => {
+const Banner = ({name,subtitle,img,gold,custom}) => {
   return (
     <div className='content-header app__flex'>
-      <img className='pattern' src={patttern_1} alt="" />
+      {!custom && ( <img className='pattern' src={patttern_1} alt="" /> )}
       <div className='content'>
         
         <div className='content-header-left'>
@@ -25,8 +26,16 @@ const Banner = ({name,subtitle,img,gold}) => {
         </div>
 
         <div className='content-header-right'>
+            { !custom && ( 
+            <div>
             <AiOutlineHome />
             <p>Home  &gt; <span>{name}</span></p>
+            </div>
+            )}
+
+            {custom && (
+              <img className="custom" src={header} />
+            )}
         </div>
       </div>
        

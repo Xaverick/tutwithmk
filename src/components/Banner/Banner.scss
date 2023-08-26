@@ -27,6 +27,10 @@
             bottom: -10%;
         }
     }
+
+    .customOwn{     
+        height: 100%;    
+    }
     
     .content{
         display: flex;
@@ -119,32 +123,51 @@
             align-items: center;
             gap: 2rem;
             justify-content: flex-end;
-            svg{
-               font-size: 1.2rem;
-            }
-            p{
+            div{
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                justify-content: flex-end;
                 
-                font-weight: 400;
-                padding: 1rem 0;
-                font-size: 1rem;
-                word-spacing: 1rem;
-                span{
-                    word-spacing: normal;
-                }
                 svg{
-                    font-size: 1.5rem;
-                    padding-top: 5px;
+                font-size: 1.2rem;
+                }
+                p{
+                    
+                    font-weight: 400;
+                    padding: 1rem 0;
+                    font-size: 1rem;
+                    word-spacing: 1rem;
+                    span{
+                        word-spacing: normal;
+                    }
+                    svg{
+                        font-size: 1.5rem;
+                        padding-top: 5px;
+                    }
                 }
             }
+
+            .custom{
+                height: 350px;
+                @media screen and (max-width: 768px){
+                   display: none;
+                }
+                    
+            }
+
+
             @media screen and (max-width: 768px){
                 width: 100%;
                 justify-content: center;
-                p{
-                    margin: 0.7rem 0;
-                    font-size: 0.9rem;
-                    word-spacing: 0.5rem;
-                    svg{
-                        font-size: 1rem;
+                div{
+                    p{
+                        margin: 0.7rem 0;
+                        font-size: 0.9rem;
+                        word-spacing: 0.5rem;
+                        svg{
+                            font-size: 1rem;
+                        }
                     }
                 }
             }

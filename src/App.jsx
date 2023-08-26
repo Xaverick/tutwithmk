@@ -8,34 +8,63 @@ import {Home, About, Contact, Services, PopUp, Emerge,Transcend,LaunchPad,Legacy
 function App() {
   const [isopen, setIsopen] = useState(false)
   const [isopen2, setIsopen2] = useState(false)
+
+
+  function apprear1(){
+    return new Promise((resolve,reject)=>{
+      setTimeout(() => {
+        resolve(true)
+      }, 5000);
+    })
+    
+  }
+
+  const popupShownBefore = localStorage.getItem('popupShownBefore');
+
   const timer = new Promise ((resolve,reject)=>{
     setTimeout(()=>{
       resolve(true)
     },5000)
-  })
-
- 
-  const popupShownBefore = localStorage.getItem('popupShownBefore');
+  }) 
   
+
+
+
   if (!popupShownBefore) {
     timer
       .then((resolve)=>{
-        setIsopen(resolve)
-        localStorage.setItem('popupShownBefore', 'true');
+        setIsopen(resolve);
+        setTimeout(()=>{
+          localStorage.setItem('popupShownBefore', 'true');
+          setIsopen(false)
+        },5000)       
+        
       })
-  }
 
+  }
+  
+  // if (popupShownBefore && !popupShownBefore2) {
+  //   timer
+  //     .then((resolve)=>{
+  //       setIsopen(resolve)
+  //       localStorage.setItem('popupShownBefore2', 'true');
+  //       setTimeout(()=>{
+  //         setIsopen(false)
+  //       },5000)
+  //     })
+
+  // }
 
 
   return (
     <BrowserRouter>
         
       
-        <div className={(isopen || isopen2 )?"app noscroll":"app"}>  
+        <div className={(isopen2 )?"app noscroll":"app"}>  
           <PopUp isopen={isopen} setIsopen={setIsopen} />  
           <StressBuster isopen2={isopen2} setIsopen2={setIsopen2}/>
             <Navbar setIsopen2={setIsopen2}/>
-            {(!isopen && !isopen2) && (
+            {/* {(!isopen && !isopen2) && ( */}
               <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/services" element={<Services />} />
@@ -51,9 +80,9 @@ function App() {
                   <Route path="/blogs/:id" element={<Blog />} />
                   <Route path="/blogs/search/:title" element={<SearchBlog />} />
               </Routes>
-            )}
+            {/* )} */}
             
-            <Footer />
+            <Footer newsteller={true}/>
         </div>
     </BrowserRouter>
   );

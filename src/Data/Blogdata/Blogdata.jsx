@@ -17,7 +17,7 @@ const BlogData = [
         id:1,
         title:'"Stagnation" – Your Current Horrifying Livingness.',
         img: companyOfYou,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content:
             <div className='information'>
@@ -31,7 +31,7 @@ const BlogData = [
         id:2,
         title:'"Sufferings" – An Everyday Exam.',
         img: strategy,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content:
                 <div className='information'>
@@ -62,7 +62,7 @@ const BlogData = [
         id:3,  
         title:'Question is: Who’s Right?',
         img: blogsimage,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>
@@ -94,7 +94,7 @@ const BlogData = [
         id:4,  
         title:'Instant Relief Mantra – “Any Relationship Upset',
         img: blogsimage,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>
@@ -107,7 +107,7 @@ const BlogData = [
         id:5,  
         title:'How to stay in Your Dimension- Upbeat and Kicking.',
         img: blogsimage,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>
@@ -145,7 +145,7 @@ const BlogData = [
         id:6,  
         title:'Your Depression Relief — Temporary or Permanent?',
         img: blog6,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>
@@ -182,7 +182,7 @@ const BlogData = [
         id:7,  
         title:'What is the Single Greatest Source of UnHappiness & Failures in Life ?',
         img: blogsimage,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>
@@ -216,7 +216,7 @@ const BlogData = [
         id:8,  
         title:'Your Victory ',
         img: blog8,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>
@@ -235,7 +235,7 @@ const BlogData = [
         id:9,  
         title:'Relationships',
         img: blog9,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>
@@ -247,7 +247,7 @@ const BlogData = [
         id:10,  
         title:'On Anger:',
         img: blogsimage,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>
@@ -272,7 +272,7 @@ const BlogData = [
         id:11,  
         title:'What! Why Personal Transformation?',
         img: blogsimage,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>
@@ -292,7 +292,7 @@ const BlogData = [
         id:12,  
         title:'Responsibility',
         img: blogsimage,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>
@@ -311,7 +311,7 @@ const BlogData = [
         id:13,  
         title:'Suffering Responsibility: ',
         img: blogsimage,
-        name:'John Doe',
+        name:'MK',
         date:'12/12/2020',
         content: 
             <div className='information'>

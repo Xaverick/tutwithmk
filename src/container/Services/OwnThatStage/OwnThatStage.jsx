@@ -9,14 +9,37 @@ import './OwnThatStage.scss'
 import stategy from '../../../assets/strategy.jpg'
 import header from '../../../assets/header_1.png'
 import patttern_1 from '../../../assets/pattern_1.png'
-
 import ownthatstagePhoto from '../../../assets/ownthatstagePhoto.png'
+import greendotart from '../../../assets/greendotart.png'
+
 
 const OwnThatStage = () => {
 
   return (
       <div className='app__container'>
-        <Banner name={"Own That Stage"} subtitle={"Mastering the Arena of Public Speaking"}/>
+        {/* <div className='content-header app__flex'>
+            <img className='pattern' src={patttern_1} alt="" />
+            <div className='content'>
+              
+              <div className='content-header-left'>              
+                <div className='details'>
+                  <h1>Own That Stage</h1>  
+                  <p>Mastering the Arena of Public Speaking</p>   
+                </div>
+                  
+              </div>
+
+              <div className='content-header-right'>
+                  <img className="customOwn" src={header} alt="" />
+              </div>
+            </div>
+            
+        </div> */}
+        
+        
+        
+        
+        <Banner name={"Own That Stage"} subtitle={"Mastering the Arena of Public Speaking"} custom={true}/> 
 
         <div className='mid-apply-section'>
 
@@ -36,7 +59,7 @@ const OwnThatStage = () => {
               </div>
 
               <a href="#quoate">
-                  Know More.
+                  Know More
               </a>
             </div>
           </div>
@@ -45,7 +68,7 @@ const OwnThatStage = () => {
           <div className='mid-apply-section_image'>          
             <div className='heading'>
                 <h1 className='ownthatstage-heading'>Own That Stage</h1>
-                <p> Mastering the Arena of Public Speaking</p>
+
                             
             </div>
 
@@ -65,12 +88,7 @@ const OwnThatStage = () => {
           </p>
       </span>
       <p className='desc'>– MK, YOUR PERSONAL TRANSFORMATION COACH</p>
-      <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-      </div>
+      <img className="image" src={greendotart} alt="" />
 
       </div>
 
@@ -81,7 +99,7 @@ const OwnThatStage = () => {
             <p>Get That Message Across To People! End of Story.</p>
 
             <a href="#detail" className='button'>
-            Discover More -&gt;
+            Discover More 
             </a>
         </div>
 
@@ -107,9 +125,10 @@ const OwnThatStage = () => {
           <div className="content">
               <div className='homebanner__left'>
                   <p>I'LL TRAIN YOU HOW TO –</p>
-                  <h1>"Create A Dent,Make <br /> Your Mark, <br /> Leave a Legacy!"</h1>
-                  <span>Interested? don’t Bother.</span>
-                  <a href="">Ready for Whatever it takes!</a>
+                  <h1>"Create A Dent, <br />Make Your Mark, <br /> Leave a Legacy!"</h1>
+                  <span>Interested? don’t Bother. <br /> Ready for Whatever it takes!</span>
+                  <a href="">Apply Here</a>
+                  
               </div>
               <div className='homebanner-right'>
                   <img src={header} alt="" />
@@ -122,17 +141,11 @@ const OwnThatStage = () => {
       <h1 className='heading'>
           “You're Ready!”
       </h1>
-      <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-      </div>
+      <img className="image" src={greendotart} alt="" />
 
       <div className='details'>
           <div className='header'>
-          <h1>Program Details:</h1>
-          <a>Own That Stage</a>            
+          <h1>Program Details:</h1>          
           </div>
 
           <div className='separator'></div>
@@ -143,7 +156,7 @@ const OwnThatStage = () => {
 
               <div className='card-header'>
                   <div className='icon'>
-                  <AiOutlineHome />
+                    <img src={item.icon} alt="" />
                   </div>
               
                   <h1>{item.heading}</h1>
@@ -152,12 +165,16 @@ const OwnThatStage = () => {
 
               </div>
 
+
           ))}
           
 
           </div>
 
       </div>
+        <div style={{marginBottom:"2rem"}} className='applyHere'>
+            <a>Apply Here</a>
+        </div>
 
       </div>
 

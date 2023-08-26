@@ -26,7 +26,7 @@ const Navbar = ({setIsopen2}) => {
           <li>
               <a className='relative-position nohover'>Get Trained <BiChevronDown /></a>
               <ul className='hover-dropdown'>
-                <li><a href="/services/coffewithmk">Koffee With Mk</a></li>
+                <li><a href="/services/coffewithmk">Koffee With MK</a></li>
                 <li><a href="/services/launchpad">Launchpad</a></li>
                 <li><a href="/services/emerge">Emerge</a></li>
                 <li><a href="/services/transcend">Transcend</a></li>

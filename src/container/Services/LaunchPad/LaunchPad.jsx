@@ -8,7 +8,7 @@ import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {LaunchPadtimeline, emergeProgramdetail} from '../../../Data'
 import launchpadLogo from '../../../assets/launchpadLogo.png'
 import launchpadPhoto from '../../../assets/launchpadPhoto.png'
-
+import greendotart from '../../../assets/greendotart.png'
 const LaunchPad = () => {
 
     return (
@@ -34,7 +34,7 @@ const LaunchPad = () => {
             </div>
 
             <a href="#quoate">
-                Know More.
+                Know More
             </a>
           </div>
         </div>
@@ -42,7 +42,7 @@ const LaunchPad = () => {
 
         <div className='mid-apply-section_image'>          
             <div className='heading'>
-              <p>Derive Yourself</p>
+              {/* <p>Derive Yourself</p> */}
               <h1>LaunchPad</h1>           
             </div>
 
@@ -62,12 +62,14 @@ const LaunchPad = () => {
           </p>
         </span>
         <p className='desc'>– MK, YOUR PERSONAL TRANSFORMATION COACH</p>
-        <div className='four-dots'>
+        <img src={greendotart} alt="" />
+        
+        {/* <div className='four-dots'>
           <div className='dot'></div>
           <div className='dot'></div>
           <div className='dot'></div>
           <div className='dot'></div>
-        </div>
+        </div> */}
 
       </div>
 
@@ -80,7 +82,7 @@ const LaunchPad = () => {
           <p>Highly Powerful </p>
 
           <a href="#detail" className='button'>
-            Discover More -&gt;
+            Discover More 
           </a>
         </div>
 
@@ -118,17 +120,18 @@ const LaunchPad = () => {
         <h1 className='heading'>
           “You're Ready!”
         </h1>
-        <div className='four-dots'>
+        <img className="image" src={greendotart} alt="" />
+        {/* <div className='four-dots'>
           <div className='dot'></div>
           <div className='dot'></div>
           <div className='dot'></div>
           <div className='dot'></div>
-        </div>
+        </div> */}
 
         <div className='details'>
           <div className='header'>
             <h1>Program Details:</h1>
-            <a >LaunchPad</a>            
+         
           </div>
 
           <div className='separator'></div>
@@ -151,9 +154,11 @@ const LaunchPad = () => {
 
             ))}
             
-
           </div>
+        </div>
 
+        <div  className='applyHere'>
+            <a >Apply Here</a>
         </div>
 
       </div>

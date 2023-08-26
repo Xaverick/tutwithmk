@@ -58,19 +58,19 @@ const emergeTimeline = [
 const emergeProgramdetail = [
     {
         icon: confidential,
-        heading: 'Duartion.',
-        content:"Scales of your Existence",
+        heading: 'Duration.',
+        content:"6 Sessions 60 mins each.",
     },
     {
         icon: session,
         heading: 'Session.',
         content:"1-on-1",
     },
-    {
-        icon: location,
-        heading: 'Location.',
-        content:"6 Sessions 60 mins each.",
-    },
+    // {
+    //     icon: location,
+    //     heading: 'Location.',
+    //     content:"6 Sessions 60 mins each.",
+    // },
 
     {   
         icon: dollar,

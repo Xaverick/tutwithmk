@@ -11,8 +11,7 @@ import welcomegif from '../../assets/welcomegif.gif'
 import welcomepng from '../../assets/welcomepng.png'
 import dotart from '../../assets/dotart.png'
 import bookcover1 from "../../assets/bookcover1.png"
-import bookcover2 from "../../assets/bookcover2.png"
-
+import TypeIt from "typeit-react";
 
 const Home = () => {
   return (
@@ -46,7 +45,7 @@ const Home = () => {
 
         </div>
 
-        <p className='desc'><span>This World </span> <br />A Revolution A War. <br /> <br />
+        <p className='desc'><span>This World <br />A Revolution A War. <br /> </span> <br />
           {/* <span className='last-line'>Welcome to Your Clan!</span> */}
           <img src={welcomepng} alt="" />
         </p>
@@ -97,38 +96,94 @@ const Home = () => {
 
 
 
+
       <div className='dynamic-writing'>
         <div className="heading">
           <div className='subheading'>
-            <Typewriter    
-              onInit={(typewriter) => {
-                typewriter
-                    .typeString('I Deliver what I Promise.')
-                    .start();
+            <TypeIt
+              options={{
+                strings: ['I Deliver what I Promise.'],
+                speed: 100,
+                deleteSpeed: 30,
+                waitUntilVisible: true,
+                loop: true 
+              }}
+              getBeforeInit={(instance) => {
+                instance.pause(10000).delete();
+
+                // Remember to return it!
+                return instance;
               }}
             />
+
+
+            {/* <Typewriter    
+                options={{
+                  strings: ['I Deliver what I Promise.', 'My Promise – \"Transformation.\"'],
+                  autoStart: true,
+                  loop: true,
+                  delay: 100,
+                  
+                }}
+
+            /> */}
+
+
           </div>
+          
 
-
-          <Typewriter  
-               
-            options={{
-              strings: ["My Promise – \"Transformation.\" "],
+          {/* <Typewriter  
+            options={{                       
+              strings: [],  
               autoStart: true,
               loop: true,
               delay: 100,
+              pauseFor: 3000,
+            }}
+          /> */}
+
+          <TypeIt
+            options={{
+              strings: [` My Promise – "Transformation." `],
+              speed: 100,
+              deleteSpeed: 20,
+              startDelay: 4000,
+              waitUntilVisible: true,
+              loop: true 
+            }}
+            getBeforeInit={(instance) => {
+              instance.pause(6000).delete().pause(2000);
+
+              // Remember to return it!
+              return instance;
             }}
           />
 
           <div className='lastline'>
-          <Typewriter              
+          <TypeIt
+            options={{
+              strings: ["That's it! End of Story. "],
+              speed: 100,
+              deleteSpeed: 20,
+              waitUntilVisible: true,
+              startDelay: 8000,
+              loop: true 
+            }}
+            getBeforeInit={(instance) => {
+              instance.pause(2000).delete().pause(6000);
+
+              // Remember to return it!
+              return instance;
+            }}
+          />
+          {/* <Typewriter              
             options={{
               strings: ["That's it! End of Story. "],
               autoStart: true,
               loop: true,
               delay: 100,
             }}
-          />
+          /> */}
           </div>
 
 
@@ -198,8 +253,8 @@ const Home = () => {
 
         <div className='owntimeline-section__left'>
             <h1 style={{textAlign:"center"}} className='own'><span>TRANFORMATION </span> <br /> You to The YOU</h1>
-            <p style={{textAlign:"center", width:"100%"}}>MK</p>
-            <p className='bottom'>Book Launching Soon..</p>
+            <p style={{textAlign:"center", width:"100%",color:"var(--header-green)"}}>MK</p>
+            <p className='bottom' style={{textAlign:"center", width:"100%"}}>Book Launching Soon...</p>
 {/* 
             <a href="/about" className='button'>
               Know More
@@ -208,28 +263,7 @@ const Home = () => {
       </div>
 
       
-      <div className='background'>
-        <div className="newsletter">
-          <div className="newsletter-left">
-            <h1>Join Your Clan</h1>
-            <p>To Play The Big Game - Warriors Join Warriors! Period.</p>
-          </div>
 
-      
-          <div className="newsletter-right">
-            <div className="signup">
-              <input type="text" placeholder='Enter your Email'/>
-              <a href="" className='button'>I'm In</a>
-            </div>
-
-            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit*</p> */}
-
-
-          </div>
-          
-        </div>
-
-      </div>
 
 
 

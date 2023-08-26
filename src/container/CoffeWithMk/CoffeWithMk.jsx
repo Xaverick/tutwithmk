@@ -4,15 +4,14 @@ import {AiOutlineHome} from 'react-icons/ai'
 import {BsCurrencyDollar} from 'react-icons/bs'
 import {SlPeople} from 'react-icons/sl'
 import {SiGnuprivacyguard} from 'react-icons/si'
-import coach from '../../assets/coach-talking.jpg'
-import Testimonials from '../../components/Testimonial/Testimonials'
-import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import {emergeTimeline, coffeeProgramdetail} from '../../Data'
 import coffee from '../../assets/coffee-popup.gif'
 import dollar from '../../assets/icons/dollar.png'
 import session from '../../assets/icons/session.png'
 import confidential from '../../assets/icons/confidentiality.png';
+import coffeewithmkPhoto from '../../assets/coffeewithmkPhoto.png'
+import greendotart from '../../assets/greendotart.png'
 
 const CoffeWithMk = () => {
 
@@ -20,7 +19,7 @@ const CoffeWithMk = () => {
     <div className='app__container'>
       {/* <Banner name='Koffee  with  MK' subtitle= "Stress Buster" /> */}
       <div className="koffee-banner">
-        <img src={coffee} alt="" />
+        <img src={coffeewithmkPhoto} alt="" />
 
       </div>
 
@@ -30,12 +29,12 @@ const CoffeWithMk = () => {
           <div className='start-testimonial'>
             <h2>It gave me an insight</h2>
             <div>
-              <p className='para'>"It gave me an insight into myself...Now I am a better person."</p>
+              <p className='para'>"It was my privilege to be able to have a Coffee with MK. The kind of Self-Revelation I had over this Coffee was really Life-transforming. Just this 1 Session helped me uncover some deep hidden harmful mindsets that was causing me to self-sabotage myself sub-consciously & it helped me break-free from a vicious loop I was in. <br /> <br />MK is not just a Legend himself. He is someone who creates Legends." </p>
             </div>
 
             <div className='testimonial-detail'>
               <div className='client-detail'>
-                <p>R.C. - <span>HR Consultant</span></p>
+                <p> K.A., <span>Entrepreneur</span></p>
                 
 
               </div>
@@ -43,7 +42,7 @@ const CoffeWithMk = () => {
             </div>
 
             <a href="#quoate">
-                Know More.
+                Know More
             </a>
           </div>
         </div>
@@ -55,8 +54,8 @@ const CoffeWithMk = () => {
               <h1 style={{ letterSpacing:"normal"}}>K o f f e e with  MK</h1>           
             </div>
 
-            <div  className='image'>
-                <img src={coach} alt="" />
+            <div  className='image2'>
+                <img src={coffee} alt="" />
             </div>
         </div>
 
@@ -79,12 +78,7 @@ const CoffeWithMk = () => {
         <h1 className='heading'>
             Let's Talk!
         </h1>
-        <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-        </div>
+        <img className="image" src={greendotart} alt="" />
 
         <div className='details'>
           <div className='header'>
@@ -136,6 +130,11 @@ const CoffeWithMk = () => {
                       
           </div>
 
+
+
+        </div>
+        <div style={{marginBottom:"4rem"}} className='applyHere'>
+          <a>Apply Here</a>
         </div>
 
       </div>

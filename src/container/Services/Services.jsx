@@ -33,9 +33,9 @@ const Services = () => {
       <Banner name='X-Factor' />
 
       <div style={{padding:"3rem 0"}} className="quoate-2">
-        <h1 className='heading'>F R E Q U E N C Y - 11:11</h1>
+        <h1 className='heading' style={{backgroundColor:"transparent", color:"var(--text-hover)"}}>F R E Q U E N C Y - 11:11</h1>
         <div className='quoate-2-left'>
-          <h1 className='home-heading'>In This Technically Remerging Planet Facets Of Human Mind Needed Unlocking To Reach Future Goals. </h1>
+          <h1 className='home-heading' style={{marginTop:"1rem"}}>In This Technically Remerging Planet Facets Of Human Mind Needed Unlocking To Reach Future Goals. </h1>
           <h1 className='home-heading'>Formulas Were Sought After.</h1>
           <h1 className='home-heading'>An Equation - Balancing Science+Philosophy+Religion - Needed For  The Freedom Of You And Everyone Else. </h1>
           <h1 className='home-heading'>I Got Trained By The Best In That Equation.</h1>
@@ -122,7 +122,8 @@ const Services = () => {
         {/* <img className="sub-media-1" src={endofyou} alt="" />
         <img className="sub-media-1 dimension" src={pressButton} alt="" />     */}
         <div className='quoates'>
-          <h1 className='heading'>You ARE ALIVE BECAUSE YOU DARE!</h1>
+          <h1 className='heading'>You Are Alive Because you dare!</h1>
+          <p>MK.</p>
         </div>  
 
       </div>

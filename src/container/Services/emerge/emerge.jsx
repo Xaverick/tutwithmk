@@ -8,7 +8,7 @@ import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {emergeTimeline, emergeProgramdetail} from '../../../Data'
 import emergeLogo from '../../../assets/emerge.png'
 import emergePhoto from '../../../assets/emergePhoto.png'
-
+import greendotart from '../../../assets/greendotart.png'
 
 const Emerge = () => {
 
@@ -35,7 +35,7 @@ const Emerge = () => {
             </div>
 
             <a href="#quoate">
-                Know More.
+                Know More
             </a>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Emerge = () => {
 
         <div className='mid-apply-section_image'>          
             <div className='heading'>
-              <p> Re-Structure Yourself</p>
+    
               <h1>Emerge</h1>           
             </div>
 
@@ -63,13 +63,7 @@ const Emerge = () => {
           </p>
         </span>
         <p className='desc'>– MK, YOUR PERSONAL TRANSFORMATION COACH</p>
-        <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-        </div>
-
+        <img src={greendotart} alt="" />
       </div>
 
       <div className='timeline-section'>
@@ -81,7 +75,7 @@ const Emerge = () => {
           <p>Highly Powerful </p>
 
           <a href="#detail" className='button'>
-            Discover More -&gt;
+            Discover More 
           </a>
         </div>
 
@@ -119,17 +113,11 @@ const Emerge = () => {
         <h1 className='heading'>
           “You're Ready!”
         </h1>
-        <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-        </div>
+        <img className="image" src={greendotart} alt="" />
 
         <div className='details'>
           <div className='header'>
-            <h1>Program Details:</h1>
-            <a >E m e r g e</a>            
+            <h1>Program Details:</h1>           
           </div>
 
           <div className='separator'></div>
@@ -152,14 +140,18 @@ const Emerge = () => {
             ))}
             
 
-          </div>
+          </div>        
 
+        </div>
+
+        <div className='applyHere'>
+            <a>Apply Here</a>
         </div>
 
       </div>
 
       <div className='home-quoate'>
-        <h1 className='home-heading'>To be on the Top you must clearly know where you actually stand.</h1>
+        <h1 className='home-heading'>"You have been hiding. It's time You EMERGE!"</h1>
         <p>MK.</p>
 
       </div>  

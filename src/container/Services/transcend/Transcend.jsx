@@ -7,8 +7,9 @@ import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {transcendTimeline, emergeProgramdetail} from '../../../Data'
 import './Transcend.scss'
 import transcend from '../../../assets/transcend.png'
-
 import transcendPhoto from '../../../assets/transcendPhoto.png'
+import greendotart from '../../../assets/greendotart.png'
+
 
 const Transcend = () => {
 
@@ -35,7 +36,7 @@ const Transcend = () => {
             </div>
 
             <a href="#quoate">
-                Know More.
+                Know More
             </a>
 
 
@@ -49,7 +50,6 @@ const Transcend = () => {
 
         <div className='mid-apply-section_image'>          
             <div className='heading'>
-              <p> To Your Orbit</p>
               <h1>Transcend</h1>           
             </div>
 
@@ -69,12 +69,7 @@ const Transcend = () => {
           </p>
         </span>
         <p className='desc'>– MK, YOUR PERSONAL TRANSFORMATION COACH</p>
-        <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-        </div>
+        <img src={greendotart} alt="" />
 
       </div>
 
@@ -85,7 +80,7 @@ const Transcend = () => {
           <p className='paragraph'>Rare to find Materials, Never-Ever Heard & Done Training Sessions, Video Recordings, On the Ground application with Groups, Fine tuning Sessions with 100% Results – I Guarantee!</p>
 
           <a href="#detail" className='button'>
-            Discover More -&gt;
+            Discover More
           </a>
         </div>
 
@@ -123,17 +118,11 @@ const Transcend = () => {
         <h1 className='heading'>
           “You're Ready!”
         </h1>
-        <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-        </div>
+        <img className="image" src={greendotart} alt="" />
 
         <div className='details'>
           <div className='header'>
-            <h1>Program Details:</h1>
-            <a>Transcend</a>            
+            <h1>Program Details:</h1>           
           </div>
 
           <div className='separator'></div>
@@ -160,10 +149,14 @@ const Transcend = () => {
 
         </div>
 
+        <div className='applyHere'>
+            <a>Apply Here</a>
+        </div>
+
       </div>
 
       <div className='transcend-quoate'>
-        <h1 className='heading'>I'll rather have you Transcend than being good at thing– <br />'coz only Mediocres are –good. <br /> Winners Perform "Excellence" – again & Again & AGAIN! <br /> They are in their Orbit – It's time you command Yours!</h1>
+        <h1 className='heading'>I'll rather have you Transcend than being good at things– <br />'coz only Mediocres are –good. <br /> <br /> Winners Perform "Excellence" – again & Again & AGAIN! <br /> <br />They are in their Orbit – It's time you command Yours!</h1>
         <p>MK.</p>
 
       </div>  

@@ -88,7 +88,7 @@ const About = () => {
 
 
       <div className='ownquoate' style={{margin:"0", padding:"4rem 0"}}>
-        <h1 className='heading'>There is no bigger suffering than not being able <br /> to Do Perform Express - the way you want to </h1>
+        <h1 className='heading'>There is no bigger suffering than not being able <br /> to Do, Perform, Express - the way you want to </h1>
         <p>MK.</p>
 
       </div> 
@@ -100,9 +100,9 @@ const About = () => {
       </div> */}
       
       <div className='legacygraphic'>
-        <div  className='image'>
+
             <img src={legacyPhoto} alt="" />
-        </div>
+  
       </div>
 
 
@@ -132,7 +132,7 @@ const About = () => {
             <p>If You're Ready <br /> I'll turn the world upside down <br /> Including you.</p>
 
             <a href="#detail" className='button'>
-            Discover More -&gt;
+            Discover More
             </a>
         </div>
 

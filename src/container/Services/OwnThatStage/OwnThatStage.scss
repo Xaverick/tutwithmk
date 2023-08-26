@@ -132,7 +132,7 @@
 
             .ownthatstage-heading{
                 margin-top: 1rem;
-              letter-spacing: normal;
+                letter-spacing: 0.5rem;
             }
         }
 
@@ -156,8 +156,8 @@
         width: 100%;
         font-family: var(--font-display);
         font-size: 3.4rem;
+        color: var(--text-hover);
         font-weight: 400;
-        color: var(--primary-color);
         margin-bottom: 2rem;
 
     }
@@ -210,13 +210,8 @@
         width: 90%;
         height: 80%;
         border-radius: 20px;
-        filter: grayscale(1);
-        transition: all 0.3s ease-in-out;
-        &:hover{
-            scale: 1.1;
-            filter: grayscale(0);
-            rotate: 8deg;
-        }
+
+
     }
     @media  screen and (max-width: 768px){
         width: 100%;
@@ -232,7 +227,7 @@
     display: flex;
     flex-direction: column;
     padding: 4rem 0;
-    margin-top: 10rem;
+    margin-top: 8rem;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(
@@ -250,16 +245,19 @@
 
     .heading{      
         text-align: center;
-        font-family: var(--font-display);  
+        font-family: var(--font-nanum);  
         width: 80%;
+        text-transform: capitalize;
         font-size: 2rem;
         font-weight: 600;
         color: var(--primary-color);
         padding-bottom: 1rem;
     }
+
     p{
         font-size: 24px;
     }
+    
     @media  screen and (max-width: 768px){
         padding: 2rem 0;
         margin-top: 3rem;
@@ -303,8 +301,8 @@
         padding: 2rem;
         h1{
             font-family: var(--font-display);
-            font-size: 3.4rem;
-            font-weight: 600;
+            font-size: 2rem;
+            font-weight: 500;
             color: var(--primary-color);
             margin-bottom: 2rem;
         }
@@ -359,10 +357,10 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        background-image: url('../../../assets/rounded_1.png');
-        background-size: contain;
-        background-position: right;
-        background-repeat: repeat;
+        // background-image: url('../../../assets/rounded_1.png');
+        // background-size: contain;
+        // background-position: right;
+        // background-repeat: repeat;
         img{
            
             height: 80%;
