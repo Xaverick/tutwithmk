@@ -7,7 +7,7 @@ import dollar from '../../src/assets/icons/dollar.png';
 import location from '../../src/assets/icons/location.png';
 import confidential from '../../src/assets/icons/confidentiality.png';
 import session from '../../src/assets/icons/session.png';
-
+import duration from '../../src/assets/icons/duration.png';
 
 import emergeTimeline1 from '../../src/assets/icons/emergeTimeline1.png';
 import emergeTimeline2 from '../../src/assets/icons/emergeTimeline2.png';
@@ -23,8 +23,8 @@ import launchpadTimeline3 from '../../src/assets/icons/launchpadTimeline3.png';
 import launchpadTimeline4 from '../../src/assets/icons/launchpadTimeline4.png';
 import launchpadTimeline5 from '../../src/assets/icons/launchpadTimeline5.png';
 
-import confidential2 from '../../src/assets/icons/5.png';
 
+import transcendTimeline1 from '../../src/assets/icons/transcendTimeline1.png';
 
 
 
@@ -57,7 +57,7 @@ const emergeTimeline = [
 
 const emergeProgramdetail = [
     {
-        icon: confidential,
+        icon: duration,
         heading: 'Duration.',
         content:"6 Sessions 60 mins each.",
     },
@@ -66,12 +66,6 @@ const emergeProgramdetail = [
         heading: 'Session.',
         content:"1-on-1",
     },
-    // {
-    //     icon: location,
-    //     heading: 'Location.',
-    //     content:"6 Sessions 60 mins each.",
-    // },
-
     {   
         icon: dollar,
         heading: 'Pricing.',
@@ -109,7 +103,7 @@ const coffeeProgramdetail = [
 
 const transcendTimeline = [
     {
-        icon: '',
+        icon: transcendTimeline1,
         content:"Power of Concentration & Focus on Anything+Anytime!",
     },
     {

@@ -2,21 +2,26 @@ import { dividerClasses } from '@mui/material';
 import blogsimage from '../../assets/blogsimgae.jpg'
 import companyOfYou from '../../assets/companyOfYou.jpg'
 import strategy from  '../../assets/strategy.jpg'
+import blog1 from '../../assets/blogPhoto/blog1.png'
+import blog2 from '../../assets/blogPhoto/blog2.png'
+import blog3 from '../../assets/blogPhoto/blog3.png'
+import blog4 from '../../assets/blogPhoto/blog4.png'
+import blog5 from '../../assets/blogPhoto/blog5.png'
 import blog6 from '../../assets/blogPhoto/blog6.png'
 import blog8 from '../../assets/blogPhoto/blog8.png'
 import blog9 from '../../assets/blogPhoto/blog9.png'
-
-
-
-
-
+import blog10 from '../../assets/blogPhoto/blog10.png'
+import blog11 from '../../assets/blogPhoto/blog11.png'
+import blog12 from '../../assets/blogPhoto/blog12.png'
+import blog13 from '../../assets/blogPhoto/blog13.png'
+ 
 
 
 const BlogData = [
     {
         id:1,
         title:'"Stagnation" – Your Current Horrifying Livingness.',
-        img: companyOfYou,
+        img: blog1,
         name:'MK',
         date:'12/12/2020',
         content:
@@ -30,7 +35,7 @@ const BlogData = [
     {
         id:2,
         title:'"Sufferings" – An Everyday Exam.',
-        img: strategy,
+        img: blog2,
         name:'MK',
         date:'12/12/2020',
         content:
@@ -61,7 +66,7 @@ const BlogData = [
     {
         id:3,  
         title:'Question is: Who’s Right?',
-        img: blogsimage,
+        img: blog3,
         name:'MK',
         date:'12/12/2020',
         content: 
@@ -93,7 +98,7 @@ const BlogData = [
     {
         id:4,  
         title:'Instant Relief Mantra – “Any Relationship Upset',
-        img: blogsimage,
+        img: blog4,
         name:'MK',
         date:'12/12/2020',
         content: 
@@ -106,7 +111,7 @@ const BlogData = [
     {
         id:5,  
         title:'How to stay in Your Dimension- Upbeat and Kicking.',
-        img: blogsimage,
+        img: blog5,
         name:'MK',
         date:'12/12/2020',
         content: 
@@ -181,7 +186,8 @@ const BlogData = [
     {
         id:7,  
         title:'What is the Single Greatest Source of UnHappiness & Failures in Life ?',
-        img: blogsimage,
+        img: '',
+        video: "https://komododecks.com/embed/recordings/hcXSYAeVypLGv3zumcw7?onlyRecording=1",
         name:'MK',
         date:'12/12/2020',
         content: 
@@ -239,14 +245,14 @@ const BlogData = [
         date:'12/12/2020',
         content: 
             <div className='information'>
-            
+                <p>Don't let anyone Ever Dull your Sparkle. Strengthen that Partnership</p>
             </div>
            
     },
     {
         id:10,  
         title:'On Anger:',
-        img: blogsimage,
+        img: blog10,
         name:'MK',
         date:'12/12/2020',
         content: 
@@ -271,7 +277,7 @@ const BlogData = [
     {
         id:11,  
         title:'What! Why Personal Transformation?',
-        img: blogsimage,
+        img: blog11,
         name:'MK',
         date:'12/12/2020',
         content: 
@@ -291,7 +297,7 @@ const BlogData = [
     {
         id:12,  
         title:'Responsibility',
-        img: blogsimage,
+        img: blog12,
         name:'MK',
         date:'12/12/2020',
         content: 
@@ -310,7 +316,7 @@ const BlogData = [
     {
         id:13,  
         title:'Suffering Responsibility: ',
-        img: blogsimage,
+        img: blog13,
         name:'MK',
         date:'12/12/2020',
         content: 
@@ -339,7 +345,19 @@ const BlogData = [
             </div>
            
     },
+    {
+        id:14,  
+        title:'Success Vs Depression',
+        img: '',
+        video: 'https://komododecks.com/embed/recordings/o3nLTs27PWjXp8L9bOmi?onlyRecording=1',
+        name:'MK',
+        date:'12/12/2020',
+        content: 
+            <div className='information'>
 
+            </div>
+           
+    },
 
 ]
 

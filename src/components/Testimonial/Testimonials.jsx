@@ -23,7 +23,7 @@ const testimonial = {
 const Testimonials = ({name}) => {
   return (
     <div className='app__testimonials'>
-    <h6>Globally People Are Attaining. So Will You! </h6>
+    <h6>Globally People Are Attaining And So Will You! </h6>
     <div className='subheading'>
       <p>Attain With</p>
       <p> {name}</p>

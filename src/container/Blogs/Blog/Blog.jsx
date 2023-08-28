@@ -57,12 +57,13 @@ const Blog = () => {
       <div className="app__blog">
         <div className='blog__header'>
           <h1>{data.title}</h1>
-          <p>{data.name} . {data.date}</p>
+          <p>{data.name} </p>
         </div>
 
         <div className='blog__content'>
           <div className='content-left'>
-            <img src={data.img} alt="" />
+            {data.video && (<iframe src={data.video} frameborder="0" allow="autoplay;"></iframe>)}
+            {data.img && (<img src={data.img} alt="" />)}
             {data.content}   
       
             {data.link && (
@@ -93,7 +94,7 @@ const Blog = () => {
                                 <img src={item.img} alt="" />
                                 <div className='blog__card__content'>
                                     <h2 onClick={() => {navigate(`/blogs/${item.id}`)}}>{item.title}</h2>
-                                    <p>{item.name} . {item.date}</p>
+                                    <p>{item.name}</p>
                                 </div>
                             </div>
                         ))}

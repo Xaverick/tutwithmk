@@ -45,7 +45,7 @@ const Blogs = () => {
 
     return (
     <>
-        <Banner name='Blogs' subtitle={'Lorem ipsum dolor sit amet, consectetu.'} />
+        <Banner name='Blogs' subtitle={''} />
 
 
 
@@ -54,7 +54,8 @@ const Blogs = () => {
             <div className='blogs__header'>
                 {data && (
                     <div className='image' key={data.id}>
-                        <img src={data.img} alt="" />
+                        {data.video && (<iframe src={data.video} frameborder="0" allow="autoplay;"></iframe>)}
+                        {data.img && (<img src={data.img} alt="" />)}
                         <div className='overlay-content'>
                             <h1 onClick={() => {navigate(`/blogs/${data.id}`)}}>{data.title}</h1>
                             <span>{data.name} </span>
@@ -93,7 +94,8 @@ const Blogs = () => {
                 <div className='content-left'>
                     {BlogData.map((item, index) => (
                         <div className='blog__card' key={index}>
-                            <img src={item.img} alt="" />
+                            {item.video && (<iframe src={item.video} frameborder="0" allow="autoplay;"></iframe>)}
+                            {item.img && (<img src={item.img} alt="" />)}                           
                             <div className='blog__card__content'>
                                 <h2 onClick={() => {navigate(`/blogs/${item.id}`)}}>{item.title}</h2>
                                 <p>{item.name}</p>
@@ -112,7 +114,8 @@ const Blogs = () => {
                         <h2 className='heading'>Popular Post</h2>
                         {limitedData.map((item, index) => (
                             <div className='blog__card' key={index}>
-                                <img src={item.img} alt="" />
+                                {item.video && (<iframe src={item.video} frameborder="0" allow="autoplay;"></iframe>)}
+                                {item.img && (<img src={item.img} alt="" />)}
                                 <div className='blog__card__content'>
                                     <h2 onClick={() => {navigate(`/blogs/${item.id}`)}}>{item.title}</h2>
                                     <p>{item.name}</p>

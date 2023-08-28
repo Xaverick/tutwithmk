@@ -1,11 +1,11 @@
 import React , {useState,useEffect} from 'react'
 import './CoffeWithMK.scss'
-import {AiOutlineHome} from 'react-icons/ai'
-import {BsCurrencyDollar} from 'react-icons/bs'
-import {SlPeople} from 'react-icons/sl'
-import {SiGnuprivacyguard} from 'react-icons/si'
-import Coursefaq from '../../components/Coursefaq/Coursefaq'
-import {emergeTimeline, coffeeProgramdetail} from '../../Data'
+// import {AiOutlineHome} from 'react-icons/ai'
+// import {BsCurrencyDollar} from 'react-icons/bs'
+// import {SlPeople} from 'react-icons/sl'
+// import {SiGnuprivacyguard} from 'react-icons/si'
+// import Coursefaq from '../../components/Coursefaq/Coursefaq'
+// import {emergeTimeline, coffeeProgramdetail} from '../../Data'
 import coffee from '../../assets/coffee-popup.gif'
 import dollar from '../../assets/icons/dollar.png'
 import session from '../../assets/icons/session.png'
@@ -137,6 +137,11 @@ const CoffeWithMk = () => {
           <a>Apply Here</a>
         </div>
 
+      </div>
+
+      <div className="coffeeTestimonial">
+        <h1 className='para'>"It gave me an insight into myself...Now I am a better person."</h1>
+        <p className='description'> <br />R.C. - <span>HR Consultant</span></p>
       </div>
       
       {/* <Testimonials name="E m e r g e" /> */}

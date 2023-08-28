@@ -10,6 +10,7 @@ import quoate2dp from '../../assets/quoate2dp.png'
 import welcomegif from '../../assets/welcomegif.gif'
 import welcomepng from '../../assets/welcomepng.png'
 import dotart from '../../assets/dotart.png'
+import greendotart from '../../assets/greendotart.png'
 import bookcover1 from "../../assets/bookcover1.png"
 import TypeIt from "typeit-react";
 
@@ -45,7 +46,7 @@ const Home = () => {
 
         </div>
 
-        <p className='desc'><span>This World <br />A Revolution A War. <br /> </span> <br />
+        <p className='desc' style={{backgroundColor:"black", padding:"4rem 0"}}><span>This World <br />A Revolution A War. <br /> </span> <br />
           {/* <span className='last-line'>Welcome to Your Clan!</span> */}
           <img src={welcomepng} alt="" />
         </p>
@@ -83,7 +84,7 @@ const Home = () => {
           <div className="dot"></div>
           <div className="dot"></div>
         </div> */}
-        <img src={dotart} alt="" />
+        <img src={greendotart} alt="" />
 
         <span className='heading'>
             <p>Version X: A Brand New, Superior, Revolutionary, Totally Revamped Version Of Old You. </p>
@@ -252,7 +253,7 @@ const Home = () => {
         </div> 
 
         <div className='owntimeline-section__left'>
-            <h1 style={{textAlign:"center"}} className='own'><span>TRANFORMATION </span> <br /> You to The YOU</h1>
+            <h1 style={{textAlign:"center", color:"var(--primary-color)"}} className='own'><span className='small'>TRANFORMATION </span> <br />  <span>"You to The YOU" </span> </h1>
             <p style={{textAlign:"center", width:"100%",color:"var(--header-green)"}}>MK</p>
             <p className='bottom' style={{textAlign:"center", width:"100%"}}>Book Launching Soon...</p>
 {/* 

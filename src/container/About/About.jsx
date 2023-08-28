@@ -6,26 +6,28 @@ import './About.scss'
 import aboutbanner from "../../assets/aboutBanner.png"
 import legacyPhoto from '../../assets/legacyphoto.png'
 import dp from "../../assets/dp.gif"
-
+import aboutBannergif from "../../assets/aboutBannergif.gif"
 
 const About = () => {
 
   return (
     <div className='app__container'>
 
-      <div className='aboutbanner'>
+
+      <div className="warrior-header">
+        <img src={aboutBannergif} alt="" />
+      </div> 
+
+      {/* <div className='aboutbanner'>
         <img src={aboutbanner} alt="" />
-      </div>
-      {/* <Banner name='About MK' subtitle="R I S E" gold={true} /> */}
+      </div> */}
+  
 
 
       <div className='description-container'>
 
 
         <div className='description'>
-          {/* <div className='description__left'> */}
-            {/* <img src={MK1} alt="" /> */}
-          {/* </div> */}
 
           <div className='description__right'>
             <span>About MK.</span>
@@ -59,10 +61,6 @@ const About = () => {
 
 
         <div className='description' >
-          {/* <div className='description__left'> */}
-            {/* <img src={MK1} alt="" /> */}
-          {/* </div> */}
-
           <div className='description__right'>
             <span><p>Accolades:</p> 
             <span className="subline">Humble Moments</span>
@@ -88,16 +86,10 @@ const About = () => {
 
 
       <div className='ownquoate' style={{margin:"0", padding:"4rem 0"}}>
-        <h1 className='heading'>There is no bigger suffering than not being able <br /> to Do, Perform, Express - the way you want to </h1>
+        <h1 className='heading'>"There is no bigger suffering than not being able <br /> to Do, Perform, Express - the way you want to." </h1>
         <p>MK.</p>
 
-      </div> 
-      
-
-      {/* <div className="about-first-media">
-        <img src={wallpaper} alt="" />
-        <a href="" className="download">Download Wallpaper</a>
-      </div> */}
+      </div>      
       
       <div className='legacygraphic'>
 
@@ -114,12 +106,6 @@ const About = () => {
           </p>
         </span>
         <p className='desc'>MK.</p>
-        {/* <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-        </div> */}
 
       </div>
 

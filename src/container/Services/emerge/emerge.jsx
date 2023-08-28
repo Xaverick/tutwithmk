@@ -151,7 +151,7 @@ const Emerge = () => {
       </div>
 
       <div className='home-quoate'>
-        <h1 className='home-heading'>"You have been hiding. It's time You EMERGE!"</h1>
+        <h1 className='home-heading'>"You have been hiding. It's time You E M E R G E!"</h1>
         <p>MK.</p>
 
       </div>  
