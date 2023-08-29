@@ -25,8 +25,10 @@ import launchpadTimeline5 from '../../src/assets/icons/launchpadTimeline5.png';
 
 
 import transcendTimeline1 from '../../src/assets/icons/transcendTimeline1.png';
-
-
+import transcendTimeline2 from '../../src/assets/icons/transcendTimeline2.png';
+import transcendTimeline3 from '../../src/assets/icons/transcendTimeline3.png';
+import transcendTimeline4 from '../../src/assets/icons/transcendTimeline4.png';
+import transcendTimeline5 from '../../src/assets/icons/transcendTimeline5.png';
 
 const emergeTimeline = [
     {
@@ -107,23 +109,21 @@ const transcendTimeline = [
         content:"Power of Concentration & Focus on Anything+Anytime!",
     },
     {
-        icon: '',
+        icon: transcendTimeline2,
         content:"Rule over your Fears+Trigger Points+Compulsions!",
     },
     {
-        icon: '',
+        icon: transcendTimeline3,
         content:"Control over People's Communications & Actions!",
     },
     {
-        icon: '',
+        icon: transcendTimeline4,
         content:"For the 1st time – Your Emotional & Mental Stability, Both!",
     },
     {
-        icon: '',
+        icon: transcendTimeline5,
         content:"Rare Practicals on 'Power of Intention' to Manifest Things in Life! & More – Confidential Data",
-    },
-  
-   
+    },     
    
 ]
 

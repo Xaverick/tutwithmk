@@ -36,18 +36,9 @@ const Home = () => {
                 allow="autoplay"
           />
 
-          {/* <iframe 
-            className="bg-video"
-            // src="https://www.youtube.com/embed/nWp5vwsuF4E?autoplay=1&rel=0&mute=1"
-            src="https://komododecks.com/embed/recordings/CSGGjCOKEASWhNy2v9YN?autoplay=1&mute=1"
-            allowFullScreen
-            allow="autoplay"
-          /> */}
-
         </div>
 
         <p className='desc' style={{backgroundColor:"black", padding:"4rem 0"}}><span>This World <br />A Revolution A War. <br /> </span> <br />
-          {/* <span className='last-line'>Welcome to Your Clan!</span> */}
           <img src={welcomepng} alt="" />
         </p>
 
@@ -65,9 +56,6 @@ const Home = () => {
 
         </div>
 
-        {/* <div className='quoate-2-right'>
-          <img src={quoate2dp} alt="" />
-        </div> */}
       </div>
       {/* </div>
       </div> */}
@@ -78,12 +66,6 @@ const Home = () => {
             <p style={{margin:"1rem 0"}}>I Welcome You To Your Version X</p>
         </span>
 
-        {/* <div className='four-dots'>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div> */}
         <img src={greendotart} alt="" />
 
         <span className='heading'>
@@ -116,33 +98,8 @@ const Home = () => {
                 return instance;
               }}
             />
-
-
-            {/* <Typewriter    
-                options={{
-                  strings: ['I Deliver what I Promise.', 'My Promise – \"Transformation.\"'],
-                  autoStart: true,
-                  loop: true,
-                  delay: 100,
-                  
-                }}
-
-            /> */}
-
-
           </div>
           
-
-          {/* <Typewriter  
-            options={{                       
-              strings: [],  
-              autoStart: true,
-              loop: true,
-              delay: 100,
-              pauseFor: 3000,
-            }}
-          /> */}
-
           <TypeIt
             options={{
               strings: [` My Promise – "Transformation." `],
@@ -154,8 +111,6 @@ const Home = () => {
             }}
             getBeforeInit={(instance) => {
               instance.pause(6000).delete().pause(2000);
-
-              // Remember to return it!
               return instance;
             }}
           />
@@ -177,14 +132,6 @@ const Home = () => {
               return instance;
             }}
           />
-          {/* <Typewriter              
-            options={{
-              strings: ["That's it! End of Story. "],
-              autoStart: true,
-              loop: true,
-              delay: 100,
-            }}
-          /> */}
           </div>
 
 

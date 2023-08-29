@@ -27,7 +27,7 @@ const CoffeWithMk = () => {
 
         <div className='mid-apply-section__form'>
           <div className='start-testimonial'>
-            <h2>It gave me an insight</h2>
+            <h2> ...was really Life-transforming.</h2>
             <div>
               <p className='para'>"It was my privilege to be able to have a Coffee with MK. The kind of Self-Revelation I had over this Coffee was really Life-transforming. Just this 1 Session helped me uncover some deep hidden harmful mindsets that was causing me to self-sabotage myself sub-consciously & it helped me break-free from a vicious loop I was in. <br /> <br />MK is not just a Legend himself. He is someone who creates Legends." </p>
             </div>
@@ -63,8 +63,8 @@ const CoffeWithMk = () => {
 
       </div>
 
-      <div className='ownquoate'>
-        <h1 className='heading'>In this specially designed Stress Buster session, You can talk about Anything but I encourage you to talk about Everything. Only You & Me. No pen or paper.</h1>
+      <div className='coffeeQuoate'>
+        <h1 className='heading'>In this specially designed Stress Buster session, <br /> You can talk about Anything <br /> But I Encourage You To Talk About Everything. <br /> <br /> Only You & Me. <br /> No pen or paper.</h1>
 
       </div> 
 
@@ -140,6 +140,7 @@ const CoffeWithMk = () => {
       </div>
 
       <div className="coffeeTestimonial">
+        <h2>It gave me an insight...</h2>
         <h1 className='para'>"It gave me an insight into myself...Now I am a better person."</h1>
         <p className='description'> <br />R.C. - <span>HR Consultant</span></p>
       </div>

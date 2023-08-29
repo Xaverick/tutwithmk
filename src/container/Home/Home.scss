@@ -134,30 +134,7 @@
       
 }
 
-// .quoate-2-background{
-//     position: relative;
-//     width: 100%;
-//     background-image: url('../../assets/conference.jpg');
-//     object-fit: cover;
-//     background-size: contain;
-//     background-repeat: no-repeat;
-//     .image-overlay{
-//         width: 100%;
-//         height: 100%;
-//         // background-color: rgba(0,0,0,0.7);
-//         background-image: linear-gradient(
-//             0.25turn,            
-//             rgba(0,0,0,0.8),                                                                                                                                                                                                                                 
-//             rgba(10, 135, 105,1)
-                                                                      
 
-//         );
-//         @media screen and (max-width: 768px){
-//             padding: 1rem 0;               
-//         }
-//     }
-
-// }
 
 .quoate-2{
     width: 100%;
@@ -177,16 +154,7 @@
         background-color: black;
         text-align: center;
     }
-    // background-image: url("../../assets/conference.JPG");
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-image: linear-gradient(
-    //     0.75turn,         
-    //     rgba(0,0,0,0.1),                                                                                                                                                                                                                                 
-    //     rgba(10, 135, 105,1)                                                            
-    // );
-    // background-image: ;
-    // box-shadow: 0 0 80px black;
+
     .quoate-2-left{
         width: 75%;
         margin: auto;
@@ -210,20 +178,6 @@
             }
         }
     }
-    // .quoate-2-right{
-    //     width: 40%;
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    //     img{
-    //         width: 80%;
-    //         height: 80%;
-            
-    //     }
-    //     @media screen and (max-width: 768px){
-    //         width: 100%;
-    //     }
-    // }
 
     @media screen and (max-width: 768px){
         padding: 2rem 1rem;
@@ -267,8 +221,6 @@
         }               
         width: 80%;               
         color: var(--primary-color);
-        // padding-bottom: 1rem;
-        // margin-bottom: 1rem;
         img{
             margin: 2rem 0;
             width: 25%;

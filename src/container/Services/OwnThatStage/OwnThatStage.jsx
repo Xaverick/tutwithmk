@@ -96,7 +96,7 @@ const OwnThatStage = () => {
         <div className='owntimeline-section__left'>
             <h1 className='own'>You've been Unique & So Is Your Message.</h1>
 
-            <p>Get That Message Across To People! End of Story.</p>
+            <p>Get That Message Across To People! <br /> End of Story.</p>
 
             <a href="#detail" className='button'>
             Discover More 
@@ -126,7 +126,7 @@ const OwnThatStage = () => {
               <div className='homebanner__left'>
                   <p>I'LL TRAIN YOU HOW TO –</p>
                   <h1>"Create A Dent, <br />Make Your Mark, <br /> Leave a Legacy!"</h1>
-                  <span>Interested? don’t Bother. <br /> Ready for Whatever it takes!</span>
+                  <span>Just Interested? Don’t Bother. <br /> Ready for Whatever it takes!</span>
                   <a href="">Apply Here</a>
                   
               </div>

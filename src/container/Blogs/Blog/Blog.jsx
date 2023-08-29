@@ -91,7 +91,8 @@ const Blog = () => {
                         <h2 className='heading'>Popular Post</h2>
                         {BlogData.map((item, index) => (
                             <div className='blog__card' key={index}>
-                                <img src={item.img} alt="" />
+                                {item.video && (<iframe src={item.video} frameborder="0" allow="autoplay;"></iframe>)}
+                                {item.img && (<img src={item.img} alt="" />)}
                                 <div className='blog__card__content'>
                                     <h2 onClick={() => {navigate(`/blogs/${item.id}`)}}>{item.title}</h2>
                                     <p>{item.name}</p>
