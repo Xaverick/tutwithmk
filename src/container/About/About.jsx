@@ -14,15 +14,9 @@ const About = () => {
     <div className='app__container'>
 
 
-      <div className="warrior-header">
-        <img src={aboutBannergif} alt="" />
+      <div className="about-header">
+        <img className='aboutimage' src={aboutBannergif} alt="" />
       </div> 
-
-      {/* <div className='aboutbanner'>
-        <img src={aboutbanner} alt="" />
-      </div> */}
-  
-
 
       <div className='description-container'>
 

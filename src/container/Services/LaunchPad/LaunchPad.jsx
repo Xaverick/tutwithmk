@@ -9,7 +9,7 @@ import {LaunchPadtimeline, emergeProgramdetail} from '../../../Data'
 import launchpadLogo from '../../../assets/launchpadLogo.png'
 import launchpadPhoto from '../../../assets/launchpadPhoto.png'
 import greendotart from '../../../assets/greendotart.png'
-const LaunchPad = () => {
+const LaunchPad = ({link}) => {
 
     return (
     <div className='app__container'>
@@ -42,7 +42,6 @@ const LaunchPad = () => {
 
         <div className='mid-apply-section_image'>          
             <div className='heading'>
-              {/* <p>Derive Yourself</p> */}
               <h1>LaunchPad</h1>           
             </div>
 
@@ -64,12 +63,6 @@ const LaunchPad = () => {
         <p className='desc'>– MK, YOUR PERSONAL TRANSFORMATION COACH</p>
         <img src={greendotart} alt="" />
         
-        {/* <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-        </div> */}
 
       </div>
 
@@ -121,12 +114,7 @@ const LaunchPad = () => {
           “You're Ready!”
         </h1>
         <img className="image" src={greendotart} alt="" />
-        {/* <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-        </div> */}
+
 
         <div className='details'>
           <div className='header'>
@@ -158,7 +146,7 @@ const LaunchPad = () => {
         </div>
 
         <div  className='applyHere'>
-            <a >Apply Here</a>
+            <a href={`${link}/apply`} >Apply Here</a>
         </div>
 
       </div>

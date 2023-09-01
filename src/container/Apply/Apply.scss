@@ -1,0 +1,22 @@
+.applyhere{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+        margin-top: 55px;
+            
+    }
+}
+
+
+.questions{
+    width: 100%;
+    height: 90vh;
+    border: 0;
+    outline: 0;
+    box-shadow: 2px solid black;
+    @media screen and (max-width: 768px) {        
+        height: 80vh;
+    }
+}

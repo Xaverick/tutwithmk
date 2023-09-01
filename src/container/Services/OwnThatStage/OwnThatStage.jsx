@@ -13,32 +13,11 @@ import ownthatstagePhoto from '../../../assets/ownthatstagePhoto.png'
 import greendotart from '../../../assets/greendotart.png'
 
 
-const OwnThatStage = () => {
+const OwnThatStage = ({link}) => {
 
   return (
       <div className='app__container'>
-        {/* <div className='content-header app__flex'>
-            <img className='pattern' src={patttern_1} alt="" />
-            <div className='content'>
-              
-              <div className='content-header-left'>              
-                <div className='details'>
-                  <h1>Own That Stage</h1>  
-                  <p>Mastering the Arena of Public Speaking</p>   
-                </div>
-                  
-              </div>
 
-              <div className='content-header-right'>
-                  <img className="customOwn" src={header} alt="" />
-              </div>
-            </div>
-            
-        </div> */}
-        
-        
-        
-        
         <Banner name={"Own That Stage"} subtitle={"Mastering the Arena of Public Speaking"} custom={true}/> 
 
         <div className='mid-apply-section'>
@@ -173,20 +152,11 @@ const OwnThatStage = () => {
 
       </div>
         <div style={{marginBottom:"2rem"}} className='applyHere'>
-            <a>Apply Here</a>
+            <a href={`${link}/apply`}>Apply Here</a>
         </div>
 
       </div>
 
-  
-        
-        {/* <Testimonials name="Own That Stage"/> */}
-        {/* <Coursefaq name="Own That Stage"/> */}
-      
-    
-      
-  
-          
     </div>  
  
   )

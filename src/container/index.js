@@ -13,6 +13,7 @@ import Blog from './Blogs/Blog/Blog';
 import SearchBlog from './Blogs/SearchBlog/SearchBlog';
 import PopUp from './PopUp/PopUp';
 import StressBuster from './StressBuster/StressBuster';
+import Apply from './Apply/Apply';
 
 export{
     About,
@@ -29,7 +30,8 @@ export{
     Blog,
     SearchBlog,
     PopUp,
-    StressBuster
+    StressBuster,
+    Apply
 }
 
 

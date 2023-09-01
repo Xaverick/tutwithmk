@@ -13,29 +13,15 @@ import fenching from "../../assets/fenching.gif"
 import aboutBannergif from "../../assets/aboutBannergif.gif"
 import aboutbanner from "../../assets/aboutBanner.png"
 
-const squareVariants = {
-  visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
-  hidden: { opacity: 0, scale: 0 }
-};
 
 
 const Services = () => {
-
-  const controls = useAnimation();
-  const [ref, inView] = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    }
-  }, [controls, inView]);
-
   return (
     <div className='app__container'>
       <div className='aboutbanner'>
         <img src={aboutbanner} alt="" />
       </div>
-      {/* <Banner name='X-Factor' /> */}
+
 
       <div style={{padding:"3rem 0"}} className="quoate-2">
         <h1 className='heading' style={{backgroundColor:"transparent", color:"var(--text-hover)"}}>F R E Q U E N C Y - 11:11</h1>
@@ -45,33 +31,10 @@ const Services = () => {
           <h1 className='home-heading'>An Equation - Balancing Science+Philosophy+Religion - Needed For  The Freedom Of You And Everyone Else. </h1>
           <h1 className='home-heading'>I Got Trained By The Best In That Equation.</h1>
 
-
-
-
-         
-
         </div>
-
-        {/* <div className='quoate-2-right'>
-          <img src={quoate2dp} alt="" />
-        </div> */}
       </div>
 
-      {/* <div id = 'quoate' className='course-feature'>
-        <span className='heading'>
-          <p>
-          “Data has always been there. <br /> Capability to hold & deliver, is rare!”
-          </p>
-        </span>
-        <p className='desc'>– MK, YOUR PERSONAL TRANSFORMATION COACH</p>
-        <div className='four-dots'>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-          <div className='dot'></div>
-        </div>
 
-      </div> */}
 
       <div className='first-media'>
         <img src={fenching} alt="" />
@@ -117,42 +80,17 @@ const Services = () => {
 
         </div>
 
-      
       <div className="second-media">
         <img src={aboutBannergif} alt="" />
 
       </div>
 
       <div className='multiple-media'>
-        {/* <img className="sub-media-1" src={endofyou} alt="" />
-        <img className="sub-media-1 dimension" src={pressButton} alt="" />     */}
         <div className='quoates'>
           <h1 className='heading'>"You Are Alive Because you dare!"</h1>
           <p>MK.</p>
         </div>  
-
-      </div>
-{/* 
-
-      <div
-        // ref={ref}
-        // animate={controls}
-        // initial="hidden"
-        // variants={squareVariants}
-        className="last-media"
-      >
-
-      </div> */}
-
-
-
-      {/* <Testimonials name="Our Programs"/> */}
-      {/* <Coursefaq name="Our Programs"/> */}
-    
-  
-    
- 
-        
+      </div> 
     </div>  
  
   )

@@ -37,12 +37,6 @@ const Legacy= () => {
             </span>
 
             <img src={greendotart} alt="" />
-            {/* <div className='four-dots'>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-            </div> */}
 
         </div>        
 

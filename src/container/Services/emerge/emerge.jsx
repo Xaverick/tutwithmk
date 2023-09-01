@@ -10,7 +10,7 @@ import emergeLogo from '../../../assets/emerge.png'
 import emergePhoto from '../../../assets/emergePhoto.png'
 import greendotart from '../../../assets/greendotart.png'
 
-const Emerge = () => {
+const Emerge = ({link}) => {
 
   return (
     <div className='app__container'>
@@ -145,7 +145,7 @@ const Emerge = () => {
         </div>
 
         <div className='applyHere'>
-            <a>Apply Here</a>
+            <a href={`${link}/apply`}>Apply Here</a>
         </div>
 
       </div>

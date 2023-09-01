@@ -11,7 +11,7 @@ import transcendPhoto from '../../../assets/transcendPhoto.png'
 import greendotart from '../../../assets/greendotart.png'
 
 
-const Transcend = () => {
+const Transcend = ({link}) => {
 
   return (
     <div className='app__container'>
@@ -150,7 +150,7 @@ const Transcend = () => {
         </div>
 
         <div className='applyHere'>
-            <a>Apply Here</a>
+            <a href={`${link}/apply`}>Apply Here</a>
         </div>
 
       </div>
@@ -160,14 +160,6 @@ const Transcend = () => {
         <p>MK.</p>
 
       </div>  
-      
-      {/* <Testimonials name="T r a n s c e n d"/> */}
-      {/* <Coursefaq name="Transcend"/>
-     */}
-  
-    
- 
-        
     </div>  
  
   )
