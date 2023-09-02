@@ -13,6 +13,7 @@
     align-items: center;
     background-color: rgba(0,0,0,0.8);
     @media screen and (max-width: 768px) {
+        
         height: 100%;
     }
     .close{
@@ -94,17 +95,13 @@
             
         }
         a{
-            background-color: var(--button-green);
-            width: fit-content;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-            font-family: var(--font-secondary);
-            font-size: 1.2rem;
+            width: 17%;
+            img{
+                width: 100%;
+            }
          
         }
-        img{
-            width: 17%;
-        }
+
         @media  screen and (max-width: 768px){
             width: 100%;
             align-items: center;

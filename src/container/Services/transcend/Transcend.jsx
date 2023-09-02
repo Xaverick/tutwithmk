@@ -4,7 +4,7 @@ import coach from '../../../assets/coach-talking.jpg'
 import Testimonials from '../../../components/Testimonial/Testimonials'
 import Banner from '../../../components/Banner/Banner'
 import Coursefaq from '../../../components/Coursefaq/Coursefaq'
-import {transcendTimeline, emergeProgramdetail} from '../../../Data'
+import {transcendTimeline, transcendProgramDetail} from '../../../Data'
 import './Transcend.scss'
 import transcend from '../../../assets/transcend.png'
 import transcendPhoto from '../../../assets/transcendPhoto.png'
@@ -128,7 +128,7 @@ const Transcend = ({link}) => {
           <div className='separator'></div>
 
           <div className='detail-content'>
-            {emergeProgramdetail.map((item, index) => (
+            {transcendProgramDetail.map((item, index) => (
               <div key = {index} className='card'>
 
                 <div className='card-header'>

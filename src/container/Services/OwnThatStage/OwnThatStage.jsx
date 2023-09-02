@@ -4,7 +4,7 @@ import coach from '../../../assets/coach-talking.jpg'
 import Testimonials from '../../../components/Testimonial/Testimonials'
 import Banner from '../../../components/Banner/Banner'
 import Coursefaq from '../../../components/Coursefaq/Coursefaq'
-import {emergeProgramdetail} from '../../../Data'
+import {ownthatstageProgramDetail} from '../../../Data'
 import './OwnThatStage.scss'
 import stategy from '../../../assets/strategy.jpg'
 import header from '../../../assets/header_1.png'
@@ -93,7 +93,7 @@ const OwnThatStage = ({link}) => {
       </div>
 
 
-      <div className='ownquoate'>
+      <div id='detail' className='ownquoate'>
       <h1 className='heading'>Intense Training Sessions to Bring into Existence & Stabilize – <br /> The Orator in You! <br /> <br /> Not overcome but Rip Apart your long complexes & <br /> doubts due to your Appearance, Voice, Language, <br /> your Past or whatever lie it is – <br /> <br /> It all Ends Now – Right Now!! </h1>
       <p>MK.</p>
 
@@ -106,7 +106,7 @@ const OwnThatStage = ({link}) => {
                   <p>I'LL TRAIN YOU HOW TO –</p>
                   <h1>"Create A Dent, <br />Make Your Mark, <br /> Leave a Legacy!"</h1>
                   <span>Just Interested? Don’t Bother. <br /> Ready for Whatever it takes!</span>
-                  <a href="">Apply Here</a>
+                  <a href={`${link}/apply`}>Apply Here</a>
                   
               </div>
               <div className='homebanner-right'>
@@ -116,7 +116,7 @@ const OwnThatStage = ({link}) => {
       </div>
 
 
-      <div id='detail' className='program-details'>
+      <div  className='program-details'>
       <h1 className='heading'>
           “You're Ready!”
       </h1>
@@ -130,7 +130,7 @@ const OwnThatStage = ({link}) => {
           <div className='separator'></div>
 
           <div className='detail-content'>
-          {emergeProgramdetail.map((item, index) => (
+          {ownthatstageProgramDetail.map((item, index) => (
               <div key = {index} className='card'>
 
               <div className='card-header'>

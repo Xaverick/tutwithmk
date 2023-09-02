@@ -12,14 +12,14 @@ function App() {
   const [isopen2, setIsopen2] = useState(false)
   const link = 'http://localhost:5173'
 
-  function apprear1(){
-    return new Promise((resolve,reject)=>{
-      setTimeout(() => {
-        resolve(true)
-      }, 5000);
-    })
+  // function apprear1(){
+  //   return new Promise((resolve,reject)=>{
+  //     setTimeout(() => {
+  //       resolve(true)
+  //     }, 5000);
+  //   })
     
-  }
+  // }
 
   const popupShownBefore = localStorage.getItem('popupShownBefore');
 
@@ -30,8 +30,6 @@ function App() {
   }) 
   
 
-
-
   if (!popupShownBefore) {
     timer
       .then((resolve)=>{
@@ -39,10 +37,9 @@ function App() {
         setTimeout(()=>{
           localStorage.setItem('popupShownBefore', 'true');
           setIsopen(false)
-        },5000)       
+        },2500)       
         
       })
-
   }
   
   return (
@@ -62,7 +59,7 @@ function App() {
                   <Route path="/services/ownthatstage" element={<OwnThatStage link={link}/>} />
                   <Route path="/services/legacy" element={<Legacy link={link}/>} />
                   <Route path="/services/launchpad" element={<LaunchPad link={link}/>} />
-                  <Route path="/about" element={<About />} />
+                  <Route path="/about" element={<About link={link}/>} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/services/coffewithmk" element={<CoffeWithMk link={link}/>} />
                   <Route path="/blogs" element={<Blogs />} />

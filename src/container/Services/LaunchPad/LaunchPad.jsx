@@ -5,7 +5,7 @@ import coach from '../../../assets/coach-talking.jpg'
 import Testimonials from '../../../components/Testimonial/Testimonials'
 import Banner from '../../../components/Banner/Banner'
 import Coursefaq from '../../../components/Coursefaq/Coursefaq'
-import {LaunchPadtimeline, emergeProgramdetail} from '../../../Data'
+import {LaunchPadtimeline, launchpadProgramDetail} from '../../../Data'
 import launchpadLogo from '../../../assets/launchpadLogo.png'
 import launchpadPhoto from '../../../assets/launchpadPhoto.png'
 import greendotart from '../../../assets/greendotart.png'
@@ -125,7 +125,7 @@ const LaunchPad = ({link}) => {
           <div className='separator'></div>
 
           <div className='detail-content'>
-            {emergeProgramdetail.map((item, index) => (
+            {launchpadProgramDetail.map((item, index) => (
               <div key = {index} className='card'>
 
                 <div className='card-header'>

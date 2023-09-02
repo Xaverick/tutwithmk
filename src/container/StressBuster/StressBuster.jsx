@@ -24,9 +24,9 @@ const StressBuster = ({isopen2, setIsopen2}) => {
                         <p>In these specially designed Stress Buster sessions, You can talk about Anything but I encourage you to talk about Everything. Only You & Me, no pen, paper etc.</p>
                         <p>Therapeutic Communication. Let's Talk. </p>
 
-                        <img src={popupgif} alt="" />
+                        <a href="/apply" ><img src={popupgif} alt="" /></a>
                         <span>*These are Confidential sessions.</span>
-                        {/* <a href="/services/coffewithmk" onClick={() => setIsopen2(false)}>Let's Get Started</a> */}
+                        
                     </div>
                 </div>
             </div>

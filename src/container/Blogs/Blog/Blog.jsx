@@ -69,6 +69,8 @@ const Blog = () => {
             {data.link && (
               <a href={data.link}>Click Here</a>
             )}
+
+            <p className='footer'> <br />MK</p>
           </div>
 
           <div className='content-right'>

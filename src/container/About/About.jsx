@@ -8,7 +8,15 @@ import legacyPhoto from '../../assets/legacyphoto.png'
 import dp from "../../assets/dp.gif"
 import aboutBannergif from "../../assets/aboutBannergif.gif"
 
-const About = () => {
+import alliance1 from "../../assets/InternationalAlliances/117.png"
+import alliance2 from "../../assets/InternationalAlliances/118.png"
+import alliance3 from "../../assets/InternationalAlliances/119.png"
+import alliance4 from "../../assets/InternationalAlliances/120.png"
+import alliance5 from "../../assets/InternationalAlliances/121.png"
+
+
+
+const About = ({link}) => {
 
   return (
     <div className='app__container'>
@@ -78,6 +86,16 @@ const About = () => {
         </div>  
 
 
+      <div className="alliances">
+        <h1 className='heading'>International Alliance</h1>
+        <div>
+          <img src={alliance1} alt="" />
+          <img src={alliance2} alt="" />
+          <img src={alliance3} alt="" />
+          <img src={alliance4} alt="" />
+          <img src={alliance5} alt="" />
+        </div>
+      </div>
 
       <div className='ownquoate' style={{margin:"0", padding:"4rem 0"}}>
         <h1 className='heading'>"There is no bigger suffering than not being able <br /> to Do, Perform, Express - the way you want to." </h1>
@@ -111,7 +129,7 @@ const About = () => {
 
             <p>If You're Ready <br /> I'll turn the world upside down <br /> Including you.</p>
 
-            <a href="#detail" className='button'>
+            <a href={`${link}/services`} className='button'>
             Discover More
             </a>
         </div>

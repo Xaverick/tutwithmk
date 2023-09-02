@@ -48,7 +48,7 @@ const CoffeWithMk = () => {
         </div>
         
 
-        <div className='mid-apply-section_image'>          
+        <div  className='mid-apply-section_image'>          
             <div className='heading'>
               <p>Stress Buster</p>
               <h1 style={{ letterSpacing:"normal"}}>K o f f e e with  MK</h1>           
@@ -63,7 +63,7 @@ const CoffeWithMk = () => {
 
       </div>
 
-      <div className='coffeeQuoate'>
+      <div className='coffeeQuoate' id="quoate">
         <h1 className='heading'>In this specially designed Stress Buster session, <br /> You can talk about Anything <br /> But I Encourage You To Talk About Everything. <br /> <br /> Only You & Me. <br /> No pen or paper.</h1>
 
       </div> 
@@ -134,7 +134,7 @@ const CoffeWithMk = () => {
 
         </div>
         <div style={{marginBottom:"4rem"}} className='applyHere'>
-          <a>Apply Here</a>
+          <a href='/apply'>Apply Here</a>
         </div>
 
       </div>

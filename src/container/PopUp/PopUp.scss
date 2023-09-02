@@ -1,14 +1,14 @@
 .layer1{
     position: fixed;
     z-index: 1000;
-    top: 50;
+    top: 0;
     right: 0;
     display: flex;
     justify-content: center;
-    height: 70vh;    
-    width: 30%;
+    height: 100vh;    
+    width: 100%;
     align-items: center;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.6);
     animation: appear 2s ease forwards;
     border-radius: 10px;
     @media screen and (max-width: 768px) {
@@ -35,11 +35,13 @@
     }
 }
 
+a{
+    width: 100%;
+
 .layer2{
     
     margin: 0 auto; 
-    width: 100%;
-    height: 100%;
+    width: 50%;
     display: flex;
     gap: 2rem;
     justify-content: space-around;
@@ -59,11 +61,12 @@
 
     
     .media{
-        width: 80%;
+        width: 70%;
         display: flex;
         justify-content: center;
         img{
             width: 60%;
+            height: 50%;
       
         }
         @media  screen and (max-width: 768px){
@@ -130,15 +133,14 @@
 
 }
 
-
+}
 
 @keyframes appear {
     0%{
-        transform: translatex(100%);
+
         opacity: 0;
     }
     100%{
-        transform: translatex(0%);
         opacity: 1;
     }
     

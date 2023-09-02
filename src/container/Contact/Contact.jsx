@@ -55,8 +55,8 @@ const data = [
                 <p>Notice, we're not talking here about "Improvement". It's very slow, time consuming & a boring thing! Atleast I feel that way & all the people coming to me feel the same.</p>
                 <p>Transformation is a different, all together, Frequency! It's Intense, Powerful, Thrilling with 280+ on highway or like watching 12-D movie!!!</p>
                 <p>If you're reading these words: You've lived Transformation! (I won't believe you for a single sec. if you say "No".)</p>
-                <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "Coffee with MK".</p>
-                <a href="/services/launchpad">Click Here</a>
+                <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "koffee with MK".</p>
+                <a href="/services/coffewithmk">Click Here</a>
             </div>,
         open: false,
         move:false

@@ -39,7 +39,6 @@
   --font-centauri: "Centauri", serif;
   --font-ponder: "ponder", serif;
   --font-opensans: "Open Sans", sans-serif;
-  /* --font-display: "Playfair Display", serif; */
   --font-cinzel: "Cinzel", serif;
   --font-trajan: "Trajan Pro Regular", serif;
   --font-nanum: "Nanum Myeongjo", serif;
@@ -55,13 +54,6 @@
   --card-bg-black: #131418;
   --card-bg-white: #f7f9fb;
   --black-color: #000000;
-
-  /* --secondary-color: #313bac;
-
-  --lightGray-color: #e4e4e4;
-  --gray-color: #6b7688;
-  --brown-color: #46364a;
-  --white-color: #ffffff; */
 }
 
 

@@ -269,7 +269,7 @@ const BlogData = [
                 <p>Every time it's the blessed you, who ends up in the limelight: Shouting, Upset, Abusive, Angry & at the end Sorryfull! That's quite a show by you, by the way. </p>
                 <p>When is the next episode scheduled?</p>
                 <p>Let's talk more. Join with me on "Koffee with MK".</p>
-                <a href="http://localhost:5173/services/coffewithmk">Join</a>
+                <a href="http://localhost:5173/services/coffewithmk">Click Here</a>
 
             </div>
            
@@ -288,7 +288,7 @@ const BlogData = [
                 <p>Notice, we're not talking here about "Improvement". It's very slow, time consuming & a boring thing! Atleast I feel that way & all the people coming to me feel the same.</p>
                 <p>Transformation is a different, all together, Frequency! It's Intense, Powerful, Thrilling with 280+ on highway or like watching 12-D movie!!!</p>
                 <p>If you're reading these words: You've lived Transformation! (I won't believe you for a single sec. if you say "No".)</p>
-                <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "Coffee with MK".</p>
+                <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "Koffee with MK".</p>
                 <a href="http://localhost:5173/services/coffewithmk">Click Here</a>
                 
             </div>

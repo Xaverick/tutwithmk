@@ -57,7 +57,7 @@ const emergeTimeline = [
     },
 ]
 
-const emergeProgramdetail = [
+const launchpadProgramDetail= [
     {
         icon: duration,
         heading: 'Duration.',
@@ -71,7 +71,67 @@ const emergeProgramdetail = [
     {   
         icon: dollar,
         heading: 'Pricing.',
-        content:"$ 300",
+        content:"$ 5,500",
+    },
+    {   
+        icon: confidential,
+        heading: 'Confidentiality.',
+        content:"These are Confidential Sessions",
+    },
+]
+
+const emergeProgramdetail = [
+    {
+        icon: session,
+        heading: 'Session.',
+        content:"1-on-1",
+    },
+    {   
+        icon: dollar,
+        heading: 'Pricing.',
+        content:"$ 11,000",
+    },
+    {   
+        icon: confidential,
+        heading: 'Confidentiality.',
+        content:"These are Confidential Sessions",
+    },
+    
+]
+
+
+const transcendProgramDetail = [
+
+    {
+        icon: session,
+        heading: 'Session.',
+        content:"1-on-1",
+    },
+    {   
+        icon: dollar,
+        heading: 'Pricing.',
+        content:"$ 21,000",
+    },
+    {   
+        icon: confidential,
+        heading: 'Confidentiality.',
+        content:"These are Confidential Sessions",
+    },
+    
+]
+
+
+const ownthatstageProgramDetail = [
+
+    {
+        icon: session,
+        heading: 'Session.',
+        content:"1-on-1",
+    },
+    {   
+        icon: dollar,
+        heading: 'Pricing.',
+        content:"$ 16,660",
     },
     {   
         icon: confidential,
@@ -210,5 +270,8 @@ export{
     ProgramDetail,
     legacyRoute,
     BlogData,
-    coffeeProgramdetail
+    coffeeProgramdetail,
+    launchpadProgramDetail,
+    transcendProgramDetail,
+    ownthatstageProgramDetail
 }
