@@ -1,6 +1,5 @@
 import React from 'react'
 import './Testimonials.scss'
-import map from '../../assets/world_map.png'
 import map2 from '../../assets/map2.png'
 import uk from '../../assets/homeTestimonial/uk.jpeg'
 import dubai from '../../assets/homeTestimonial/dubai.jpeg'
@@ -9,7 +8,7 @@ import italy from '../../assets/homeTestimonial/italy.jpeg'
 import slovakia from '../../assets/homeTestimonial/slovakia.jpeg'
 import mumbai from '../../assets/homeTestimonial/mumbai.jpeg'
 import { Tooltip } from 'react-tooltip'
-import * as Tooltips from '@radix-ui/react-tooltip';
+
 
 const testimonial = {
   dubai: "\"You can see the results instantly not only in your Business but in your Personal Life too.\" <br /> <p> A.K., Entrepreneur - DUBAI </p>",

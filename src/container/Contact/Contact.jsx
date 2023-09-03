@@ -4,7 +4,7 @@ import  {motion,AnimatePresence} from "framer-motion"
 import {AiOutlineArrowDown} from 'react-icons/ai'
 import Banner from '../../components/Banner/Banner'
 import emailjs from '@emailjs/browser';
-import styled from 'styled-components'
+
 
 
 const data = [

@@ -1,7 +1,4 @@
 import { dividerClasses } from '@mui/material';
-import blogsimage from '../../assets/blogsimgae.jpg'
-import companyOfYou from '../../assets/companyOfYou.jpg'
-import strategy from  '../../assets/strategy.jpg'
 import blog1 from '../../assets/blogPhoto/blog1.png'
 import blog2 from '../../assets/blogPhoto/blog2.png'
 import blog3 from '../../assets/blogPhoto/blog3.png'

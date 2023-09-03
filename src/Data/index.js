@@ -4,10 +4,15 @@ import emerge from '../../src/assets/emerge.png';
 import Blogdata from './Blogdata/Blogdata';
 
 import dollar from '../../src/assets/icons/dollar.png';
-import location from '../../src/assets/icons/location.png';
 import confidential from '../../src/assets/icons/confidentiality.png';
 import session from '../../src/assets/icons/session.png';
 import duration from '../../src/assets/icons/duration.png';
+
+
+let link = '';
+process.env.NODE_ENV === 'production' ?   link = process.env.LINK : link = 'http://localhost:5173';
+
+
 
 import emergeTimeline1 from '../../src/assets/icons/emergeTimeline1.png';
 import emergeTimeline2 from '../../src/assets/icons/emergeTimeline2.png';
@@ -216,26 +221,21 @@ const ProgramDetail = [
         icon: launchpadLogo,
         title: 'LaunchPad',
         content: "",
-        url: 'https://tutorialwitmk.onrender.com/services/launchpad'
+        url: `${link}/services/launchpad`
     },
     {
         icon: emerge,
         title: 'Emerge',
         content: "",
-        url: 'https://tutorialwitmk.onrender.com/services/emerge'
+        url: `${link}/services/emerge`
     },
     {
         icon: transcend,
         title: 'Transcend',
         content: "",
-        url: 'https://tutorialwitmk.onrender.com/services/transcend'
+        url: `${link}/services/transcend`
     },
-    // {
-    //     icon: '' ,
-    //     title: 'Own That Stage',
-    //     content: "",
-    //     url: 'https://tutorialwitmk.onrender.com/services/ownthatstage'
-    // }
+
 ]
 
 const legacyRoute = [
@@ -243,19 +243,19 @@ const legacyRoute = [
         icon: launchpadLogo,
         title: 'LaunchPad',
         content: ["Your Take off:", "Needs your own Launchpad." , "That's it!"],
-        url: 'http://localhost:5173/services/launchpad'
+        url: `${link}/services/launchpad`
     },
     {
         icon: emerge,
         title: 'Emerge',
         content: ["You have been hiding.", "It's time You EMERGE!","","","","",""],
-        url: 'http://localhost:5173/services/emerge'
+        url: `${link}/services/emerge`
     },
     {
         icon: transcend,
         title: 'Transcend',
         content: ["Winners Perform Excellence." , "They are in their Orbit.", "It's time you command Yours!"],
-        url: 'http://localhost:5173/services/transcend'
+        url: `${link}/services/transcend`
     },
 ]
 

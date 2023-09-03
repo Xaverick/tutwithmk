@@ -1,12 +1,11 @@
 import React, {useState} from 'react'
 import './Navbar.scss'
-import logo from '../../assets/logo.png'
 import logo2 from '../../assets/logo2.png'
 import { AiOutlineMenu} from 'react-icons/ai'
 import { HiX } from 'react-icons/hi'
 import {BiChevronDown,BiChevronUp} from 'react-icons/bi'
 import  {motion,AnimatePresence} from "framer-motion"
-import {AiOutlineArrowDown} from 'react-icons/ai'
+
 
 const Navbar = ({setIsopen2}) => {
   const [toggle, setToggle] = useState(false)

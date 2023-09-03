@@ -2,8 +2,7 @@ import React , {useState,useEffect} from 'react'
 import './Coursefaq.scss'
 import  {motion,AnimatePresence} from "framer-motion"
 import {AiOutlineArrowDown} from 'react-icons/ai'
-import {AiOutlineHome} from 'react-icons/ai'
-import emailjs from '@emailjs/browser';
+
 
 const data = [
     {

@@ -1,10 +1,6 @@
 import React , {useState,useEffect} from 'react'
 import './LaunchPad.scss';
-import {AiOutlineHome} from 'react-icons/ai'
-import coach from '../../../assets/coach-talking.jpg'
-import Testimonials from '../../../components/Testimonial/Testimonials'
 import Banner from '../../../components/Banner/Banner'
-import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {LaunchPadtimeline, launchpadProgramDetail} from '../../../Data'
 import launchpadLogo from '../../../assets/launchpadLogo.png'
 import launchpadPhoto from '../../../assets/launchpadPhoto.png'

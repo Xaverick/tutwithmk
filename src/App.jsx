@@ -7,11 +7,13 @@ import {Home, About, Contact, Services, PopUp, Emerge,Transcend,LaunchPad,Apply,
 
 
 
+
 function App() {
   const [isopen, setIsopen] = useState(false)
   const [isopen2, setIsopen2] = useState(false)
-  const link = 'http://localhost:5173'
 
+  let link = '';
+  process.env.NODE_ENV === 'production' ?   link = process.env.LINK : link = 'http://localhost:5173'
   // function apprear1(){
   //   return new Promise((resolve,reject)=>{
   //     setTimeout(() => {

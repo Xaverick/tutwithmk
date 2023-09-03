@@ -1,9 +1,6 @@
-import React , {useState,useEffect} from 'react'
-import {AiOutlineHome} from 'react-icons/ai'
-import coach from '../../../assets/coach-talking.jpg'
-import Testimonials from '../../../components/Testimonial/Testimonials'
+import React from 'react'
+
 import Banner from '../../../components/Banner/Banner'
-import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {ownthatstageProgramDetail} from '../../../Data'
 import './OwnThatStage.scss'
 import stategy from '../../../assets/strategy.jpg'
