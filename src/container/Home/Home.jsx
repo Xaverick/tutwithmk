@@ -31,7 +31,7 @@ const Home = () => {
 
         </div>
 
-        <p className='desc' style={{backgroundColor:"black", padding:"4rem 0"}}><span>This World <br />A Revolution A War. <br /> </span> <br />
+        <p className='desc' style={{backgroundColor:"black", padding:"4rem 0"}}><span>This World <br />A Revolution - A War. <br /> </span> <br />
           <img src={welcomepng} alt="" />
         </p>
 

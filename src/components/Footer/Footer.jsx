@@ -56,7 +56,7 @@ const Footer = () => {
           <div className="newsletter-right">
 
             <div className="signup">
-              {isFrormSubmitted ? <h1 className='header'>Welcome To your clan</h1> : (
+              {isFrormSubmitted ? <h1 className='header'>Welcome To your clan!</h1> : (
               <form  className='newsletter__form'>
                 <input type="text" placeholder='Enter your Email' name="email" value={email} onChange={handleChangeInput} />
                 <a className='button' onClick={handleSubmit}>{loading ? 'Joining...': "I'm In" }</a>

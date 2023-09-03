@@ -48,7 +48,7 @@ const data = [
         move:false
     },
     {
-        title: "What! Why Personal Transformation? Why Not?",
+        title: "What! Why Personal Transformation?",
         content: <div>
                 <p>Any & all of your answers (& examine that) are there 'coz you were deprived of the true essence of the word – Transformation!</p>
                 <p>Notice, we're not talking here about "Improvement". It's very slow, time consuming & a boring thing! Atleast I feel that way & all the people coming to me feel the same.</p>
