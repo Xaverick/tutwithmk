@@ -1,18 +1,21 @@
 .applyhere{
-    margin-top: 70px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    height: 98vh;
     display: flex;
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 768px) {
-        margin-top: 55px;
-            
+        // margin-top: 55px;            
     }
 }
 
 
 .questions{
     width: 100%;
-    height: 90vh;
+    height: 100%;
     border: 0;
     outline: 0;
     box-shadow: 2px solid black;

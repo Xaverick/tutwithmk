@@ -1,15 +1,8 @@
 import React from 'react'
 import './Home.scss'
 import warrior from '../../assets/warrior1.gif'
-import dp from '../../assets/dp.gif'
-import ReactPlayer from "react-player";
 import Testimonials from '../../components/Testimonial/Testimonials'
-import Typewriter from "typewriter-effect";
-import dots from '../../assets/dots.png'
-import quoate2dp from '../../assets/quoate2dp.png'
-import welcomegif from '../../assets/welcomegif.gif'
 import welcomepng from '../../assets/welcomepng.png'
-import dotart from '../../assets/dotart.png'
 import greendotart from '../../assets/greendotart.png'
 import bookcover1 from "../../assets/bookcover1.png"
 import TypeIt from "typeit-react";
@@ -99,6 +92,7 @@ const Home = () => {
               }}
             />
           </div>
+          
           
           <TypeIt
             options={{

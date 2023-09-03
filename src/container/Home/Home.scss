@@ -39,7 +39,7 @@
                 font-size: 3.5rem;
                 font-weight: 400;
                 @media screen and (max-width: 768px){
-                    font-size: 1.6rem;
+                    font-size: 1.1rem;
                 }
                 
                     
@@ -289,14 +289,14 @@
         padding-bottom: 1rem;
 
         margin-bottom: 2rem;
-        @media screen and (max-width: 768px){
-            font-size: 1.9rem;   
-            width: 100%;
-            margin-bottom: 1rem;  
-            .last-line{
-                font-size: 1.5rem;
-            }      
-        }
+        // @media screen and (max-width: 768px){
+        //     font-size: 1.9rem;   
+        //     width: 100%;
+        //     margin-bottom: 1rem;  
+        //     .last-line{
+        //         font-size: 1.5rem;
+        //     }      
+        // }
 
         .lastline{
             font-size: 1.9rem;
@@ -310,6 +310,19 @@
     @media screen and (max-width: 768px){
         width: 100%;
         margin-top: 3rem;
+        padding: 0;
+        .heading{
+            padding: 1rem;
+            width: 100%;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            .lastline{
+                font-size: 1.5rem;
+            }
+            .subheading{
+                font-size: 2rem;
+            }
+        }
         
     }
 
@@ -347,12 +360,6 @@
         font-weight: 600;
         color: var(--primary-color);
         padding-bottom: 1rem;
-        @media screen and (max-width: 768px){
-            font-size: 1.5rem;
-            width: 100%;           
-        }
-
-
     }
 
 
@@ -360,11 +367,16 @@
         padding: 2rem 1rem;
         margin: 1rem 0;   
         box-shadow: 0 0 0 black;
+        .home-heading{
+            font-size: 1.5rem;
+            width: 100%;
+
+        }
         p{
             font-size: 16px;
         } 
         span{
-            font-size: 1.8rem;
+            font-size: 1.5rem;
         }         
     }
 
@@ -381,6 +393,7 @@
         text-align: center;     
         padding: 1rem 2.5rem;
         border-radius: 5px;
+        width: fit-content;
         font-size: 1.2rem;
         background: linear-gradient(
             0.25turn,            
@@ -388,10 +401,18 @@
             var(--button-green)                                                               
     
         );
-        animation: blink 10s linear infinite;
+        // animation: blink 10s linear infinite;
     
         @media screen and (max-width: 768px){
             width: 80%;
+        }
+        &:hover{
+            background: linear-gradient(
+                0.25turn,            
+                var(--button-green),                                                                                                                    
+                var(--button-green-hover)                                                               
+        
+            );
         }
     
     }

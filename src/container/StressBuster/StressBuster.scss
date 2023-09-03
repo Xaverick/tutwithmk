@@ -8,12 +8,12 @@
     display: flex;
     justify-content: center;
     // height: 100vh;
-    overflow: scroll;
+    // overflow: scroll;
     width: 100%;
     align-items: center;
     background-color: rgba(0,0,0,0.8);
     @media screen and (max-width: 768px) {
-        
+        overflow: scroll;
         height: 100%;
     }
     .close{

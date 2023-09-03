@@ -146,10 +146,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    @media  screen and (max-width: 768px){
-        width: 100%;
-        padding: 2rem;
-    }       
+   
     
     h1{
         line-height: 1;
@@ -195,6 +192,17 @@
         }
     }
 
+    @media  screen and (max-width: 768px){
+        width: 100%;
+        padding: 2rem;
+        .own{
+            font-size: 2rem;
+            line-height: 2.5rem;
+            .small{
+                font-size: 1.2rem;
+            }
+        }
+    }    
     
 }
 
@@ -286,6 +294,8 @@
         align-items: center;
         gap: 1rem;
         @media  screen and (max-width: 768px){
+            width: 100%;
+            
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -340,7 +350,7 @@
         }
         @media  screen and (max-width: 768px){
             width: 100%;
-            padding: 1rem;
+            padding: 2rem;
             h1{
                 font-size: 2rem;
             }
@@ -359,10 +369,17 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        img{
-           
+        img{           
             height: 80%;
 
         }
+        @media screen and (max-width: 768px){
+            width: 100%;
+            img{
+                height: 300px;
+            }
+                    
+        }
+
     }
 }

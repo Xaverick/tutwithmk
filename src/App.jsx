@@ -26,7 +26,7 @@ function App() {
   const timer = new Promise ((resolve,reject)=>{
     setTimeout(()=>{
       resolve(true)
-    },5000)
+    },55000)
   }) 
   
 
@@ -37,7 +37,7 @@ function App() {
         setTimeout(()=>{
           localStorage.setItem('popupShownBefore', 'true');
           setIsopen(false)
-        },2500)       
+        },4000)       
         
       })
   }
@@ -68,6 +68,7 @@ function App() {
                   <Route path="/apply" element={<Apply />} />
               </Routes>
             {/* )} */}
+
             
             <Footer newsteller={true}/>
         </div>

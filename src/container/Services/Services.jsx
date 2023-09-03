@@ -4,11 +4,7 @@ import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import {legacyRoute} from '../../Data'
 import './Services.scss'
-import secondMedia from '../../assets/youTheYou.gif'
-import endofyou from "../../assets/endOfYou.gif"
-import pressButton from "../../assets/pressButton.gif"
-import { useAnimation, motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import aboutBannerMobile from "../../assets/aboutBannerMobile.png"
 import fenching from "../../assets/fenching.gif"
 import aboutBannergif from "../../assets/aboutBannergif.gif"
 import aboutbanner from "../../assets/aboutBanner.png"
@@ -19,11 +15,12 @@ const Services = () => {
   return (
     <div className='app__container'>
       <div className='aboutbanner'>
-        <img src={aboutbanner} alt="" />
+        <img className='desktop' src={aboutbanner} alt="" />
+        <img className="mobile" src={aboutBannerMobile} alt="" />
       </div>
 
 
-      <div style={{padding:"3rem 0"}} className="quoate-2">
+      <div style={{padding:"0 1rem", margin:"2rem 0"}} className="quoate-2">
         <h1 className='heading' style={{backgroundColor:"transparent", color:"var(--text-hover)"}}>F R E Q U E N C Y - 11:11</h1>
         <div className='quoate-2-left'>
           <h1 className='home-heading' style={{marginTop:"1rem"}}>In This Technically Remerging Planet Facets Of Human Mind Needed Unlocking To Reach Future Goals. </h1>

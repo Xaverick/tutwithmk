@@ -33,11 +33,6 @@
         img{
             border-radius: 15px;
             width: 100%;
-            // filter: grayscale(1);
-
-            // &:hover{
-            //     filter: grayscale(0);
-            // }
         }
 
         .image{
@@ -53,7 +48,7 @@
             width: 100%;
             .heading{
                 p{
-                    font-size: 1.2rem;
+                    font-size: 1.5rem;
                 }
                 h1{
                     font-size: 2rem;
@@ -99,13 +94,15 @@
     @media screen and (max-width: 768px){
         width: 100%;
         margin: 0;
+        padding: 0.5rem;
         .hello-heading{
             p{
                 font-size: 1.5rem;
             }
         }
         img{
-            width: 50%;
+            width: 40%;
+            margin-bottom: 1rem;
         }
             
     }

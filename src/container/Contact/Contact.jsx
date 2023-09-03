@@ -2,7 +2,6 @@ import React , {useState,useEffect} from 'react'
 import './Contact.scss'
 import  {motion,AnimatePresence} from "framer-motion"
 import {AiOutlineArrowDown} from 'react-icons/ai'
-import {AiOutlineHome} from 'react-icons/ai'
 import Banner from '../../components/Banner/Banner'
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components'
@@ -85,22 +84,22 @@ const Contact = ({label}) => {
         if(!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) return alert('Please enter a valid email')
         if(message.length < 20) return alert('Message should be atleast 20 characters long')
         if(!/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/.test(number)) return alert('Please enter a valid phone number')
-
-        console.log(formData);
-
         e.preventDefault();
-        // setLoading(true);
-        // const templateParams = {to_name: 'Karik' ,email: formData.email, name: formData.name, message: formData.message}
-        // emailjs.send('service_4k9ni0f', 'template_soiohgb', templateParams, "LNGi34JDf0aNCozp9")
-        // .then(function(response) {
-        //     setIsFrormSubmitted(true);
-        //     console.log('SUCCESS!', response.status, response.text);
-        // }, function(error) {
-        //     console.log('FAILED...', error);
-        // });
+        setLoading(true);
+        const templateParams = {to_name: 'MK' ,email: formData.email, name: formData.name, message: formData.message, number: formData.number}
+        emailjs.send('service_c8k4b74', 'template_bvxknzh', templateParams, "rm4pX9TVY2e3BT41g")
+        .then(function(response) {
+            setIsFrormSubmitted(true);
+            setLoading(false);
+            setFormData({name: '', email: '', number:'' ,message: ''})
+            console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+            console.log('FAILED...', error);
+        });
 
     }
 
+    
     const [liveData, setLiveData] = useState(data)
     const togglefaq = (index) => {
         setLiveData(liveData.map((item, i) => {
@@ -223,13 +222,9 @@ const Contact = ({label}) => {
                             />
                         </div> 
 
-                        <button type='button' onClick={handleSubmit}>Send</button>
+                        <button type='button' onClick={handleSubmit}>{loading ? "Sending..." : "Send"}</button>
                     </form>
-{/* 
-                    <div className='apply-here'>
-                    <AiOutlineHome />
-                    <p>Apply here</p>
-                    </div> */}
+
                 </div>
 
 

@@ -1,9 +1,5 @@
 import React from 'react'
-import Testimonials from '../../components/Testimonial/Testimonials'
-import Banner from '../../components/Banner/Banner'
-import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import './About.scss'
-import aboutbanner from "../../assets/aboutBanner.png"
 import legacyPhoto from '../../assets/legacyphoto.png'
 import dp from "../../assets/dp.gif"
 import aboutBannergif from "../../assets/aboutBannergif.gif"

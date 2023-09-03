@@ -1,6 +1,5 @@
-import React , {useState,useEffect} from 'react'
+import React from 'react'
 import Banner from '../../../components/Banner/Banner'
-import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import './Legacy.scss'
 import {legacyRoute} from '../../../Data'
 import greendotart from '../../../assets/greendotart.png'

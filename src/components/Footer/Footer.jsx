@@ -1,16 +1,51 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Footer.scss'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FaInstagram, FaYoutube,FaFacebookF,FaLinkedinIn} from 'react-icons/fa'
-import {AiOutlineLinkedin,AiFillLinkedin} from 'react-icons/ai'
 import footerLogo from '../../assets/footerLogo.png'
-import styled from 'styled-components'
+import emailjs from '@emailjs/browser';
 
-const Footer = ({newsteller}) => {
+
+const Footer = () => {
+  const [formData, setFormData] = useState({email: ''})
+  const [isFrormSubmitted, setIsFrormSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
+
+  const {email} = formData;
+
+  const handleChangeInput = (e) => {
+      const {name, value} = e.target;
+      setFormData({...formData, [name]: value})
+
+  }
+  
+  const handleSubmit = (e) => {    
+      if(!email) return alert('Please fill all the fields')
+      if(!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) return alert('Please enter a valid email')
+      
+      console.log(formData);
+
+      e.preventDefault();
+      setLoading(true);
+      const templateParams = {to_name: 'MK' ,email: formData.email}
+      emailjs.send('service_c8k4b74', 'template_0nid9js', templateParams, "rm4pX9TVY2e3BT41g")
+      .then(function(response) {
+          setIsFrormSubmitted(true);
+          setLoading(false);
+          setFormData({email: ''})
+          console.log('SUCCESS!', response.status, response.text);
+      }, function(error) {
+          console.log('FAILED...', error);
+      });
+
+  }
+
+
+
   return (
 
       <>
-      {newsteller && (<div className='background'>
+      <div className='background'>
         <div className="newsletter">
           <div className="newsletter-left">
             <h1>Join Your Clan</h1>
@@ -19,20 +54,21 @@ const Footer = ({newsteller}) => {
 
       
           <div className="newsletter-right">
+
             <div className="signup">
-              <input type="text" placeholder='Enter your Email'/>
-              <a href="" className='button'>I'm In</a>
+              {isFrormSubmitted ? <h1 className='header'>Welcome To your clan</h1> : (
+              <form  className='newsletter__form'>
+                <input type="text" placeholder='Enter your Email' name="email" value={email} onChange={handleChangeInput} />
+                <a className='button' onClick={handleSubmit}>{loading ? 'Joining...': "I'm In" }</a>
+              </form>)}
             </div>
-
-            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit*</p> */}
-
 
           </div>
           
         </div>
 
-      </div>)
-    }
+      </div>
+    
     <div className='app__footer'>
 
 

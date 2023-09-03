@@ -30,11 +30,11 @@ const OwnThatStage = ({link}) => {
               </div>
 
               <div className='testimonial-detail'>
-                <div className='client-detail'>
-                  <p>R.S. - <span>International Speaker</span></p>
-                  
-                </div>
                 
+                <div className='client-detail'>
+                  <p>R.S. - <span>International Speaker</span></p>                  
+                </div>
+
               </div>
 
               <a href="#quoate">

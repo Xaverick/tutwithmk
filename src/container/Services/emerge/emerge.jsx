@@ -1,14 +1,11 @@
-import React , {useState,useEffect} from 'react'
+import React from 'react'
 import './emerge.scss'
-import {AiOutlineHome} from 'react-icons/ai'
-import coach from '../../../assets/coach-talking.jpg'
-import Testimonials from '../../../components/Testimonial/Testimonials'
 import Banner from '../../../components/Banner/Banner'
-import Coursefaq from '../../../components/Coursefaq/Coursefaq'
 import {emergeTimeline, emergeProgramdetail} from '../../../Data'
 import emergeLogo from '../../../assets/emerge.png'
 import emergePhoto from '../../../assets/emergePhoto.png'
 import greendotart from '../../../assets/greendotart.png'
+
 
 const Emerge = ({link}) => {
 
