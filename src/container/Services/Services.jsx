@@ -4,7 +4,7 @@ import Banner from '../../components/Banner/Banner'
 import Coursefaq from '../../components/Coursefaq/Coursefaq'
 import {legacyRoute} from '../../Data'
 import './Services.scss'
-import aboutBannerMobile from "../../assets/aboutBannerMobile.png"
+import aboutBannerMobile from "../../assets/aboutbannerMobile.png"
 import fenching from "../../assets/fenching.gif"
 import aboutBannergif from "../../assets/aboutBannergif.gif"
 import aboutbanner from "../../assets/aboutBanner.png"
