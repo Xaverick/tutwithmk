@@ -74,7 +74,6 @@ const Services = () => {
 
       <div className="second-media">
         <img src={aboutBannergif} alt="" />
-
       </div>
 
       <div className='multiple-media'>

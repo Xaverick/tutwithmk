@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="newsletter">
           <div className="newsletter-left">
             <h1>Join Your Clan</h1>
-            <p>To Play The Big Game - Warriors Join Warriors!</p>
+            <p>To Play The Big Game -  <br /> Warriors Join Warriors!</p>
           </div>
 
       
@@ -121,7 +121,7 @@ const Footer = () => {
               </div>
             </li>
 
-            <li >
+            {/* <li >
               <div style={{display:"flex", flexDirection:"row", gap:"1rem", alignItems:"end"}}>
                 <li className='list' ><a href="https://youtube.com/@transformwithMK" target="_blank" rel="noreferrer"><div className='icon'><FaYoutube /></div></a></li>
                 <li className='list'><a href="https://www.linkedin.com/in/coachmk" target="_blank" rel="noreferrer"><div className='icon'><FaLinkedinIn /></div></a></li>
@@ -129,7 +129,7 @@ const Footer = () => {
                 <li className='list'><a href="https://www.facebook.com/transformwithMK?mibextid=ZbWKwL" target="_blank" rel="noreferrer"><div className='icon'><FaFacebookF /></div></a></li>
               </div>
              
-            </li>
+            </li> */}
 
           </ul>
         </div>

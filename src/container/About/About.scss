@@ -77,29 +77,16 @@
         margin-bottom: 2rem;
     }
 
-    .four-dots{
-        display: flex;
-        gap: 0.3rem;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin-bottom: 2rem;
-        .dot{
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background-color: var(--primary-color);
-        }
-        @media screen and (max-width: 768px){
-            margin-bottom: 1rem;
-        }
-    }
     @media screen and (max-width: 768px){
         width: 100%;
         padding-top: 2rem;
         .heading{
-           padding: 1rem;
+            padding: 1rem;
             width: 100%;
+            p{
+                font-size: 1.8rem;
+                font-weight: 500;
+            }
             font-size: 1.8rem;
             margin-bottom: 1rem;
         }
@@ -146,6 +133,7 @@
         width: 100%;
         margin-bottom: 2rem;
         .heading{
+            width: 90%;
             font-size: 1.8rem;
             margin-bottom: 1rem;
             text-align: center;

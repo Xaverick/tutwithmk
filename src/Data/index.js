@@ -10,7 +10,7 @@ import duration from '../../src/assets/icons/duration.png';
 
 
 let link = '';
-process.env.NODE_ENV === 'production' ?   link = process.env.LINK : link = 'http://localhost:5173';
+!(process.env.NODE_ENV === 'production') ?   link = "https://tutorialwitmk.onrender.com" : link = 'http://localhost:5173';
 
 
 

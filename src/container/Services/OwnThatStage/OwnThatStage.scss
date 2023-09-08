@@ -146,7 +146,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-   
+    
     
     h1{
         line-height: 1;
@@ -195,12 +195,20 @@
     @media  screen and (max-width: 768px){
         width: 100%;
         padding: 2rem;
+        align-items: center;
+        padding-bottom: 0;
         .own{
             font-size: 2rem;
             line-height: 2.5rem;
+            text-align: center;
             .small{
+                
                 font-size: 1.2rem;
             }
+        }
+        p{
+            text-align: center;
+            font-size: 1.4rem;
         }
     }    
     
@@ -225,6 +233,7 @@
         width: 100%;
         padding: 1rem;
         margin: 0;
+        margin-bottom: 2rem;
     }
 
 }
@@ -271,7 +280,7 @@
         margin-top: 3rem;
         .heading{
             width: 90%;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
         p{
             font-size: 1rem;
@@ -351,14 +360,18 @@
         @media  screen and (max-width: 768px){
             width: 100%;
             padding: 2rem;
+            align-items: center;
             h1{
                 font-size: 2rem;
+                text-align: center;
             }
             p{
                 font-size: 1rem;
+                text-align: center;
             }
             a{
                 font-size: 1rem;
+                
             }
         }
     }

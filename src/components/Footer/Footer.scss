@@ -65,6 +65,7 @@
                 font-size: 1.5rem;
                 font-family: var(--font-display);
                 font-weight: 600;
+                color: var(--header-green);
             }
             .newsletter__form{
                 width: 100%;
@@ -266,6 +267,7 @@
                 .list{
                     margin-bottom: 1rem;
                     width: fit-content;
+
                     
                 }
                 
@@ -278,9 +280,8 @@
 
                 &.space{
                     height: 150px;
-                    justify-content: space-between;
-                    
-                    
+                    // justify-content: space-between;
+                    justify-content: end;                    
                     @media screen and (max-width: 768px){
                         height: 100%;
                     }

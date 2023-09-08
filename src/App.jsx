@@ -5,15 +5,12 @@ import {BrowserRouter, Routes , Route} from 'react-router-dom'
 import {Home, About, Contact, Services, PopUp, Emerge,Transcend,LaunchPad,Apply,Legacy, OwnThatStage,Blog, CoffeWithMk,Blogs, SearchBlog,StressBuster} from './container'
 
 
-
-
-
 function App() {
   const [isopen, setIsopen] = useState(false)
   const [isopen2, setIsopen2] = useState(false)
 
   let link = '';
-  process.env.NODE_ENV === 'production' ?   link = process.env.LINK : link = 'http://localhost:5173'
+  process.env.NODE_ENV === 'production' ?   link = "https://tutorialwitmk.onrender.com" : link = 'http://localhost:5173'
   // function apprear1(){
   //   return new Promise((resolve,reject)=>{
   //     setTimeout(() => {

@@ -4,6 +4,7 @@ import patttern_1 from '../../assets/pattern_1.png'
 import {AiOutlineHome} from 'react-icons/ai'
 import header from '../../assets/header_1.png'
 
+
 const Banner = ({name,subtitle,img,gold,custom}) => {
   return (
     <div className='content-header app__flex'>

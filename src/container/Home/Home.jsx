@@ -18,7 +18,7 @@ const Home = () => {
       <div id = 'quoate' className='home-course-feature'>
         <span className='home-heading'>
           <p>
-          <span> I'm Different</span> <span className='secondline'><br />Ever thought that? <br /> <br /> </span>Surrounded by people & knowing that - Is An Awakening!</p>
+          <span> I'm Different!</span> <span className='secondline'><br />Ever thought that? <br /> <br /> </span>Surrounded by people & knowing that - Is An Awakening!</p>
         </span>
 
         

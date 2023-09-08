@@ -96,7 +96,7 @@
             p{
                 font-size: 1.2rem;
                 font-family: var(--font-secondary);
-                text-align: justify;
+                text-align: left;
     
             }
         }
@@ -129,6 +129,7 @@
             .information{
                 p{
                     font-size: 1rem;
+                    padding: 0 1rem;
                 }
             }
         }

@@ -44,7 +44,7 @@ const CoffeWithMk = () => {
         <div  className='mid-apply-section_image'>          
             <div className='heading'>
               <p>Stress Buster</p>
-              <h1 style={{ letterSpacing:"normal"}}>K o f f e e with  MK</h1>           
+              <h1 style={{ letterSpacing:"normal"}} className='gold'>K o f f e e <span>with</span> MK</h1>           
             </div>
 
             <div  className='image2'>
