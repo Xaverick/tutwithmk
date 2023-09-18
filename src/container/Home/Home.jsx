@@ -189,7 +189,7 @@ const Home = () => {
 
 
       <div style={{gap:"0rem"}} className='timeline-section'>
-        <div className='owntimeline-section__right'> 
+        <div className='owntimeline-section__right' style={{marginBottom:"0"}}> 
             <img  style={{transition:"none", animation:"none"}} src={bookcover1} alt="" />
         </div> 
 
