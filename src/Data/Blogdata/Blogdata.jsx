@@ -11,7 +11,10 @@ import blog10 from '../../assets/blogPhoto/blog10.png'
 import blog11 from '../../assets/blogPhoto/blog11.png'
 import blog12 from '../../assets/blogPhoto/blog12.png'
 import blog13 from '../../assets/blogPhoto/blog13.png'
- 
+
+
+let link = '';
+(process.env.NODE_ENV === 'production') ?   link = "https://tutorialwitmk.onrender.com" : link = 'http://localhost:5173';
 
 
 const BlogData = [
@@ -266,7 +269,7 @@ const BlogData = [
                 <p>Every time it's the blessed you, who ends up in the limelight: Shouting, Upset, Abusive, Angry & at the end Sorryfull! That's quite a show by you, by the way. </p>
                 <p>When is the next episode scheduled?</p>
                 <p>Let's talk more. Join with me on "Koffee with MK".</p>
-                <a href="http://localhost:5173/services/coffewithmk">Click Here</a>
+                <a href={`${link}/services/coffewithmk`}>Click Here</a>
 
             </div>
            
@@ -286,7 +289,7 @@ const BlogData = [
                 <p>Transformation is a different, all together, Frequency! It's Intense, Powerful, Thrilling with 280+ on highway or like watching 12-D movie!!!</p>
                 <p>If you're reading these words: You've lived Transformation! (I won't believe you for a single sec. if you say "No".)</p>
                 <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "Koffee with MK".</p>
-                <a href="http://localhost:5173/services/coffewithmk">Click Here</a>
+                <a href={`${link}/services/coffewithmk`}>Click Here</a>
                 
             </div>
            
