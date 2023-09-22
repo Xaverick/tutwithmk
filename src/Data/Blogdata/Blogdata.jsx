@@ -14,7 +14,7 @@ import blog13 from '../../assets/blogPhoto/blog13.png'
 
 
 let link = '';
-(process.env.NODE_ENV === 'production') ?   link = "https://tutorialwitmk.onrender.com" : link = 'http://localhost:5173';
+(process.env.NODE_ENV === 'production') ?   link = "http://transformwithmk.com" : link = 'http://localhost:5173';
 
 
 const BlogData = [

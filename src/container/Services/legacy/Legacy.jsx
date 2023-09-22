@@ -17,7 +17,7 @@ const Legacy= () => {
             <div className='mid-apply-section_image'>          
                 <div className='heading'>
                     <h1 className='ownthatstage-heading'>L e g a c y</h1>
-                    <p style={{color:"var(--header-green)"}}>It is our Most Advanced Program yet. The content of this Program is Confidentaility.</p>
+                    <p style={{color:"var(--header-green)"}}>It is our Most Advanced Program yet. The content of this Program is Confidentail.</p>
                                 
                 </div>
 
