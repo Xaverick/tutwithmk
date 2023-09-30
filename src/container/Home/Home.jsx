@@ -6,14 +6,31 @@ import welcomepng from '../../assets/welcomepng.png'
 import greendotart from '../../assets/greendotart.png'
 import bookcover1 from "../../assets/bookcover1.png"
 import TypeIt from "typeit-react";
+import {Starfield} from '../../components'
+import leftwarrior from '../../assets/leftwarrior.png'
+import rightwarrior from '../../assets/rightwarrior.png'
 
 const Home = () => {
   return (
     <>  
-
+    
       <div className="warrior-header">
-        <img src={warrior} alt="" />
-      </div> 
+        <div className='background'>
+          <Starfield />
+        </div>
+        
+        <div className="left">
+          <img src={leftwarrior} alt=""/>
+        </div>
+        <div className="content">
+          <h1>ARE YOU THE ONE</h1>
+        </div>
+        <div className="right">
+          <img src={rightwarrior} alt=""/>
+        </div>
+  
+      </div>
+    
 
       <div id = 'quoate' className='home-course-feature'>
         <span className='home-heading'>
