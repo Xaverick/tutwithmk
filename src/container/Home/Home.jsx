@@ -201,18 +201,18 @@ const Home = () => {
         <div className="videos">
           <iframe
             className="bg-video"
-            src="https://komododecks.com/embed/recordings/Kaw1FELtQ3EIlWAT2PKC?onlyRecording=1"
+            src="https://fast.wistia.net/embed/iframe/ryp6wlqwxp"
             allowFullScreen
             allow="autoplay"
           />
 
           <h3>Daniel Stangar - Slovakia</h3>
-        </div>
+        </div> 
 
         <div className="videos">
           <iframe
             className="bg-video"
-            src="https://komododecks.com/embed/recordings/RjM3HMJjOrOrGJFthA5a?onlyRecording=1"
+            src="https://fast.wistia.net/embed/iframe/gzeqnjdigq"
             allowFullScreen
             allow="autoplay"
           />
@@ -223,14 +223,14 @@ const Home = () => {
         <div className="videos">
           <iframe
             className="bg-video"
-            src="https://komododecks.com/embed/recordings/dGKpcGTQnIaTPVECFxYb?onlyRecording=1"
+            src="https://fast.wistia.net/embed/iframe/5dxlwk605h"
             allowFullScreen
             allow="autoplay"
           />
 
           <h3>Alberto Fabbri - Italy</h3>
         </div>
-      </div>
+      </div> 
 
       <div style={{ gap: "0rem" }} className="timeline-section">
         <div
