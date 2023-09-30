@@ -3,11 +3,10 @@ import React from 'react'
 import Banner from '../../../components/Banner/Banner'
 import {ownthatstageProgramDetail} from '../../../Data'
 import './OwnThatStage.scss'
-import stategy from '../../../assets/strategy.png'
-import header from '../../../assets/header_1.png'
-import patttern_1 from '../../../assets/pattern_1.png'
-import ownthatstagePhoto from '../../../assets/ownthatstagePhoto.png'
-import greendotart from '../../../assets/greendotart.png'
+import stategy from '../../../assets/strategy.webp'
+import header from '../../../assets/header_1.webp'
+import ownthatstagePhoto from '../../../assets/ownthatstagePhoto.webp'
+import greendotart from '../../../assets/greendotart.webp'
 
 
 const OwnThatStage = ({link}) => {

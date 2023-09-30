@@ -1,8 +1,8 @@
 import React from 'react'
 import './Banner.scss'
-import patttern_1 from '../../assets/pattern_1.png'
+import patttern_1 from '../../assets/pattern_1.webp'
 import {AiOutlineHome} from 'react-icons/ai'
-import header from '../../assets/header_1.png'
+import header from '../../assets/header_1.webp'
 
 
 const Banner = ({name,subtitle,img,gold,custom}) => {

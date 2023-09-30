@@ -1,6 +1,6 @@
-import launchpadLogo from '../../src/assets/launchpadLogo.png';
-import transcend from '../../src/assets/transcend.png';
-import emerge from '../../src/assets/emerge.png';
+import launchpadLogo from '../../src/assets/launchpadLogo.webp';
+import transcend from '../../src/assets/transcend.webp';
+import emerge from '../../src/assets/emerge.webp';
 import Blogdata from './Blogdata/Blogdata';
 
 import dollar from '../../src/assets/icons/dollar.png';

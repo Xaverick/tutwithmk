@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
 import './Footer.scss'
 import {AiOutlineMail} from 'react-icons/ai'
-import {FaInstagram, FaYoutube,FaFacebookF,FaLinkedinIn} from 'react-icons/fa'
-import footerLogo from '../../assets/footerLogo.png'
+import footerLogo from '../../assets/footerLogo.webp'
 import emailjs from '@emailjs/browser';
 
 

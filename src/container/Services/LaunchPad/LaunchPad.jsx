@@ -2,9 +2,9 @@ import React , {useState,useEffect} from 'react'
 import './LaunchPad.scss';
 import Banner from '../../../components/Banner/Banner'
 import {LaunchPadtimeline, launchpadProgramDetail} from '../../../Data'
-import launchpadLogo from '../../../assets/launchpadLogo.png'
-import launchpadPhoto from '../../../assets/launchpadPhoto.png'
-import greendotart from '../../../assets/greendotart.png'
+import launchpadLogo from '../../../assets/launchpadLogo.webp'
+import launchpadPhoto from '../../../assets/launchpadPhoto.webp'
+import greendotart from '../../../assets/greendotart.webp'
 const LaunchPad = ({link}) => {
 
     return (

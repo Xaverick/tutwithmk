@@ -2,10 +2,9 @@ import React from 'react'
 import './emerge.scss'
 import Banner from '../../../components/Banner/Banner'
 import {emergeTimeline, emergeProgramdetail} from '../../../Data'
-import emergeLogo from '../../../assets/emerge.png'
-import emergePhoto from '../../../assets/emergePhoto.png'
-import greendotart from '../../../assets/greendotart.png'
-
+import emergeLogo from '../../../assets/emerge.webp'
+import emergePhoto from '../../../assets/emergePhoto.webp'
+import greendotart from '../../../assets/greendotart.webp'
 
 const Emerge = ({link}) => {
 

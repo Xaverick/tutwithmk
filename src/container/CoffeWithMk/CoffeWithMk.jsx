@@ -4,8 +4,8 @@ import coffee from '../../assets/coffee-popup.gif'
 import dollar from '../../assets/icons/dollar.png'
 import session from '../../assets/icons/session.png'
 import confidential from '../../assets/icons/confidentiality.png';
-import coffeewithmkPhoto from '../../assets/coffeewithmkPhoto.png'
-import greendotart from '../../assets/greendotart.png'
+import coffeewithmkPhoto from '../../assets/coffeewithmkPhoto.webp'
+import greendotart from '../../assets/greendotart.webp'
 
 const CoffeWithMk = () => {
 

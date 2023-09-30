@@ -1,14 +1,14 @@
 import React from 'react'
 import './Home.scss'
-import warrior from '../../assets/warrior1.gif'
 import Testimonials from '../../components/Testimonial/Testimonials'
-import welcomepng from '../../assets/welcomepng.png'
-import greendotart from '../../assets/greendotart.png'
-import bookcover1 from "../../assets/bookcover1.png"
+import welcomepng from '../../assets/welcomepng.webp'
+import greendotart from '../../assets/greendotart.webp'
+import bookcover1 from "../../assets/bookcover1.webp"
 import TypeIt from "typeit-react";
 import {Starfield} from '../../components'
-import leftwarrior from '../../assets/leftwarrior.png'
-import rightwarrior from '../../assets/rightwarrior.png'
+import leftwarrior from '../../assets/leftwarrior.webp'
+import rightwarrior from '../../assets/rightwarrior.webp'
+
 
 const Home = () => {
   return (

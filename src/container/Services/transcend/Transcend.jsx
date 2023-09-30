@@ -3,10 +3,9 @@ import React from 'react'
 import Banner from '../../../components/Banner/Banner'
 import {transcendTimeline, transcendProgramDetail} from '../../../Data'
 import './Transcend.scss'
-import transcend from '../../../assets/transcend.png'
-import transcendPhoto from '../../../assets/transcendPhoto.png'
-import greendotart from '../../../assets/greendotart.png'
-
+import transcend from '../../../assets/transcend.webp'
+import transcendPhoto from '../../../assets/transcendPhoto.webp'
+import greendotart from '../../../assets/greendotart.webp'
 
 const Transcend = ({link}) => {
 

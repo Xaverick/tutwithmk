@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.scss'
-import legacyPhoto from '../../assets/legacyphoto.png'
+import legacyPhoto from '../../assets/legacyphoto.webp'
 import dp from "../../assets/dp.gif"
 import aboutBannergif from "../../assets/aboutBannergif.gif"
 

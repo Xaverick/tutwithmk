@@ -2,7 +2,7 @@ import React ,{useState,useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import './Blog.scss'
 import {BlogData} from '../../../Data'
-import MkProfile from '../../../assets/MkProfile.jpg'
+import MkProfile from '../../../assets/MkProfile.webp'
 import { useNavigate } from 'react-router-dom'
 
 

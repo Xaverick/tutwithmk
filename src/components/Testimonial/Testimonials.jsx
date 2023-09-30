@@ -1,6 +1,6 @@
 import React from 'react'
 import './Testimonials.scss'
-import map2 from '../../assets/map2.png'
+import map2 from '../../assets/map2.webp'
 import uk from '../../assets/homeTestimonial/uk.jpeg'
 import dubai from '../../assets/homeTestimonial/dubai.jpeg'
 import usa from '../../assets/homeTestimonial/usa.jpeg'

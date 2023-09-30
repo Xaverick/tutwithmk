@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './Navbar.scss'
-import logo2 from '../../assets/logo2.png'
+import logo2 from '../../assets/logo2.webp'
 import { AiOutlineMenu} from 'react-icons/ai'
 import { HiX } from 'react-icons/hi'
 import {BiChevronDown,BiChevronUp} from 'react-icons/bi'

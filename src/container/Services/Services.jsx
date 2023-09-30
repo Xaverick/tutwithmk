@@ -1,10 +1,10 @@
 import React , {useState,useEffect} from 'react'
 import {legacyRoute} from '../../Data'
 import './Services.scss'
-import aboutBannerMobile from "../../assets/aboutbannerMobile.png"
+import aboutBannerMobile from "../../assets/aboutbannerMobile.webp"
 import fenching from "../../assets/fenching.gif"
 import aboutBannergif from "../../assets/aboutBannergif.gif"
-import aboutbanner from "../../assets/aboutBanner.png"
+import aboutbanner from "../../assets/aboutBanner.webp"
 
 
 const Services = () => {
