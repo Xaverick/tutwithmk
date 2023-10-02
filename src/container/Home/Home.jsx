@@ -5,9 +5,7 @@ import welcomepng from "../../assets/welcomepng.webp";
 import greendotart from "../../assets/greendotart.webp";
 import bookcover1 from "../../assets/bookcover1.webp";
 import TypeIt from "typeit-react";
-import { Starfield } from "../../components";
-import leftwarrior from "../../assets/leftwarrior.webp";
-import rightwarrior from "../../assets/rightwarrior.webp";
+// import { Starfield } from "../../components";
 import warrior from "../../assets/warriorVideo.mp4";
 // import YouTube from "react-youtube";
 

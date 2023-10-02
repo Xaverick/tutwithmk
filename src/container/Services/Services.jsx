@@ -3,7 +3,7 @@ import {legacyRoute} from '../../Data'
 import './Services.scss'
 import aboutBannerMobile from "../../assets/aboutbannerMobile.webp"
 import fenching from "../../assets/fenching.gif"
-import aboutBannergif from "../../assets/aboutBannergif.gif"
+import aboutBannergif from "../../assets/aboutBannergif.mp4"
 import aboutbanner from "../../assets/aboutBanner.webp"
 
 
@@ -73,7 +73,9 @@ const Services = () => {
         </div>
 
       <div className="second-media">
-        <img src={aboutBannergif} alt="" />
+        <video autoPlay loop muted playsInline>
+            <source src={aboutBannergif} type="video/mp4" />
+        </video>
       </div>
 
       <div className='multiple-media'>

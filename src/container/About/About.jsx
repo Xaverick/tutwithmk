@@ -2,7 +2,7 @@ import React from 'react'
 import './About.scss'
 import legacyPhoto from '../../assets/legacyphoto.webp'
 import dp from "../../assets/dp.gif"
-// import aboutBannergif from "../../assets/aboutBannergif.gif"
+
 import aboutBannergif from "../../assets/aboutBannergif.mp4"
 
 
@@ -18,11 +18,6 @@ const About = ({link}) => {
 
   return (
     <div className='app__container'>
-
-
-      {/* <div className="about-header">
-        <img className='aboutimage' src={aboutBannergif} alt="" />
-      </div>  */}
 
       <div className="about-header">
         <video autoPlay loop muted playsInline className="aboutimage">
