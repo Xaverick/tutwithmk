@@ -8,12 +8,13 @@ import TypeIt from "typeit-react";
 import { Starfield } from "../../components";
 import leftwarrior from "../../assets/leftwarrior.webp";
 import rightwarrior from "../../assets/rightwarrior.webp";
-import YouTube from "react-youtube";
+import warrior from "../../assets/warriorVideo.mp4";
+// import YouTube from "react-youtube";
 
 const Home = () => {
   return (
     <>
-      <div className="warrior-header">
+      {/* <div className="warrior-header">
         <div className="background">
           <Starfield />
         </div>
@@ -27,6 +28,12 @@ const Home = () => {
         <div className="right">
           <img src={rightwarrior} alt="" />
         </div>
+      </div> */}
+
+      <div className="warrior-header">                  
+          <video autoPlay loop muted playsInline className="background">
+            <source src={warrior} type="video/mp4" />
+          </video>      
       </div>
 
       <div id="quoate" className="home-course-feature">
@@ -55,11 +62,8 @@ const Home = () => {
             src="https://fast.wistia.net/embed/iframe/36z4cf0inl"
             allowFullScreen
             className="bg-video"
-           
           ></iframe>
         </div>
-
-
 
         <p
           className="desc"
@@ -207,7 +211,7 @@ const Home = () => {
           />
 
           <h3>Daniel Stangar - Slovakia</h3>
-        </div> 
+        </div>
 
         <div className="videos">
           <iframe
@@ -230,7 +234,7 @@ const Home = () => {
 
           <h3>Alberto Fabbri - Italy</h3>
         </div>
-      </div> 
+      </div>
 
       <div style={{ gap: "0rem" }} className="timeline-section">
         <div
