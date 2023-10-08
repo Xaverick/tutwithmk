@@ -1,5 +1,5 @@
 .landingscreen{
-    background: url("../assets/homePage/photo1.webp");
+    background: url("../assets/homepage/photo1.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 
 
 .landingscreen2{
-    background: url("../assets/homePage/photo2.webp");
+    background: url("../assets/homepage/photo2.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 750px) {
-        background: url("../assets/homePage/mobilePhoto2.webp");
+        background: url("../assets/homepage/mobilePhoto2.webp");
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
