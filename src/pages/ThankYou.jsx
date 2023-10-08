@@ -1,5 +1,5 @@
 import React from 'react'
-import "./thankyou.scss"
+import "./ThankYou.scss"
 
 const ThankYou = () => {
   return (
