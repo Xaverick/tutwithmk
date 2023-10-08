@@ -4,7 +4,7 @@ import './Blog.scss'
 import {BlogData} from '../../../Data'
 import MkProfile from '../../../assets/MkProfile.webp'
 import { useNavigate } from 'react-router-dom'
-
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
   const id = useParams()
@@ -67,7 +67,7 @@ const Blog = () => {
             {data.content}   
       
             {data.link && (
-              <a href={data.link}>Click Here</a>
+              <Link to={data.link}>Click Here</Link>
             )}
 
             <p className='footer'> <br />MK</p>

@@ -5,29 +5,12 @@ import welcomepng from "../../assets/welcomepng.webp";
 import greendotart from "../../assets/greendotart.webp";
 import bookcover1 from "../../assets/bookcover1.webp";
 import TypeIt from "typeit-react";
-// import { Starfield } from "../../components";
 import warrior from "../../assets/warriorVideo.mp4";
-// import YouTube from "react-youtube";
+import {Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <>
-      {/* <div className="warrior-header">
-        <div className="background">
-          <Starfield />
-        </div>
-
-        <div className="left">
-          <img src={leftwarrior} alt="" />
-        </div>
-        <div className="content">
-          <h1>ARE YOU THE ONE</h1>
-        </div>
-        <div className="right">
-          <img src={rightwarrior} alt="" />
-        </div>
-      </div> */}
-
       <div className="warrior-header">                  
           <video autoPlay loop muted playsInline className="background">
             <source src={warrior} type="video/mp4" />
@@ -45,15 +28,6 @@ const Home = () => {
             Surrounded by people & knowing that - Is An Awakening!
           </p>
         </span>
-
-        {/* <div className="video">
-          <iframe
-            src="https://komododecks.com/embed/recordings/GrfXUuNOctEPQN5YppEA?onlyRecording=1&autoplay=1"
-            className="bg-video"
-            allowfullscreen
-            allow="autoplay"
-          />
-        </div> */}
 
         <div className="video">
           <iframe
@@ -75,9 +49,7 @@ const Home = () => {
         </p>
       </div>
 
-      {/* 
-      <div className='quoate-2-background'>
-    <div className='image-overlay'>   */}
+
       <div className="quoate-2">
         <h1 className="heading">F R E Q U E N C Y - 11:11</h1>
         <div className="quoate-2-left">
@@ -91,8 +63,7 @@ const Home = () => {
           </h1>
         </div>
       </div>
-      {/* </div>
-      </div> */}
+
 
       <div className="quoate-3">
         <span className="heading">
@@ -109,7 +80,7 @@ const Home = () => {
             Version X: A Brand New, Superior, Revolutionary, Totally Revamped
             Version Of Old You.{" "}
           </p>
-          {/* <img src={dots} alt="" /> */}
+      
           <p>
             {" "}
             <br /> From the past 22yrs that's exactly what I've been delivering
@@ -133,8 +104,6 @@ const Home = () => {
               }}
               getBeforeInit={(instance) => {
                 instance.pause(10000).delete();
-
-                // Remember to return it!
                 return instance;
               }}
             />
@@ -192,9 +161,9 @@ const Home = () => {
       </div>
 
       <div className="button">
-        <a href="/services/coffewithmk" className="launch-button">
+        <Link to="/services/coffewithmk" className="launch-button">
           Launch YourSelf{" "}
-        </a>
+        </Link>
       </div>
 
       <Testimonials name="MK" />
@@ -266,10 +235,6 @@ const Home = () => {
           <p className="bottom" style={{ textAlign: "center", width: "100%" }}>
             Book Launching Soon...
           </p>
-          {/* 
-            <a href="/about" className='button'>
-              Know More
-            </a> */}
         </div>
       </div>
     </>

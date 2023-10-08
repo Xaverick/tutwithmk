@@ -6,6 +6,7 @@ import './Transcend.scss'
 import transcend from '../../../assets/transcend.webp'
 import transcendPhoto from '../../../assets/transcendPhoto.webp'
 import greendotart from '../../../assets/greendotart.webp'
+import{Link} from 'react-router-dom'
 
 const Transcend = ({link}) => {
 
@@ -146,7 +147,7 @@ const Transcend = ({link}) => {
         </div>
 
         <div className='applyHere'>
-            <a href={`${link}/apply`}>Apply Here</a>
+          <Link to ='/apply'>Apply Here</Link>
         </div>
 
       </div>

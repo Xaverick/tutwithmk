@@ -6,6 +6,7 @@ import session from '../../assets/icons/session.png'
 import confidential from '../../assets/icons/confidentiality.png';
 import coffeewithmkPhoto from '../../assets/coffeewithmkPhoto.webp'
 import greendotart from '../../assets/greendotart.webp'
+import{Link} from 'react-router-dom'
 
 const CoffeWithMk = () => {
 
@@ -127,7 +128,7 @@ const CoffeWithMk = () => {
 
         </div>
         <div style={{marginBottom:"4rem"}} className='applyHere'>
-          <a href='/apply'>Apply Here</a>
+          <Link to ='/apply'>Apply Here</Link>
         </div>
 
       </div>

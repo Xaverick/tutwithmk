@@ -1,0 +1,74 @@
+.landingscreen{
+    background: url("../assets/homePage/photo1.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .exitbutton{
+        margin-top: 22rem;
+        cursor: pointer;
+        padding: 0;
+        width: 130px;
+        height: auto;
+    }
+}
+
+
+.landingscreen2{
+    background: url("../assets/homePage/photo2.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 750px) {
+        background: url("../assets/homePage/mobilePhoto2.webp");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .landingContent{
+        color: white;
+        font-family: var(--font-cinzel);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 2.7rem;
+            margin: 0;
+            line-height: 3rem;
+            padding: 0;
+            text-align: center;
+            font-weight: 400;
+            @media screen and (max-width: 750px) {
+                font-size: 1.8rem;
+                span{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .cleansebutton{
+        margin-top: 2rem;
+        padding: 0;
+        width: 300px;
+        cursor: pointer;
+        height: auto;
+        @media  screen and (max-width: 750px) {
+            width: 200px;            
+        }
+    }
+}

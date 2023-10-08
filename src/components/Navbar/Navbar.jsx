@@ -5,6 +5,7 @@ import { AiOutlineMenu} from 'react-icons/ai'
 import { HiX } from 'react-icons/hi'
 import {BiChevronDown,BiChevronUp} from 'react-icons/bi'
 import  {motion,AnimatePresence} from "framer-motion"
+import { Link } from 'react-router-dom'
 
 
 const Navbar = ({setIsopen2}) => {
@@ -15,33 +16,33 @@ const Navbar = ({setIsopen2}) => {
     <nav className='app__flex start'>
       <div className='app__navbar app__flex'>
         <div className='app__navbarLogo'>
-          <a href="/"><img src={logo2} alt="" /> </a>
+          <Link to="/"><img src={logo2} alt="" /> </Link>
         </div>
         
         <ul className='app__navbar-links'>
           
-          <li><a href="/about">MK</a></li>
-          <li><a href="/services" className='relative-position'>X-Factor</a></li>
+          <li><Link to="/about">MK</Link></li>
+          <li><Link to="/services" className='relative-position'>X-Factor</Link></li>
           <li>
               <a className='relative-position nohover'>Get Trained <BiChevronDown /></a>
               <ul className='hover-dropdown'>
-                <li><a href="/services/coffewithmk">Koffee With MK</a></li>
-                <li><a href="/services/launchpad">Launchpad</a></li>
-                <li><a href="/services/emerge">Emerge</a></li>
-                <li><a href="/services/transcend">Transcend</a></li>
-                <li><a href="/services/ownthatstage">Own That Stage</a></li>
-                <li><a href="/services/legacy">Legacy</a></li>
+                <li><Link to="/services/coffewithmk">Koffee With MK</Link></li>
+                <li><Link to="/services/launchpad">Launchpad</Link></li>
+                <li><Link to="/services/emerge">Emerge</Link></li>
+                <li><Link to="/services/transcend">Transcend</Link></li>
+                <li><Link to="/services/ownthatstage">Own That Stage</Link></li>
+                <li><Link to="/services/legacy">Legacy</Link></li>
                
               </ul>
 
 
           </li>
-          <li><a href="/contact">Connect</a></li>
-          <li><a href="/blogs">Blogs</a></li>
+          <li><Link to="/contact">Connect</Link></li>
+          <li><Link to="/blogs">Blogs</Link></li>
         </ul>
 
         <div className='app__navbar-button' onClick={() => setIsopen2(true)}>
-          <a >Stress Buster</a>
+          <a>Stress Buster</a>
         </div>
 
         <div className='app__navbar-menu'>
@@ -56,9 +57,9 @@ const Navbar = ({setIsopen2}) => {
             <ul>
                 <HiX className='navbar-icon' onClick={() => setToggle(false)} />
                 
-                <li><a href='/' onClick={() => setToggle(false)}> Home </a></li>
-                <li><a href='/about' onClick={() => setToggle(false)}> MK </a></li> 
-                <li><a href='/services' onClick={() => setToggle(false)}> X-Factor </a></li> 
+                <li><Link to='/' onClick={() => setToggle(false)}> Home </Link></li>
+                <li><Link to='/about' onClick={() => setToggle(false)}> MK </Link></li> 
+                <li><Link to='/services' onClick={() => setToggle(false)}> X-Factor </Link></li> 
                 <li>
                   <span>
                     <a>Get Trained</a>
@@ -80,12 +81,12 @@ const Navbar = ({setIsopen2}) => {
                         }}
                       >
 
-                          <li><a href="/services/coffewithmk">Koffee With Mk</a></li>
-                          <li><a href="/services/launchpad">Launchpad</a></li>
-                          <li><a href="/services/emerge">Emerge</a></li>
-                          <li><a href="/services/transcend">Transcend</a></li>
-                          <li><a href="/services/ownthatstage">Own That Stage</a></li>
-                          <li><a href="/services/legacy">Legacy</a></li>
+                          <li><Link to="/services/coffewithmk">Koffee With Mk</Link></li>
+                          <li><Link to="/services/launchpad">Launchpad</Link></li>
+                          <li><Link to="/services/emerge">Emerge</Link></li>
+                          <li><Link to="/services/transcend">Transcend</Link></li>
+                          <li><Link to="/services/ownthatstage">Own That Stage</Link></li>
+                          <li><Link to="/services/legacy">Legacy</Link></li>
                       </motion.div>
                         
                     )}
@@ -96,8 +97,8 @@ const Navbar = ({setIsopen2}) => {
 
                 
                 </li>
-                <li><a href='/contact' onClick={() => setToggle(false)}>Connect</a></li>
-                <li><a href='/blogs' onClick={() => setToggle(false)}> Blogs </a></li>
+                <li><Link to='/contact' onClick={() => setToggle(false)}>Connect</Link></li>
+                <li><Link to='/blogs' onClick={() => setToggle(false)}> Blogs </Link></li>
  
             </ul>
             </motion.div>

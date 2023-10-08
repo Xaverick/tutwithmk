@@ -5,7 +5,7 @@ import aboutBannerMobile from "../../assets/aboutbannerMobile.webp"
 import fenching from "../../assets/fenching.gif"
 import aboutBannergif from "../../assets/aboutBannergif.mp4"
 import aboutbanner from "../../assets/aboutBanner.webp"
-
+import { Link } from 'react-router-dom'
 
 const Services = () => {
   return (
@@ -61,7 +61,7 @@ const Services = () => {
                         <p key={index}>{item}</p>
                     ))}
                     
-                    <a href={item.url}>Know More</a>
+                    <Link to={item.url}>Know More</Link>
                 </div>
                 
                 </div>

@@ -7,7 +7,7 @@ import stategy from '../../../assets/strategy.webp'
 import header from '../../../assets/header_1.webp'
 import ownthatstagePhoto from '../../../assets/ownthatstagePhoto.webp'
 import greendotart from '../../../assets/greendotart.webp'
-
+import{Link} from 'react-router-dom'
 
 const OwnThatStage = ({link}) => {
 
@@ -102,7 +102,7 @@ const OwnThatStage = ({link}) => {
                   <p>I'LL TRAIN YOU HOW TO –</p>
                   <h1>"Create A Dent, <br />Make Your Mark, <br /> Leave a Legacy!"</h1>
                   <span>Just Interested? Don’t Bother. <br /> Ready for Whatever it takes!</span>
-                  <a href={`${link}/apply`}>Apply Here</a>
+                  <Link to ='/apply'>Apply Here</Link>
                   
               </div>
               <div className='homebanner-right'>
@@ -148,7 +148,7 @@ const OwnThatStage = ({link}) => {
 
       </div>
         <div style={{marginBottom:"2rem"}} className='applyHere'>
-            <a href={`${link}/apply`}>Apply Here</a>
+          <Link to ='/apply'>Apply Here</Link>
         </div>
 
       </div>

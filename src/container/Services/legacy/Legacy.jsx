@@ -3,21 +3,26 @@ import Banner from '../../../components/Banner/Banner'
 import './Legacy.scss'
 import {legacyRoute} from '../../../Data'
 import greendotart from '../../../assets/greendotart.webp'
-
-
 import legacyPhoto from '../../../assets/legacyphoto.webp'
+import {Link} from 'react-router-dom'
+import legacyBanner from '../../../assets/legacyBanner.webp'
+import legacyMobileBanner from '../../../assets/legacyMobileBanner.webp'
 
 const Legacy= () => {
 
   return (
     <div className='app__container'>
-        <Banner name='L e g a c y' subtitle="Legends-create-Legacy" />
+        <div className='aboutbanner'>
+            <img className='desktop transcend' src={legacyBanner} alt="" />
+            <img className="mobile" src={legacyBanner} alt="" />
+        </div>
+        {/* <Banner name='L e g a c y' subtitle="Legends-create-Legacy" /> */}
 
         <div className='legacy-mid-apply-section'>
             <div className='mid-apply-section_image'>          
                 <div className='heading'>
-                    <h1 className='ownthatstage-heading'>L e g a c y</h1>
-                    <p style={{color:"var(--header-green)"}}>It is our Most Advanced Program yet. The content of this Program is Confidentail.</p>
+                    <h1 className='ownthatstage-heading legacyHeading'>L e g a c y <br /> <span>(Legends—Create—Legacy)</span></h1>
+                    <p style={{color:"var(--header-green)"}}>It is our Most Advanced Program yet. The content of this Program is Confidential.</p>
                                 
                 </div>
 
@@ -66,7 +71,7 @@ const Legacy= () => {
                         <p key={index}>{item}</p>
                     ))}
                     
-                    <a href={item.url}>Know More</a>
+                    <Link to={item.url}>Know More</Link>
                 </div>
                 
                 </div>
@@ -78,14 +83,6 @@ const Legacy= () => {
         </div>
 
 
-
- 
-      
-      {/* <Coursefaq /> */}
-    
-  
-    
- 
         
     </div>  
  

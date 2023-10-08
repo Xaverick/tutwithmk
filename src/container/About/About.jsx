@@ -2,6 +2,7 @@ import React from 'react'
 import './About.scss'
 import legacyPhoto from '../../assets/legacyphoto.webp'
 import dp from "../../assets/dp.gif"
+import { Link } from 'react-router-dom'
 
 import aboutBannergif from "../../assets/aboutBannergif.mp4"
 
@@ -130,9 +131,9 @@ const About = ({link}) => {
 
             <p>If You're Ready <br /> I'll turn the world upside down <br /> Including you.</p>
 
-            <a href={`${link}/services`} className='button'>
+            <Link to={`/services`} className='button'>
             Discover More
-            </a>
+            </Link>
         </div>
 
         <div className='owntimeline-section__right'>

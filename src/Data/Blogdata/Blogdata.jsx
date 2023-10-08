@@ -1,4 +1,3 @@
-import { dividerClasses } from '@mui/material';
 import blog1 from '../../assets/blogPhoto/blog1.png'
 import blog2 from '../../assets/blogPhoto/blog2.png'
 import blog3 from '../../assets/blogPhoto/blog3.png'
@@ -11,10 +10,10 @@ import blog10 from '../../assets/blogPhoto/blog10.png'
 import blog11 from '../../assets/blogPhoto/blog11.png'
 import blog12 from '../../assets/blogPhoto/blog12.png'
 import blog13 from '../../assets/blogPhoto/blog13.png'
+import { Link } from 'react-router-dom';
 
-
-let link = '';
-(process.env.NODE_ENV === 'production') ?   link = "http://transformwithmk.com" : link = 'http://localhost:5173';
+// let link = '';
+// (process.env.NODE_ENV === 'production') ?   link = "http://transformwithmk.com" : link = 'http://localhost:5173';
 
 
 const BlogData = [
@@ -269,8 +268,7 @@ const BlogData = [
                 <p>Every time it's the blessed you, who ends up in the limelight: Shouting, Upset, Abusive, Angry & at the end Sorryfull! That's quite a show by you, by the way. </p>
                 <p>When is the next episode scheduled?</p>
                 <p>Let's talk more. Join with me on "Koffee with MK".</p>
-                <a href={`${link}/services/coffewithmk`}>Click Here</a>
-
+                <Link  to={`/services/coffewithmk`}>Click Here</Link>
             </div>
            
     },
@@ -289,7 +287,7 @@ const BlogData = [
                 <p>Transformation is a different, all together, Frequency! It's Intense, Powerful, Thrilling with 280+ on highway or like watching 12-D movie!!!</p>
                 <p>If you're reading these words: You've lived Transformation! (I won't believe you for a single sec. if you say "No".)</p>
                 <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "Koffee with MK".</p>
-                <a href={`${link}/services/coffewithmk`}>Click Here</a>
+                <Link  to={`/services/coffewithmk`}>Click Here</Link>
                 
             </div>
            

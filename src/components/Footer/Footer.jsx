@@ -3,7 +3,7 @@ import './Footer.scss'
 import {AiOutlineMail} from 'react-icons/ai'
 import footerLogo from '../../assets/footerLogo.webp'
 import emailjs from '@emailjs/browser';
-
+import{Link} from 'react-router-dom'
 
 const Footer = () => {
   const [formData, setFormData] = useState({email: ''})
@@ -83,12 +83,12 @@ const Footer = () => {
           <div className="section">
             <h3>Pages</h3>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">MK</a></li>
-              <li><a href="/services">X-Factor</a></li>
-              <li><a href="/contact">Connect</a></li>
-              <li><a href="/contact">FAQ</a></li>
-              <li><a href="/blogs">Blogs</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">MK</Link></li>
+              <li><Link to="/services">X-Factor</Link></li>
+              <li><Link to="/contact">Connect</Link></li>
+              <li><Link to="/contact">FAQ</Link></li>
+              <li><Link to="/blogs">Blogs</Link></li>
             </ul>
             
           </div>
@@ -96,12 +96,12 @@ const Footer = () => {
           <div className="section">
             <h3>Programs</h3>
             <ul>
-              <li><a href="/services/coffewithmk">Koffee with MK </a></li>
-              <li><a href="/services/launchpad">LaunchPad</a></li>
-              <li><a href="/services/emerge">Emerge</a></li>
-              <li><a href="/services/transcend">Transcend</a></li>
-              <li><a href="/services/ownthatstage">Own That Stage</a></li> 
-              <li><a href="/services/legacy">Legacy</a></li> 
+              <li><Link to="/services/coffewithmk">Koffee with MK </Link></li>
+              <li><Link to="/services/launchpad">LaunchPad</Link></li>
+              <li><Link to="/services/emerge">Emerge</Link></li>
+              <li><Link to="/services/transcend">Transcend</Link></li>
+              <li><Link to="/services/ownthatstage">Own That Stage</Link></li> 
+              <li><Link to="/services/legacy">Legacy</Link></li> 
             </ul>
           </div>
         </div>
@@ -122,10 +122,10 @@ const Footer = () => {
 
             {/* <li >
               <div style={{display:"flex", flexDirection:"row", gap:"1rem", alignItems:"end"}}>
-                <li className='list' ><a href="https://youtube.com/@transformwithMK" target="_blank" rel="noreferrer"><div className='icon'><FaYoutube /></div></a></li>
-                <li className='list'><a href="https://www.linkedin.com/in/coachmk" target="_blank" rel="noreferrer"><div className='icon'><FaLinkedinIn /></div></a></li>
-                <li className='list'><a href="https://instagram.com/transformwithmk" target="_blank" rel="noreferrer"><div className='icon'><FaInstagram /></div></a></li>
-                <li className='list'><a href="https://www.facebook.com/transformwithMK?mibextid=ZbWKwL" target="_blank" rel="noreferrer"><div className='icon'><FaFacebookF /></div></a></li>
+                <li className='list' ><Link to="https://youtube.com/@transformwithMK" target="_blank" rel="noreferrer"><div className='icon'><FaYoutube /></div></Link></li>
+                <li className='list'><Link to="https://www.linkedin.com/in/coachmk" target="_blank" rel="noreferrer"><div className='icon'><FaLinkedinIn /></div></Link></li>
+                <li className='list'><Link to="https://instagram.com/transformwithmk" target="_blank" rel="noreferrer"><div className='icon'><FaInstagram /></div></Link></li>
+                <li className='list'><Link to="https://www.facebook.com/transformwithMK?mibextid=ZbWKwL" target="_blank" rel="noreferrer"><div className='icon'><FaFacebookF /></div></Link></li>
               </div>
              
             </li> */}

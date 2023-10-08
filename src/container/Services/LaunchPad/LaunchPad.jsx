@@ -5,6 +5,8 @@ import {LaunchPadtimeline, launchpadProgramDetail} from '../../../Data'
 import launchpadLogo from '../../../assets/launchpadLogo.webp'
 import launchpadPhoto from '../../../assets/launchpadPhoto.webp'
 import greendotart from '../../../assets/greendotart.webp'
+import{Link} from 'react-router-dom'
+
 const LaunchPad = ({link}) => {
 
     return (
@@ -142,7 +144,7 @@ const LaunchPad = ({link}) => {
         </div>
 
         <div  className='applyHere'>
-            <a href={`${link}/apply`} >Apply Here</a>
+          <Link to ='/apply'>Apply Here</Link>
         </div>
 
       </div>

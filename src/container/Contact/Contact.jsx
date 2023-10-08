@@ -4,7 +4,7 @@ import  {motion,AnimatePresence} from "framer-motion"
 import {AiOutlineArrowDown} from 'react-icons/ai'
 import Banner from '../../components/Banner/Banner'
 import emailjs from '@emailjs/browser';
-
+import{Link} from 'react-router-dom'
 
 
 const data = [
@@ -42,7 +42,7 @@ const data = [
                 <p>Now, with yourself all that was wrong, ever was wrong or to be conclusive- Missing in your life, not from yesterday but since your childhood is: Training!!!</p>
                 <p>Your Fact Correction: You’re not a soldier. You are a Warrior & to Train A Warrior- Hmm… A very few people can do so! </p>
                 <p>Welcome To Your Clan - Your Training Begins.</p>
-                <a href="/services/launchpad">Click Here</a>
+                <Link  to="/services/launchpad">Click Here</Link>
             </div>,
         open: false,
         move:false
@@ -55,7 +55,7 @@ const data = [
                 <p>Transformation is a different, all together, Frequency! It's Intense, Powerful, Thrilling with 280+ on highway or like watching 12-D movie!!!</p>
                 <p>If you're reading these words: You've lived Transformation! (I won't believe you for a single sec. if you say "No".)</p>
                 <p>Only thing is, you couldn't control & maintain it so it vanished. Let's talk about it on "koffee with MK".</p>
-                <a href="/services/coffewithmk">Click Here</a>
+                <Link  to="/services/coffewithmk">Click Here</Link>
             </div>,
         open: false,
         move:false

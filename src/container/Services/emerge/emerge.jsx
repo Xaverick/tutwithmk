@@ -5,6 +5,7 @@ import {emergeTimeline, emergeProgramdetail} from '../../../Data'
 import emergeLogo from '../../../assets/emerge.webp'
 import emergePhoto from '../../../assets/emergePhoto.webp'
 import greendotart from '../../../assets/greendotart.webp'
+import{Link} from 'react-router-dom'
 
 const Emerge = ({link}) => {
 
@@ -141,7 +142,7 @@ const Emerge = ({link}) => {
         </div>
 
         <div className='applyHere'>
-            <a href={`${link}/apply`}>Apply Here</a>
+          <Link to ='/apply'>Apply Here</Link>
         </div>
 
       </div>
