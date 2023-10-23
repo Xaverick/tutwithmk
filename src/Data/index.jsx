@@ -9,8 +9,8 @@ import session from '../../src/assets/icons/session.png';
 import duration from '../../src/assets/icons/duration.png';
 
 
-let link = '';
-(process.env.NODE_ENV === 'production') ?   link = "http://transformwithmk.com" : link = 'http://localhost:5173';
+// let link = '';
+// (process.env.NODE_ENV === 'production') ?   link = "http://transformwithmk.com" : link = 'http://localhost:5173';
 
 
 
@@ -243,19 +243,19 @@ const legacyRoute = [
         icon: launchpadLogo,
         title: 'LaunchPad',
         content: ["Your Take off:", "Needs your own Launchpad." , "That's it!"],
-        url: `${link}/services/launchpad`
+        url: `/services/launchpad`
     },
     {
         icon: emerge,
         title: 'Emerge',
         content: ["You have been hiding.", "It's time You EMERGE!","","","","",""],
-        url: `${link}/services/emerge`
+        url: `/services/emerge`
     },
     {
         icon: transcend,
         title: 'Transcend',
         content: ["Winners Perform Excellence." , "They are in their Orbit.", "It's time you command Yours!"],
-        url: `${link}/services/transcend`
+        url: `/services/transcend`
     },
 ]
 

@@ -223,10 +223,11 @@
     width: 55%;
     margin-left: 2rem;
     .ownimage{
-        width: 90%;
-        height: 80%;
+        // width: 90%;
+        // height: 80%;
         border-radius: 20px;
-
+        width: 100%;
+        height: auto;
 
     }
     @media  screen and (max-width: 768px){

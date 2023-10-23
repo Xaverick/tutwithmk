@@ -203,7 +203,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div style={{ gap: "0rem" }} className="timeline-section">
+      <div style={{ gap: "0rem",  marginBottom: "4rem"  }} className="timeline-section">
         <div
           className="owntimeline-section__right"
           style={{ marginBottom: "0" }}

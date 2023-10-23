@@ -56,10 +56,10 @@ const BlogData = [
                     <p>Now we do hard & real High Five!!!</p>
                     <p>Let's Start A New You! </p>
                     
-
+                    <Link  to={`/services/launchpad`}>Click Here</Link>
                 </div> ,
         
-        link: "http://localhost:5173/services/launchpad"
+   
     },
 
     {
