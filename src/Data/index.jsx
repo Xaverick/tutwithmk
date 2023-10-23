@@ -221,19 +221,19 @@ const ProgramDetail = [
         icon: launchpadLogo,
         title: 'LaunchPad',
         content: "",
-        url: `${link}/services/launchpad`
+        url: `/services/launchpad`
     },
     {
         icon: emerge,
         title: 'Emerge',
         content: "",
-        url: `${link}/services/emerge`
+        url: `/services/emerge`
     },
     {
         icon: transcend,
         title: 'Transcend',
         content: "",
-        url: `${link}/services/transcend`
+        url: `/services/transcend`
     },
 
 ]
