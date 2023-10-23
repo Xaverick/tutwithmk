@@ -9,10 +9,11 @@ import {Welcome, ThankYou} from './pages'
 const ScrollToTop = () => {
   // Extracts pathname property(key) from an object
   const { pathname } = useLocation();
-
+  
   // Automatically scrolls to top whenever pathname changes
   useEffect(() => {
     window.scrollTo(0, 0);
+    
   }, [pathname]);
 }
 
@@ -30,7 +31,7 @@ function App() {
   const timer = new Promise ((resolve,reject)=>{
     setTimeout(()=>{
       resolve(true)
-    },90000)
+    },210000)
   }) 
   
 

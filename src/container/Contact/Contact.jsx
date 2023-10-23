@@ -129,7 +129,7 @@ const Contact = ({label}) => {
             <div className='contact-question-and-faq'>         
 
                 <div id="faq" className='faq-section'>
-                    {/* <p className='para-heading'>FAQ</p> */}
+         
                     <h1>Frequently Asked <br /> Questions</h1>
                     <p>You Asked I Replied - </p>
                     <p> Instant Power Shots <br /> (Take it whenever you feel low) </p>
@@ -157,7 +157,7 @@ const Contact = ({label}) => {
                             
                             
                             </div>
-                            <AnimatePresence>
+                            <AnimatePresence initial={false}>
                             {item.open && (
                             
                                 <motion.div
@@ -239,4 +239,4 @@ const Contact = ({label}) => {
   )
 }
 
-export default Contact
+export default Contact;

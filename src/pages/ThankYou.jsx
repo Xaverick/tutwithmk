@@ -5,7 +5,7 @@ const ThankYou = () => {
   return (
     <div className='thankyou'>
         <h1>
-            Thank You For Visiting
+            Thank You For Visiting.
         </h1>
     </div>
   )

@@ -111,24 +111,14 @@ const Footer = () => {
           
           <ul className='space'>
             <li className='list'>
-              <div className='icon'>
+              <Link to="/contact" className='icon'>
                 <AiOutlineMail />
-              </div>
+              </Link>
               <div className='content'>
                 <h3>Email:</h3>
                 <p style={{fontSize:"0.9rem"}}>team_mk@transformwithmk.com</p>
               </div>
             </li>
-
-            {/* <li >
-              <div style={{display:"flex", flexDirection:"row", gap:"1rem", alignItems:"end"}}>
-                <li className='list' ><Link to="https://youtube.com/@transformwithMK" target="_blank" rel="noreferrer"><div className='icon'><FaYoutube /></div></Link></li>
-                <li className='list'><Link to="https://www.linkedin.com/in/coachmk" target="_blank" rel="noreferrer"><div className='icon'><FaLinkedinIn /></div></Link></li>
-                <li className='list'><Link to="https://instagram.com/transformwithmk" target="_blank" rel="noreferrer"><div className='icon'><FaInstagram /></div></Link></li>
-                <li className='list'><Link to="https://www.facebook.com/transformwithMK?mibextid=ZbWKwL" target="_blank" rel="noreferrer"><div className='icon'><FaFacebookF /></div></Link></li>
-              </div>
-             
-            </li> */}
 
           </ul>
         </div>
