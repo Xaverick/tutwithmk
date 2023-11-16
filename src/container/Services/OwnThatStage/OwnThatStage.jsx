@@ -8,6 +8,7 @@ import header from '../../../assets/header_1.webp'
 import ownthatstagePhoto from '../../../assets/ownthatstagePhoto.webp'
 import greendotart from '../../../assets/greendotart.webp'
 import{Link} from 'react-router-dom'
+import ownthatstageMobileBanner from '../../../assets/ownthatstageMobileBanner.jpg'  
 
 const OwnThatStage = ({link}) => {
 
@@ -15,6 +16,10 @@ const OwnThatStage = ({link}) => {
       <div className='app__container'>
 
         <Banner name={"Own That Stage"} subtitle={"Mastering the Arena of Public Speaking"} custom={true}/> 
+        <div className='aboutbanner'>
+       
+          <img className="mobile" src={ownthatstageMobileBanner} alt="" />
+        </div>
 
         <div className='mid-apply-section'>
 

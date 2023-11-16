@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/no-unknown-property */
 import React ,{useState,useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import './Blog.scss'
@@ -41,7 +43,7 @@ const Blog = () => {
     try{
       myPromise
         .then(newData => setData(newData[0]))
-        .catch(err => setData({}))
+        .catch(() => setData({}))
 
       window.scrollTo(0, 0)  
     }catch(err){

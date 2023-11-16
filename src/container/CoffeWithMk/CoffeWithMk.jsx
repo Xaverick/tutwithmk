@@ -28,7 +28,7 @@ const CoffeWithMk = () => {
 
             <div className='testimonial-detail'>
               <div className='client-detail'>
-                <p> K.A., <span>Entrepreneur</span></p>
+                <p> K.A. <span>Entrepreneur</span></p>
                 
 
               </div>

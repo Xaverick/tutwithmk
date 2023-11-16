@@ -176,6 +176,15 @@
                     top: 46%;
                     right: 33%;
                 }
+
+                div:nth-child(7){
+                    position: absolute;
+                    img{
+                        object-fit: cover;
+                    }
+                    bottom: 18%;
+                    right: 17%;
+                }
             }
 
  

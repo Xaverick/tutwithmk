@@ -2,7 +2,7 @@ import React , {useState,useEffect} from 'react'
 import './StressBuster.scss'
 import coffee from '../../assets/coffee-popup.gif'
 import popupgif from '../../assets/popupgif.gif' 
-
+import {Link} from 'react-router-dom'   
 
 const StressBuster = ({isopen2, setIsopen2}) => {
   
@@ -24,7 +24,7 @@ const StressBuster = ({isopen2, setIsopen2}) => {
                         <p>In these specially designed Stress Buster sessions, You can talk about Anything but I encourage you to talk about Everything. Only You & Me, no pen, paper etc.</p>
                         <p>Therapeutic Communication. Let's Talk. </p>
 
-                        <a href="/apply" ><img src={popupgif} alt="" /></a>
+                        <Link to="/apply" ><img src={popupgif} alt="" /></Link>
                         <span>*These are Confidential sessions.</span>
                         
                     </div>

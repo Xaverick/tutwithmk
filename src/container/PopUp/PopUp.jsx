@@ -2,6 +2,7 @@ import React , {useState,useEffect} from 'react'
 import './PopUp.scss'
 import coffee from '../../assets/coffee-popup.gif'
 import StressBuster from '../../assets/stressBusterRed.png';
+import {Link} from 'react-router-dom'
 
 const PopUp = ({isopen, setIsopen}) => {
   
@@ -16,7 +17,7 @@ const PopUp = ({isopen, setIsopen}) => {
                         <img src={coffee} alt="" />
                     </div>
                     <div className='content'>
-                        <a href="/services/coffewithmk"><img src={StressBuster} alt="" onClick={() => setIsopen(false)}/></a>
+                        <Link to="/services/coffewithmk"><img src={StressBuster} alt="" onClick={() => setIsopen(false)}/></Link>
                     </div>
 
 

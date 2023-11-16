@@ -33,6 +33,7 @@
                 .client-detail{
                     display: flex;
                     flex-direction: row;
+                
                 }
        
             }
@@ -49,7 +50,7 @@
                 font-family: var(--font-base);
                 text-align: center;
                 span{
-                    text-transform: uppercase;
+                    text-transform: capitalize;
                     color: var(--text-hover);
                 }
                 

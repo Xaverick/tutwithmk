@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import "./Home.scss";
 import Testimonials from "../../components/Testimonial/Testimonials";
@@ -177,7 +179,7 @@ const Home = () => {
             allow="autoplay"
           />
 
-          <h3>Daniel Stangar - Slovakia</h3>
+          <h3>D.S. - Slovakia</h3>
         </div>
 
         <div className="videos">
@@ -199,7 +201,7 @@ const Home = () => {
             allow="autoplay"
           />
 
-          <h3>Alberto Fabbri - Italy</h3>
+          <h3>A.F. - Italy</h3>
         </div>
       </div>
 

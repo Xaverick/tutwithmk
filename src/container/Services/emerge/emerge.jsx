@@ -25,7 +25,7 @@ const Emerge = ({link}) => {
             <div className='testimonial-detail'>
               {/* <img src="" alt="" /> */}
               <div className='client-detail'>
-                <p>Sh. M.V. - <span>JUDGE</span></p>               
+                <p>Sh. M.V. - <span>Judge</span></p>               
                 
               </div>
               

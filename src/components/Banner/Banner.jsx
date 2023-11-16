@@ -3,6 +3,7 @@ import './Banner.scss'
 import patttern_1 from '../../assets/pattern_1.webp'
 import {AiOutlineHome} from 'react-icons/ai'
 import header from '../../assets/header_1.webp'
+import header2 from '../../assets/header_2.png'
 
 
 const Banner = ({name,subtitle,img,gold,custom}) => {
@@ -35,7 +36,7 @@ const Banner = ({name,subtitle,img,gold,custom}) => {
             )}
 
             {custom && (
-              <img className="custom" src={header} />
+              <img className="custom" src={header2} />
             )}
         </div>
       </div>
