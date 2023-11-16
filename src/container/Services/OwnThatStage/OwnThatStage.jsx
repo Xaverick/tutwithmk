@@ -15,9 +15,13 @@ const OwnThatStage = ({link}) => {
   return (
       <div className='app__container'>
 
-        <Banner name={"Own That Stage"} subtitle={"Mastering the Arena of Public Speaking"} custom={true}/> 
+        <div className="ownDesktopBanner">
+          <Banner name={"Own That Stage"} subtitle={"Mastering the Arena of Public Speaking"} custom={true}/> 
+
+        </div>
+
+        
         <div className='aboutbanner'>
-       
           <img className="mobile" src={ownthatstageMobileBanner} alt="" />
         </div>
 

@@ -1,3 +1,9 @@
+.ownDesktopBanner{
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+}
+
 .own-content-header{
     margin-top: 92px;
     display: flex;
@@ -10,9 +16,9 @@
         #1AA973 50%,                                                                                                                                                                                                                                  
         var(--black-color) 50%,                                                               
         var(--card-bg-black) 100%,                                                               
-
     );
 
+    
     img{
         width: 120px;
         height: 120px;
