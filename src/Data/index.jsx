@@ -199,7 +199,7 @@ const LaunchPadtimeline = [
     },
     {
         icon:  launchpadTimeline2,
-        content:"Your Life's Analyses",
+        content:"Your Life's Analysis",
     },
     {
         icon: launchpadTimeline3,

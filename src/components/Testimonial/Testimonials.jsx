@@ -12,13 +12,13 @@ import { Tooltip } from 'react-tooltip'
 
 
 const testimonial = {
-  dubai: "\"You can see the results instantly not only in your Business but in your Personal Life too.\" <br /> <p> A.K., Entrepreneur - DUBAI </p>",
-  usa: "\"I thank you Manish for coaching me.\" <br /> <p> H.S., Entrepreneur - United States </p>",
+  dubai: "\"You can see the results instantly not only in your Business but in your Personal Life too.\" <br /> <p> A.K. Entrepreneur - DUBAI </p>",
+  usa: "\"I thank you Manish for coaching me.\" <br /> <p> H.S. Entrepreneur - United States </p>",
   uk: "\"Anyone who comes to get his help has come to the right place.\"  <br /> <p> J.M. - United Kingdom </p>",
-  slovakia: "\"His helpfulness is simply AMAZING!\" <br /> <p> D.S. ,International Author & Writer - SLOVAKIA </p>",
+  slovakia: "\"His helpfulness is simply AMAZING!\" <br /> <p> D.S. International Author & Writer - SLOVAKIA </p>",
   italy: "\"He is the first one who applies his own knowledge on himself.\" <br/> <p> A.F. - ITALY </p>",
   mumbai: "\"Manish is an Awesome coach.\" <br /> <p> U.S. - Celebrity Trainer </p>",
-  australia: "\"The first time I received training from Manish was in the spring of 2003. My first impression of him has been even to this day lived up by him after 20 years. I want to acknowledge Manish’s participation and contribution in my own learnings in life’s adventures and would recommend anyone to come and experience the bright, friendly and safe environment which Manish creates for his trainees and friends.\” SH. Sydney – Australia"
+  australia: "\"The first time I received training from Manish was in the spring of 2003. My first impression of him has been even to this day lived up by him after 20 years. I want to acknowledge Manish’s participation and contribution in my own learnings in life’s adventures and would recommend anyone to come and experience the bright, friendly and safe environment which Manish creates for his trainees and friends.\” <br /> <br /> S.H. - Sydney, Australia"
 }
 
 const Testimonials = ({name}) => {

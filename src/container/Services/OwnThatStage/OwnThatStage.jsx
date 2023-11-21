@@ -8,7 +8,7 @@ import header from '../../../assets/header_1.webp'
 import ownthatstagePhoto from '../../../assets/ownthatstagePhoto.webp'
 import greendotart from '../../../assets/greendotart.webp'
 import{Link} from 'react-router-dom'
-import ownthatstageMobileBanner from '../../../assets/ownthatstageMobileBanner.jpg'  
+import ownthatstageMobileBanner from '../../../assets/ownthatstageMobileBanner.webp'  
 
 const OwnThatStage = ({link}) => {
 
@@ -76,7 +76,7 @@ const OwnThatStage = ({link}) => {
 
       </div>
 
-      <div className='timeline-section'>
+      <div className='owntimeline-section'>
         <div className='owntimeline-section__left'>
             <h1 className='own'>You've been Unique & So Is Your Message.</h1>
 

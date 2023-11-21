@@ -5,7 +5,7 @@ import './Blogs.scss'
 import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai'
 import { useNavigate } from 'react-router-dom'
 import {BlogData} from '../../Data'
-
+import blogBanner from '../../assets/blogBanner.webp'
 
 
 
@@ -45,9 +45,13 @@ const Blogs = () => {
 
     return (
     <>
-        <Banner name='Blogs' subtitle={''} />
 
-
+        <div className="about-header">
+            <div>
+                {/* <img src={blogBanner} alt="" /> */}
+                
+            </div>
+        </div>
 
         <div className='app__blogs'>
             

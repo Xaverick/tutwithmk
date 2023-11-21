@@ -81,12 +81,12 @@ const Navbar = ({setIsopen2}) => {
                         }}
                       >
 
-                          <li><Link to="/services/coffewithmk">Koffee With Mk</Link></li>
-                          <li><Link to="/services/launchpad">Launchpad</Link></li>
-                          <li><Link to="/services/emerge">Emerge</Link></li>
-                          <li><Link to="/services/transcend">Transcend</Link></li>
-                          <li><Link to="/services/ownthatstage">Own That Stage</Link></li>
-                          <li><Link to="/services/legacy">Legacy</Link></li>
+                          <li><Link to="/services/coffewithmk" onClick={() => setToggle(false)}>Koffee With Mk</Link></li>
+                          <li><Link to="/services/launchpad" onClick={() => setToggle(false)}>Launchpad</Link></li>
+                          <li><Link to="/services/emerge" onClick={() => setToggle(false)}>Emerge</Link></li>
+                          <li><Link to="/services/transcend" onClick={() => setToggle(false)}>Transcend</Link></li>
+                          <li><Link to="/services/ownthatstage" onClick={() => setToggle(false)}>Own That Stage</Link></li>
+                          <li><Link to="/services/legacy" onClick={() => setToggle(false)}>Legacy</Link></li>
                       </motion.div>
                         
                     )}

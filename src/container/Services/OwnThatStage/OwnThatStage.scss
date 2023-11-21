@@ -4,6 +4,7 @@
     }
 }
 
+
 .own-content-header{
     margin-top: 92px;
     display: flex;
@@ -145,7 +146,28 @@
     }
 }
 
-
+.owntimeline-section{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    @media screen and (max-width: 768px){
+        width: 100%;
+        flex-direction: column-reverse;
+     
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        align-items: center;
+        gap: 1rem;
+        
+        
+    }
+}
 .owntimeline-section__left{
     width: 45%;
     display: flex;
@@ -226,19 +248,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55%;
+    width: 60%;
     margin-left: 2rem;
+    padding: 0;
     .ownimage{
         // width: 90%;
         // height: 80%;
-        border-radius: 20px;
+        border-radius: 10px;
         width: 100%;
         height: auto;
-
+        
     }
+
     @media  screen and (max-width: 768px){
         width: 100%;
-        padding: 1rem;
+        padding: 0.5rem;
         margin: 0;
         margin-bottom: 2rem;
     }
