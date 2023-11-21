@@ -5,6 +5,16 @@
 }
 
 
+.ownMobileBanner{
+    display: none;
+    @media screen and (max-width: 768px){
+        display: block;
+        background-color: #030303;
+        padding: 2rem 0;
+    }
+}
+
+
 .own-content-header{
     margin-top: 92px;
     display: flex;
@@ -219,10 +229,28 @@
             font-size: 1.6rem;
         }
     }
+    .ownimage{
+        // width: 90%;
+        // height: 80%;
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .ownimageleft{
+        display: none;
+        @media screen and (max-width: 768px){
+            display: block;
+            width: 100%;
+            height: auto;
+            
+        }
+    }
 
     @media  screen and (max-width: 768px){
         width: 100%;
-        padding: 2rem;
+        padding: 1.2rem;
         align-items: center;
         padding-bottom: 0;
         .own{
@@ -261,6 +289,7 @@
     }
 
     @media  screen and (max-width: 768px){
+        display: none;
         width: 100%;
         padding: 0.5rem;
         margin: 0;
@@ -300,6 +329,13 @@
         font-weight: 600;
         color: var(--primary-color);
         padding-bottom: 1rem;
+
+        &.serviceTestimonial{
+            font-weight: 500;
+            text-transform: initial;
+            font-family: var(--font-nanum);
+        }
+        
     }
 
     p{

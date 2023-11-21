@@ -14,7 +14,7 @@ const Legacy= () => {
     <div className='app__container'>
         <div className='aboutbanner'>
             <img className='desktop transcend' src={legacyBanner} alt="" />
-            <img className="mobile" src={legacyBanner} alt="" />
+            <img className="mobile" src={legacyMobileBanner} alt="" />
         </div>
         {/* <Banner name='L e g a c y' subtitle="Legends-create-Legacy" /> */}
 

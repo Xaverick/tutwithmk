@@ -21,7 +21,7 @@ const OwnThatStage = ({link}) => {
         </div>
 
         
-        <div className='aboutbanner'>
+        <div className='aboutbanner ownMobileBanner'>
           <img className="mobile" src={ownthatstageMobileBanner} alt="" />
         </div>
 
@@ -79,6 +79,8 @@ const OwnThatStage = ({link}) => {
       <div className='owntimeline-section'>
         <div className='owntimeline-section__left'>
             <h1 className='own'>You've been Unique & So Is Your Message.</h1>
+           
+            <img className="ownimage ownimageleft" src={stategy} alt="" />
 
             <p>Get That Message Across To People! <br /> End of Story.</p>
 
