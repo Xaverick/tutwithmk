@@ -27,7 +27,7 @@ function App() {
   let link = '';
   process.env.NODE_ENV === 'production' ?   link = "http://transformwithmk.com" : link = 'http://localhost:5173'
   const popupShownBefore = localStorage.getItem('popupShownBefore');
-
+  const cleanseBefore = localStorage.getItem('cleanseBefore');
   const timer = new Promise ((resolve,reject)=>{
     setTimeout(()=>{
       resolve(true)
@@ -47,16 +47,21 @@ function App() {
   return (
     <BrowserRouter>
         <ScrollToTop />
-        <div className={ clicked ? "hide" : "welcome"} >
-          <Welcome exit={setExit} cleanse={setCleanse} clicked={setClicked} />
-        </div>
-        
 
-        <div className={ exit ? "exitPage" : "hide"}>
-          <ThankYou />
-        </div>
+        {!cleanseBefore && (
+          <div className={ clicked ? "hide" : "welcome"} >
+            <Welcome exit={setExit} cleanse={setCleanse} clicked={setClicked} />
+          </div>
+          
+        )}
 
-        <div className={ cleanse ? "" : "hide"}>        
+        {!cleanseBefore && (
+          <div className={ exit ? "exitPage" : "hide"}>
+            <ThankYou />
+          </div>
+        )}
+
+        <div className={ cleanseBefore ? "" : "hide"}>        
           <div className={(isopen2 )?"app noscroll":"app"}>  
             <PopUp isopen={isopen} setIsopen={setIsopen} />  
             <StressBuster isopen2={isopen2} setIsopen2={setIsopen2}/>
