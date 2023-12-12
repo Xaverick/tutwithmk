@@ -1,9 +1,40 @@
+.blogs_banner{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030303;
+    .mobile{
+        display: none;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    @media screen and (max-width: 768px) {
+        margin-top: 55px;
+        .desktop{
+            display: none;
+        }
+        .mobile{
+            display: block;
+        }
+        img{
+            height: auto;
+        }
+        
+    }
+}
+
 .app__blogs{
     width: 80%;
     margin: 0 auto;
     @media screen and (max-width: 768px){
         width: 100%;
     }
+
+
+
     .blogs__header{
         width: 100%;
         margin: 5rem 0;

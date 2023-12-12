@@ -6,7 +6,8 @@ import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai'
 import { useNavigate } from 'react-router-dom'
 import {BlogData} from '../../Data'
 import blogBanner from '../../assets/blogBanner.webp'
-
+import desktopbanner from '../../assets/blogBanner.webp'
+import mobilebanner from '../../assets/MobileblogBanner.webp'
 
 
 const Blogs = () => {
@@ -46,11 +47,9 @@ const Blogs = () => {
     return (
     <>
 
-        <div className="about-header">
-            <div>
-                {/* <img src={blogBanner} alt="" /> */}
-                
-            </div>
+        <div className="blogs_banner">
+            <img className='desktop' src={desktopbanner} alt="" />
+            <img className="mobile" src={mobilebanner} alt="" />
         </div>
 
         <div className='app__blogs'>

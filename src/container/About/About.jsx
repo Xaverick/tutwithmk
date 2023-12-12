@@ -7,11 +7,7 @@ import { Link } from 'react-router-dom'
 import aboutBannergif from "../../assets/aboutBannergif.mp4"
 
 
-import alliance1 from "../../assets/InternationalAlliances/117.png"
-import alliance2 from "../../assets/InternationalAlliances/118.png"
-import alliance3 from "../../assets/InternationalAlliances/119.png"
-import alliance4 from "../../assets/InternationalAlliances/120.png"
-import alliance5 from "../../assets/InternationalAlliances/121.png"
+
 
 
 
@@ -36,16 +32,15 @@ const About = ({link}) => {
           <div className='description__right'>
             <span>About MK.</span>
             <div className='content'>
-              <p> <b> Since 2002 I have been working with: </b> Actors, Actress, Celebrity Coaches, Singers, 
-              Business Owners & Their Families,<br />
-              Ministers & Their Families, IAS & IPS officers, Fashion Brand Owners (Indian & UK)
+              <p className='para_description'> <b> Since 2002 I have been working with: </b> Actors, Actress, Celebrity Coaches, Singers, 
+              Business Owners & Their Families, Ministers & Their Families, IAS & IPS officers, Fashion Brand Owners (Indian & UK)
               Authors, MDs, CEOs, etc. <br /> <br />
               <b>Under Persend Social Responsibility: </b> Various NGOs, Govt. Agencies, Students & Teachers, Old age Homes
 
               & many
-              Indian Ambassadors & many International Clients from U.S., UK, Taiwan, Iran, Germany, Italy, etc.
+              Indian Ambassadors, etc.
               </p>
-                          <p> <b>Around the Globe people have known me through Word-of-Mouth. </b> 
+                          <p className='para_description'> <b>Around the Globe people have known me through Word-of-Mouth. </b> 
 
                 <br /> <br />Now I'm making myself known online so that people who are looking for this frequency are not Left Out!
               </p>
@@ -72,11 +67,10 @@ const About = ({link}) => {
             
             <div style={{display:"flex"}} className='content'>
                 <ul>
-                  <li><p> Professional Member: WISE® | IHELPTM | Applied Scholastics® U.K.</p></li>
-                  <li><p>Chairperson Hubbard College of Administration, New Delhi. </p></li>
+                  <li><p>Over the last 22 years, coached several International & Indian Clients from U.S., UK, Australia, Taiwan, Iran, Germany, Italy, India, Slovakia, etc. </p></li>
                   <li><p>Awarded Guest of Honour by Delhi Police. </p></li>
                   <li><p>Judging Panel: Speak IndiaTM (YMCA). </p></li>
-                  <li><p>Associated with: TWTH®, AIACA® & Various NGOs. </p></li>
+                  <li><p>Associated with: AIACA® & Various NGOs. </p></li>
                   <li><p>In Discourse: CM Delhi, Cabinet Minister, Senior Government & Police Officials </p></li>
                 </ul>
             </div>
@@ -88,16 +82,7 @@ const About = ({link}) => {
         </div>  
 
 
-      <div className="alliances">
-        <h1 className='heading'>International Alliance</h1>
-        <div>
-          <img src={alliance1} alt="" />
-          <img src={alliance2} alt="" />
-          <img src={alliance3} alt="" />
-          <img src={alliance4} alt="" />
-          <img src={alliance5} alt="" />
-        </div>
-      </div>
+
 
       <div className='ownquoate' style={{margin:"0", padding:"4rem 0"}}>
         <h1 className='heading'>"There is no bigger suffering than not being able <br /> to Do, Perform, Express - the way you want to." </h1>

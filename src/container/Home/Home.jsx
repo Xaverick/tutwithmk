@@ -10,6 +10,17 @@ import TypeIt from "typeit-react";
 import warrior from "../../assets/warriorVideo.mp4";
 import {Link } from 'react-router-dom';
 
+
+import alliance1 from "../../assets/InternationalAlliances/117.webp"
+import alliance2 from "../../assets/InternationalAlliances/118.webp"
+import alliance3 from "../../assets/InternationalAlliances/119.webp"
+import alliance4 from "../../assets/InternationalAlliances/120.webp"
+import alliance5 from "../../assets/InternationalAlliances/121.webp"
+import alliance6 from "../../assets/InternationalAlliances/122.webp"
+import alliance7 from "../../assets/InternationalAlliances/123.webp"
+import alliance8 from "../../assets/InternationalAlliances/124.webp"
+import alliance9 from "../../assets/InternationalAlliances/125.webp"
+
 const Home = () => {
   return (
     <>
@@ -170,7 +181,22 @@ const Home = () => {
 
       <Testimonials name="MK" />
 
-      <div className="testimonial-video">
+      <div className="alliances">
+        <p className='heading'>Some of the <b>Major Brands </b> <br /> <span>I have Trained People from </span></p>
+        <div>
+          <img src={alliance1} alt="" />
+          <img src={alliance2} alt="" />
+          <img src={alliance3} alt="" />
+          <img src={alliance4} alt="" />
+          <img src={alliance5} alt="" />
+          <img src={alliance6} alt="" />
+          <img src={alliance7} alt="" />
+          <img src={alliance8} alt="" />
+          <img src={alliance9} alt="" />
+        </div>
+      </div>
+
+      {/* <div className="testimonial-video">
         <div className="videos">
           <iframe
             className="bg-video"
@@ -203,7 +229,7 @@ const Home = () => {
 
           <h3>A.F. - Italy</h3>
         </div>
-      </div>
+      </div>  */}
 
       <div style={{ gap: "0rem",  marginBottom: "4rem"  }} className="timeline-section">
         <div

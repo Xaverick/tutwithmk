@@ -37,7 +37,7 @@ const Services = () => {
         <h1 className='heading serviceTestimonial'>"Sometimes someone's presence changes you a lot - that is in reality, very magical! <br />
             Whenever I meet MK, I feel a different kind of energy!! <br />
             As I was stuck... everyone is stuck somewhere in his life! So, you need someone to help you get out of it. <br />
-            I will recommend everyone to just meet MK once & you will feel it by yourself. It's an overwhelming feeling what I'm feeling Right Now!" <br /> <br /> A.N. Microsoft</h1>
+            I will recommend everyone to just meet MK once & you will feel it by yourself. It's an overwhelming feeling what I'm feeling Right Now!" <br /> <br /> A.N. - Microsoft</h1>
 
 
       </div>  
