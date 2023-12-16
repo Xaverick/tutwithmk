@@ -35,10 +35,7 @@ const About = ({link}) => {
               <p className='para_description'> <b> Since 2002 I have been working with: </b> Actors, Actress, Celebrity Coaches, Singers, 
               Business Owners & Their Families, Ministers & Their Families, IAS & IPS officers, Fashion Brand Owners (Indian & UK)
               Authors, MDs, CEOs, etc. <br /> <br />
-              <b>Under Persend Social Responsibility: </b> Various NGOs, Govt. Agencies, Students & Teachers, Old age Homes
-
-              & many
-              Indian Ambassadors, etc.
+              <b>Under Persend Social Responsibility: </b> Various NGOs, Government Agencies, Students & Teachers, Old Age Homes, etc. <br /> <br />
               </p>
                           <p className='para_description'> <b>Around the Globe people have known me through Word-of-Mouth. </b> 
 
@@ -69,9 +66,9 @@ const About = ({link}) => {
                 <ul>
                   <li><p>Over the last 22 years, coached several International & Indian Clients from U.S., UK, Australia, Taiwan, Iran, Germany, Italy, India, Slovakia, etc. </p></li>
                   <li><p>Awarded Guest of Honour by Delhi Police. </p></li>
-                  <li><p>Judging Panel: Speak IndiaTM (YMCA). </p></li>
+                  <li><p>Judging Panel: SpeakIndia™ (YMCA). </p></li>
                   <li><p>Associated with: AIACA® & Various NGOs. </p></li>
-                  <li><p>In Discourse: CM Delhi, Cabinet Minister, Senior Government & Police Officials </p></li>
+                  <li><p>In Discourse: CM Delhi, Cabinet Minister, Senior Government & Police Officials. </p></li>
                 </ul>
             </div>
 

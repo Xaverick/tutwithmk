@@ -52,9 +52,8 @@ const Blogs = () => {
             <img className="mobile" src={mobilebanner} alt="" />
         </div>
 
-        <div className='app__blogs'>
-            
-            <div className='blogs__header'>
+        <div className='blogs__header'>
+            <div className='header_block'>
                 {data && (
                     <div className='image' key={data.id}>
                         {data.video && (<iframe src={data.video} frameborder="0" allow="autoplay;"></iframe>)}
@@ -91,6 +90,11 @@ const Blogs = () => {
                     </span>
                 </div>
             </div>
+        </div>
+
+        <div className='app__blogs'>
+            
+
 
 
             <div className='blogs__content'>

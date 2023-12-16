@@ -16,6 +16,7 @@ const Welcome = ({exit, cleanse, clicked}) => {
     setTimeout(()=>
     {
       localStorage.setItem('cleanseBefore', 'true');
+      localStorage.setItem('timestamp', new Date().getTime().toString());
       window.scrollTo(0,0)
       cleanse(true)
       clicked(true)

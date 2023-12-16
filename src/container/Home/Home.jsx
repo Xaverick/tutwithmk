@@ -11,15 +11,15 @@ import warrior from "../../assets/warriorVideo.mp4";
 import {Link } from 'react-router-dom';
 
 
-import alliance1 from "../../assets/InternationalAlliances/117.webp"
-import alliance2 from "../../assets/InternationalAlliances/118.webp"
-import alliance3 from "../../assets/InternationalAlliances/119.webp"
-import alliance4 from "../../assets/InternationalAlliances/120.webp"
-import alliance5 from "../../assets/InternationalAlliances/121.webp"
-import alliance6 from "../../assets/InternationalAlliances/122.webp"
-import alliance7 from "../../assets/InternationalAlliances/123.webp"
-import alliance8 from "../../assets/InternationalAlliances/124.webp"
-import alliance9 from "../../assets/InternationalAlliances/125.webp"
+import alliance1 from "../../assets/InternationalAlliances/117.png"
+import alliance2 from "../../assets/InternationalAlliances/118.png"
+import alliance3 from "../../assets/InternationalAlliances/119.png"
+import alliance4 from "../../assets/InternationalAlliances/120.png"
+import alliance5 from "../../assets/InternationalAlliances/121.png"
+import alliance6 from "../../assets/InternationalAlliances/122.png"
+import alliance7 from "../../assets/InternationalAlliances/123.png"
+import alliance8 from "../../assets/InternationalAlliances/124.png"
+import alliance9 from "../../assets/InternationalAlliances/125.png"
 
 const Home = () => {
   return (
@@ -180,9 +180,9 @@ const Home = () => {
       </div>
 
       <Testimonials name="MK" />
-
+      <div className="testimonial-video">
       <div className="alliances">
-        <p className='heading'>Some of the <b>Major Brands </b> <br /> <span>I have Trained People from </span></p>
+        <p className='heading'>Some of the <span> <b>Major Brands </b> </span> <br /> <span className="line2">I have Trained People from </span></p>
         <div>
           <img src={alliance1} alt="" />
           <img src={alliance2} alt="" />
@@ -194,6 +194,7 @@ const Home = () => {
           <img src={alliance8} alt="" />
           <img src={alliance9} alt="" />
         </div>
+      </div>
       </div>
 
       {/* <div className="testimonial-video">

@@ -23,27 +23,52 @@ function App() {
   const [exit, setExit] = useState(false)
   const [cleanse, setCleanse] = useState(false)
   const [clicked, setClicked] = useState(false)
-
+  const [shouldRender, setShouldRender] = useState(true);
   let link = '';
   process.env.NODE_ENV === 'production' ?   link = "http://transformwithmk.com" : link = 'http://localhost:5173'
-  const popupShownBefore = localStorage.getItem('popupShownBefore');
+  // const popupShownBefore = localStorage.getItem('popupShownBefore');
   const cleanseBefore = localStorage.getItem('cleanseBefore');
-  const timer = new Promise ((resolve,reject)=>{
-    setTimeout(()=>{
-      resolve(true)
-    },210000)
-  }) 
+  // const timer = new Promise ((resolve,reject)=>{
+  //   setTimeout(()=>{
+  //     resolve(true)
+  //   },10000)
+  // }) 
+  
+  // // if (!popupShownBefore) {
+  //   timer
+  //     .then((resolve)=>{
+  //       setIsopen(resolve);
+    
+  //     })
+  // // }
+
+  useEffect(() => {
+    const storedTimestamp = localStorage.getItem('timestamp');
+    if (cleanseBefore && storedTimestamp) {
+      const oneDayInMillis = 24*60*60*1000; // 1 day in milliseconds
+      const currentTime = new Date().getTime();
+      const storedTime = parseInt(storedTimestamp, 10);
+
+      if (currentTime - storedTime >= oneDayInMillis) {
+        // Clear data from local storage
+        localStorage.removeItem('cleanseBefore');
+        localStorage.removeItem('timestamp');
+        setShouldRender(!shouldRender);
+      }
+    }
+  }, [shouldRender]);
+
+  useEffect(() => {
+    const popupTimer = setTimeout(() => {
+      setIsopen(true);
+    }, 150000); // 2.5 minutes in milliseconds
+
+    return () => {
+      clearTimeout(popupTimer);
+    };
+  }, [isopen]);
   
 
-  if (!popupShownBefore) {
-    timer
-      .then((resolve)=>{
-        setIsopen(resolve);
-        localStorage.setItem('popupShownBefore', 'true');
-    
-      })
-  }
-  
   return (
     <BrowserRouter>
         <ScrollToTop />
