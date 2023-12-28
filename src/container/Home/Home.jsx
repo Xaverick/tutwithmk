@@ -20,7 +20,6 @@ import alliance7 from "../../assets/InternationalAlliances/123.png"
 import alliance8 from "../../assets/InternationalAlliances/124.png"
 import alliance9 from "../../assets/InternationalAlliances/125.png"
 import alliance10 from "../../assets/InternationalAlliances/126.png"
-// import alliance11 from "../../assets/InternationalAlliances/11.png"
 
 const Home = () => {
   return (
