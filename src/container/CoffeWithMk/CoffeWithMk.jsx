@@ -1,10 +1,12 @@
 import React , {useState,useEffect} from 'react'
 import './CoffeWithMK.scss'
-import coffee from '../../assets/coffee-popup.gif'
+import MobileBanner from "../../assets/mobileCoffeeBanner.png"
+import coffeeAnimation from "../../assets/coffeeWithMk.mp4"
 import dollar from '../../assets/icons/dollar.png'
 import session from '../../assets/icons/session.png'
 import confidential from '../../assets/icons/confidentiality.png';
-import coffeewithmkPhoto from '../../assets/coffeewithmkPhoto.webp'
+// import coffeewithmkPhoto from '../../assets/coffeewithmkPhoto.webp'
+import coffeewithmkPhoto from '../../assets/coffee_with_mk_video.mp4'
 import greendotart from '../../assets/greendotart.webp'
 import{Link} from 'react-router-dom'
 
@@ -12,9 +14,14 @@ const CoffeWithMk = () => {
 
   return (
     <div className='app__container'>
-      <div className="koffee-banner">
-        <img src={coffeewithmkPhoto} alt="" />
+      <div className="about-header coffeehide">
+        <video autoPlay loop muted playsInline className="aboutimage">
+            <source src={coffeewithmkPhoto} type="video/mp4" />
+        </video>
+      </div>
 
+      <div className='aboutbanner coffeeMobileBanner'>
+          <img className="mobile" src={MobileBanner} alt="" />
       </div>
 
       <div className='mid-apply-section'>
@@ -47,9 +54,13 @@ const CoffeWithMk = () => {
               <p>Stress Buster</p>
               <h1 style={{ letterSpacing:"normal"}} className='gold'>K o f f e e <span>with</span> MK</h1>           
             </div>
+            
 
             <div  className='image2'>
-                <img src={coffee} alt="" />
+              <video autoPlay loop muted playsInline>
+                <source src={coffeeAnimation} type="video/mp4" />
+              </video>
+                {/* <img src={coffee} alt="" /> */}
             </div>
         </div>
 

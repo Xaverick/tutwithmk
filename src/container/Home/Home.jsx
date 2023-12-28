@@ -10,7 +10,6 @@ import TypeIt from "typeit-react";
 import warrior from "../../assets/warriorVideo.mp4";
 import {Link } from 'react-router-dom';
 
-
 import alliance1 from "../../assets/InternationalAlliances/117.png"
 import alliance2 from "../../assets/InternationalAlliances/118.png"
 import alliance3 from "../../assets/InternationalAlliances/119.png"
@@ -20,6 +19,8 @@ import alliance6 from "../../assets/InternationalAlliances/122.png"
 import alliance7 from "../../assets/InternationalAlliances/123.png"
 import alliance8 from "../../assets/InternationalAlliances/124.png"
 import alliance9 from "../../assets/InternationalAlliances/125.png"
+import alliance10 from "../../assets/InternationalAlliances/126.png"
+// import alliance11 from "../../assets/InternationalAlliances/11.png"
 
 const Home = () => {
   return (
@@ -193,48 +194,15 @@ const Home = () => {
           <img src={alliance7} alt="" />
           <img src={alliance8} alt="" />
           <img src={alliance9} alt="" />
+          <img src={alliance10} alt="" />
         </div>
       </div>
       </div>
 
-      {/* <div className="testimonial-video">
-        <div className="videos">
-          <iframe
-            className="bg-video"
-            src="https://fast.wistia.net/embed/iframe/ryp6wlqwxp"
-            allowFullScreen
-            allow="autoplay"
-          />
-
-          <h3>D.S. - Slovakia</h3>
-        </div>
-
-        <div className="videos">
-          <iframe
-            className="bg-video"
-            src="https://fast.wistia.net/embed/iframe/gzeqnjdigq"
-            allowFullScreen
-            allow="autoplay"
-          />
-
-          <h3> U.S. - Celebrity Trainer</h3>
-        </div>
-
-        <div className="videos">
-          <iframe
-            className="bg-video"
-            src="https://fast.wistia.net/embed/iframe/5dxlwk605h"
-            allowFullScreen
-            allow="autoplay"
-          />
-
-          <h3>A.F. - Italy</h3>
-        </div>
-      </div>  */}
 
       <div style={{ gap: "0rem",  marginBottom: "4rem"  }} className="timeline-section">
         <div
-          className="owntimeline-section__right"
+          className="owntimeline-section__right home"
           style={{ marginBottom: "0" }}
         >
           <img

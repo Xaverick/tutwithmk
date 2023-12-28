@@ -11,7 +11,7 @@ const PopUp = ({isopen, setIsopen}) => {
         {isopen && (
             <div className='layer1'>
                 <button className='close' onClick={() => setIsopen(false)}>X</button>
-                <a href="/services/coffewithmk">
+                <Link to="/services/coffewithmk">
                 <div className='layer2'>                    
                     <div className="media">
                         <img src={coffee} alt="" />
@@ -22,7 +22,7 @@ const PopUp = ({isopen, setIsopen}) => {
 
 
                 </div>
-                </a>
+                </Link>
             </div>
 
         )}
