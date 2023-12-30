@@ -14,8 +14,8 @@ const CoffeWithMk = () => {
 
   return (
     <div className='app__container'>
-      <div className="about-header coffeehide">
-        <video autoPlay loop muted playsInline className="aboutimage">
+      <div className="about-header coffeehide" style={{backgroundColor: "#010001"}}>
+        <video autoPlay loop muted playsInline className="aboutimage" >
             <source src={coffeewithmkPhoto} type="video/mp4" />
         </video>
       </div>

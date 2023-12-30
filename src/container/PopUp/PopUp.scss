@@ -68,12 +68,21 @@ a{
             height: 50%;
       
         }
+        video{
+            width: 60%;
+            height: 50%;
+      
+        }
         @media  screen and (max-width: 768px){
             width: 100%;
             justify-content: center;
             align-items: center;
             img{
                 width: 80%;
+            }
+            video{
+                width: 80%;
+          
             }
         }
 

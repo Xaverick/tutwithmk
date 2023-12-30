@@ -3,6 +3,8 @@ import './PopUp.scss'
 import coffee from '../../assets/coffee-popup.gif'
 import StressBuster from '../../assets/stressBusterRed.png';
 import {Link} from 'react-router-dom'
+import coffeeAnimation from "../../assets/coffeeWithMk.mp4"
+
 
 const PopUp = ({isopen, setIsopen}) => {
   
@@ -14,7 +16,9 @@ const PopUp = ({isopen, setIsopen}) => {
                 <Link to="/services/coffewithmk">
                 <div className='layer2'>                    
                     <div className="media">
-                        <img src={coffee} alt="" />
+                    <video autoPlay loop muted playsInline>
+                        <source src={coffeeAnimation} type="video/mp4" />
+                    </video>
                     </div>
                     <div className='content'>
                         <Link to="/services/coffewithmk"><img src={StressBuster} alt="" onClick={() => setIsopen(false)}/></Link>
