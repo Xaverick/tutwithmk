@@ -182,7 +182,7 @@ const Home = () => {
       <Testimonials name="MK" />
       <div className="testimonial-video">
       <div className="alliances">
-        <p className='heading'>Some of the <span> <b>Major Brands </b> </span> <br /> <span className="line2">I have Trained People from </span></p>
+        <p className='heading'>Some of the <span> <b>Major Brands </b> </span> <br /> <span className="line2">I have Trained People from: </span></p>
         <div>
           <img src={alliance1} alt="" />
           <img src={alliance2} alt="" />

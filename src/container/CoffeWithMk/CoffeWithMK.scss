@@ -22,6 +22,12 @@
     @media screen and (max-width: 768px){
         display: none;
     }
+
+    .coffeeimage{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
 }
 
 .coffeeMobileBanner{
