@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../../../components/Banner/Banner'
 import './Legacy.scss'
+import '../emerge/emerge.scss'
 import {legacyRoute} from '../../../Data'
 import greendotart from '../../../assets/greendotart.webp'
 import legacyPhoto from '../../../assets/legacyphoto.webp'

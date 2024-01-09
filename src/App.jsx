@@ -2,9 +2,25 @@ import { useState,useEffect} from 'react'
 import './App.scss'
 import {Navbar, Footer} from './components'
 import {BrowserRouter, Routes , Route, useLocation} from 'react-router-dom'
-import {Home, About, Contact, Services, PopUp, Emerge,Transcend,LaunchPad,Apply,Legacy, OwnThatStage,Blog, CoffeWithMk,Blogs, SearchBlog,StressBuster} from './container'
-
+// import {About, Contact,PopUp,Transcend,LaunchPad,Apply,Legacy, OwnThatStage,Blog, CoffeWithMk,Blogs, SearchBlog,StressBuster} from './container'
+import React, { lazy, Suspense } from 'react';
 import {Welcome, ThankYou} from './pages'
+const Home = lazy(() => import('./container/Home/Home'));
+const Services = lazy(() => import('./container/Services/Services'));
+const Emerge = lazy(() => import('./container/Services/emerge/emerge'));
+const About = lazy(() => import('./container/About/About'));
+const Contact = lazy(() => import('./container/Contact/Contact'));
+const PopUp = lazy(() => import('./container/PopUp/PopUp'));
+const Transcend = lazy(() => import('./container/Services/transcend/Transcend'));
+const LaunchPad = lazy(() => import('./container/Services/LaunchPad/LaunchPad'));
+const Apply = lazy(() => import('./container/Apply/Apply'));
+const Legacy = lazy(() => import('./container/Services/legacy/Legacy'));
+const OwnThatStage = lazy(() => import('./container/Services/OwnThatStage/OwnThatStage'));
+const Blog = lazy(() => import('./container/Blogs/Blog/Blog'));
+const CoffeWithMk = lazy(() => import('./container/CoffeWithMk/CoffeWithMk'));
+const Blogs = lazy(() => import('./container/Blogs/Blogs'));
+const SearchBlog = lazy(() => import('./container/Blogs/SearchBlog/SearchBlog'));
+const StressBuster = lazy(() => import('./container/StressBuster/StressBuster'));
 
 const ScrollToTop = () => {
   // Extracts pathname property(key) from an object
@@ -26,21 +42,8 @@ function App() {
   const [shouldRender, setShouldRender] = useState(true);
   let link = '';
   process.env.NODE_ENV === 'production' ?   link = "http://transformwithmk.com" : link = 'http://localhost:5173'
-  // const popupShownBefore = localStorage.getItem('popupShownBefore');
   const cleanseBefore = localStorage.getItem('cleanseBefore');
-  // const timer = new Promise ((resolve,reject)=>{
-  //   setTimeout(()=>{
-  //     resolve(true)
-  //   },10000)
-  // }) 
-  
-  // // if (!popupShownBefore) {
-  //   timer
-  //     .then((resolve)=>{
-  //       setIsopen(resolve);
-    
-  //     })
-  // // }
+
 
   useEffect(() => {
     const storedTimestamp = localStorage.getItem('timestamp');
@@ -94,20 +97,20 @@ function App() {
                 
                 <Routes>
                    
-                    <Route path="/" element={<Home />} />
-                    <Route path="/services" element={<Services />} />
-                    <Route path="/services/emerge" element={< Emerge link={link}/>} />
-                    <Route path="/services/transcend" element={<Transcend link={link}/>} />
-                    <Route path="/services/ownthatstage" element={<OwnThatStage link={link}/>} />
-                    <Route path="/services/legacy" element={<Legacy link={link}/>} />
-                    <Route path="/services/launchpad" element={<LaunchPad link={link}/>} />
-                    <Route path="/about" element={<About link={link}/>} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/services/coffewithmk" element={<CoffeWithMk link={link}/>} />
-                    <Route path="/blogs" element={<Blogs />} />
-                    <Route path="/blogs/:id" element={<Blog />} />
-                    <Route path="/blogs/search/:title" element={<SearchBlog />} />
-                    <Route path="/apply" element={<Apply />} />
+                    <Route path="/" element={<Suspense fallback={<div>Loading...</div>}><Home /></Suspense>} />
+                    <Route path="/services" element={<Suspense fallback={<div>Loading...</div>}><Services link={link}/></Suspense>} />
+                    <Route path="/services/emerge" element={<Suspense fallback={<div>Loading...</div>}>< Emerge link={link}/></Suspense>} />
+                    <Route path="/services/transcend" element={<Suspense fallback={<div>Loading...</div>}><Transcend link={link}/></Suspense>}/>
+                    <Route path="/services/ownthatstage" element={<Suspense fallback={<div>Loading...</div>}><OwnThatStage link={link} /></Suspense>} />
+                    <Route path="/services/legacy" element={<Suspense fallback={<div>Loading...</div>}><Legacy link={link} /></Suspense>}/>
+                    <Route path="/services/launchpad" element={<Suspense fallback={<div>Loading...</div>}><LaunchPad link={link}/></Suspense>} />
+                    <Route path="/about" element={<Suspense fallback={<div>Loading...</div>}><About link={link}/></Suspense>} />
+                    <Route path="/contact" element={<Suspense fallback={<div>Loading...</div>}><Contact /></Suspense> }/>
+                    <Route path="/services/coffewithmk" element={<Suspense fallback={<div>Loading...</div>}><CoffeWithMk link={link}/></Suspense> }/>
+                    <Route path="/blogs" element={<Suspense fallback={<div>Loading...</div>}><Blogs /></Suspense> }/>
+                    <Route path="/blogs/:id" element={<Suspense fallback={<div>Loading...</div>}><Blog /></Suspense>} />
+                    <Route path="/blogs/search/:title" element={<Suspense fallback={<div>Loading...</div>}><SearchBlog /></Suspense>} />
+                    <Route path="/apply" element={<Suspense fallback={<div>Loading...</div>}><Apply /> </Suspense>} />
                 </Routes>
 
               <Footer newsteller={true}/>

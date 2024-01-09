@@ -9,7 +9,6 @@ import bookcover1 from "../../assets/bookcover1.webp";
 import TypeIt from "typeit-react";
 import warrior from "../../assets/warriorVideo.mp4";
 import {Link } from 'react-router-dom';
-
 import alliance1 from "../../assets/InternationalAlliances/117.png"
 import alliance2 from "../../assets/InternationalAlliances/118.png"
 import alliance3 from "../../assets/InternationalAlliances/119.png"
@@ -199,7 +198,7 @@ const Home = () => {
       </div>
 
 
-      <div style={{ gap: "0rem",  marginBottom: "4rem"  }} className="timeline-section">
+      <div style={{ gap: "0rem",  marginBottom: "4rem"  }} className="owntimeline-section">
         <div
           className="owntimeline-section__right home"
           style={{ marginBottom: "0" }}

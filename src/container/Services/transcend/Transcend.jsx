@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../emerge/emerge.scss'
 import Banner from '../../../components/Banner/Banner'
 import {transcendTimeline, transcendProgramDetail} from '../../../Data'
 import './Transcend.scss'

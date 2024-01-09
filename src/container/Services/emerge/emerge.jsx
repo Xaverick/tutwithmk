@@ -151,15 +151,7 @@ const Emerge = ({link}) => {
         <h1 className='home-heading'>"You have been hiding. It's time You <br />E M E R G E!"</h1>
         <p>MK.</p>
 
-      </div>  
-      
-      {/* <Testimonials name="E m e r g e" /> */}
-      {/* <Coursefaq name="E m e r g e"/> */}
-    
-  
-    
- 
-        
+      </div>    
     </div>  
  
   )

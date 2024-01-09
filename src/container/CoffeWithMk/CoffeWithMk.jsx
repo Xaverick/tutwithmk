@@ -1,5 +1,6 @@
 import React , {useState,useEffect} from 'react'
 import './CoffeWithMK.scss'
+import "../Services/emerge/emerge.scss"
 import MobileBanner from "../../assets/mobileCoffeeBanner.png"
 import coffeeAnimation from "../../assets/coffeeWithMk.mp4"
 import dollar from '../../assets/icons/dollar.png'

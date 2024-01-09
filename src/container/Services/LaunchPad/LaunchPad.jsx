@@ -1,5 +1,5 @@
 import React , {useState,useEffect} from 'react'
-import './LaunchPad.scss';
+import '../emerge/emerge.scss'
 import Banner from '../../../components/Banner/Banner'
 import {LaunchPadtimeline, launchpadProgramDetail} from '../../../Data'
 import launchpadLogo from '../../../assets/launchpadLogo.webp'

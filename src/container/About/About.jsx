@@ -6,11 +6,6 @@ import { Link } from 'react-router-dom'
 
 import aboutBannergif from "../../assets/aboutBannergif.mp4"
 
-
-
-
-
-
 const About = ({link}) => {
 
   return (
@@ -107,7 +102,7 @@ const About = ({link}) => {
 
 
       
-      <div className='timeline-section'>
+      <div className='owntimeline-section'>
         <div className='owntimeline-section__left'>
             <h1 className='own'>Hail Storm... <br /> Hurricane... <br /> Volcanic Lava!</h1>
 
