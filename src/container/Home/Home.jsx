@@ -29,6 +29,8 @@ const Home = () => {
           </video>      
       </div>
 
+      
+
       <div id="quoate" className="home-course-feature">
         <span className="home-heading">
           <p>

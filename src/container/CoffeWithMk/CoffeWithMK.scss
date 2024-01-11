@@ -1,3 +1,49 @@
+.aboutbanner{
+    margin-top: 70px;
+    display: flex;
+    .mobile{
+        display: none;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    @media screen and (max-width: 768px) {
+        margin-top: 55px;
+        .desktop{
+            display: none;
+        }
+        .mobile{
+            display: block;
+        }
+        img{
+            height: auto;
+        }
+        
+    }
+}
+
+
+.about-header{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030303;
+    .aboutimage{
+        width: 70%;
+        height: auto;
+    }
+    @media screen and (max-width: 768px){
+        margin-top: 55px;
+        .aboutimage{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
 .koffee-banner{
     margin-top: 70px;
     display: flex;

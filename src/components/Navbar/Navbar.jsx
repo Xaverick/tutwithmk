@@ -16,7 +16,7 @@ const Navbar = ({setIsopen2}) => {
     <nav className='app__flex start'>
       <div className='app__navbar app__flex'>
         <div className='app__navbarLogo'>
-          <Link to="/"><img src={logo2} alt="" /> </Link>
+          <Link to="/home"><img src={logo2} alt="" /> </Link>
         </div>
         
         <ul className='app__navbar-links'>
@@ -57,7 +57,7 @@ const Navbar = ({setIsopen2}) => {
             <ul>
                 <HiX className='navbar-icon' onClick={() => setToggle(false)} />
                 
-                <li><Link to='/' onClick={() => setToggle(false)}> Home </Link></li>
+                <li><Link to='/home' onClick={() => setToggle(false)}> Home </Link></li>
                 <li><Link to='/about' onClick={() => setToggle(false)}> MK </Link></li> 
                 <li><Link to='/services' onClick={() => setToggle(false)}> X-Factor </Link></li> 
                 <li>

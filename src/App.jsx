@@ -1,7 +1,7 @@
 import { useState,useEffect} from 'react'
 import './App.scss'
 import {Navbar, Footer} from './components'
-import {BrowserRouter, Routes , Route, useLocation} from 'react-router-dom'
+import {BrowserRouter, Routes , Route, useLocation, Navigate} from 'react-router-dom'
 // import {About, Contact,PopUp,Transcend,LaunchPad,Apply,Legacy, OwnThatStage,Blog, CoffeWithMk,Blogs, SearchBlog,StressBuster} from './container'
 import React, { lazy, Suspense } from 'react';
 import {Welcome, ThankYou} from './pages'
@@ -96,8 +96,8 @@ function App() {
               <Navbar setIsopen2={setIsopen2}/>
                 
                 <Routes>
-                   
-                    <Route path="/" element={<Suspense fallback={<div>Loading...</div>}><Home /></Suspense>} />
+                    <Route exact path="/" element={ cleanseBefore && (<Navigate to='/home' replace/>)} />  
+                    <Route path="/home" element={<Suspense fallback={<div>Loading...</div>}><Home /></Suspense>} />
                     <Route path="/services" element={<Suspense fallback={<div>Loading...</div>}><Services link={link}/></Suspense>} />
                     <Route path="/services/emerge" element={<Suspense fallback={<div>Loading...</div>}>< Emerge link={link}/></Suspense>} />
                     <Route path="/services/transcend" element={<Suspense fallback={<div>Loading...</div>}><Transcend link={link}/></Suspense>}/>

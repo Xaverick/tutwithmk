@@ -83,7 +83,7 @@ const Footer = () => {
           <div className="section">
             <h3>Pages</h3>
             <ul>
-              <li><Link to="/">Home</Link></li>
+              <li><Link to="/home">Home</Link></li>
               <li><Link to="/about">MK</Link></li>
               <li><Link to="/services">X-Factor</Link></li>
               <li><Link to="/contact">Connect</Link></li>

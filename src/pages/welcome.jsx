@@ -1,10 +1,13 @@
 import React from 'react'
 import Exit from '../assets/homepage/Exit.webp'
 import Cleanse from '../assets/homepage/Cleanse.webp'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import "./welcome.scss"
 
+
 const Welcome = ({exit, cleanse, clicked}) => {
+  const navigate = useNavigate()
+
   const handleExit = ()=>{
     setTimeout(()=>{
       clicked(true)
@@ -20,6 +23,7 @@ const Welcome = ({exit, cleanse, clicked}) => {
       window.scrollTo(0,0)
       cleanse(true)
       clicked(true)
+      navigate('/home')
     },1000)
   }
 
