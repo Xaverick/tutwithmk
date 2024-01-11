@@ -23,23 +23,25 @@
     }
 }
 
-
-.about-header{
+.coffee-header{
     margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #030303;
-    .aboutimage{
-        width: 70%;
-        height: auto;
+    .background{
+        max-width: 100%;
+        max-height: 100%;   
+             
     }
+    video{
+        width: 100%;
+        height: auto;
+        
+    }   
+
     @media screen and (max-width: 768px){
-        margin-top: 55px;
-        .aboutimage{
-            width: 100%;
-            height: auto;
-        }
+        display: none;
+        
     }
 }
 
