@@ -4,6 +4,30 @@
     }
 }
 
+.aboutbanner{
+    margin-top: 70px;
+    display: flex;
+    .mobile{
+        display: none;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    @media screen and (max-width: 768px) {
+        margin-top: 55px;
+        .desktop{
+            display: none;
+        }
+        .mobile{
+            display: block;
+        }
+        img{
+            height: auto;
+        }
+        
+    }
+}
 
 .ownMobileBanner{
     display: none;
