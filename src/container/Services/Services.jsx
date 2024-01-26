@@ -84,6 +84,14 @@ const Services = () => {
         </video>
       </div>
 
+
+          
+      <div className='prices_section'>
+          <h3></h3>
+      </div>
+
+
+
       <div className='multiple-media'>
         <div className='quoates'>
           <h1 className='heading'>"You Are Alive Because you dare!"</h1>

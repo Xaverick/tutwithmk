@@ -60,6 +60,30 @@ const data = [
         open: false,
         move:false
     },
+    {
+        title: "On Session Price & Discounts",
+        content: <div>
+                    <p>Amongst the 5 popular evils injected in Humans – One of them is “Greed”.  These evils are designed as a Control Mechanism.
+                        And I don’t like to be controlled and if you too, then following is something for you to Enjoy & Smile on:</p>
+                    <p>“Injection Greed”:</p> 
+                    <p>
+                    1. Price earlier “Blah” - Now 70% OFF or even 90% OFF and on top of that it’s written: “Limited Offer!!!”. <br />
+                    2. Only 9,999$ or 14,999$ or 99,999$. <br />
+                    3. If you buy 2 then 3rd is Free. <br />
+                    4. Attend a Free Seminar – Come One & Come All – Last Chance – Offer Closing Soon!!! <br />   </p>             
+
+                    <p>Triggers-to-Trigger the “Greed” Inside & control your thoughts, your emotions, your mental state, your body reactions… and everything goes out of control coz’ now you are - Controlled!  </p>              
+
+                    <p>Clincher: All of your Compulsions-Obsessions-Insanities… either has to do with Sex, Food, Money, your attachments with people or objects- All are injected & controlled from Outside! Triggers-to-Trigger. </p>
+                    <p>If you told me by shouting at the top of your voice from the top of the mountain i won’t believe for a second that you’re: Irresponsible, Depressed, Lazy, Cold-Hearted, Stupid, Introvert, Disturbed or Alone in this World!!! </p>
+                    <p>All the evidence you’ve in your mind that says the above… “Is CRAP of the Finest 1st Degree!!!” </p>
+                    <p>My friend - Let’s Start The Journey To YOU! </p>
+                    <p> The Real YOU!! <br />The Beautiful YOU!!! <br /> Lots of Love <br /> MK.</p>
+                </div>,
+        open: false,
+        move:false
+                
+    }
 
 ];
 
@@ -120,9 +144,9 @@ const Contact = ({label}) => {
   return (
     <>
 
-    <Banner name='Connect' subtitle=""/>  
+    <Banner name='Connect' subtitle="Only if we Click – We Connect!"/>  
     <div className="contact-heading">
-        <p className='desc'>"Just Interested" <br />Don't Bother <br /> <br /> Ready to do Whatever it Takes... <br />Get in Touch.</p>
+        <p className='desc'><br/>Betterment & Improvement is not what I deliver. <br /> Transformation is the Name! <br /> <br /> Ready to do Whatever it Takes... <br />Get in Touch.</p>
     </div>
     <div className='faq-background'>
         <div className='image-overlay'>    

@@ -186,7 +186,7 @@ const BlogData = [
         id:7,  
         title:'What is the Single Greatest Source of UnHappiness & Failures in Life ?',
         img: '',
-        video: "https://komododecks.com/embed/recordings/hcXSYAeVypLGv3zumcw7?onlyRecording=1",
+        video: "https://fast.wistia.com/embed/iframe/fs2jcy75oh",
         name:'MK',
         date:'12/12/2020',
         content: 
@@ -347,7 +347,7 @@ const BlogData = [
         id:14,  
         title:'Success Vs Depression',
         img: '',
-        video: 'https://komododecks.com/embed/recordings/o3nLTs27PWjXp8L9bOmi?onlyRecording=1',
+        video: 'https://fast.wistia.com/embed/iframe/ckbgtsv83a',
         name:'MK',
         date:'12/12/2020',
         content: 

@@ -27,14 +27,33 @@ const About = ({link}) => {
           <div className='description__right'>
             <span>About MK.</span>
             <div className='content'>
-              <p className='para_description'> <b> Since 2002 I have been working with: </b> Actors, Actress, Celebrity Coaches, Singers, 
+              <p className='para_description'> <b>Born in a Religious Family – Year: 1980 – Country: </b> India. Started questioning my 
+              integrity when I was in Class-8 as I caught myself to be only appearing in front of God during my School Exam. Days… 
+              Didn’t like that in me & couldn’t do any kind of worshipping after that.  <br /> 
+              <b> Result: </b> I got alone! <br /> <br />
+              
+              Living life in Search of something that can introduce me to myself; I survived 3 Nervous Breakdowns almost alone. Stopped doubting my immune system & mental makeup thereafter coz’ - I Survived!  <br /> <br />
+              Now, while going through that heaviness, that darkness with the coldness that one finds as one goes deep under the Ocean – I touched the Ocean bed & as there was no further bottom left I was pushed upwards… <br /> <br />
+              
+When I came out & opened my hand I found - Shiny Pearls inside my hand! Those  Shiny Pearls were the ones that Transformed me & sharing them with others has Transformed everyone who has been a conscious seeker of himself in this life.  
+</p>
+              {/* <p className='para_description'> <b> Since 2002 I have been working with: </b> Actors, Actress, Celebrity Coaches, Singers, 
               Business Owners & Their Families, Ministers & Their Families, IAS & IPS officers, Fashion Brand Owners (Indian & UK)
               Authors, MDs, CEOs, etc. <br /> <br />
               <b>Under Persend Social Responsibility: </b> Various NGOs, Government Agencies, Students & Teachers, Old Age Homes, etc. <br /> <br />
-              </p>
-                          <p className='para_description'> <b>Around the Globe people have known me through Word-of-Mouth. </b> 
+              </p> */}
+
+              <p className='para_description'> 
+              <b> Since 2002 I have been working with: </b> Actors, Actress, Celebrity Coaches, Singers, 
+              Business Owners & Their Families, Ministers & Their Families, IAS & IPS officers, Fashion Brand Owners (Indian & UK)
+              Authors, MDs, CEOs, etc. <br /> <br />
+              <b>Under Persend Social Responsibility: </b> Various NGOs, Government Agencies, Students & Teachers, Old Age Homes, etc. <br /> <br />
+              
+              <b>Around the Globe people have known me through Word-of-Mouth. </b> 
 
                 <br /> <br />Now I'm making myself known online so that people who are looking for this frequency are not Left Out!
+                <br /> < br /> Welcome Home! <br /> <br />  We Missed You… <br /> MK.
+              
               </p>
             </div>
 

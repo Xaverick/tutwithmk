@@ -448,7 +448,103 @@
         }
     }
     
+}
 
 
+.prices_section{
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    padding: 6rem 0;
+    @media screen and (max-width: 768px) {
+        padding: 3rem 0;
+        
+    }
+    .description{
+        width: 75%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+   
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            flex-direction: column;
+            gap: 2rem;
+            
+            
+        }
 
+      
+
+        .description__right{
+            span{
+                display: flex;
+                flex-direction: column;
+                color: var(--text-hover);
+                font-size: 2rem;
+            }
+
+            .subline{                
+                font-size: 1.3rem;
+                font-weight: 400;
+                color: var(--primary-color);
+            }
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: left;
+            gap: 1.5rem;
+            .para_description{
+                font-size: 1.1rem;
+
+            }
+            .heading{
+                font-family: var(--font-display);
+                font-size: 3.5rem;
+                font-weight: 600;
+                color: var(--primary-color);
+            }
+            .content{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 2.5rem;
+                li{
+
+
+                    list-style: disc;
+                    p{
+                        color: var(--primary-color);
+                    }
+                    font-size: 1.3rem;
+                    
+                    font-weight: 500;
+                    color: var(--header-green);
+                    text-align: left;
+                    word-spacing: 0.3rem;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                padding: 2rem;
+                width: 100%;
+                .heading{
+                    font-size: 2rem;
+                }
+                .content{
+                    grid-template-columns: 1fr;
+                    gap: 1rem;
+                    p{
+                        font-size: 1rem;
+                    }
+                    li{
+                        font-size: 1rem;
+                        align-items: center;
+                    }
+                }
+            }
+                
+            
+
+        }
+    }
 }
