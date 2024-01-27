@@ -3,7 +3,7 @@ import './About.scss'
 import legacyPhoto from '../../assets/legacyphoto.webp'
 import dp from "../../assets/dp.gif"
 import { Link } from 'react-router-dom'
-
+import aboutMedia from "../../assets/aboutMedia.png"
 import aboutBannergif from "../../assets/aboutBannergif.mp4"
 
 const About = ({link}) => {
@@ -47,7 +47,7 @@ When I came out & opened my hand I found - Shiny Pearls inside my hand! Those  S
               <b> Since 2002 I have been working with: </b> Actors, Actress, Celebrity Coaches, Singers, 
               Business Owners & Their Families, Ministers & Their Families, IAS & IPS officers, Fashion Brand Owners (Indian & UK)
               Authors, MDs, CEOs, etc. <br /> <br />
-              <b>Under Persend Social Responsibility: </b> Various NGOs, Government Agencies, Students & Teachers, Old Age Homes, etc. <br /> <br />
+              <b>Under Personal Social Responsibility: </b> Various NGOs, Government Agencies, Students & Teachers, Old Age Homes, etc. <br /> <br />
               
               <b>Around the Globe people have known me through Word-of-Mouth. </b> 
 
@@ -64,6 +64,9 @@ When I came out & opened my hand I found - Shiny Pearls inside my hand! Those  S
         </div>  
 
 
+        <div className='aboutMedia'>
+          <img src={aboutMedia} alt="" />
+        </div>
 
 
 
