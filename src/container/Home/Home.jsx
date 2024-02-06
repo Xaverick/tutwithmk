@@ -217,7 +217,7 @@ const Home = () => {
             style={{ textAlign: "center", color: "var(--primary-color)" }}
             className="own"
           >
-            <span className="small">TRANFORMATION </span> <br />{" "}
+            <span className="small">TRANSFORMATION </span> <br />{" "}
             <span>"You to The YOU" </span>{" "}
           </h1>
           <p
