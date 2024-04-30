@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from 'react'
 import './Testimonials.scss'
 import map2 from '../../assets/map2.webp'
 import uk from '../../assets/homeTestimonial/uk.webp'
@@ -23,6 +23,18 @@ const testimonial = {
 }
 
 const Testimonials = ({name}) => {
+
+  const [showDefault, setShowDefault] = useState(true);
+
+  const handleMouseEnter = () => {
+    console.log('mouse enter');
+    setShowDefault(false);
+  };
+
+  const handleMouseLeave = () => {
+    setShowDefault(true);
+  };
+
   return (
     <div className='app__testimonials'>
     <h6>Globally People Are Attaining And So Will You! </h6>
@@ -45,27 +57,39 @@ const Testimonials = ({name}) => {
                   src={uk} 
                   alt="" 
                 />
-                <Tooltip id="uk"  place='top' noArrow  className='tooltip' />
+                {/* <Tooltip id="uk"  place='top' noArrow  className='tooltip' /> */}
+
+                {showDefault ? (
+                    <Tooltip id='uk' place='top' className='tooltip' isOpen={true}/>
+                  ) : (
+                    <Tooltip
+                      id='uk'
+                      place='top'
+                      className='tooltip'
+                      isOpen={false}
+                    />
+                  )}
+  
                                   
               
               </div>
 
 
 
-              <div className='dot'>
+              <div className='dot' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <img 
                     src={usa} 
                     alt="" 
                     data-tooltip-html={testimonial.usa} 
                     data-tooltip-id="usa"
                 />
-                <Tooltip id="usa" effect='solid'  noArrow  place='top' className='tooltip'/>
+                <Tooltip id="usa" effect='solid'  noArrow  place='top' className='tooltip' />
               
               
               
               </div>
 
-              <div className='dot'>
+              <div className='dot' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <img 
                   src={dubai} 
                   alt="" 
@@ -75,7 +99,7 @@ const Testimonials = ({name}) => {
                 <Tooltip id="dubai" effect='solid' noArrow  place='bottom' className='tooltip'/>
               </div>
 
-              <div className='dot'>
+              <div className='dot' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <img 
                     src={italy} 
                     alt="" 
@@ -86,7 +110,7 @@ const Testimonials = ({name}) => {
               
               </div>
               
-              <div className='dot'>
+              <div className='dot' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <img 
                     src={slovakia} 
                     alt="" 
@@ -96,7 +120,7 @@ const Testimonials = ({name}) => {
                 <Tooltip id="slovakia" effect='solid' noArrow  place='top' className='tooltip'/>
               </div>
 
-              <div className='dot'>
+              <div className='dot' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
                 <img 
                     src={india} 
                     alt="" 
@@ -104,10 +128,16 @@ const Testimonials = ({name}) => {
                     data-tooltip-id="mumbai"
                 />
 
+                {/* {showDefault ? (
+                    <Tooltip id='mumbai' effect='solid' noArrow  place='bottom' className='tooltip' isOpen={true}/>
+                ):
+                  <Tooltip id='mumbai' effect='solid' noArrow  place='bottom' className='tooltip' isOpen={false}/>
+                } */}
+
                 <Tooltip id="mumbai" effect='solid' noArrow  place='bottom' className='tooltip'/>
               </div>
 
-              <div className='dot'>
+              <div className='dot' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}> 
                 <img 
                     src={australia} 
                     alt="" 

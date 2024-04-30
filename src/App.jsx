@@ -49,21 +49,21 @@ function App() {
   const cleanseBefore = localStorage.getItem('cleanseBefore');
 
 
-  useEffect(() => {
-    const storedTimestamp = localStorage.getItem('timestamp');
-    if (cleanseBefore && storedTimestamp) {
-      const oneDayInMillis = 24*60*60*1000; // 1 day in milliseconds
-      const currentTime = new Date().getTime();
-      const storedTime = parseInt(storedTimestamp, 10);
+  // useEffect(() => {
+  //   const storedTimestamp = localStorage.getItem('timestamp');
+  //   if (cleanseBefore && storedTimestamp) {
+  //     const oneDayInMillis = 24*60*60*1000; // 1 day in milliseconds
+  //     const currentTime = new Date().getTime();
+  //     const storedTime = parseInt(storedTimestamp, 10);
 
-      if (currentTime - storedTime >= oneDayInMillis) {
-        // Clear data from local storage
-        localStorage.removeItem('cleanseBefore');
-        localStorage.removeItem('timestamp');
-        setShouldRender(!shouldRender);
-      }
-    }
-  }, [shouldRender]);
+  //     if (currentTime - storedTime >= oneDayInMillis) {
+  //       // Clear data from local storage
+  //       localStorage.removeItem('cleanseBefore');
+  //       localStorage.removeItem('timestamp');
+  //       setShouldRender(!shouldRender);
+  //     }
+  //   }
+  // }, [shouldRender]);
 
   useEffect(() => {
     setLoading(true);
@@ -88,7 +88,7 @@ function App() {
   return (
     <>
         <ScrollToTop />
-
+{/* 
         {!cleanseBefore && (
           <div className={ clicked ? "hide" : "welcome"} >
             <Welcome exit={setExit} cleanse={setCleanse} clicked={setClicked} />
@@ -100,9 +100,9 @@ function App() {
           <div className={ exit ? "exitPage" : "hide"}>
             <ThankYou />
           </div>
-        )}
+        )} */}
 
-        <div className={ cleanseBefore ? "" : "hide"}>       
+        {/* <div className={ cleanseBefore ? "" : "hide"}>        */}
           <div className={(isopen2 )?"app noscroll":"app"}>  
             <PopUp isopen={isopen} setIsopen={setIsopen} />  
             <StressBuster isopen2={isopen2} setIsopen2={setIsopen2}/>             
@@ -114,8 +114,11 @@ function App() {
                 {!loading && (
                   
                   <Routes>
-                        <Route exact path="/" element={ cleanseBefore && (<Navigate to='/home' replace/>)} />  
-                        <Route path="/home" element={<Home />}/>
+                        {/* <Route exact path="/home" element={ cleanseBefore && (<Navigate to='/' replace/>)} />   */}
+                        <Route exact path="/home" element={
+                          <Welcome exit={setExit} cleanse={setCleanse} clicked={setClicked} />
+                         } />  
+                        <Route path="/" element={<Home />}/>
                         <Route path="/services" element={<Services link={link}/>} />
                         <Route path="/services/emerge" element={<Emerge link={link}/>} />
                         <Route path="/services/transcend" element={<Transcend link={link}/>}/>
@@ -135,7 +138,7 @@ function App() {
                 {!loading && (<Footer newsteller={true}/>)}
               </Suspense>
           </div> 
-        </div>
+        {/* </div> */}
     </>
   );
 

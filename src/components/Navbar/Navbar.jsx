@@ -16,7 +16,7 @@ const Navbar = ({setIsopen2}) => {
     <nav className='app__flex start'>
       <div className='app__navbar app__flex'>
         <div className='app__navbarLogo'>
-          <Link to="/home"><img src={logo2} alt="" /> </Link>
+          <Link to="/"><img src={logo2} alt="" /> </Link>
         </div>
         
         <ul className='app__navbar-links'>
