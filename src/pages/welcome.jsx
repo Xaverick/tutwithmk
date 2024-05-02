@@ -30,7 +30,7 @@ const Welcome = ({exit, cleanse, clicked}) => {
   return (
     <>
         <div className="landingscreen">
-            <img class="exitbutton" src={Exit} alt="" onClick={handleExit}/>
+            <img className="exitbutton" src={Exit} alt="" onClick={handleExit}/>
         </div>
 
         <div className="landingscreen2">

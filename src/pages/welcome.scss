@@ -7,9 +7,14 @@
     margin: 0;
     padding: 0;
     height: 100vh;
+    margin-top: 72px;
     display: flex;
+    z-index: 1000;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 750px) {
+        margin-top: 60px;
+    }
     .exitbutton{
         margin-top: 22rem;
         cursor: pointer;
