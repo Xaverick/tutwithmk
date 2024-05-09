@@ -54,7 +54,7 @@ const Home = () => {
 
       
 
-      <div id="are-you" className="home-course-feature">
+      <div className="home-course-feature">
         <span className="home-heading">
           <p>
             <span> I'm Different!</span>{" "}
@@ -66,7 +66,7 @@ const Home = () => {
           </p>
         </span>
 
-        <div className="video" >
+        <div className="video" id="are-you">
           <iframe
             src="https://fast.wistia.net/embed/iframe/36z4cf0inl"
             allowFullScreen
