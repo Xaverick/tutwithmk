@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.scss";
 import Testimonials from "../../components/Testimonial/Testimonials";
 import welcomepng from "../../assets/welcomepng.webp";
@@ -19,8 +19,31 @@ import alliance7 from "../../assets/InternationalAlliances/123.png"
 import alliance8 from "../../assets/InternationalAlliances/124.png"
 import alliance9 from "../../assets/InternationalAlliances/125.png"
 import alliance10 from "../../assets/InternationalAlliances/126.png"
+import {useLocation} from 'react-router-dom'
 
 const Home = () => {
+  const { pathname, hash } = useLocation();
+  useEffect(() => {
+    if (hash) {
+        const id = hash.substring(1);
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    } else {
+        window.scrollTo(0, 0);
+    }
+}, [pathname, hash]);
+
+
+
+
+
+
+
+
+
+
   return (
     <>
       <div className="warrior-header">                  
@@ -31,7 +54,7 @@ const Home = () => {
 
       
 
-      <div id="quoate" className="home-course-feature">
+      <div id="are-you" className="home-course-feature">
         <span className="home-heading">
           <p>
             <span> I'm Different!</span>{" "}
@@ -43,7 +66,7 @@ const Home = () => {
           </p>
         </span>
 
-        <div className="video">
+        <div className="video" >
           <iframe
             src="https://fast.wistia.net/embed/iframe/36z4cf0inl"
             allowFullScreen

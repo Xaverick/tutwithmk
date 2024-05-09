@@ -6,6 +6,7 @@ import {Routes , Route, useLocation, Navigate} from 'react-router-dom'
 import React, { lazy, Suspense } from 'react';
 import {Welcome, ThankYou} from './pages'
 const Home = lazy(() => import('./container/Home/Home'));
+
 const Services = lazy(() => import('./container/Services/Services'));
 const Emerge = lazy(() => import('./container/Services/emerge/emerge'));
 const About = lazy(() => import('./container/About/About'));
@@ -33,6 +34,15 @@ const ScrollToTop = () => {
     window.scrollTo(0, 0);
     
   }, [pathname]);
+}
+
+
+
+function ScrollToTop2() {
+  const { pathname, hash } = useLocation();
+
+  
+  return null;
 }
 
 function App() {
