@@ -39,8 +39,11 @@ const Footer = () => {
 
   }
 
-
-
+    const openMailto = (e) => {
+      e.preventDefault();
+      window.open('mailto:team_mk@transformwithmk.com', '_blank');
+    };
+  
   return (
 
       <>
@@ -116,7 +119,12 @@ const Footer = () => {
               </Link>
               <div className='content'>
                 <h3>Email:</h3>
-                <p style={{fontSize:"0.9rem"}}>team_mk@transformwithmk.com</p>
+                <p style={{fontSize:"0.9rem"}}>
+                  <a href="mailto:team_mk@transformwithmk.com" onClick={openMailto}>
+                    team_mk@transformwithmk.com
+                  </a>
+                </p>
+                
               </div>
             </li>
 

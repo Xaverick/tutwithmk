@@ -35,15 +35,6 @@ const Home = () => {
     }
 }, [pathname, hash]);
 
-
-
-
-
-
-
-
-
-
   return (
     <>
       <div className="warrior-header">                  
