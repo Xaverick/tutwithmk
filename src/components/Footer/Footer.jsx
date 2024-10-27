@@ -4,6 +4,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 import footerLogo from '../../assets/footerLogo.webp'
 import emailjs from '@emailjs/browser';
 import{Link} from 'react-router-dom'
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   const [formData, setFormData] = useState({email: ''})
@@ -61,7 +62,7 @@ const Footer = () => {
               {isFrormSubmitted ? <h1 className='header'>Welcome To your clan!</h1> : (
               <form  className='newsletter__form'>
                 <input type="text" placeholder='Enter your Email' name="email" value={email} onChange={handleChangeInput} />
-                <a className='button' onClick={handleSubmit}>{loading ? 'Joining...': "I'm In" }</a>
+                <a className='button' onClick={handleSubmit}>{loading ? 'Joining...': "I'm In." }</a>
               </form>)}
             </div>
 
@@ -84,7 +85,7 @@ const Footer = () => {
 
         <div style={{display: "flex", gap:"1rem"}}>
           <div className="section">
-            <h3>Pages</h3>
+            <h3 style={{color:"var(--header-green)"}}>Pages</h3>
             <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">MK</Link></li>
@@ -97,7 +98,7 @@ const Footer = () => {
           </div>
 
           <div className="section">
-            <h3>Programs</h3>
+            <h3 style={{color:"var(--header-green)"}}>Programs</h3>
             <ul>
               <li><Link to="/services/coffewithmk">Koffee with MK </Link></li>
               <li><Link to="/services/launchpad">LaunchPad</Link></li>
@@ -121,7 +122,21 @@ const Footer = () => {
                 <h3>Email:</h3>
                 <p style={{fontSize:"0.9rem"}}>
                   <a href="mailto:team_mk@transformwithmk.com" onClick={openMailto}>
-                    team_mk@transformwithmk.com
+                    team_mk@transformwithmk.com <br />
+                   
+                  </a>
+                </p>
+                
+              </div>
+            </li>
+            <li className='list'>
+              <Link to="/contact" className='icon'>
+              <FaWhatsapp />
+              </Link>
+              <div className='content'>
+                <p style={{fontSize:"0.9rem", width:"100%"}}>
+                  <a href="https://wa.me/1234567890" target="_blank" rel="noreferrer">
+                  +91 9999-333-553 
                   </a>
                 </p>
                 
@@ -132,7 +147,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="lower-footer">
-        <p>Copyright © 2023 MK, All rights reserved.</p>
+        <p>Copyright © 2024 MK, All rights reserved.</p>
      
       </div>
 

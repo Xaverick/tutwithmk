@@ -14,7 +14,6 @@
         
     }   
 
-
     @media screen and (max-width: 768px){
         margin-top: 55px;
        
@@ -185,6 +184,10 @@
             }
         }
     }
+    img{
+        width: 15%;
+        // margin: 1rem 0;
+    }
 
     @media screen and (max-width: 768px){
         margin: 3rem 0;   
@@ -212,16 +215,19 @@
 .quoate-3{
     width: 100%;
     margin: 0 auto;
-    padding-top: 6rem;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    img{
-        width: 15%;
-        margin: 1rem 0;
-    }
 
+    .mkpic{
+        width: 400px;
+        height: auto;
+        margin: 2rem auto;
+        padding-bottom: 2rem;
+        // border-radius: 50%;
+    }
     .heading{   
         display: flex;
         flex-direction: column;

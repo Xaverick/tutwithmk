@@ -21,6 +21,9 @@ import alliance9 from "../../assets/InternationalAlliances/125.png"
 import alliance10 from "../../assets/InternationalAlliances/126.png"
 import {useLocation} from 'react-router-dom'
 
+import mkpic from "../../assets/mkpic.jpg"
+import mkpic2 from "../../assets/mkpic2.png"
+
 const Home = () => {
   const { pathname, hash } = useLocation();
   useEffect(() => {
@@ -90,18 +93,20 @@ const Home = () => {
             It's tough but not a suffering that you haven't already endured.
           </h1>
         </div>
+        <img src={greendotart} alt="" />
       </div>
 
 
       <div className="quoate-3">
+
         <span className="heading">
           <p>
             <span>T R A N S F O R M A T I O N</span> <br /> IS THE GAME
           </p>
           <p style={{ margin: "1rem 0" }}>I Welcome You To Your Version X</p>
         </span>
-
-        <img src={greendotart} alt="" />
+                
+        <img src={mkpic2} alt="" className="mkpic" />
 
         <span className="heading">
           <p>
@@ -126,18 +131,19 @@ const Home = () => {
               options={{
                 strings: ["I Deliver what I Promise."],
                 speed: 100,
-                deleteSpeed: 30,
+                deleteSpeed: 125,
                 waitUntilVisible: true,
                 loop: true,
               }}
               getBeforeInit={(instance) => {
-                instance.pause(10000).delete();
+                instance.pause(7000).delete();
                 return instance;
               }}
+
             />
           </div>
 
-          <TypeIt
+          {/* <TypeIt
             options={{
               strings: [` My Promise – "Transformation." `],
               speed: 100,
@@ -149,11 +155,11 @@ const Home = () => {
             getBeforeInit={(instance) => {
               instance.pause(6000).delete().pause(2000);
               return instance;
-            }}
-          />
-
+            }} */}
+          {/* /> */}
+          My Promise – <span style={{fontFamily: "var(--font-cinzel)"}}>"</span>Transformation.<span style={{fontFamily: "var(--font-cinzel)"}}>"</span>
           <div className="lastline">
-            <TypeIt
+            {/* <TypeIt
               options={{
                 strings: ["That's it! End of Story. "],
                 speed: 100,
@@ -168,7 +174,9 @@ const Home = () => {
                 // Remember to return it!
                 return instance;
               }}
-            />
+
+            /> */}
+            That's it! End of Story.
           </div>
         </div>
       </div>

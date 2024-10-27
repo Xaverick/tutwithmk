@@ -78,12 +78,14 @@
                     border: none;
                     outline: none;
                     font-size: 1rem;
-                    font-family: var(--font-display);
+                    // font-family: var(--font-base);
+                    font-family: var(--font-secondary);
                     font-weight: 400;
                     @media  screen and (max-width: 768px){
                         font-size: 0.8rem;
                     }
                 }
+
                 .button{
                     margin: 0;
                     font-family: var(--font-display);
@@ -93,7 +95,7 @@
                     width: fit-content;
                     font-size: 1rem;
                     &:hover{
-                        background-color: var(--button-green-green);
+                        background-color: var(--header-green);
                     }
 
                 }
