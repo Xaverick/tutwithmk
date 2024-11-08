@@ -122,7 +122,7 @@ const Footer = () => {
                 <h3>Email:</h3>
                 <p style={{fontSize:"0.9rem"}}>
                   <a href="mailto:team_mk@transformwithmk.com" onClick={openMailto}>
-                    team_mk@transformwithmk.com <br />
+                  team_mk@transformwithmk.com <br />
                    
                   </a>
                 </p>
@@ -135,7 +135,7 @@ const Footer = () => {
               </Link>
               <div className='content'>
                 <p style={{fontSize:"0.9rem", width:"100%"}}>
-                  <a href="https://wa.me/1234567890" target="_blank" rel="noreferrer">
+                  <a href="https://wa.me/+919999333553" target="_blank" rel="noreferrer">
                   +91 9999-333-553 
                   </a>
                 </p>

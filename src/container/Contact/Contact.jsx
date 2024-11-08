@@ -95,6 +95,8 @@ const Contact = ({label}) => {
     const [isFrormSubmitted, setIsFrormSubmitted] = useState(false)
     const [loading, setLoading] = useState(false)
 
+    const [upperform, setUpperform] = useState(false)
+
     const { name, email, message,number} = formData;
 
     const handleChangeInput = (e) => {
@@ -146,8 +148,58 @@ const Contact = ({label}) => {
 
     <Banner name='Connect' subtitle="Only if we Click – We Connect!"/>  
     <div className="contact-heading">
-        <p className='desc'><br/>Betterment & Improvement is not what I deliver. <br /> Transformation is the Name! <br /> <br /> Ready to do Whatever it Takes... <br />Get in Touch.</p>
+        <p className='desc' style={{paddingBottom: "0"}}><br/>Betterment & Improvement is not what I deliver. <br /> Transformation is the Name! <br /> <br /> Ready to do Whatever it Takes... </p>
+        <div className="button_connect" style={{marginBottom: "3rem", marginTop: "2rem"}}>
+            <Link to="#" className="launch-button" onClick={() => setUpperform(!upperform)}>
+                Get In Touch.
+            </Link>
+      </div>
     </div>
+
+    {upperform && 
+    <div className='mid-apply-section__form'>
+        <div className='apply-form'>
+                   
+                    <form  className='main-form'>       
+                        <div className='fields'>
+                            <label htmlFor="">Name</label>
+                            <input type="text" placeholder="Name" name = 'name' className='p-text'  value={name} onChange={handleChangeInput} required/>
+                        </div>
+
+                        <div className='fields middle'>
+                            <div style={{display:"flex", flexDirection:"column",gap:'1rem'}}>
+                                <label htmlFor="">Phone Number</label>
+                                <input type="tel" placeholder="Phone Number" name = "number" value={number} onChange={handleChangeInput} className='p-text' required/>
+                            </div>
+                        
+                            <div style={{display:"flex", flexDirection:"column",gap:'1rem'}}>
+                                <label htmlFor="">Email</label>
+                                <input type="email" placeholder="Email" name = "email" className='p-text' value={email} onChange={handleChangeInput} required />
+                            </div>
+                            
+                        
+                        
+                        </div>
+
+                        <div className='fields'>
+                            <label htmlFor="">Message</label>
+                            <textarea
+                                className='p-text'
+                                placeholder="Message"  
+                                value= {message}
+                                name = "message"
+                                onChange={handleChangeInput} 
+                                required
+                            />
+                        </div> 
+
+                        <button type='button' onClick={handleSubmit}>{loading ? "Sending..." : "Send"}</button>
+                    </form>
+
+                </div>
+    </div>
+
+    }
     <div className='faq-background'>
         <div className='image-overlay'>    
             <div className='contact-question-and-faq'>         
@@ -175,11 +227,7 @@ const Contact = ({label}) => {
                             >
                                 <AiOutlineArrowDown />
                             </motion.div> 
-                
-                            
-                        
-                            
-                            
+
                             </div>
                             <AnimatePresence initial={false}>
                             {item.open && (

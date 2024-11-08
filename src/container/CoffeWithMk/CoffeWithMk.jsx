@@ -1,4 +1,4 @@
-import React , {useState,useEffect} from 'react'
+import React , {useState,useEffect, useRef} from 'react'
 import './CoffeWithMK.scss'
 import "../Services/emerge/emerge.scss"
 import MobileBanner from "../../assets/mobileCoffeeBanner.png"
@@ -11,8 +11,25 @@ import coffeewithmkPhoto from '../../assets/coffee_with_mk_video.mp4'
 import greendotart from '../../assets/greendotart.webp'
 import{Link} from 'react-router-dom'
 
-const CoffeWithMk = () => {
+// import coffevideo from '../../assets/coffewitmkanimation.mp4'
+import coffevideo from '../../assets/coffewithmkanimation.mp4'
 
+const CoffeWithMk = () => {
+  const videoRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlayPause = () => {
+    if (isPlaying) {
+      videoRef.current.pause();
+    } else {
+      videoRef.current.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
+
+  const handleVideoEnd = () => {
+    setIsPlaying(false); // Reset to show play button when video ends
+  };
   return (
     <div className='app__container'>
       <div className="coffee-header coffeehide" style={{backgroundColor: "#010001"}}>
@@ -57,12 +74,25 @@ const CoffeWithMk = () => {
             </div>
             
 
-            <div  className='image2'>
-              <video autoPlay loop muted playsInline>
-                <source src={coffeeAnimation} type="video/mp4" />
-              </video>
-                {/* <img src={coffee} alt="" /> */}
+            <div className="video-container_coffee">
+              <div className="image2">
+                <video ref={videoRef} onClick={handlePlayPause} onEnded={handleVideoEnd}>
+                  <source src={coffevideo} type="video/mp4" />
+                </video>
+                {!isPlaying && (
+                  <button className="play-button" onClick={handlePlayPause}>
+                    ▶
+                  </button>
+                )}
+              </div>
             </div>
+
+            {/* <div  className='image2'>
+              <video >
+                <source src={coffevideo} type="video/mp4" />
+              </video>
+            </div> */}
+            
         </div>
 
  

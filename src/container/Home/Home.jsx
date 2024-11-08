@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import "./Home.scss";
 import Testimonials from "../../components/Testimonial/Testimonials";
 import welcomepng from "../../assets/welcomepng.webp";
-import greendotart from "../../assets/greendotart.webp";
+import greendotart1 from "../../assets/greendotart1.webp";
 import bookcover1 from "../../assets/bookcover1.webp";
 import TypeIt from "typeit-react";
 import warrior from "../../assets/warriorVideo.mp4";
@@ -21,8 +21,8 @@ import alliance9 from "../../assets/InternationalAlliances/125.png"
 import alliance10 from "../../assets/InternationalAlliances/126.png"
 import {useLocation} from 'react-router-dom'
 
-import mkpic from "../../assets/mkpic.jpg"
-import mkpic2 from "../../assets/mkpic2.png"
+
+import mkpic3 from "../../assets/mkpic3.png"
 
 const Home = () => {
   const { pathname, hash } = useLocation();
@@ -93,20 +93,20 @@ const Home = () => {
             It's tough but not a suffering that you haven't already endured.
           </h1>
         </div>
-        <img src={greendotart} alt="" />
+        <img src={greendotart1} alt="" />
       </div>
 
 
       <div className="quoate-3">
 
         <span className="heading">
-          <p>
-            <span>T R A N S F O R M A T I O N</span> <br /> IS THE GAME
+          <p >
+            <span style={{ color: "var(--button-green-hover-green)" }}>T R A N S F O R M A T I O N</span> <br /> IS THE GAME
           </p>
           <p style={{ margin: "1rem 0" }}>I Welcome You To Your Version X</p>
         </span>
                 
-        <img src={mkpic2} alt="" className="mkpic" />
+        <img src={mkpic3} alt="" className="mkpic" />
 
         <span className="heading">
           <p>
